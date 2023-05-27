@@ -1,0 +1,13 @@
+* Vyšel GNOME 44
+	* který přidává nové zobrazení souborů, a to mřížku.
+	* taktéž předělal v nastavení 4 panely se zabezpečením, přístupností, nastavením zvuku a nastavení myši a touchpadu
+	* dále bylo vylepšeno rychlé nastavení. Tlačítka jsou větší a nyní podporují popisky
+	* nyní lze sdílet heslo pomocí QR kódu
+	* do GNOME Circle přibilo 10 nových aplikací: Zap (Soundboard), Boatswain (ovládání Stream Decku), Emblem (Generování avatarů pro projekty), Lorem (Lorem ipsum dolor sit amet), Workbench, Komikku (Manga-reader), Chess Clock, Eyedropper (kapátko barev), Elastic (nástroj na pružinové animace), Clairvoyant (8-ball)
+	* Epiphany byl portnut do GTK4
+* Loupe (prohlížeč fotek) nyní podporuje zobrazování animovaných GIFů, PNGček a WebPček
+* Identity (porovnávač souborů) nyní podporuje zobrazování souborů vedle sebe.
+* Novinky v KDE
+	* Pokud se používají monitory se stejným sériovým číslem tak se monitory nově rozliší pomocí názvu konektoru (HDMI1, HDMI2...)
+	* s novým nástrojem XwaylandVideoBridge lze sdílet Waylandová okna.
+	* z Waylandu lze nyní rychle přepínat uživatelé

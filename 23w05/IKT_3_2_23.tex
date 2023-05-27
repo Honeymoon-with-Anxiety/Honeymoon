@@ -1,0 +1,55 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{url}
+\usepackage{theorem}
+\usepackage{textcomp}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{tikz}
+\usetikzlibrary{arrows,shapes.gates.logic.US,shapes.gates.logic.IEC,calc}
+
+\title{Nakreslete v systému LaTeX}
+\author{Vojtěch Vašek}
+\date{\today}
+
+\begin{document}
+\begin{tikzpicture}
+ %body
+ \node(A) at (0, 0) {A};
+ \node(B) at (1, 0) {B};
+ \node(C) at (2, 0) {C};
+ 
+ %součástky
+ \node[and gate US, draw,logic gate inputs = nn] at ($(C)+(2, -1)$) (AND1){};
+ \node[and gate US, draw,logic gate inputs = nn] at ($(C)+(2, -3)$) (AND2){};
+ \node[or gate US, draw,logic gate inputs = nn] at ($(C)+(4, -4)$) (OR1){};
+ \node[and gate US, draw,logic gate inputs = nn] at ($(C)+(2, -5)$) (AND3){};
+ 
+ %dráty
+ \draw (A) -- (0, -6);
+ \draw (B) -- (1, -6);
+ \draw (C) -- (2, -6);
+ 
+ \draw (B) |- (AND1.input 1);
+ \draw (C) |- (AND1.input 2);
+ \draw (AND1.output) -- ($(AND1)+(2,0)$) node [midway, anchor=south] {Output};
+ 
+ \draw (A) |- (AND2.input 1);
+ \draw (C) |- (AND2.input 2);
+ \draw (B) |- (AND3.input 1);
+ \draw (C) |- (AND3.input 2);
+ \draw (AND2.output) |- (OR1.input 1);
+ \draw (AND3.output) |- (OR1.input 2);
+ \draw (OR1.output) -- ($(OR1)+(2,0)$) node [midway, anchor=south] {Output};
+\end{tikzpicture}
+\end{document}
