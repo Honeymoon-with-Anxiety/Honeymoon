@@ -37,5 +37,7 @@ Na to, že to je povinná četba se kniha v tomto zpracování četla snadno a r
 
 # Zdroje
 Viktor Dyk - Krysař
+https://cs.wikipedia.org/wiki/Krysa%C5%99_(kniha) (z programu Wike)
+https://cs.wikipedia.org/wiki/Viktor_Dyk (z programu Wike)
 https://www.cesky-jazyk.cz/ctenarsky-denik/viktor-dyk/krysar-rozbor.html
 https://www.edufix.cz/clanky/maturita/cestina/krysar
