@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ČJL/Literatura/Krysař.md",
+                "file": "TVP/Počítačové architektury číslicových strojů.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ČJL/Literatura/Krysař.md",
+                "file": "TVP/Počítačové architektury číslicových strojů.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ČJL/Literatura/Krysař.md"
+                "file": "TVP/Počítačové architektury číslicových strojů.md"
               }
             }
           },
@@ -202,25 +202,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a4a7b85aad2283a5",
+  "active": "54d451b99384356f",
   "lastOpenFiles": [
-    "TVP/Počítačové architektury číslicových strojů.md",
-    "ČJL/Mluvnice/Funkční styly.md",
-    "ČJL/Literatura/Generace buřičů.md",
+    "23w39/TVP_1_10_23@1/TVP_1_10_23@2.synctex(busy)",
+    "23w39/TVP_1_10_23@1/TVP_1_10_23@2.log",
+    "23w39/TVP_1_10_23@1/TVP_1_10_23@2.synctex.gz",
+    "23w39/TVP_1_10_23@1/TVP_1_10_23@2.pdf",
+    "23w39/TVP_1_10_23@1/TVP_1_10_23@2.out",
+    "23w39/TVP_1_10_23@1/TVP_1_10_23@2.aux",
     "ČJL/Literatura/Krysař.md",
-    "ČJL/Literatura/Lit_13_9_29.md",
-    "Lit_osnova_cetby.pdf",
-    "Zpracovani cetby osnova.pdf",
-    "_ZpracovÃ¡nÃ_ Ä_etby_osnova_.pdf",
     "TVP/Motivace vzniku počítače.md",
     "TVP/Informace ve výpočetní technice.md",
-    "TVP",
-    "ČJL/Mluvnice",
-    "ČJL/Literatura",
-    "23w38/TVP_19_9_23@1/TVP_19_9_23@2.synctex(busy)",
-    "23w38/TVP_19_9_23@1/TVP_19_9_23@2.synctex.gz",
-    "23w38/TVP_19_9_23@1/TVP_19_9_23@2.out",
-    "23w38/TVP_19_9_23@1/TVP_19_9_23@2.aux",
+    "TVP/Počítačové architektury číslicových strojů.md",
+    "23w39/TVP_1_10_23@1/TVP_1_10_23@3.png",
+    "23w39/TVP_1_10_23@1/TVP_1_10_23@2.tex",
+    "23w39/TVP_1_10_23@1/TVP.tex",
+    "23w39/TVP_1_10_23@1/TVP_19_9_23@2.tex",
+    "23w39/TVP_1_10_23@1",
+    "cmakeQuickStart/icon_template.svg",
+    "ČJL/Mluvnice/Funkční styly.md",
+    "ČJL/Literatura/Generace buřičů.md",
+    "ČJL/Literatura/Lit_13_9_29.md",
     "23w37/TVP_12_9_23@1/TVP_11_9_23@6.jpg",
     "23w37/TVP_12_9_23@1/TVP_11_9_23@5.jpg",
     "23w37/TVP_12_9_23@1/TVP_11_9_23@2.jpg",
@@ -229,8 +231,6 @@
     "23w37/TVP_11_9_23@1 (kopie)/TVP_11_9_23@6.jpg",
     "23w37/TVP_11_9_23@1 (kopie)/TVP_11_9_23@5.jpg",
     "23w37/TVP_11_9_23@1 (kopie)/TVP_11_9_23@4.jpg",
-    "23w37/TVP_11_9_23@1 (kopie)/TVP_11_9_23@3.jpg",
-    "23w37/TVP_11_9_23@1 (kopie)/TVP_11_9_23@2.jpg",
     "23w37/Roman Baths.md",
     "Roman baths.md",
     "23w36/Motivace vzniku počítače (tex-ed).md",

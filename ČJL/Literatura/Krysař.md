@@ -11,7 +11,7 @@ Kniha je druhu epiky, žánrem novela.
 Námětem je stará německá pověst o krysaři, který měl z města Hammeln vyvést krysy. Ty vyvedl ale radní mu nechtěli za práci zaplatit, proto krysař odvedl všechny děti z města za pomoci své píšťaly.
 
 # Časoprostor
-Novela začíná jarního večera v městěčku Hammeln někdy ve 13. století.
+Novela začíná jarního večera v městečku Hammeln někdy ve 13. století.
 
 # Kompozice
 Novela je rozdělena do dvaceti šesti kapitol řazené chronologicky s výjimkou kapitol o Seppu Jörgenovi, které jsou v příběhu paralelně nebo se mísí s linkou krysaře. Zápletka se rozvijí pozvolně, ke konci příběh graduje.

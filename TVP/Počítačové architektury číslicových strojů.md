@@ -54,16 +54,19 @@
 	* využití bezpečného ukládání a zálohování
 	* plánování reakce na incident
 # Synchronizace
-* je proces ustálení konzistence dat mezi zdrojem a kopií
-* jsou používána synchronizační primitiva
-	* prostředky které umožňují paralelně běžícím aplikacím ošetřit přístup k upravovanému souboru
-	* chybné užití může vést k jejich neúčinnosti nebo vzájemnému zablokování (deadlock)
-	* jsou ekvivalentní - mám-li jedno, mohu implementovat ostatní
-	* mezi primitiva patří: zámek a semafor, fronta
-* v programech se používají vlákna, tj jeden proce se může skládat z více menších procesů (=> multithreading, schopnost programu zavést multitasking sám v sobě)
+## vnějších signálů
+* proces, jenž má za úkol uspořádání signálů nebo časových značek pro komunikaci mezi různými zařízeními, systémy nebo procesy
+* dosahuje se pomocí různých technik a zařízení, jako jsou atomové hodiny, GPS, synchronizační protokoly a speciální hardware
+* základním prvkem pro správnou funkci moderních technologií a zařízení
+## na úrovni procesů
+* klíčový koncept v oblasti operačních systémů a paralelního programování
+* mechanismy a techniky sloužící k řízení činnosti různých procesů (nebo vláken) v počítačovém systému
+* cílem je zajistit efektivitu a bezpečnost procesů
+* základní techniky synchronizace:
+	* Race Conditions - nastávají, když více procesů má přístup ke sdíleným zdrojům (například paměti) a snaží se je upravovat současně; může vést k nepředvídatelným chybám v datech
+	* Mutual Exclusion - základní synchronizační umožňující procesům získat exkluzivní přístup k sdíleným zdrojům; jen jeden proces může mít mutex v daný okamžik, což eliminuje konflikty.
 # Systémy s více jádry
 * jsou integrované obvody se dvěma nebo více CPU jednotkami zvané jádro
 * řídí se stejně jako systémy s jedním jádrem, až na fakt, že vícejádrové systémy mohou spouštět procesy v jednotlivých jádrech → zvýšení rychlosti
 * podpora více jader je závislá na programu a operačním systému
 * pokud není software napsán s podporou více jader, program je nebude používat
-* 
