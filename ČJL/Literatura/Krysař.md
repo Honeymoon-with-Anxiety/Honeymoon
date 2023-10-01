@@ -14,7 +14,7 @@ Námětem je stará německá pověst o krysaři, který měl z města Hammeln v
 Novela začíná jarního večera v městěčku Hammeln někdy ve 13. století.
 
 # Kompozice
-Novela je rozdělena do dvaceti šesti kapitol řazené chronologicky s výjimkou kapitol o Seppu Jörgenovi, které jsou v příběhu paralelně. Ke konci příběh graduje.
+Novela je rozdělena do dvaceti šesti kapitol řazené chronologicky s výjimkou kapitol o Seppu Jörgenovi, které jsou v příběhu paralelně nebo se mísí s linkou krysaře. Zápletka se rozvijí pozvolně, ke konci příběh graduje.
 
 # Vypravěč
 Vypravěčem je třetí osoba nezasahující do příběhu. Vyprávěno v er-formě.
@@ -27,7 +27,13 @@ dlouhý Kristián - žijící průměrný život chtějíc dědictví svého sta
 Gottlieb Frosch a Bonifác Strumm - chamtivý konšelové města neschopní dodržet slovo
 
 # Výprava
-Řeč postav i vypravěče je spisovná, postavy se vyjadřují řečí prímou
+Řeč postav i vypravěče je spisovná, postavy se vyjadřují řečí přímou. Text je citově zabarvený. Je použita personifikace, perifráze, symbolismus a básnický přívlastek. V částech je použit eufemismus a dysfemismus
+
+# Hlavní myšlenka
+Autor varuje před zneužíváním veřejných funkcí a poukazuje na lhostejnost k neštěstí druhých.
+
+# Hodnocení
+Na to, že to je povinná četba se kniha v tomto zpracování četla snadno a rychle. Příběh dokáže rychle zaujmout i na dlouhé čtení. Překvapením bylo délka některých kapitol (druhá až pátá). Občas mi přišel popis postav či věcí a děje až moc dlouhý.
 
 # Zdroje
 Viktor Dyk - Krysař
