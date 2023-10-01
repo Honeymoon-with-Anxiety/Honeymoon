@@ -1,0 +1,1 @@
+<AVRWorkspace><IOSettings><CurrentRegisters/></IOSettings><part name="ATmega16"/><Files><File00000 Name="D:\E3A\MIT\shift\shift.asm" Position="259 93 1017 477" LineCol="85 8" State="Maximized"/></Files></AVRWorkspace>

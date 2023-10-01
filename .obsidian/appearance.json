@@ -1,0 +1,14 @@
+{
+  "accentColor": "#f66151",
+  "theme": "system",
+  "cssTheme": "Adwaita",
+  "baseFontSize": 16,
+  "nativeMenus": false,
+  "showViewHeader": true,
+  "enabledCssSnippets": [
+    "print"
+  ],
+  "monospaceFontFamily": "Monocraft,minecraft enchantment",
+  "textFontFamily": "Cantarell,Arial,Convection",
+  "interfaceFontFamily": ""
+}

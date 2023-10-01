@@ -1,0 +1,161 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{url}
+\usepackage{theorem}
+\usepackage{textcomp}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+\title{Informace ve vypocetni technice}
+\author{Vojtech Vasek}
+
+\begin{document}
+\begin{center}
+    \huge{\underline{\textbf{Informace ve vypocetni technice}}}
+\end{center}
+
+\section{Informace}
+    \begin{itemize}
+        \item{obecne: údaj o deni v realnem svete}
+        \item{v informatice: retezec znaků, ktere lze vysilat, prijimat, uchovavat a zpracovavat}
+    \end{itemize}
+
+\section{Ciselne soustavy}
+    \begin{itemize}
+        \item{ciselna soustava je způsob reprezentace cisel. zapis cisla v dane soustave je dana posloupnosti symbolů - cislic.}
+        \item{rozlisujeme spoustu soustav; mezi zakladni patri dvojkova (binarni), osmickova (oktalni), desitkova (decimalni) a sestnactkova (hexadecimalni).}
+    \end{itemize}
+    \begin{center}\begin{tabular}{|c|c|c|}
+        \hline
+       Dec & Bin & Hex \\\hline\hline
+         0 & 0000 & 0 \\\hline
+         1 & 0001 & 1 \\\hline
+         2 & 0010 & 2 \\\hline
+         3 & 0011 & 3 \\\hline
+         4 & 0100 & 4 \\\hline
+         5 & 0101 & 5 \\\hline
+         6 & 0110 & 6 \\\hline
+         7 & 0111 & 7 \\\hline
+         8 & 1000 & 8 \\\hline
+         9 & 1001 & 9 \\\hline
+        10 & 1010 & A \\\hline
+        11 & 1011 & B \\\hline
+        12 & 1100 & C \\\hline
+        13 & 1101 & D \\\hline
+        14 & 1110 & E \\\hline
+        15 & 1111 & F \\\hline
+    \end{tabular}\end{center}
+    \subsection{Binarni}
+        \begin{itemize}
+            \item{dvojkova soutstava je soustava, ktera pouziva jen dve cislice (0; 1).}
+            \item{kazda cislice odpovida n-te mocnine cisla 2, kde n je pozice dane cislice v zapsanem cisle - binarni cislo}
+            \item{tato soustava se pouziva ve vsech dnesnich pocitacich z důvodu jednoducheho rozdeleni dvou stavů elektrickeho obvodu (vypnuto; zapnuto) ci pravdivost}
+        \end{itemize}
+        \begin{center}\begin{tabular}{|c||c|c|c|c|c|c|c|c|}
+        \hline
+               binarni cislo & 1    & 1    & 0    & 1    & 0    & 1    & 1    & 0    \\\hline
+              pozice cislice & 7    & 6    & 5    & 4    & 3    & 2    & 1    & 0    \\\hline
+           mocniny cisla dve & 2\^7 & 2\^6 & 2\^5 & 2\^4 & 2\^3 & 2\^2 & 2\^1 & 2\^0 \\\hline
+              hodnoty mocnin & 128  & 64   & 32   & 16   & 8    & 4    & 2    & 1    \\\hline
+        krat binarni cislice & x1   & x1   & x0   & x1   & x0   & x1   & x1   & x0   \\\hline
+            vysledky soucinu & 128  & 64   & 0    & 16   & 0    & 4    & 2    & 0    \\\hline
+        \end{tabular}\end{center}
+        \begin{itemize}
+            \item{pro prevod z dvojkove soustavy do desitkove si jednotlive cislice umocnime podle pozice cislice. pokud cislice je rovna 1 pricteme do celkoveho vysledku jeji pozicni mocninu; pokud cislice je rovna 0 cislici preskocime. podle teto logiky zjistime, ze `11010110` se rovna 214. \\
+             1   1 0  1 0 1 1 0 \\
+            128 64 x 16 x 4 2 x \\
+            128 + 64 + 16 + 4 + 2 = 214}
+        \end{itemize}
+    \subsection{Decimalni}
+        \begin{itemize}
+            \item{tato soustava pouziva 10 cislic (0-9). tato soustava je nejrozsirenejsi na svete. umozňuje presny zapis libovolnych celych cisel, zapornych cisel (zacinaji znakem "minus" -). pomoci desetine carky/tecky lze zapsat libovolne realne cislo.}
+        \end{itemize}
+    \subsection{Hexadecimalni}
+        \begin{itemize}
+            \item{soustava s 16 cislicemi (0-9, A-F), kde v desitkove soustave cislo `10` je nahrazeno pismenem v sestnactkove `A`, atd...}
+            \item{prevod z hex do dec: $$ 3F7 = (3*16^2) + (15*16^1) + (7*16^0) = 1015 $$}
+            \item{hexadecimalni soustava se pouziva napr pro adresy v operacni pameti pocitace.}
+            \item{z konstrukcniho hlediska pocitace pracuji v dvojkove soustave, ale mnohaciferna cisla se spatne ctou, proto se cisla a kódy prevadi do sestnactkove (pripadne osmickove). v prog. jazyce C se pred hexadec. cislo pise predpona `0x` (napr. `0xAB`), v Assembly se pro zmenu pise predpona `\$` (napr. `\$AB`).}
+        \end{itemize}
+
+\section{CPU}
+    \begin{itemize}
+        \item{umi vykonavat strojove instrukce (slozen v program) a obsluhovat vstupy a vystupy.}
+        \item{rotoze procesor, ktery by dokazal vykonat program psany ve vyssim prog. jazyce, by byl az moc slozity, je kód prekladan na strojovy kód (ten umi napr. presouvat informaci z registru do registru).}
+        \item{registry uchovavaji data ze vstupů a mezivysledky}
+        \item{obsahuje aritmeticko-logickou jednotku (ALU) ktera s daty provadi aritmeticke a logicke operace.}
+    \end{itemize}
+    
+\section{Zaporna cisla}
+    \begin{itemize}
+        \item{V teto soustave pro zaporna cisla vyuzivame dvojkovy doplnek}
+        \item{pro znegovani cisla se invertuji vsechny bity (z 0 se stava 1; z 1 se stava 0) a k vysledku pricteme 1}
+        \item{nevyhodou je asymetricky interval (napr. <-8; 7>)}
+            \subitem{vypocet intervalu: $$ -\frac{2^n}{2};\frac{2^n}{2}-1 $$}
+    \end{itemize}
+    
+\section{Ochrana dat}
+    \begin{itemize}
+        \item{kontrolni soucet je informace predana spolu s původnimi daty, slouzici k overeni, zda pri prenosu nedoslo k chybe. kontrolni soucet je presne urcena operace provedena s původnimi daty, lze ji overit u prijemce. pokud nove vypocitany kontrolni soucet nesouhlasi s původnim, znamena to, ze doslo k poskozeni původni zpravy nebo kontrolniho souctu.}
+    \end{itemize}
+    
+\section{Poradi bajtů}
+    \begin{itemize}
+        \item{(nebo *endianita*) způsob ulozeni cisel v operacni pameti}
+        \item{v jakem poradi jsou v operacni pameti ulozeny jednotlive rady cisel, ktere zabiraji vice nez jeden bajt}
+    \end{itemize}
+    \subsection{Little-endian}
+        \begin{itemize}
+            \item{na pameťove misto s nejnizsi adresou se ulozi *nejmene vyznamny bajt (LSB)* a za nej se ukladaji ostatni bajty az po *nejvice vyznamny bajt (MSB)*.}
+        \end{itemize}
+    \subsection{Big-endian}
+        \begin{itemize}
+            \item{na pameťove misto s nejnizsi adresou se ulozi *nejvice vyznamny bajt* a za nej se ukladaji ostatni bajty az po *nejmene vyznamny bajt*.}
+        \end{itemize}
+    \subsection{Middle-endian}
+        \begin{itemize}
+            \item{slozitejsi způsob pro urceni jednotlivych bajtů}
+            \item{kombinace little-endianu a big-endianu}
+        \end{itemize}
+
+\section{Zakladni datove typy}
+    \subsection{Logicka hodnota}
+        \begin{itemize}
+            \item{nebo-li `boolean` se vyuziva v pripadech, kdy vlastnosti mohou mit jen dve hodnoty → pravda nebo lez (`True || False`)}
+        \end{itemize}
+    \subsection{Cele cislo}
+        \begin{itemize}
+            \item{nebo-li `integer`}
+            \item{jazyky mohou ale nemusi rozlisovat cislo bez znamenka a se znamenkem.}
+            \item{u vetsiny jazyků je cislo omezene intervalem a kódovano v dvojkovem doplňku.}
+        \end{itemize}
+    \subsection{Znak}
+        \begin{itemize}
+            \item{nebo-li `char`, ohranicuje se apostrofem ( ' )}
+            \item{ve skutecnosti vyjadrena celym cislem}
+            \item{znaky jsou kódovany v UNICODE nebo v ASCII a jejim narodnim rozsirenim}
+        \end{itemize}
+    \subsection{Realne cislo}
+        \begin{itemize}
+            \item{nebo-li `float` ci `double`}
+            \item{je cislo s plovouci desetinnou carkou, jako znak pro desetinnou carku se pouziva ' . ' (*tecka*)}
+            \item{je psano v dvojkove soustave $$ {celecislo} * 2^{exponent}$$ (exponent je take cele cislo)}
+            \item{mnoha desetinna cisla nelze v tomto formatu presne reprezentovat, proto se můze stat, ze se realna cisla budou v pocitaci chovat jinak, nez bychom cekali}
+        \end{itemize}
+    \subsection{Textovy retezec}
+        \begin{itemize}
+            \item{nebo-li `string`, ohranicuje se uvozovkami ( " )}
+            \item{slouzi k ulozeni konecneho retezci znaků}
+        \end{itemize}
+
+\end{document}

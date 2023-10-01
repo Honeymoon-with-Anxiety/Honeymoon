@@ -1,0 +1,13 @@
+@media print { 
+    .print .markdown-preview-view { 
+        -webkit-print-color-adjust: exact; 
+        background-color: #fff; 
+        color: #000;
+    }
+}
+
+@media print {
+    body {
+        --font-text-size: 12pt !important;
+    }
+}

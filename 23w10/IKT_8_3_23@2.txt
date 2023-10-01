@@ -1,1 +1,0 @@
-g = ab!c!d + !a!bcd + a!bc!d
