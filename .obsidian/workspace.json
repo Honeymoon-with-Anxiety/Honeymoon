@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "922c23620ebbb415",
+            "id": "4b93dccb502877ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,27 +32,23 @@
             }
           },
           {
-            "id": "54d451b99384356f",
+            "id": "b165af3656569d7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TVP/Počítačové architektury číslicových strojů.md",
+                "file": "TVP/Signáy.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a4a7b85aad2283a5",
+            "id": "7cf5a7e9cb56b9dd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ČJL/Literatura/Krysař.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -106,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228.5
+    "width": 228.5,
+    "collapsed": true
   },
   "right": {
     "id": "788a51e2ccfd88b8",
@@ -122,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TVP/Počítačové architektury číslicových strojů.md",
+                "file": "TVP/Signáy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TVP/Počítačové architektury číslicových strojů.md",
+                "file": "TVP/Signáy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TVP/Počítačové architektury číslicových strojů.md"
+                "file": "TVP/Signáy.md"
               }
             }
           },
@@ -189,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,26 +200,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "54d451b99384356f",
+  "active": "b165af3656569d7a",
   "lastOpenFiles": [
+    "TVP/Signáy.md",
+    "ČJL/Literatura/Generace buřičů.md",
+    "ČJL/Mluvnice/Funkční styly.md",
+    "TVP/Informace ve výpočetní technice.md",
+    "ČJL/Literatura/Krysař.md",
+    "23w40/Krysař.pdf",
+    "23w40",
+    "TVP/Počítačové architektury číslicových strojů.md",
+    "23w39/TVP_1_10_23@1/architektury cislicovych stroju Vasek.pdf",
+    "23w39/TVP_1_10_23@1/TVP_1_10_23@3 (kopie).pdf",
+    "23w39/TVP_1_10_23@1/TVP_1_10_23@3.pdf",
     "23w39/TVP_1_10_23@1/TVP_1_10_23@2.synctex(busy)",
-    "23w39/TVP_1_10_23@1/TVP_1_10_23@2.log",
     "23w39/TVP_1_10_23@1/TVP_1_10_23@2.synctex.gz",
-    "23w39/TVP_1_10_23@1/TVP_1_10_23@2.pdf",
     "23w39/TVP_1_10_23@1/TVP_1_10_23@2.out",
     "23w39/TVP_1_10_23@1/TVP_1_10_23@2.aux",
-    "ČJL/Literatura/Krysař.md",
+    "23w39/TVP_1_10_23@1/TVP_1_10_23@2.log",
     "TVP/Motivace vzniku počítače.md",
-    "TVP/Informace ve výpočetní technice.md",
-    "TVP/Počítačové architektury číslicových strojů.md",
     "23w39/TVP_1_10_23@1/TVP_1_10_23@3.png",
-    "23w39/TVP_1_10_23@1/TVP_1_10_23@2.tex",
-    "23w39/TVP_1_10_23@1/TVP.tex",
-    "23w39/TVP_1_10_23@1/TVP_19_9_23@2.tex",
-    "23w39/TVP_1_10_23@1",
     "cmakeQuickStart/icon_template.svg",
-    "ČJL/Mluvnice/Funkční styly.md",
-    "ČJL/Literatura/Generace buřičů.md",
     "ČJL/Literatura/Lit_13_9_29.md",
     "23w37/TVP_12_9_23@1/TVP_11_9_23@6.jpg",
     "23w37/TVP_12_9_23@1/TVP_11_9_23@5.jpg",

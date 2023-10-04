@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "/run/media/pisek/Společné/E3A/cmakeQuickStart/CMakeLists.txt"
-  "CMakeFiles/3.27.4/CMakeCCompiler.cmake"
-  "CMakeFiles/3.27.4/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.27.4/CMakeSystem.cmake"
+  "CMakeFiles/3.27.6/CMakeCCompiler.cmake"
+  "CMakeFiles/3.27.6/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.27.6/CMakeSystem.cmake"
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"

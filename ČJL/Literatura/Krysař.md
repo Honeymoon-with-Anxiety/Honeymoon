@@ -20,11 +20,11 @@ Novela je rozdělena do dvaceti šesti kapitol řazené chronologicky s výjimko
 Vypravěčem je třetí osoba nezasahující do příběhu. Vyprávěno v er-formě.
 
 # Postavy
-Krysař - záhadná, osamělá postava, cestující neustále z kraje do kraje, milující Agnes
-Agnes - mladá, krásná, milující Krysaře i Kristiána
-Sepp Jörgen - jednoduchý, trpělivý člověk, nemajíce velkého mění; všem pro smích
-dlouhý Kristián - žijící průměrný život chtějíc dědictví svého starého strýce
-Gottlieb Frosch a Bonifác Strumm - chamtivý konšelové města neschopní dodržet slovo
+* Krysař - záhadná, osamělá postava, cestující neustále z kraje do kraje, milující Agnes
+* Agnes - mladá, krásná, milující Krysaře i Kristiána
+* Sepp Jörgen - jednoduchý, trpělivý člověk, nemajíce velkého mění; všem pro smích
+* dlouhý Kristián - žijící průměrný život chtějíc dědictví svého starého strýce
+* Gottlieb Frosch a Bonifác Strumm - chamtivý konšelové města neschopní dodržet slovo
 
 # Výprava
 Řeč postav i vypravěče je spisovná, postavy se vyjadřují řečí přímou. Text je citově zabarvený. Je použita personifikace, perifráze, symbolismus a básnický přívlastek. V částech je použit eufemismus a dysfemismus
@@ -36,8 +36,8 @@ Autor varuje před zneužíváním veřejných funkcí a poukazuje na lhostejnos
 Na to, že to je povinná četba se kniha v tomto zpracování četla snadno a rychle. Příběh dokáže rychle zaujmout i na dlouhé čtení. Překvapením bylo délka některých kapitol (druhá až pátá). Občas mi přišel popis postav či věcí a děje až moc dlouhý.
 
 # Zdroje
-Viktor Dyk - Krysař
-https://cs.wikipedia.org/wiki/Krysa%C5%99_(kniha) (z programu Wike)
-https://cs.wikipedia.org/wiki/Viktor_Dyk (z programu Wike)
-https://www.cesky-jazyk.cz/ctenarsky-denik/viktor-dyk/krysar-rozbor.html
-https://www.edufix.cz/clanky/maturita/cestina/krysar
+* Viktor Dyk - Krysař
+* https://cs.wikipedia.org/wiki/Krysa%C5%99_(kniha) (z programu Wike)
+* https://cs.wikipedia.org/wiki/Viktor_Dyk (z programu Wike)
+* https://www.cesky-jazyk.cz/ctenarsky-denik/viktor-dyk/krysar-rozbor.html
+* https://www.edufix.cz/clanky/maturita/cestina/krysar
