@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "b165af3656569d7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TVP/Signáy.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7cf5a7e9cb56b9dd",
             "type": "leaf",
             "state": {
@@ -51,8 +39,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TVP/Signáy.md",
+                "file": "ČJL/Literatura/Generace buřičů.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TVP/Signáy.md",
+                "file": "ČJL/Literatura/Generace buřičů.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TVP/Signáy.md"
+                "file": "ČJL/Literatura/Generace buřičů.md"
               }
             }
           },
@@ -186,8 +173,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,13 +186,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b165af3656569d7a",
+  "active": "7a9cb9fc6298f188",
   "lastOpenFiles": [
-    "TVP/Signáy.md",
-    "ČJL/Literatura/Generace buřičů.md",
     "ČJL/Mluvnice/Funkční styly.md",
-    "TVP/Informace ve výpočetní technice.md",
+    "ČJL/Literatura/Generace buřičů.md",
     "ČJL/Literatura/Krysař.md",
+    "TVP/Signály.md",
+    "23w41/Signály.pdf",
+    "23w41",
+    "digitální.md",
+    "23w40/Mluv_5_10_23",
+    "TVP/Informace ve výpočetní technice.md",
     "23w40/Krysař.pdf",
     "23w40",
     "TVP/Počítačové architektury číslicových strojů.md",
@@ -215,9 +205,6 @@
     "23w39/TVP_1_10_23@1/TVP_1_10_23@3.pdf",
     "23w39/TVP_1_10_23@1/TVP_1_10_23@2.synctex(busy)",
     "23w39/TVP_1_10_23@1/TVP_1_10_23@2.synctex.gz",
-    "23w39/TVP_1_10_23@1/TVP_1_10_23@2.out",
-    "23w39/TVP_1_10_23@1/TVP_1_10_23@2.aux",
-    "23w39/TVP_1_10_23@1/TVP_1_10_23@2.log",
     "TVP/Motivace vzniku počítače.md",
     "23w39/TVP_1_10_23@1/TVP_1_10_23@3.png",
     "cmakeQuickStart/icon_template.svg",

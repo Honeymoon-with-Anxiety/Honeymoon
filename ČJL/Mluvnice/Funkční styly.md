@@ -28,3 +28,17 @@
 * nepůvodní předložky
 * zkratky, zkratková slova, značky; termíny
 * autorský plurál, vykání
+## Formální dopis
+### Kompozice
+* pevně daná struktura textu (jednotlivé části jsou odděleny vynecháním řádku)
+	* adresy - obvykle vlevo nahoře, nejdříve adresa odesílatele, poté příjemce
+	* datace - uvedení místa a data vzniku textu, zarovnané obvykle vpravo
+	* účel komunikace - nevětné vystižení obsahu (dříve označováno jako "věc", např. *Reklamace*)
+	* oslovení, nikoli pozdrav (např. *Vážená paní* / *Vážený pane*, příp. *Vážení*; nikoliv např. *Dobrý den*)
+	* vlastní text rozdělení do odstavců, zarovnaný doleva
+	* zdvořilostní formule (rozloučení, poděkování)
+	* vlastnoruční podpis
+### Jazykové prostředky
+* neutrální spisovný jazyk
+* ustálené fráze (obvyklé v administrativních textech, projevy zdvořilosti apod.)
+* prostředky vyjadřující úctu (osobní a přivlastňovací zájména s velkým počátečním písmenem)
