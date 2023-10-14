@@ -49,8 +49,8 @@ Radosti zivota (1903)
 
 # Fráňa Šrámek
 * básník, prozaik, dramatik
-* narodil se 1877 v Sobotce až 1952
-* dětství a mládí prožil v Písku
+* narodil se 1877 v **Sobotce** až 1952
+* dětství a mládí prožil v **Písku**
 * v roce 1903 nastoupil na jednoroční vojenskou službu, která mu byla prodloužena
 * vystudoval práva, ale věnoval se literatuře
 * byl vězněn
@@ -72,3 +72,28 @@ Radosti zivota (1903)
 		* příběh dospívajícího studenta Jana Ratkina, střetnutí s pokryteckou měšťáckou společností a morálkou = zrání mladé generace, konflikty s rodiči i ve škole
 		* stříbrný vítr = symbol věčného mládí, naděje (metafora, vracející se motiv)
 		* rysy impresionismu: postavy bez pevných rysů, zachycení dojmů, smyslového vnímání, citové atmosféry, nálady
+* Drama
+	* Léto
+		* lyrická oslava mládí a lásky x měšťácký svět, koketerie a nuda intelektuálů
+		* lyrická atmosféra horkého letního večera
+	* Měsíc nad řekou
+		* melancholická atmosféra (vzpomínky na písecké gymnázium)
+		* komorně laděný příběh - sjezd abiturientů, stesk stárnoucí generace, smír a rezignace x svět jejich sinů a dcer
+		* nálada okamžiku, zachycení niterných stavů, nostalgické zamyšlení nad životem
+		* lyrismus
+# Karel Toman
+  * žil 1877 až 1946
+  * básník, redaktor Národních listů, překladatel z francouzštiny
+  * vl. jm. Antonín Bernášek
+  * nedokončil studia práv
+  * bohémský život, vliv anarchismu
+  * dobrodružné toulky po evropských metropolích
+  * nespokojenost se světem omezujícím člověka, projev vzdoru
+  * po návratu cesta k smíru a harmonii, chvála života
+# Dílo
+* Pohádky krve
+* Torzo života
+* Melancholická pouť
+* Sluneční hodiny
+* Měsíce
+* Stoletý kalendář

@@ -20,21 +20,6 @@
             }
           },
           {
-<<<<<<< Updated upstream
-            "id": "bddab283eceb1720",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "23w41/Lit_12_10_23.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-=======
->>>>>>> Stashed changes
             "id": "4b93dccb502877ea",
             "type": "leaf",
             "state": {
@@ -54,12 +39,7 @@
               "state": {}
             }
           }
-<<<<<<< Updated upstream
-        ],
-        "currentTab": 1
-=======
         ]
->>>>>>> Stashed changes
       }
     ],
     "direction": "vertical"
@@ -126,11 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< Updated upstream
-                "file": "23w41/Lit_12_10_23.md",
-=======
                 "file": "ČJL/Literatura/Generace buřičů.md",
->>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,11 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< Updated upstream
-                "file": "23w41/Lit_12_10_23.md",
-=======
                 "file": "ČJL/Literatura/Generace buřičů.md",
->>>>>>> Stashed changes
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,11 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< Updated upstream
-                "file": "23w41/Lit_12_10_23.md"
-=======
                 "file": "ČJL/Literatura/Generace buřičů.md"
->>>>>>> Stashed changes
               }
             }
           },
@@ -218,17 +186,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-<<<<<<< Updated upstream
-  "active": "bddab283eceb1720",
-  "lastOpenFiles": [
-    "ČJL/Literatura/Generace buřičů.md",
-    "23w41/Lit_12_10_23.md",
-=======
   "active": "7a9cb9fc6298f188",
   "lastOpenFiles": [
     "23w41/Lit_12_10_23.md",
     "ČJL/Literatura/Generace buřičů.md",
->>>>>>> Stashed changes
     "ČJL/Mluvnice/Funkční styly.md",
     "ČJL/Literatura/Krysař.md",
     "TVP/Signály.md",

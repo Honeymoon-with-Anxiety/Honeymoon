@@ -4,11 +4,7 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-<<<<<<< Updated upstream
-  "showOrphans": true,
-=======
   "showOrphans": false,
->>>>>>> Stashed changes
   "collapse-color-groups": true,
   "colorGroups": [],
   "collapse-display": true,
@@ -21,10 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-<<<<<<< Updated upstream
-  "scale": 0.6689468275991074,
-=======
   "scale": 1,
->>>>>>> Stashed changes
   "close": true
 }
