@@ -3,50 +3,58 @@
 * úsilí překonat individualismus
 * blížit literaturu se životem
 
-- protispolečenský postoj – vliv:
-* anarchismu - usili o neomezenou svobodu, odmitnuti autority, statu, kritika aktualniho deni, desktrukce mestackeho sveta individualnim cinem = antimilitarismu - hnuti odmitajici valku = civilismu - oslava moderni techniky a civilizace = vitalismus - oslava zivota, radost, citove prozitky
+* protispolečenský postoj – vliv:
+	* anarchismu - úsilí o neomezenou svobodu
+	* odmítnutí autority, státu
+	* kritika aktuálního dění
+	* destrukce měšťáckého světa individuálním činem
+* antimilitarismus - hnuti odmítající válku 
+* civilismus - oslava moderní techniky a civilizace
+* vitalismus - oslava života, radost, citové prožitky
 
-- obecna charakteristika:
+* obecná charakteristika:
+	* odpor k společnosti, pesimismus
+- buřičství a radikalismus
+* dekadence - poezie osobních prožitku, pohled na svět bez iluzi; zájem o sociální problematiku
 
-= odpor k spolecnosti, pesinismus > buricstvi a radikalismus = dekadence > poezie osobnich prozitku, pohled na svet bez iluzi = zajem o socialni problematiku
-
+* Satira a skepse je příznačná pro Dyka a Gellnera
+* zvláštní sociální poezii vytvořil Bezruč, spjaty s oblasti Slezska
 # S. K. Neumann
-* zalozil Casopis Novy kult (1897-1905)
-* pak rozdilne cesty vyvoje
-* hledani novych zivotnich jistot
-* Satira a skepse je priznacna pro Dyka a Gellnera
-* zvlastni socialni poezii cytvoril Beruc, spjaty s oblasti Slezska
+* založil časopis Nový kult (1897-1905)
+* pak rozdílné cesty vývoje
+* hledáni nových životních jistot
 
 # Viktor Dyk
-* basnik, prozaii, dramatik = pravnik a politik = narodil se v Psovce u Melnika
-- nejvetsi ironik, reflexni lyrik, romantik a idealista s kritickym pohledem na svet
-- po vzniku Ceskoslovenska redaktor Narodnich listu
-- po tech 27 letech vztahu s hereckou se s ni ozenil a spolu odcestovali do Jugoslavie a tam zemrel v mori (dostal infarkt)
+* básník, prozaik, dramatik
+* právník a politik
+* narodil se v Pšovce u Mělníka
+- největsi ironik, reflexní lyrik, romantik a idealista s kritickým pohledem na svět
+- po vzniku Československa redaktor Národnich listů
+- po tech 27 letech vztahu s hereckou se s ni oženil a spolu odcestovali do Jugoslávie, tam zemřel v moři (dostal infarkt)
 ## Dílo
 * poezie
-	* Zeme mluvi (ze sbirky Okno), Mila sedmi loupezniku,
-	* Lehle a tezke kroky, Anebo, Okno, Posledni rok – tzv. Valecna tetralogie   
-* proza
-	* [[Krysař]] (novoklasicka novela)
-	* Zmoudreni adona Quijota
-# Frantisek Gelner
-* basnik, prozaik, fejetonista, satirik, kreslir, karikaturista = 1881-1914  
-* narodil se v Mlade Boleslavy
-- studoval techniku ve Vidni
-- pozdeji presel na basnickou akademii do Pribramy
-- prispival do jeho Noveho kultu
-- po vojenske sluzbe, z niz byl propusten driv kvuli anarchismu, studoval malirstvi v Mnichove, Parizi a Drazdanech
-- dostal misto v Lidovych novinach
-- 14. zari 1914 byl prohlasen za nezvestneho
+	* Lehké a těžké kroky,Anebo, Okno, Poslední rok – tzv. Válečna tetralogie   
+		* Země mluví (ze sbírky Okno)
+	* Milá sedmi loupežníků
+* próza
+	* [[Krysař]] (novoklasicistická novela)
+	* Zmoudření dona Quijota
+# František Gelner
+* básník, prozaik, fejetonista, satirik, kreslíř, karikaturista
+* žil 1881-1914  
+* narodil se v Mladé Boleslavy
+- studoval techniku ve Vídni
+- později přešel na básnickou akademii do Příbrami
+- přispíval do jeho časopisu Nový kult
+- po vojenské službě, z níž byl propuštěn dřív kvůli anarchismu, studoval malířství v Mnichove, Paříži a Drážďanech
+- dostal místo v Lidových novinách
+- 14. 9. 1914 byl prohlášen za nezvěstného
 
-- basnicke sbirky:
-
-Po nas at prijde potopa (1901) 
-Radosti zivota (1903)
-
-- forma osobni zpovedi: lyricky hrdina => bohem, pijak, neuspesny student
-- blizkost k hovorovemu, prozaickemu sdileni (rceni, vulgarismy) = antiliteralni styl
-
+## Dílo
+* Po nás ať příjde potopa (1901) 
+* Radosti života (1903)
+	* forma osobní zpovědi: lyricky hrdina - bohém, piják, neúspěšný student
+	* blízkost k hovorovému, prozaickému sdělení
 # Fráňa Šrámek
 * básník, prozaik, dramatik
 * narodil se 1877 v **Sobotce** až 1952
@@ -55,7 +63,7 @@ Radosti zivota (1903)
 * vystudoval práva, ale věnoval se literatuře
 * byl vězněn
 * na jeho počest se každoročně koná festival čj, řeči a lit. Šrámkova Sobotka a celostát. přehlídka divadla Šrámkův Písek
-## Tvorba
+## Dílo
 * poezie
 	* Života bído, přec tě mám rád
 		* anarchistická lyrika
@@ -90,7 +98,7 @@ Radosti zivota (1903)
   * dobrodružné toulky po evropských metropolích
   * nespokojenost se světem omezujícím člověka, projev vzdoru
   * po návratu cesta k smíru a harmonii, chvála života
-# Dílo
+## Dílo
 * Pohádky krve
 * Torzo života
 * Melancholická pouť
