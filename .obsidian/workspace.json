@@ -38,8 +38,21 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "67097129c7b58418",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "23w41/ELM_15_10_23.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ČJL/Literatura/Generace buřičů.md",
+                "file": "23w41/ELM_15_10_23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ČJL/Literatura/Generace buřičů.md",
+                "file": "23w41/ELM_15_10_23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ČJL/Literatura/Generace buřičů.md"
+                "file": "23w41/ELM_15_10_23.md"
               }
             }
           },
@@ -173,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,10 +200,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7a9cb9fc6298f188",
+  "active": "67097129c7b58418",
   "lastOpenFiles": [
-    "23w41/Lit_12_10_23.md",
+    "23w41/ELM_15_10_23.md",
     "ČJL/Literatura/Generace buřičů.md",
+    "23w41/Lit_12_10_23.md",
     "ČJL/Mluvnice/Funkční styly.md",
     "ČJL/Literatura/Krysař.md",
     "TVP/Signály.md",
