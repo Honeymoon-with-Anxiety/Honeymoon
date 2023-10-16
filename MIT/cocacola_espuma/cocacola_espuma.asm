@@ -114,6 +114,6 @@ FLIP_8:
 	ldi iterator, 0
 ret
 
-Main:
 
+Main:
 rjmp Main
