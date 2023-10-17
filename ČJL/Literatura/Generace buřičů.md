@@ -1,3 +1,8 @@
+---
+tags:
+  - cesky_jazyk
+  - literatura
+---
 * bouřili se proti společnosti
 * česká literatura přelomu 19. a 20. st.
 * úsilí překonat individualismus

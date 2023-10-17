@@ -1,3 +1,8 @@
+---
+tags:
+  - cesky_jazyk
+  - mluvnice
+---
 # Administrativní styl
 * styl úředního jednání
 * styl informativní a věcné komunikace s úřady

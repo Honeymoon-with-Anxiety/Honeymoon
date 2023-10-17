@@ -1,3 +1,8 @@
+---
+tags:
+  - cesky_jazyk
+  - literatura
+---
 # Dílo
 Krysař, Edice Knihy Omega, vydáno v Květnového vítězství 332/31, 149 00 Praha 4 v roce 2016, jazyková korektura Jan Srb, ilustrátor obálky Jiří Miňovský
 
