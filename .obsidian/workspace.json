@@ -64,8 +64,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4501ab3484c83867",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TVP/MO1 Motivace vzniku počítače.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -132,6 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "TVP/MO5 Zpracování signálů pomocí CPU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,6 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "TVP/MO5 Zpracování signálů pomocí CPU.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +184,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "TVP/MO5 Zpracování signálů pomocí CPU.md"
+              }
             }
           },
           {
@@ -195,8 +212,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,16 +225,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7cf5a7e9cb56b9dd",
+  "active": "5b0d1a76f7ee165f",
   "lastOpenFiles": [
-    "ČJL/Mluvnice/Funkční styly.md",
-    "TVP/MO4 Signály.md",
-    "TVP/MO5 Zpracování signálů pomocí CPU.md",
-    "ČJL/Literatura/Krysař.md",
-    "ČJL/Literatura/Generace buřičů.md",
-    "TVP/MO3 Počítačové architektury číslicových strojů.md",
-    "TVP/MO2 Informace ve výpočetní technice.md",
     "TVP/MO1 Motivace vzniku počítače.md",
+    "TVP/MO3 Počítačové architektury číslicových strojů.md",
+    "ČJL/Literatura/Generace buřičů.md",
+    "TVP/MO5 Zpracování signálů pomocí CPU.md",
+    "TVP/MO4 Signály.md",
+    "ČJL/Mluvnice/Funkční styly.md",
+    "ČJL/Literatura/Krysař.md",
+    "TVP/MO2 Informace ve výpočetní technice.md",
     "23w41/ELM_15_10_23.md",
     "23w42/ELM_16_10_23@2.pdf",
     "ELM_16_10_23@1.md",

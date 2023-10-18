@@ -24,11 +24,30 @@ tags:
 
 * Satira a skepse je příznačná pro Dyka a Gellnera
 * zvláštní sociální poezii vytvořil Bezruč, spjaty s oblasti Slezska
-# S. K. Neumann
+# Stanislav Kostka Neumann
+* žil 1875 - 1947
+* básník, prozaik, publicista, překladatel, politik levicového zaměření, kontroverzní osobnost
+* studoval na gymnáziu a pak na obchodní akademii, ale studia nedokončil
+* 1894 odsouzen pro dvojnásobný zločin
+* vůdčí osobnost generace buřičů
 * založil časopis Nový kult (1897-1905)
+* první světovou válku prožil na albánské frontě jako saniťák
+* po válce spoluzakladatel KSČ
+* během 2. sv. války žil v ústraní na venkově
 * pak rozdílné cesty vývoje
 * hledáni nových životních jistot
-
+## Dílo
+* Složitý básnický vývoj
+	* od dekadence a symbolismu přes anarchismus, civilismus, naturismus až k poválečné avantgradě, proletářské poezii a socialistickému realismu
+* Kniha mládí a vzdoru
+	* počáteční tvorba
+	* 4 sbírky
+	* vliv symbolismu, dekadence, satanismu, anarchismu
+* Kniha lesů, vod a strání - přírodní a milostná lyrika
+* Nové zpěvy - oslava civilizace, techniky
+* Rudé zpěvy - proletářská poezie
+* Bezedný rok - reakce na Mnichov
+* Zamořená léta - obraz válečných hrůz, výzva k odvaze
 # Viktor Dyk
 * básník, prozaik, dramatik
 * právník a politik
@@ -54,7 +73,6 @@ tags:
 - po vojenské službě, z níž byl propuštěn dřív kvůli anarchismu, studoval malířství v Mnichove, Paříži a Drážďanech
 - dostal místo v Lidových novinách
 - 14. 9. 1914 byl prohlášen za nezvěstného
-
 ## Dílo
 * Po nás ať příjde potopa (1901) 
 * Radosti života (1903)
