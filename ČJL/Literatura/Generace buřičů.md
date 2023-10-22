@@ -128,3 +128,14 @@ tags:
 * Sluneční hodiny
 * Měsíce
 * Stoletý kalendář
+
+# Petr Bezruč
+* narozen v Opavě, vystudoval gymnázium v Brně
+* pracoval na poště v Místku
+* umělecký pseudonym
+* cestoval po Slezku
+* zamiloval se do němky, ale vztah nevyšel
+## Dílo
+* Slezské písně
+	* do časopisu posílal básně Čas, knižně až 1903
+	* trojí tématický kruh: sociální, národnostní, milostný

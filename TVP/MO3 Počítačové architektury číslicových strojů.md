@@ -1,3 +1,7 @@
+---
+tags:
+  - technicke_vybaveni_pocitacu
+---
 * rozlišujeme dvě základní architektury
 * moderní procesory spojují obě architektury; uvnitř procesoru Harvardská; zvenku von Neumannova
 # Von Neumannova architektura

@@ -73,3 +73,17 @@ $$ B = f_{H}-f_{l}$$
 ## frekvenční
 * přenos více signálů jedním společným širokopásmovým médiem, kde každý signál používá jinou část kmitočtového pásma; každý signál je spojen s určitou frekvencí, která slouží jako nosič
 * multiplexor kombinuje jednotlivé signály do spojeného signálu
+# Entropie
+* vyjadřuje nejistotu
+* vyskytuje se všude, kde se pracuje s pravděpodobností možných stavů systému
+## signálu
+* když datový zdroj vygeneruje hodnotu, která má malou pravděpodobnost (tj. výskyt této události je vzácný), tato událost nese více "informací" (způsobí větší "překvapení") než generování hodnoty s vysokou pravděpodobností
+* nejčastěji měřená v bitech
+* jednotka měření závisí na základu logaritmu použitého pro výpočet entropie
+# Aliasing
+* jev, ke kterému může dojít při převodu spojitého signálu na diskrétní.
+* aby nedošlo k aliasingu, musí být vzorkovací frekvence větší než dvojnásobek nejvyšší frekvence harmonických složek ve vzorkovaném signálu
+* při nesplnění podmínky dochází k překrytí frekvenčních spekter a ke ztrátě informace
+* slovo `aliasing` znamená v češtině `falšování`; původní frekvence spojité informace je totiž vzorkováním zcela zfalšována
+* známou ukázkou aliasingu jsou kola, která se zdánlivě točí opačně nebo nesprávnou rychlostí (na videu)
+* následky aliasingu se odstraňují těžce, proto se před [[MO4 Signály#Převodník|převodník]] zařazuje antialiasingový filtr

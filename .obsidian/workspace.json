@@ -42,18 +42,6 @@
             }
           },
           {
-            "id": "bf9e0363af17b347",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TVP/MO4 Signály.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5b0d1a76f7ee165f",
             "type": "leaf",
             "state": {
@@ -64,21 +52,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4501ab3484c83867",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TVP/MO1 Motivace vzniku počítače.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -128,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228.5,
-    "collapsed": true
+    "width": 228.5
   },
   "right": {
     "id": "788a51e2ccfd88b8",
@@ -145,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TVP/MO5 Zpracování signálů pomocí CPU.md",
+                "file": "ČJL/Literatura/Generace buřičů.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TVP/MO5 Zpracování signálů pomocí CPU.md",
+                "file": "ČJL/Literatura/Generace buřičů.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TVP/MO5 Zpracování signálů pomocí CPU.md"
+                "file": "ČJL/Literatura/Generace buřičů.md"
               }
             }
           },
@@ -212,7 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 258.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,16 +200,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5b0d1a76f7ee165f",
+  "active": "7a9cb9fc6298f188",
   "lastOpenFiles": [
-    "TVP/MO1 Motivace vzniku počítače.md",
-    "TVP/MO3 Počítačové architektury číslicových strojů.md",
-    "ČJL/Literatura/Generace buřičů.md",
     "TVP/MO5 Zpracování signálů pomocí CPU.md",
     "TVP/MO4 Signály.md",
-    "ČJL/Mluvnice/Funkční styly.md",
-    "ČJL/Literatura/Krysař.md",
+    "TVP/MO3 Počítačové architektury číslicových strojů.md",
     "TVP/MO2 Informace ve výpočetní technice.md",
+    "TVP/MO1 Motivace vzniku počítače.md",
+    "23w42/PVP_19_10_23.cpp",
+    "23w42/main.cpp",
+    "ČJL/Mluvnice/Funkční styly.md",
+    "ČJL/Literatura/Generace buřičů.md",
+    "23w42/TVP_MO5_22_10_23.pdf",
+    "ČJL/Literatura/Krysař.md",
+    "23w37/Lit_13_9_23.md",
+    "23w42/TVP_MO4_22_10_23.pdf",
+    "23w42/Lit_20_10_23.txt",
     "23w41/ELM_15_10_23.md",
     "23w42/ELM_16_10_23@2.pdf",
     "ELM_16_10_23@1.md",
@@ -245,16 +226,10 @@
     "digitální.md",
     "23w40/Mluv_5_10_23",
     "TVP/Informace ve výpočetní technice.md",
-    "23w40/Krysař.pdf",
-    "23w40",
     "TVP/Počítačové architektury číslicových strojů.md",
-    "23w39/TVP_1_10_23@1/architektury cislicovych stroju Vasek.pdf",
-    "23w39/TVP_1_10_23@1/TVP_1_10_23@3 (kopie).pdf",
-    "23w39/TVP_1_10_23@1/TVP_1_10_23@3.pdf",
     "TVP/Motivace vzniku počítače.md",
     "23w39/TVP_1_10_23@1/TVP_1_10_23@3.png",
     "cmakeQuickStart/icon_template.svg",
-    "ČJL/Literatura/Lit_13_9_29.md",
     "23w37/TVP_12_9_23@1/TVP_11_9_23@6.jpg",
     "23w37/TVP_12_9_23@1/TVP_11_9_23@5.jpg",
     "23w37/TVP_12_9_23@1/TVP_11_9_23@2.jpg",
