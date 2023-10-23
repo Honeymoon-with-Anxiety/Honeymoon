@@ -1,0 +1,44 @@
+<ASSEMBLER_INFO>
+ <WORKING_DIR>c:\</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+  <FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\TImem.inc</FILE>
+  <FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CircBuffer.inc</FILE>
+  <FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\RS232.inc</FILE>
+ </INCLUDED_FILES>
+ <LABELS>
+  <TIBuffStruct><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CircBuffer.inc</FILE><LINE>29</LINE></TIBuffStruct>
+  <RESET><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>61</LINE></RESET>
+  <EXT_INT0><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>212</LINE></EXT_INT0>
+  <EXT_INT1><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>213</LINE></EXT_INT1>
+  <TIM2_COM><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>214</LINE></TIM2_COM>
+  <TIM2_OVF><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>215</LINE></TIM2_OVF>
+  <TIM1_CAP><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>216</LINE></TIM1_CAP>
+  <TIM1_COMA><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>217</LINE></TIM1_COMA>
+  <TIM1_COMB><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>218</LINE></TIM1_COMB>
+  <TIM1_OVF><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>219</LINE></TIM1_OVF>
+  <TIM0_OVF><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>220</LINE></TIM0_OVF>
+  <SPI_STC><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>222</LINE></SPI_STC>
+  <UART_RXC><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>128</LINE></UART_RXC>
+  <UART_DRE><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>178</LINE></UART_DRE>
+  <UART_TXC><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>200</LINE></UART_TXC>
+  <ADC_COMP><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>223</LINE></ADC_COMP>
+  <EE_RDY><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>224</LINE></EE_RDY>
+  <ANA_COMP><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>225</LINE></ANA_COMP>
+  <TWI><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>226</LINE></TWI>
+  <EXT_INT2><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>227</LINE></EXT_INT2>
+  <TIM0_COM><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>116</LINE></TIM0_COM>
+  <SPM_RDY><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>229</LINE></SPM_RDY>
+  <Main><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>235</LINE></Main>
+  <alter_case><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>134</LINE></alter_case>
+  <was_alpha><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>161</LINE></was_alpha>
+  <lower_case><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>144</LINE></lower_case>
+  <upper_case><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>151</LINE></upper_case>
+  <non_alpha><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>157</LINE></non_alpha>
+  <finish_config><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>163</LINE></finish_config>
+  <done_UART_DRE><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm</FILE><LINE>188</LINE></done_UART_DRE>
+ </LABELS>
+</ASSEMBLER_INFO>

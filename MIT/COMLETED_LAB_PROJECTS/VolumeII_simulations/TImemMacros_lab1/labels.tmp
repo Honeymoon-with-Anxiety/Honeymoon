@@ -1,0 +1,15 @@
+<ASSEMBLER_INFO>
+ <WORKING_DIR>c:\</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+  <FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeII_simulations\TImemMacros_lab1\TImem.inc</FILE>
+ </INCLUDED_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeII_simulations\TImemMacros_lab1\TImem_macros.asm</FILE><LINE>20</LINE></RESET>
+  <Main><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeII_simulations\TImemMacros_lab1\TImem_macros.asm</FILE><LINE>34</LINE></Main>
+  <my_pointer><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeII_simulations\TImemMacros_lab1\TImem_macros.asm</FILE><LINE>31</LINE></my_pointer>
+ </LABELS>
+</ASSEMBLER_INFO>

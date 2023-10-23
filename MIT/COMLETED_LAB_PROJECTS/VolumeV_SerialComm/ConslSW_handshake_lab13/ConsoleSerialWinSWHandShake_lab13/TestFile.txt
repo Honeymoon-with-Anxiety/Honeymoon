@@ -1,0 +1,9 @@
+One of the nice things about putting an entire file into a string is
+that the string class has many functions for searching and
+manipulation that would then allow you to modify the file as a
+single string. However, this has its limitations. For one thing, it is
+often convenient to treat a file as a collection of lines instead of just
+a big blob of text. For example, if you want to add line numbering
+it’s much easier if you have each line as a separate string object. To
+accomplish this, we’ll need another approach.
+

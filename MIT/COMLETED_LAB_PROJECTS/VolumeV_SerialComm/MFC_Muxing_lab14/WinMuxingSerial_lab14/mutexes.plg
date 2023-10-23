@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: mutexes - Win32 Unicode Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo".\DebugU/mutexes.res" /d "_DEBUG" /d "_AFXDLL" "C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\WinMuxingSerial_lab14\mutexes.rc"" 
+Creating temporary file "C:\DOCUME~1\dd\LOCALS~1\Temp\RSP44.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_UNICODE" /FR".\DebugU/" /Fp".\DebugU/mutexes.pch" /Yu"stdafx.h" /Fo".\DebugU/" /Fd".\DebugU/" /FD /c 
+"C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\WinMuxingSerial_lab14\MUTEXDLG.CPP"
+"C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\WinMuxingSerial_lab14\MUTEXES.CPP"
+"C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\WinMuxingSerial_lab14\olorPicker.cpp"
+"C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\WinMuxingSerial_lab14\OScopeCtrl.cpp"
+"C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\WinMuxingSerial_lab14\Serial.cpp"
+"C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\WinMuxingSerial_lab14\SeriBuffer.cpp"
+"C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\WinMuxingSerial_lab14\THREADS.CPP"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dd\LOCALS~1\Temp\RSP44.tmp" 
+Creating temporary file "C:\DOCUME~1\dd\LOCALS~1\Temp\RSP45.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_UNICODE" /FR".\DebugU/" /Fp".\DebugU/mutexes.pch" /Yc"stdafx.h" /Fo".\DebugU/" /Fd".\DebugU/" /FD /c 
+"C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\WinMuxingSerial_lab14\STDAFX.CPP"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dd\LOCALS~1\Temp\RSP45.tmp" 
+Creating temporary file "C:\DOCUME~1\dd\LOCALS~1\Temp\RSP46.tmp" with contents
+[
+/nologo /entry:"wWinMainCRTStartup" /subsystem:windows /incremental:yes /pdb:".\DebugU/mutexes.pdb" /debug /machine:I386 /out:".\DebugU/mutexes.exe" 
+".\DebugU\MUTEXDLG.OBJ"
+".\DebugU\MUTEXES.OBJ"
+".\DebugU\olorPicker.obj"
+".\DebugU\OScopeCtrl.obj"
+".\DebugU\Serial.obj"
+".\DebugU\SeriBuffer.obj"
+".\DebugU\STDAFX.OBJ"
+".\DebugU\THREADS.OBJ"
+".\DebugU\mutexes.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\dd\LOCALS~1\Temp\RSP46.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+STDAFX.CPP
+Compiling...
+MUTEXDLG.CPP
+MUTEXES.CPP
+olorPicker.cpp
+OScopeCtrl.cpp
+Serial.cpp
+SeriBuffer.cpp
+THREADS.CPP
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+mutexes.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

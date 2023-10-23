@@ -1,0 +1,43 @@
+<ASSEMBLER_INFO>
+ <WORKING_DIR>c:\</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+  <FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\RS232.inc</FILE>
+ </INCLUDED_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>95</LINE></RESET>
+  <EXT_INT0><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>195</LINE></EXT_INT0>
+  <EXT_INT1><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>196</LINE></EXT_INT1>
+  <TIM2_COM><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>197</LINE></TIM2_COM>
+  <TIM2_OVF><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>198</LINE></TIM2_OVF>
+  <TIM1_CAP><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>199</LINE></TIM1_CAP>
+  <TIM1_COMA><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>200</LINE></TIM1_COMA>
+  <TIM1_COMB><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>201</LINE></TIM1_COMB>
+  <TIM1_OVF><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>202</LINE></TIM1_OVF>
+  <TIM0_OVF><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>203</LINE></TIM0_OVF>
+  <SPI_STC><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>209</LINE></SPI_STC>
+  <UART_RXC><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>206</LINE></UART_RXC>
+  <UART_DRE><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>207</LINE></UART_DRE>
+  <UART_TXC><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>205</LINE></UART_TXC>
+  <ADC_COMP><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>210</LINE></ADC_COMP>
+  <EE_RDY><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>211</LINE></EE_RDY>
+  <ANA_COMP><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>212</LINE></ANA_COMP>
+  <TWI><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>213</LINE></TWI>
+  <EXT_INT2><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>214</LINE></EXT_INT2>
+  <TIM0_COM><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>152</LINE></TIM0_COM>
+  <SPM_RDY><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>216</LINE></SPM_RDY>
+  <Main><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>222</LINE></Main>
+  <SineTable><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>184</LINE></SineTable>
+  <triangTable><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>171</LINE></triangTable>
+  <squarTable><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>178</LINE></squarTable>
+  <pwm_tbl><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>446</LINE></pwm_tbl>
+  <send_it><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>190</LINE></send_it>
+  <triang_tbl><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>315</LINE></triang_tbl>
+  <squar_tbl><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>380</LINE></squar_tbl>
+  <sine_tbl><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>249</LINE></sine_tbl>
+  <getsample><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\MFC_Muxing_lab14\AVRCbuff_lab14\CBufferSerialCom.asm</FILE><LINE>228</LINE></getsample>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,4 @@
+@ECHO OFF
+del "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~4\contex~2\contextswitchsimu3.map"
+del "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~4\contex~2\labels.tmp"
+"C:\Program Files\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~4\contex~2\labels.tmp" -fI  -o "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~4\contex~2\contextswitchsimu3.hex" -d "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~4\contex~2\contextswitchsimu3.obj" -e "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~4\contex~2\contextswitchsimu3.eep" -m "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~4\contex~2\contextswitchsimu3.map" -W+ie   "C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu3\ContextSwitchSimu3.asm"

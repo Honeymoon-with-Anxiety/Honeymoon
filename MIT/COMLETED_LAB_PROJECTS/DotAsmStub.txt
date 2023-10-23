@@ -1,0 +1,48 @@
+;***********************************
+;	lab example number one
+;***********************************
+;=========Includes =================
+.NOLIST
+.include	"m16def.inc"
+.LIST
+;====== Register definitions =======
+.DEF ZeroReg = r0
+.DEF TmpReg  = r16
+;=====+== PROGRAM segment ==========
+.CSEG
+;******** Interrupt vectors ********
+		.ORG	0x0000
+		jmp	RESET			; Reset Handler
+
+;******* Reset ********
+		.ORG	0x0030
+Reset:		
+		clr ZeroReg
+		rjmp	Main
+
+;**************************************************
+;********************** MAIN **********************
+;**************************************************
+Main:
+	
+rjmp Main	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

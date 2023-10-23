@@ -1,0 +1,4 @@
+@ECHO OFF
+del "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~4\produc~1\producerconsumerwithmutex.map"
+del "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~4\produc~1\labels.tmp"
+"C:\Program Files\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~4\produc~1\labels.tmp" -fI  -o "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~4\produc~1\producerconsumerwithmutex.hex" -d "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~4\produc~1\producerconsumerwithmutex.obj" -e "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~4\produc~1\producerconsumerwithmutex.eep" -m "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~4\produc~1\producerconsumerwithmutex.map" -W+ie   "C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ProducerConsumerMutex_lab20\ProducerConsumerWithMutex.asm"

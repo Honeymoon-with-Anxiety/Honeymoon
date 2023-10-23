@@ -1,0 +1,4 @@
+@ECHO OFF
+del "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~1\stimul~1\stimulusfiles.map"
+del "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~1\stimul~1\labels.tmp"
+"C:\Program Files\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~1\stimul~1\labels.tmp" -fI  -o "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~1\stimul~1\stimulusfiles.hex" -d "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~1\stimul~1\stimulusfiles.obj" -e "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~1\stimul~1\stimulusfiles.eep" -m "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~1\stimul~1\stimulusfiles.map" -W+ie   "C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeII_simulations\StimulusFiles_lab3\StimulusFiles.asm"

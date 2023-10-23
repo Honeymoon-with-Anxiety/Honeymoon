@@ -1,0 +1,34 @@
+<ASSEMBLER_INFO>
+ <WORKING_DIR>c:\</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIV_Interrupts\ADC_lab11\ADC1.asm</FILE><LINE>58</LINE></RESET>
+  <EXT_INT0><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIV_Interrupts\ADC_lab11\ADC1.asm</FILE><LINE>115</LINE></EXT_INT0>
+  <EXT_INT1><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIV_Interrupts\ADC_lab11\ADC1.asm</FILE><LINE>116</LINE></EXT_INT1>
+  <TIM2_COM><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIV_Interrupts\ADC_lab11\ADC1.asm</FILE><LINE>117</LINE></TIM2_COM>
+  <TIM2_OVF><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIV_Interrupts\ADC_lab11\ADC1.asm</FILE><LINE>118</LINE></TIM2_OVF>
+  <TIM1_CAP><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIV_Interrupts\ADC_lab11\ADC1.asm</FILE><LINE>119</LINE></TIM1_CAP>
+  <TIM1_COMA><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIV_Interrupts\ADC_lab11\ADC1.asm</FILE><LINE>120</LINE></TIM1_COMA>
+  <TIM1_COMB><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIV_Interrupts\ADC_lab11\ADC1.asm</FILE><LINE>121</LINE></TIM1_COMB>
+  <TIM1_OVF><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIV_Interrupts\ADC_lab11\ADC1.asm</FILE><LINE>122</LINE></TIM1_OVF>
+  <TIM0_OVF><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIV_Interrupts\ADC_lab11\ADC1.asm</FILE><LINE>152</LINE></TIM0_OVF>
+  <SPI_STC><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIV_Interrupts\ADC_lab11\ADC1.asm</FILE><LINE>124</LINE></SPI_STC>
+  <UART_RXC><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIV_Interrupts\ADC_lab11\ADC1.asm</FILE><LINE>127</LINE></UART_RXC>
+  <UART_DRE><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIV_Interrupts\ADC_lab11\ADC1.asm</FILE><LINE>125</LINE></UART_DRE>
+  <UART_TXC><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIV_Interrupts\ADC_lab11\ADC1.asm</FILE><LINE>126</LINE></UART_TXC>
+  <ADC_COMP><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIV_Interrupts\ADC_lab11\ADC1.asm</FILE><LINE>144</LINE></ADC_COMP>
+  <EE_RDY><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIV_Interrupts\ADC_lab11\ADC1.asm</FILE><LINE>129</LINE></EE_RDY>
+  <ANA_COMP><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIV_Interrupts\ADC_lab11\ADC1.asm</FILE><LINE>130</LINE></ANA_COMP>
+  <TWI><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIV_Interrupts\ADC_lab11\ADC1.asm</FILE><LINE>131</LINE></TWI>
+  <EXT_INT2><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIV_Interrupts\ADC_lab11\ADC1.asm</FILE><LINE>132</LINE></EXT_INT2>
+  <TIM0_COM><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIV_Interrupts\ADC_lab11\ADC1.asm</FILE><LINE>133</LINE></TIM0_COM>
+  <SPM_RDY><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIV_Interrupts\ADC_lab11\ADC1.asm</FILE><LINE>134</LINE></SPM_RDY>
+  <Main><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIV_Interrupts\ADC_lab11\ADC1.asm</FILE><LINE>166</LINE></Main>
+  <goon><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIV_Interrupts\ADC_lab11\ADC1.asm</FILE><LINE>162</LINE></goon>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,29 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega16</DEVICE>
+ <WORKING_DIR>C:\Users\admin\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\LedCounter_lab4</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\admin\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\LedCounter_lab4\LedCounter_lab4.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\admin\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\LedCounter_lab4\LedCounter_lab4.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\admin\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\LedCounter_lab4\LedCounter_lab4.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\admin\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\LedCounter_lab4\LedCounter_lab4.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\admin\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\LedCounter_lab4\LedCounter_lab4.asm</FILE><LINE>25</LINE></RESET>
+  <Main><FILE>C:\Users\admin\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\LedCounter_lab4\LedCounter_lab4.asm</FILE><LINE>67</LINE></Main>
+  <Delay1m><FILE>C:\Users\admin\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\LedCounter_lab4\LedCounter_lab4.asm</FILE><LINE>52</LINE></Delay1m>
+  <Delay1m0><FILE>C:\Users\admin\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\LedCounter_lab4\LedCounter_lab4.asm</FILE><LINE>53</LINE></Delay1m0>
+  <Delay1m1><FILE>C:\Users\admin\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\LedCounter_lab4\LedCounter_lab4.asm</FILE><LINE>54</LINE></Delay1m1>
+  <Delay1m2><FILE>C:\Users\admin\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\LedCounter_lab4\LedCounter_lab4.asm</FILE><LINE>55</LINE></Delay1m2>
+ </LABELS>
+</ASSEMBLER_INFO>

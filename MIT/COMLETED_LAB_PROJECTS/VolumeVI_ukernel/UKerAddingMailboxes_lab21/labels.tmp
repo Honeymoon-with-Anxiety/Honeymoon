@@ -1,0 +1,83 @@
+<ASSEMBLER_INFO>
+ <WORKING_DIR>c:\</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+  <FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\TImem.inc</FILE>
+  <FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\TaskControlBlock.inc</FILE>
+  <FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\CentralTable.inc</FILE>
+  <FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\stack.inc</FILE>
+  <FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\LinkedList.inc</FILE>
+  <FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\SemaphoreControlBlock.inc</FILE>
+  <FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\MailBoxControlBlock.inc</FILE>
+  <FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\coremailboxes.inc</FILE>
+  <FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\macrosCS3.inc</FILE>
+  <FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\semaphoreSubroutines.inc</FILE>
+  <FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\TokenRingTasks.inc</FILE>
+ </INCLUDED_FILES>
+ <LABELS>
+  <pCur><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\coremailboxes.inc</FILE><LINE>9</LINE></pCur>
+  <pRunQ><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\coremailboxes.inc</FILE><LINE>10</LINE></pRunQ>
+  <pSelectQ><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\coremailboxes.inc</FILE><LINE>11</LINE></pSelectQ>
+  <pTCBfreeQ><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\coremailboxes.inc</FILE><LINE>12</LINE></pTCBfreeQ>
+  <pSCB_usedQ><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\coremailboxes.inc</FILE><LINE>14</LINE></pSCB_usedQ>
+  <pSCB_freeQ><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\coremailboxes.inc</FILE><LINE>15</LINE></pSCB_freeQ>
+  <pMCB_usedQ><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\coremailboxes.inc</FILE><LINE>17</LINE></pMCB_usedQ>
+  <pMCB_freeQ><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\coremailboxes.inc</FILE><LINE>18</LINE></pMCB_freeQ>
+  <systime><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\coremailboxes.inc</FILE><LINE>20</LINE></systime>
+  <idle_time><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\coremailboxes.inc</FILE><LINE>21</LINE></idle_time>
+  <ker_version><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\coremailboxes.inc</FILE><LINE>22</LINE></ker_version>
+  <ker_running><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\coremailboxes.inc</FILE><LINE>23</LINE></ker_running>
+  <TCBfreeQ><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\coremailboxes.inc</FILE><LINE>30</LINE></TCBfreeQ>
+  <SCBfreeQ><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\coremailboxes.inc</FILE><LINE>38</LINE></SCBfreeQ>
+  <MCBfreeQ><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\coremailboxes.inc</FILE><LINE>46</LINE></MCBfreeQ>
+  <TCBs><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\coremailboxes.inc</FILE><LINE>52</LINE></TCBs>
+  <SCBs><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\coremailboxes.inc</FILE><LINE>58</LINE></SCBs>
+  <MCBs><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\coremailboxes.inc</FILE><LINE>65</LINE></MCBs>
+  <HWstacks><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\coremailboxes.inc</FILE><LINE>72</LINE></HWstacks>
+  <SWstacks><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\coremailboxes.inc</FILE><LINE>73</LINE></SWstacks>
+  <RESET><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>55</LINE></RESET>
+  <EXT_INT0><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>73</LINE></EXT_INT0>
+  <EXT_INT1><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>74</LINE></EXT_INT1>
+  <TIM2_COM><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>75</LINE></TIM2_COM>
+  <TIM2_OVF><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>76</LINE></TIM2_OVF>
+  <TIM1_CAP><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>77</LINE></TIM1_CAP>
+  <QUANTUM_ISR><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>67</LINE></QUANTUM_ISR>
+  <TIM1_COMB><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>79</LINE></TIM1_COMB>
+  <TIM1_OVF><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>80</LINE></TIM1_OVF>
+  <TIM0_OVF><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>81</LINE></TIM0_OVF>
+  <SPI_STC><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>82</LINE></SPI_STC>
+  <UART_RXC><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>85</LINE></UART_RXC>
+  <UART_DRE><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>83</LINE></UART_DRE>
+  <UART_TXC><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>84</LINE></UART_TXC>
+  <ADC_COMP><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>86</LINE></ADC_COMP>
+  <EE_RDY><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>87</LINE></EE_RDY>
+  <ANA_COMP><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>88</LINE></ANA_COMP>
+  <TWI><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>89</LINE></TWI>
+  <EXT_INT2><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>90</LINE></EXT_INT2>
+  <TIM0_COM><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>91</LINE></TIM0_COM>
+  <SPM_RDY><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>92</LINE></SPM_RDY>
+  <Main><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>99</LINE></Main>
+  <sem_signal><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\semaphoreSubroutines.inc</FILE><LINE>20</LINE></sem_signal>
+  <sems_semQ_not_empty><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\semaphoreSubroutines.inc</FILE><LINE>40</LINE></sems_semQ_not_empty>
+  <sems_done><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\semaphoreSubroutines.inc</FILE><LINE>53</LINE></sems_done>
+  <sem_wait><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\semaphoreSubroutines.inc</FILE><LINE>75</LINE></sem_wait>
+  <semw_pass><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\semaphoreSubroutines.inc</FILE><LINE>107</LINE></semw_pass>
+  <semw_done><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\semaphoreSubroutines.inc</FILE><LINE>110</LINE></semw_done>
+  <TKR_TASK1><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\TokenRingTasks.inc</FILE><LINE>10</LINE></TKR_TASK1>
+  <msg><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>126</LINE></msg>
+  <pMbox2><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>128</LINE></pMbox2>
+  <tkr1_loop><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\TokenRingTasks.inc</FILE><LINE>31</LINE></tkr1_loop>
+  <pMbox1><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>127</LINE></pMbox1>
+  <TKR_TASK2><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\TokenRingTasks.inc</FILE><LINE>54</LINE></TKR_TASK2>
+  <tkr2_loop><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\TokenRingTasks.inc</FILE><LINE>56</LINE></tkr2_loop>
+  <pMbox3><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>129</LINE></pMbox3>
+  <TKR_TASK3><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\TokenRingTasks.inc</FILE><LINE>81</LINE></TKR_TASK3>
+  <tkr3_loop><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\..\MicroKerIncludeHeaders\TokenRingTasks.inc</FILE><LINE>83</LINE></tkr3_loop>
+  <shell><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>123</LINE></shell>
+  <Main1><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>103</LINE></Main1>
+  <pShellBlock><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\UKerAddingMailboxes_lab21\TokenRing.asm</FILE><LINE>151</LINE></pShellBlock>
+ </LABELS>
+</ASSEMBLER_INFO>

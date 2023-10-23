@@ -1,0 +1,20 @@
+Urèeno pro:
+- základová deska MB-ATmega16(L)
+- 2x mini modul 8 SMD LED diod (1x levý, 1x pravý)
+
+
+Funkce:
+
+    LED diody mini modulù pøipojených na konektor CON1 zobrazují aktuální stav èítaèe Counter.
+Tento èítaè se inkrementuje po pøijetí bytu ze sériové linky o hodnotu pøijatého bytu. Po pøijetí
+bytu se také okamžitì vyšle na sériovou linku vyšší byte 16-bitového èítaèe a po nìm ihned nižší 
+byte. Èítaè lze vynulovat zasláním bytu o hodnotì 0.
+
+    UART mikrokontroleru je nastaven takto: 115200 baud, 8 bit, 1 stop bit, žádná parita.
+
+    Pro funkci je nutné pøipojit vývody PC6 a PC7 propojkou JP4 na obvod MAX232, tj. do polohy 3-5, 4-6.
+
+    K mikrokontroleru musí být pøipojen krystal 14.7456MHz.
+
+
+

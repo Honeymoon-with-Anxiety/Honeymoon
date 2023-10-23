@@ -1,0 +1,4 @@
+@ECHO OFF
+del "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~1\circbu~1\circbuffersimulab.map"
+del "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~1\circbu~1\labels.tmp"
+"C:\Program Files\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~1\circbu~1\labels.tmp" -fI  -o "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~1\circbu~1\circbuffersimulab.hex" -d "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~1\circbu~1\circbuffersimulab.obj" -e "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~1\circbu~1\circbuffersimulab.eep" -m "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~1\circbu~1\circbuffersimulab.map" -W+ie   "C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeII_simulations\CircBufferSimu_lab2\CircBufferSimuLab.asm"

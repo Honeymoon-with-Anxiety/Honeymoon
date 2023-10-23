@@ -1,0 +1,58 @@
+<ASSEMBLER_INFO>
+ <WORKING_DIR>c:\</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+  <FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\..\MicroKerIncludeHeaders\constdef1.inc</FILE>
+  <FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\..\MicroKerIncludeHeaders\coredef1.inc</FILE>
+ </INCLUDED_FILES>
+ <LABELS>
+  <pCurTCB><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\..\MicroKerIncludeHeaders\coredef1.inc</FILE><LINE>4</LINE></pCurTCB>
+  <ATCB><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\..\MicroKerIncludeHeaders\coredef1.inc</FILE><LINE>5</LINE></ATCB>
+  <BTCB><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\..\MicroKerIncludeHeaders\coredef1.inc</FILE><LINE>6</LINE></BTCB>
+  <ASTCK><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\..\MicroKerIncludeHeaders\coredef1.inc</FILE><LINE>7</LINE></ASTCK>
+  <BSTCK><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\..\MicroKerIncludeHeaders\coredef1.inc</FILE><LINE>8</LINE></BSTCK>
+  <RESET><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>47</LINE></RESET>
+  <EXT_INT0><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>248</LINE></EXT_INT0>
+  <EXT_INT1><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>249</LINE></EXT_INT1>
+  <TIM2_COM><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>250</LINE></TIM2_COM>
+  <TIM2_OVF><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>251</LINE></TIM2_OVF>
+  <TIM1_CAP><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>252</LINE></TIM1_CAP>
+  <QUANTUM_ISR><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>97</LINE></QUANTUM_ISR>
+  <TIM1_COMB><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>254</LINE></TIM1_COMB>
+  <TIM1_OVF><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>255</LINE></TIM1_OVF>
+  <TIM0_OVF><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>256</LINE></TIM0_OVF>
+  <SPI_STC><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>257</LINE></SPI_STC>
+  <UART_RXC><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>260</LINE></UART_RXC>
+  <UART_DRE><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>258</LINE></UART_DRE>
+  <UART_TXC><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>259</LINE></UART_TXC>
+  <ADC_COMP><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>261</LINE></ADC_COMP>
+  <EE_RDY><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>262</LINE></EE_RDY>
+  <ANA_COMP><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>263</LINE></ANA_COMP>
+  <TWI><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>264</LINE></TWI>
+  <EXT_INT2><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>265</LINE></EXT_INT2>
+  <TIM0_COM><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>266</LINE></TIM0_COM>
+  <SPM_RDY><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>267</LINE></SPM_RDY>
+  <T1A_config><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>80</LINE></T1A_config>
+  <init><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>278</LINE></init>
+  <Main><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>272</LINE></Main>
+  <yield_from_tick><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>104</LINE></yield_from_tick>
+  <yietck><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>101</LINE></yietck>
+  <save_context><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>115</LINE></save_context>
+  <scntx><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>106</LINE></scntx>
+  <switch_context><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>160</LINE></switch_context>
+  <swcntx><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>109</LINE></swcntx>
+  <restore_context><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>183</LINE></restore_context>
+  <rcntx><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>111</LINE></rcntx>
+  <notA><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>174</LINE></notA>
+  <dnsw><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>177</LINE></dnsw>
+  <run_before><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>196</LINE></run_before>
+  <btask><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>365</LINE></btask>
+  <atask><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>327</LINE></atask>
+  <stkloop><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>316</LINE></stkloop>
+  <aloop><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>346</LINE></aloop>
+  <bloop><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\ContextSwitchSimu1\Context1.asm</FILE><LINE>372</LINE></bloop>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,46 @@
+<ASSEMBLER_INFO>
+ <WORKING_DIR>c:\</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <LABELS>
+  <Display><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>47</LINE></Display>
+  <RESET><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>85</LINE></RESET>
+  <EXT_INT0><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>111</LINE></EXT_INT0>
+  <EXT_INT1><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>112</LINE></EXT_INT1>
+  <TIM2_COM><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>113</LINE></TIM2_COM>
+  <TIM2_OVF><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>114</LINE></TIM2_OVF>
+  <TIM1_CAP><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>115</LINE></TIM1_CAP>
+  <TIM1_COMA><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>116</LINE></TIM1_COMA>
+  <TIM1_COMB><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>117</LINE></TIM1_COMB>
+  <TIM1_OVF><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>118</LINE></TIM1_OVF>
+  <TIM0_OVF><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>119</LINE></TIM0_OVF>
+  <SPI_STC><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>120</LINE></SPI_STC>
+  <UART_RXC><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>123</LINE></UART_RXC>
+  <UART_DRE><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>121</LINE></UART_DRE>
+  <UART_TXC><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>122</LINE></UART_TXC>
+  <ADC_COMP><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>124</LINE></ADC_COMP>
+  <EE_RDY><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>125</LINE></EE_RDY>
+  <ANA_COMP><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>126</LINE></ANA_COMP>
+  <TWI><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>127</LINE></TWI>
+  <EXT_INT2><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>128</LINE></EXT_INT2>
+  <TIM0_COM><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>129</LINE></TIM0_COM>
+  <SPM_RDY><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>130</LINE></SPM_RDY>
+  <Main><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>217</LINE></Main>
+  <Delay1m><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>134</LINE></Delay1m>
+  <Delay1m0><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>135</LINE></Delay1m0>
+  <Delay1m1><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>136</LINE></Delay1m1>
+  <Delay1m2><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>137</LINE></Delay1m2>
+  <DispChar><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>152</LINE></DispChar>
+  <CharTab><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>236</LINE></CharTab>
+  <LedOff><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>164</LINE></LedOff>
+  <LedOn><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>173</LINE></LedOn>
+  <mod_inc><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>187</LINE></mod_inc>
+  <md_r><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>192</LINE></md_r>
+  <mv_dig><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>199</LINE></mv_dig>
+  <Main10><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeIII_uploading\RotatingLedDigits_lab5b\RotatingLedDigits.asm</FILE><LINE>221</LINE></Main10>
+ </LABELS>
+</ASSEMBLER_INFO>

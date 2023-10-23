@@ -1,0 +1,4 @@
+@ECHO OFF
+del "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\voa9b6~1\consls~1\serial~1\cbufferserialcom.map"
+del "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\voa9b6~1\consls~1\serial~1\labels.tmp"
+"C:\Program Files\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\voa9b6~1\consls~1\serial~1\labels.tmp" -fI  -o "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\voa9b6~1\consls~1\serial~1\cbufferserialcom.hex" -d "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\voa9b6~1\consls~1\serial~1\cbufferserialcom.obj" -e "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\voa9b6~1\consls~1\serial~1\cbufferserialcom.eep" -m "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\voa9b6~1\consls~1\serial~1\cbufferserialcom.map" -W+ie   "C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslSW_handshake_lab13\SerialComSWHandShakeAVR_lab13\CBufferSerialCom.asm"

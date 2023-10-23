@@ -1,0 +1,238 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#include ""res\\mutexes.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\mutexes.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 217, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About mutexes"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "mutexes Version 1.0",IDC_STATIC,40,10,119,8
+    LTEXT           "Copyright © 1997-1998",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,32,14,WS_GROUP
+END
+
+IDD_DIALOG_RS232 DIALOG DISCARDABLE  0, 0, 287, 361
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Demuxed Output from RS232"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_OSCOPE1,"Static",SS_BLACKFRAME,13,16,216,60
+    CONTROL         " Enable",IDC_CHECK_ENABLE_CHN1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,234,22,40,10
+    CONTROL         "",IDC_OSCOPE2,"Static",SS_BLACKFRAME,13,91,216,60
+    CONTROL         "",IDC_OSCOPE3,"Static",SS_BLACKFRAME,13,166,216,60
+    CONTROL         "",IDC_OSCOPE4,"Static",SS_BLACKFRAME,13,240,216,60
+    COMBOBOX        IDC_LOWER_RANGE_CH1,234,52,31,144,CBS_DROPDOWN | 
+                    CBS_DISABLENOSCROLL | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "L",IDC_STATIC,266,55,8,8
+    COMBOBOX        IDC_UPPER_RANGE_CH1,234,34,31,113,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "H",IDC_STATIC,266,36,8,8
+    CONTROL         " Enable",IDC_CHECK_ENABLE_CHN2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,234,97,40,10
+    COMBOBOX        IDC_LOWER_RANGE_CH2,234,130,31,124,CBS_DROPDOWN | 
+                    CBS_DISABLENOSCROLL | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "L",IDC_STATIC,266,131,8,8
+    COMBOBOX        IDC_UPPER_RANGE_CH2,234,110,31,105,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "H",IDC_STATIC,266,112,8,8
+    CONTROL         " Enable",IDC_CHECK_ENABLE_CHN3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,234,172,40,10
+    COMBOBOX        IDC_LOWER_RANGE_CH3,234,204,31,121,CBS_DROPDOWN | 
+                    CBS_DISABLENOSCROLL | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "L",IDC_STATIC,266,206,8,8
+    COMBOBOX        IDC_UPPER_RANGE_CH3,234,186,31,105,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "H",IDC_STATIC,266,187,8,8
+    CONTROL         " Enable",IDC_CHECK_ENABLE_CHN4,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,234,248,40,10
+    COMBOBOX        IDC_LOWER_RANGE_CH4,234,281,31,118,CBS_DROPDOWN | 
+                    CBS_DISABLENOSCROLL | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "L",IDC_STATIC,266,283,8,8
+    COMBOBOX        IDC_UPPER_RANGE_CH4,234,262,31,98,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "H",IDC_STATIC,266,262,8,8
+    COMBOBOX        IDC_NUM_DEMUX,14,324,62,96,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "#Active Channels",IDC_STATIC,14,340,57,8
+    COMBOBOX        IDC_BAUD_CHANGE,114,324,62,132,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Baud Rate",IDC_STATIC,114,340,35,8
+    CONTROL         "RS232 Enable",IDC_RS232_ENABLE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,215,325,62,10
+    GROUPBOX        "Channel One",IDC_STATIC,7,7,271,76
+    GROUPBOX        "Channel Two",IDC_STATIC,7,82,271,76
+    GROUPBOX        "Channel Three",IDC_STATIC,7,157,271,76
+    GROUPBOX        "Channel Four",IDC_STATIC,7,232,271,76
+    GROUPBOX        "Static",IDC_STATIC,7,309,271,45
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "MUTEXES MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "MUTEXES\0"
+            VALUE "LegalCopyright", "Copyright © 1997-1998\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "MUTEXES.EXE\0"
+            VALUE "ProductName", "MUTEXES Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_DIALOG_RS232, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 278
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 354
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About mutexes..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#include "res\mutexes.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

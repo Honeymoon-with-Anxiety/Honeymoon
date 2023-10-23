@@ -1,0 +1,32 @@
+<ASSEMBLER_INFO>
+ <WORKING_DIR>c:\</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <LABELS>
+  <Display><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\KeyboardScanning\KeybIntDisp\KeybIntDisp.asm</FILE><LINE>52</LINE></Display>
+  <RESET><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\KeyboardScanning\KeybIntDisp\KeybIntDisp.asm</FILE><LINE>64</LINE></RESET>
+  <Main><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\KeyboardScanning\KeybIntDisp\KeybIntDisp.asm</FILE><LINE>242</LINE></Main>
+  <Delay1m><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\KeyboardScanning\KeybIntDisp\KeybIntDisp.asm</FILE><LINE>93</LINE></Delay1m>
+  <Delay1m0><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\KeyboardScanning\KeybIntDisp\KeybIntDisp.asm</FILE><LINE>94</LINE></Delay1m0>
+  <Delay1m1><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\KeyboardScanning\KeybIntDisp\KeybIntDisp.asm</FILE><LINE>95</LINE></Delay1m1>
+  <Delay1m2><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\KeyboardScanning\KeybIntDisp\KeybIntDisp.asm</FILE><LINE>96</LINE></Delay1m2>
+  <LedOff><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\KeyboardScanning\KeybIntDisp\KeybIntDisp.asm</FILE><LINE>108</LINE></LedOff>
+  <LedOn><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\KeyboardScanning\KeybIntDisp\KeybIntDisp.asm</FILE><LINE>117</LINE></LedOn>
+  <mod_inc><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\KeyboardScanning\KeybIntDisp\KeybIntDisp.asm</FILE><LINE>131</LINE></mod_inc>
+  <md_r><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\KeyboardScanning\KeybIntDisp\KeybIntDisp.asm</FILE><LINE>136</LINE></md_r>
+  <mv_dig><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\KeyboardScanning\KeybIntDisp\KeybIntDisp.asm</FILE><LINE>143</LINE></mv_dig>
+  <getoffset><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\KeyboardScanning\KeybIntDisp\KeybIntDisp.asm</FILE><LINE>155</LINE></getoffset>
+  <getdigit><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\KeyboardScanning\KeybIntDisp\KeybIntDisp.asm</FILE><LINE>175</LINE></getdigit>
+  <chartab><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\KeyboardScanning\KeybIntDisp\KeybIntDisp.asm</FILE><LINE>254</LINE></chartab>
+  <row_scan><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\KeyboardScanning\KeybIntDisp\KeybIntDisp.asm</FILE><LINE>186</LINE></row_scan>
+  <col_scan><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\KeyboardScanning\KeybIntDisp\KeybIntDisp.asm</FILE><LINE>198</LINE></col_scan>
+  <scndsp><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\KeyboardScanning\KeybIntDisp\KeybIntDisp.asm</FILE><LINE>213</LINE></scndsp>
+  <knzero><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\KeyboardScanning\KeybIntDisp\KeybIntDisp.asm</FILE><LINE>232</LINE></knzero>
+  <done><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\KeyboardScanning\KeybIntDisp\KeybIntDisp.asm</FILE><LINE>235</LINE></done>
+  <Main10><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\KeyboardScanning\KeybIntDisp\KeybIntDisp.asm</FILE><LINE>247</LINE></Main10>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,54 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega16</DEVICE>
+ <WORKING_DIR>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>110</LINE></RESET>
+  <EXT_INT0><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>135</LINE></EXT_INT0>
+  <EXT_INT1><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>136</LINE></EXT_INT1>
+  <TIM2_COM><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>137</LINE></TIM2_COM>
+  <TIM2_OVF><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>138</LINE></TIM2_OVF>
+  <TIM1_CAP><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>139</LINE></TIM1_CAP>
+  <TIM1_COMA><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>140</LINE></TIM1_COMA>
+  <TIM1_COMB><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>141</LINE></TIM1_COMB>
+  <TIM1_OVF><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>142</LINE></TIM1_OVF>
+  <TIM0_OVF><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>143</LINE></TIM0_OVF>
+  <SPI_STC><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>144</LINE></SPI_STC>
+  <UART_RXC><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>147</LINE></UART_RXC>
+  <UART_DRE><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>145</LINE></UART_DRE>
+  <UART_TXC><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>146</LINE></UART_TXC>
+  <ADC_COMP><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>148</LINE></ADC_COMP>
+  <EE_RDY><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>149</LINE></EE_RDY>
+  <ANA_COMP><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>150</LINE></ANA_COMP>
+  <TWI><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>151</LINE></TWI>
+  <EXT_INT2><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>152</LINE></EXT_INT2>
+  <TIM0_COM><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>153</LINE></TIM0_COM>
+  <SPM_RDY><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>154</LINE></SPM_RDY>
+  <Main><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>209</LINE></Main>
+  <Delay1m><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>158</LINE></Delay1m>
+  <Delay1m0><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>159</LINE></Delay1m0>
+  <Delay1m1><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>160</LINE></Delay1m1>
+  <Delay1m2><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>161</LINE></Delay1m2>
+  <DispChar><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>175</LINE></DispChar>
+  <CharTab><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>228</LINE></CharTab>
+  <LedOff><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>187</LINE></LedOff>
+  <LedOn><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>196</LINE></LedOn>
+  <Main10><FILE>C:\Users\david.delmaschio\Desktop\COMLETED_LAB_PROJECTS\VolumeIII_uploading\SingleLedDigitTest_lab5a\SingleLedDigitTest.asm</FILE><LINE>214</LINE></Main10>
+ </LABELS>
+</ASSEMBLER_INFO>

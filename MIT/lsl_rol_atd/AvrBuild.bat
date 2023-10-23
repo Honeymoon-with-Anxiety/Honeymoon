@@ -1,0 +1,2 @@
+@ECHO OFF
+"C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "C:\Users\admin\Music\Vasek\lsl_rol_atd\labels.tmp" -fI -W+ie -C V2E -o "C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.hex" -d "C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.obj" -e "C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.eep" -m "C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.map" "C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.asm"

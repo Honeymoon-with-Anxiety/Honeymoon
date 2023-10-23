@@ -1,0 +1,34 @@
+<ASSEMBLER_INFO>
+ <WORKING_DIR>c:\</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\AnaComp\AnaComp.asm</FILE><LINE>61</LINE></RESET>
+  <EXT_INT0><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\AnaComp\AnaComp.asm</FILE><LINE>102</LINE></EXT_INT0>
+  <EXT_INT1><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\AnaComp\AnaComp.asm</FILE><LINE>103</LINE></EXT_INT1>
+  <TIM2_COM><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\AnaComp\AnaComp.asm</FILE><LINE>104</LINE></TIM2_COM>
+  <TIM2_OVF><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\AnaComp\AnaComp.asm</FILE><LINE>105</LINE></TIM2_OVF>
+  <TIM1_CAP><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\AnaComp\AnaComp.asm</FILE><LINE>106</LINE></TIM1_CAP>
+  <TIM1_COMA><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\AnaComp\AnaComp.asm</FILE><LINE>107</LINE></TIM1_COMA>
+  <TIM1_COMB><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\AnaComp\AnaComp.asm</FILE><LINE>108</LINE></TIM1_COMB>
+  <TIM1_OVF><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\AnaComp\AnaComp.asm</FILE><LINE>109</LINE></TIM1_OVF>
+  <TIM0_OVF><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\AnaComp\AnaComp.asm</FILE><LINE>110</LINE></TIM0_OVF>
+  <SPI_STC><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\AnaComp\AnaComp.asm</FILE><LINE>111</LINE></SPI_STC>
+  <UART_RXC><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\AnaComp\AnaComp.asm</FILE><LINE>114</LINE></UART_RXC>
+  <UART_DRE><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\AnaComp\AnaComp.asm</FILE><LINE>112</LINE></UART_DRE>
+  <UART_TXC><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\AnaComp\AnaComp.asm</FILE><LINE>113</LINE></UART_TXC>
+  <ADC_COMP><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\AnaComp\AnaComp.asm</FILE><LINE>115</LINE></ADC_COMP>
+  <EE_RDY><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\AnaComp\AnaComp.asm</FILE><LINE>116</LINE></EE_RDY>
+  <ANA_COMP><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\AnaComp\AnaComp.asm</FILE><LINE>126</LINE></ANA_COMP>
+  <TWI><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\AnaComp\AnaComp.asm</FILE><LINE>118</LINE></TWI>
+  <EXT_INT2><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\AnaComp\AnaComp.asm</FILE><LINE>119</LINE></EXT_INT2>
+  <TIM0_COM><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\AnaComp\AnaComp.asm</FILE><LINE>120</LINE></TIM0_COM>
+  <SPM_RDY><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\AnaComp\AnaComp.asm</FILE><LINE>121</LINE></SPM_RDY>
+  <Main><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\AnaComp\AnaComp.asm</FILE><LINE>142</LINE></Main>
+  <notyet><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\MB_ATmega_16\AnaComp\AnaComp.asm</FILE><LINE>131</LINE></notyet>
+ </LABELS>
+</ASSEMBLER_INFO>

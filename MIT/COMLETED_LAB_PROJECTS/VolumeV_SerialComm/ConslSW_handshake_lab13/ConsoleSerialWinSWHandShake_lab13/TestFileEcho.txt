@@ -1,0 +1,31 @@
+oNE?OF?THE?NICE
+	(X_off)
+
+					waiting for XON from MCU...
+
+	(X_on)
+?T
+	(X_off)
+
+					waiting for XON from MCU...
+
+	(X_on)
+HINGS?ABOUT?PUTTING?AN?ENTIRE?FILE?INTO?
+					PC completed sending a line on 2 attempts
+A?STRING?ISTHAT?THE?STRING?CLASS?HAS?MANY?FUNCTIONS?FOR?SEARCHIN
+					PC completed sending a line on 0 attempts
+G?ANDMANIPULATION?THAT?WOULD?THEN?ALLOW?YOU?TO?MODIFY?TH
+					PC completed sending a line on 0 attempts
+E?FILE?AS?ASINGLE?STRING??hOWEVER??THIS?HAS?ITS?LIMITATIONS??fOR?ONE?THI
+					PC completed sending a line on 0 attempts
+NG??IT?ISOFTEN?CONVENIENT?TO?TREAT?A?FILE?AS?A?COLLECTION?OF?LINES?INSTE
+					PC completed sending a line on 0 attempts
+AD?OF?JUSTA?BIG?BLOB?OF?TEXT??fOR?EXAMPLE??IF?YOU?WANT?TO?ADD?LINE?NUMBE
+					PC completed sending a line on 0 attempts
+RINGIT?S?MUCH?EASIER?IF?YOU?HAVE?EACH?LINE?AS?A?SEPARATE?STRING?
+					PC completed sending a line on 0 attempts
+OBJECT??tOACCOMPLISH?THIS??WE?LL?NEED?ANOTHER?AP
+					PC completed sending a line on 0 attempts
+
+					PC completed sending a line on 0 attempts
+PROACH?

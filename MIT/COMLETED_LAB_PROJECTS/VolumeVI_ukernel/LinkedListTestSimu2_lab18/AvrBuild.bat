@@ -1,0 +1,4 @@
+@ECHO OFF
+del "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~4\linked~1\ll_test.map"
+del "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~4\linked~1\labels.tmp"
+"C:\Program Files\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~4\linked~1\labels.tmp" -fI  -o "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~4\linked~1\ll_test.hex" -d "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~4\linked~1\ll_test.obj" -e "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~4\linked~1\ll_test.eep" -m "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\volume~4\linked~1\ll_test.map" -W+ie   "C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\LinkedListTestSimu2_lab18\LL_Test.asm"

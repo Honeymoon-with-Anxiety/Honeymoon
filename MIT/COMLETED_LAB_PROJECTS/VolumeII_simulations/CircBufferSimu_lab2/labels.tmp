@@ -1,0 +1,18 @@
+<ASSEMBLER_INFO>
+ <WORKING_DIR>c:\</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+  <FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeII_simulations\CircBufferSimu_lab2\TImem.inc</FILE>
+  <FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeII_simulations\CircBufferSimu_lab2\CircBuffer.inc</FILE>
+ </INCLUDED_FILES>
+ <LABELS>
+  <TIBuffStruct><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeII_simulations\CircBufferSimu_lab2\CircBuffer.inc</FILE><LINE>29</LINE></TIBuffStruct>
+  <RESET><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeII_simulations\CircBufferSimu_lab2\CircBufferSimuLab.asm</FILE><LINE>23</LINE></RESET>
+  <Main><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeII_simulations\CircBufferSimu_lab2\CircBufferSimuLab.asm</FILE><LINE>32</LINE></Main>
+  <roomLeft><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeII_simulations\CircBufferSimu_lab2\CircBufferSimuLab.asm</FILE><LINE>37</LINE></roomLeft>
+  <dataleft><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeII_simulations\CircBufferSimu_lab2\CircBufferSimuLab.asm</FILE><LINE>45</LINE></dataleft>
+ </LABELS>
+</ASSEMBLER_INFO>

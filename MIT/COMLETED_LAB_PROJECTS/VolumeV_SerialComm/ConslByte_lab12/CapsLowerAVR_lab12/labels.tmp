@@ -1,0 +1,38 @@
+<ASSEMBLER_INFO>
+ <WORKING_DIR>c:\</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslByte_lab12\CapsLowerAVR_lab12\Uart.asm</FILE><LINE>83</LINE></RESET>
+  <EXT_INT0><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslByte_lab12\CapsLowerAVR_lab12\Uart.asm</FILE><LINE>185</LINE></EXT_INT0>
+  <EXT_INT1><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslByte_lab12\CapsLowerAVR_lab12\Uart.asm</FILE><LINE>186</LINE></EXT_INT1>
+  <TIM2_COM><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslByte_lab12\CapsLowerAVR_lab12\Uart.asm</FILE><LINE>187</LINE></TIM2_COM>
+  <TIM2_OVF><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslByte_lab12\CapsLowerAVR_lab12\Uart.asm</FILE><LINE>188</LINE></TIM2_OVF>
+  <TIM1_CAP><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslByte_lab12\CapsLowerAVR_lab12\Uart.asm</FILE><LINE>189</LINE></TIM1_CAP>
+  <TIM1_COMA><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslByte_lab12\CapsLowerAVR_lab12\Uart.asm</FILE><LINE>190</LINE></TIM1_COMA>
+  <TIM1_COMB><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslByte_lab12\CapsLowerAVR_lab12\Uart.asm</FILE><LINE>191</LINE></TIM1_COMB>
+  <TIM1_OVF><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslByte_lab12\CapsLowerAVR_lab12\Uart.asm</FILE><LINE>192</LINE></TIM1_OVF>
+  <TIM0_OVF><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslByte_lab12\CapsLowerAVR_lab12\Uart.asm</FILE><LINE>193</LINE></TIM0_OVF>
+  <SPI_STC><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslByte_lab12\CapsLowerAVR_lab12\Uart.asm</FILE><LINE>194</LINE></SPI_STC>
+  <UART_RXC><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslByte_lab12\CapsLowerAVR_lab12\Uart.asm</FILE><LINE>134</LINE></UART_RXC>
+  <UART_DRE><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslByte_lab12\CapsLowerAVR_lab12\Uart.asm</FILE><LINE>176</LINE></UART_DRE>
+  <UART_TXC><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslByte_lab12\CapsLowerAVR_lab12\Uart.asm</FILE><LINE>195</LINE></UART_TXC>
+  <ADC_COMP><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslByte_lab12\CapsLowerAVR_lab12\Uart.asm</FILE><LINE>196</LINE></ADC_COMP>
+  <EE_RDY><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslByte_lab12\CapsLowerAVR_lab12\Uart.asm</FILE><LINE>197</LINE></EE_RDY>
+  <ANA_COMP><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslByte_lab12\CapsLowerAVR_lab12\Uart.asm</FILE><LINE>198</LINE></ANA_COMP>
+  <TWI><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslByte_lab12\CapsLowerAVR_lab12\Uart.asm</FILE><LINE>199</LINE></TWI>
+  <EXT_INT2><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslByte_lab12\CapsLowerAVR_lab12\Uart.asm</FILE><LINE>200</LINE></EXT_INT2>
+  <TIM0_COM><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslByte_lab12\CapsLowerAVR_lab12\Uart.asm</FILE><LINE>201</LINE></TIM0_COM>
+  <SPM_RDY><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslByte_lab12\CapsLowerAVR_lab12\Uart.asm</FILE><LINE>202</LINE></SPM_RDY>
+  <Main><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslByte_lab12\CapsLowerAVR_lab12\Uart.asm</FILE><LINE>208</LINE></Main>
+  <lower_case><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslByte_lab12\CapsLowerAVR_lab12\Uart.asm</FILE><LINE>146</LINE></lower_case>
+  <upper_case><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslByte_lab12\CapsLowerAVR_lab12\Uart.asm</FILE><LINE>153</LINE></upper_case>
+  <non_alpha><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslByte_lab12\CapsLowerAVR_lab12\Uart.asm</FILE><LINE>159</LINE></non_alpha>
+  <was_alpha><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslByte_lab12\CapsLowerAVR_lab12\Uart.asm</FILE><LINE>163</LINE></was_alpha>
+  <finish_config><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslByte_lab12\CapsLowerAVR_lab12\Uart.asm</FILE><LINE>165</LINE></finish_config>
+ </LABELS>
+</ASSEMBLER_INFO>

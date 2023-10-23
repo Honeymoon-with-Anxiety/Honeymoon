@@ -1,0 +1,46 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega16</DEVICE>
+ <WORKING_DIR>C:\Users\admin\Music\Vasek\lsl_rol_atd</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.asm</FILE><LINE>70</LINE></RESET>
+  <EXT_INT0><FILE>C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.asm</FILE><LINE>45</LINE></EXT_INT0>
+  <EXT_INT1><FILE>C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.asm</FILE><LINE>46</LINE></EXT_INT1>
+  <TIM2_COM><FILE>C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.asm</FILE><LINE>47</LINE></TIM2_COM>
+  <TIM2_OVF><FILE>C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.asm</FILE><LINE>48</LINE></TIM2_OVF>
+  <TIM1_CAP><FILE>C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.asm</FILE><LINE>49</LINE></TIM1_CAP>
+  <TIM1_COMA><FILE>C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.asm</FILE><LINE>50</LINE></TIM1_COMA>
+  <TIM1_COMB><FILE>C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.asm</FILE><LINE>51</LINE></TIM1_COMB>
+  <TIM1_OVF><FILE>C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.asm</FILE><LINE>52</LINE></TIM1_OVF>
+  <TIM0_OVF><FILE>C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.asm</FILE><LINE>53</LINE></TIM0_OVF>
+  <SPI_STC><FILE>C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.asm</FILE><LINE>54</LINE></SPI_STC>
+  <UART_RXC><FILE>C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.asm</FILE><LINE>57</LINE></UART_RXC>
+  <UART_DRE><FILE>C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.asm</FILE><LINE>55</LINE></UART_DRE>
+  <UART_TXC><FILE>C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.asm</FILE><LINE>56</LINE></UART_TXC>
+  <ADC_COMP><FILE>C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.asm</FILE><LINE>58</LINE></ADC_COMP>
+  <EE_RDY><FILE>C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.asm</FILE><LINE>59</LINE></EE_RDY>
+  <ANA_COMP><FILE>C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.asm</FILE><LINE>60</LINE></ANA_COMP>
+  <TWI><FILE>C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.asm</FILE><LINE>61</LINE></TWI>
+  <EXT_INT2><FILE>C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.asm</FILE><LINE>62</LINE></EXT_INT2>
+  <TIM0_COM><FILE>C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.asm</FILE><LINE>63</LINE></TIM0_COM>
+  <SPM_RDY><FILE>C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.asm</FILE><LINE>64</LINE></SPM_RDY>
+  <Main><FILE>C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.asm</FILE><LINE>90</LINE></Main>
+  <lsl16><FILE>C:\Users\admin\Music\Vasek\lsl_rol_atd\lsl_rol_atd.asm</FILE><LINE>85</LINE></lsl16>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,4 @@
+@ECHO OFF
+del "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\voa9b6~1\conslb~1\capslo~1\uart0.map"
+del "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\voa9b6~1\conslb~1\capslo~1\labels.tmp"
+"C:\Program Files\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\voa9b6~1\conslb~1\capslo~1\labels.tmp" -fI  -o "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\voa9b6~1\conslb~1\capslo~1\uart0.hex" -d "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\voa9b6~1\conslb~1\capslo~1\uart0.obj" -e "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\voa9b6~1\conslb~1\capslo~1\uart0.eep" -m "c:\docume~1\dd\dokume~1\atmelavr\priklady\comlet~1\voa9b6~1\conslb~1\capslo~1\uart0.map" -W+ie   "C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeV_SerialComm\ConslByte_lab12\CapsLowerAVR_lab12\Uart.asm"

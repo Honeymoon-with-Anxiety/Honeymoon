@@ -1,0 +1,17 @@
+<ASSEMBLER_INFO>
+ <WORKING_DIR>c:\</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+  <FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\LinkedListTestSimu2_lab18\..\MicroKerIncludeHeaders\LinkedList.inc</FILE>
+ </INCLUDED_FILES>
+ <LABELS>
+  <run_q><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\LinkedListTestSimu2_lab18\LL_Test.asm</FILE><LINE>18</LINE></run_q>
+  <used_q><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\LinkedListTestSimu2_lab18\LL_Test.asm</FILE><LINE>19</LINE></used_q>
+  <pCur><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\LinkedListTestSimu2_lab18\LL_Test.asm</FILE><LINE>20</LINE></pCur>
+  <Main><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\LinkedListTestSimu2_lab18\LL_Test.asm</FILE><LINE>25</LINE></Main>
+  <loop001><FILE>C:\Documents and Settings\dd\Dokumenty\atmelAVR\Priklady\COMLETED_LAB_PROJECTS\VolumeVI_ukernel\LinkedListTestSimu2_lab18\LL_Test.asm</FILE><LINE>41</LINE></loop001>
+ </LABELS>
+</ASSEMBLER_INFO>
