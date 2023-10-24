@@ -8,7 +8,6 @@ tags:
 * schopny rychlého zpracování signálů
 * jsou často integrovány přímo do čipu
 * jsou schopny zpracovávat signály v reálném čase
-
 # Výhody a nevýhody
 ## Výhody
 * CPU může zpracovávat různé druhy signálů (digitální i analogový)
@@ -21,6 +20,7 @@ tags:
 * CPU obvykle vyžadují více energie než specializované čipy, což může být nevýhodné pro bateriově napájená zařízení
 * Specializované čipy mohou být efektivnější než CPU, protože jsou optimalizovány pro konkrétní operace
 # Kalibrace
+* úprava výstupních hodnot aby odpovídali přesně daným hodnotám
 * klíčový krok pro dosažení optimálního výkonu a přesnosti
 * při kalibraci je dobré zvážit
 	* přepracování kódu pro zpracování signálu může zvýšit efektivitu; použití vhodných algoritmů a datových struktur nebo vhodného programovacího jazyka
@@ -30,6 +30,7 @@ tags:
 	* pravidelné testování a ladění
 # Filtry
 * CPU mohou být využity pro implementaci různých typů filtrů
+* řád filtru určuje přesnost modelu přenosové charakteristiky filtru
 * filtr s nízkou propustí
 	* propouští signály s frekvencemi nižšími než určitý práh; potlačuje vyšší frekvence
 	* používán v audio technice pro potlačení šumu nebo vyhlazení signálu
@@ -56,10 +57,15 @@ tags:
 * adaptivní filtr
 	* mohou se sami aktualizovat na základě signálu
 	* užitečné při potlačení echa nebo adaptivní potlačení šumu
+* lze popsat dvěma způsoby, vnějším popisem a vnitřním popisem
+	* vnější popis považuje systém za neznámý objekt; zobrazení: **vstup → výstup**
+	* u filtru s vnitřním popisem známe strukturu systému; zobrazení: **vstup → stav systému → výstup**
 # AD multiplex
 * je [[MO4 Signály#AD]|AD převodník]] s multiplexorem
 * multiplexor umožňuje přepínat mezi různými analogovými vstupy na jednom mikrokontroléru
+* umožňuje jednomu MCU zpracovávat více analog. vstupů současně
 * užitečný pro např. monitorování senzorů, zpracování zvuku
+* snižuje náklady na výrobu desky plošných spojů
 # Napěťová reference
 * stabilní a přesně známá hodnota napětí
 * slouží jako kalibrační bod
