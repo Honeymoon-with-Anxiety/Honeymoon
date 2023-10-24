@@ -8,6 +8,7 @@ tags:
 * může nést informace o události, povelu, zahájení činnosti, výstraze
 * obsahuje malé množství informací - zachycuje okamžitý stav/událost
 * důležité je doručení včas, proto se signál přenáší v zvláštním kanálu
+* je napětí v čase
 ## analogový
 * může být sluch, chuť, čich, zrak, hmat; mozek dává orgánům příkazy a přijímá od nich analogové signály
 * v elektronice je založen na přenosu el. energie; určitá napětí odpovídají frekvenci a amplitudě (zvuk, barva, jas, atd.; jsou analogické el. napětí)

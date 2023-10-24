@@ -53,7 +53,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -82,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#poviná_četba ná_četba ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,12 +100,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 228.5
+    "width": 228.5,
+    "collapsed": true
   },
   "right": {
     "id": "788a51e2ccfd88b8",
@@ -120,6 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "TVP/MO5 Zpracování signálů pomocí CPU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,6 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "TVP/MO5 Zpracování signálů pomocí CPU.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +160,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "TVP/MO5 Zpracování signálů pomocí CPU.md"
+              }
             }
           },
           {
@@ -196,13 +201,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7cf5a7e9cb56b9dd",
+  "active": "5b0d1a76f7ee165f",
   "lastOpenFiles": [
+    "23w43/MO5 Zpracování signálů pomocí CPU.pdf",
+    "23w43/TVP_MO5_24_10_23.pdf",
+    "TVP/MO4 Signály.md",
     "TVP/MO5 Zpracování signálů pomocí CPU.md",
     "ČJL/Literatura/Krysař.md",
     "23w43/TVP_MO5_23_10_23.pdf",
     "23w43",
-    "TVP/MO4 Signály.md",
     "ČJL/Mluvnice/Funkční styly.md",
     "ČJL/Literatura/Generace buřičů.md",
     "TVP/MO3 Počítačové architektury číslicových strojů.md",
@@ -219,7 +226,6 @@
     "ELM_16_10_23@1.md",
     "23w42",
     "23w41/Lit_12_10_23.md",
-    "23w41/Signály.pdf",
     "digitální.md",
     "TVP/Informace ve výpočetní technice.md",
     "TVP/Počítačové architektury číslicových strojů.md",

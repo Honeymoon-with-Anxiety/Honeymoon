@@ -78,3 +78,12 @@ tags:
 * digi. signál pak zpracujeme podle potřeby
 * pokud byl signál po vzorkování upraven, může být potřeba rekonstruovat signál (z digi. do analog)
 * zrekonstruovaný signál lze pak uložit v různých formátech
+# DA převodník pomocí PWM
+* umožňuje rekonstrukci analog. signálu z digi. dat pomocí cyklické pulsní šířkové modulace (PWM)
+* MCU musí mít vestavěný modul PWM
+* PWM
+	* technika používaná k regulaci průměrného výstupního napětí nebo průměrného výstupního proudu digi. signálu
+	* řídí výkon nebo intenzitu nějakého zařízení
+	* myšlenka spočívá v cyklickém střídání rychlých pulzů v digitálním signálu
+	* doba ve kterém je impuls ve stavu "zapnuto," se nazývá šířka pulzu; průměrné napětí nebo proud na výstupu je řízen šířkou pulsů
+	* užitečné pro řízení zařízení, která mají nepřerušovaný výstup, a umožňuje dosáhnout variabilního výkonu
