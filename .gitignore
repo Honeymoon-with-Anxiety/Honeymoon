@@ -1,2 +1,3 @@
-cmakeQuickStart/
-.obsidian/
+cmakeQuickStart/build*
+cmakeQuickStart/main
+.obsidian*
