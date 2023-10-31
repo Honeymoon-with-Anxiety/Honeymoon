@@ -42,7 +42,7 @@
             }
           },
           {
-            "id": "be2f9884c0a05305",
+            "id": "5ac62605d7d64024",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -52,33 +52,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "9455113b7cb2e8ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TVP/MO5 Zpracování signálů pomocí CPU.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c95ab57efa9d3114",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TVP/MO2 Informace ve výpočetní technice.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -144,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TVP/MO2 Informace ve výpočetní technice.md",
+                "file": "TVP/MO6 Přenos informace.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TVP/MO2 Informace ve výpočetní technice.md",
+                "file": "TVP/MO6 Přenos informace.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TVP/MO2 Informace ve výpočetní technice.md"
+                "file": "TVP/MO6 Přenos informace.md"
               }
             }
           },
@@ -224,16 +200,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c95ab57efa9d3114",
+  "active": "5ac62605d7d64024",
   "lastOpenFiles": [
+    "ČJL/Mluvnice/Funkční styly.md",
+    "TVP/MO2 Informace ve výpočetní technice.md",
+    "TVP/MO3 Počítačové architektury číslicových strojů.md",
     "TVP/MO5 Zpracování signálů pomocí CPU.md",
     "TVP/MO6 Přenos informace.md",
-    "TVP/MO2 Informace ve výpočetní technice.md",
+    "TVP/MO4 Signály.md",
     "23w44/TVP_31_12_23",
     "23w44",
-    "TVP/MO4 Signály.md",
-    "TVP/MO3 Počítačové architektury číslicových strojů.md",
-    "ČJL/Mluvnice/Funkční styly.md",
     "23w43/MO5 Zpracování signálů pomocí CPU.pdf",
     "23w43/TVP_MO5_24_10_23.pdf",
     "ČJL/Literatura/Krysař.md",
