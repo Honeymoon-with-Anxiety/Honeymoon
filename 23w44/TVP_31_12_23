@@ -3,3 +3,4 @@
 1) vzít název, najít vysvětlení podstatných jmen ve filozofickém slovníku (webster's disctionary)
 	
 	informace → jsou data která byla interpretovaná (byly jim přiřazen 'význam' (= něco, co dokážu použít; př.: symetrie))
+	ve výpočetní technologii bude data intepretovat stroj → stroj udělá z dat info → algoritmicky pomocí programu → nízká tolerance na odchylky (entropie (= neurčitost informace; jak odstranit entropii? nijak, lze pouze snížit redundcí))
