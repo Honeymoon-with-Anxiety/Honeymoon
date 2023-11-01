@@ -1,0 +1,22 @@
+*architektura
+	* "organizace" funkčních celků do většího celki
+	* funkce + styl/estetika
+	
+proč se šlo do Harverd?
+	flash - levná ← program
+	srom - drahá [transistory) ← pevná
+	
+reálné řešení: ATmega16 - flash 16 kB - omezená přepisovatelnost 10 000x
+									  - psatelná po bloku, čtení po B
+						- srom 1 kB
+						
+cisc & risc
+	cisc - hodně instrucí - text zdroje bude krátký
+						  - superskalární architektura
+						  - DRAHÁ VÝROBA
+	RISC - ~ 100 instrucí
+	
+emulace - umožňuje užít makra jako pseudoinstrukce takže je možné vzít program pro cisc a vyvolat ho na risc
+
+synchroní - paměťové prvky sdílí hodinový signál
+asynchroní - paměťové prvky nesdílí hodinový signál
