@@ -34,7 +34,6 @@ tags:
 * první světovou válku prožil na albánské frontě jako saniťák
 * po válce spoluzakladatel KSČ
 * během 2. sv. války žil v ústraní na venkově
-* pak rozdílné cesty vývoje
 * hledáni nových životních jistot
 ## Dílo
 * Složitý básnický vývoj
@@ -57,7 +56,7 @@ tags:
 - po tech 27 letech vztahu s hereckou se s ni oženil a spolu odcestovali do Jugoslávie, tam zemřel v moři (dostal infarkt)
 ## Dílo
 * poezie
-	* Lehké a těžké kroky,Anebo, Okno, Poslední rok – tzv. Válečna tetralogie   
+	* Lehké a těžké kroky, Anebo, Okno, Poslední rok – tzv. Válečná tetralogie   
 		* Země mluví (ze sbírky Okno)
 	* Milá sedmi loupežníků
 * próza
@@ -98,7 +97,7 @@ tags:
 		* krutost a nesmyslnost války - b. **Raport**
 	* Splav
 		* milostná a přírodní lyrika, vztah k přírodě, domovu, radost ze života, ale také odraz válečných hrůz
-* Próza
+* próza
 	* Stříbrný vítr
 		* příběh dospívajícího studenta Jana Ratkina, střetnutí s pokryteckou měšťáckou společností a morálkou = zrání mladé generace, konflikty s rodiči i ve škole
 		* stříbrný vítr = symbol věčného mládí, naděje (metafora, vracející se motiv)
