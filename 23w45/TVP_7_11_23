@@ -1,0 +1,22 @@
+'signal' - pro naše účely je to průběh napětí v čase
+		 - používáme ho pro přenos informace
+		jak interpretujeme signál? → jak z něj vyvodíme význam
+		
+informace má dva rozměry [magnitudy → vzorky → čísla, vztahy mezi magnitudami → souvislost mezi vzorky]
+	vztahy vznikají serializací
+	
+digtal versus analog
+	→ čistě koncept/forma (interpretace) analogového signálu
+	
+rekonstrukce signálu
+	- naučit se dobře jeden způsob
+	1) vzorky převést na analog. signál → pomocí PWM [Pulse With Modulation]
+	
+dB = 20 \log{\frac{V_{out}}{V_{in}}} - poměr výstupního a vstupního signálu
+	dB = -1 => útlum
+	dB = 2  => zesílení
+	
+MCU je digitální (význam?) zařízení, které může zpracovávat buď analogový nebo digitální signál
+   - pravocní napětí [0 → 5 V], to znamená že přáchozí signál je třeba upravit (pomocí operačních zesilovačů? zesílení; zeslabení; úprava rozsahu; filtrace...) do rozhraní 0→5 V
+   
+   odchozí/výstupní signál → pozor na maximální proud [na ATmega16 - max zatížitelnost je ~12mA/5V]

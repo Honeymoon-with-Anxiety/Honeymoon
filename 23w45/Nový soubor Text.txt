@@ -1,0 +1,19 @@
+1) vysvětlete vztahy mezi DATA, INTERPRETACE, INFORMACE, VÝZNAM
+2) jaké složky obsahuje informace
+3) entropie informace
+4) proč máme redundanci informace
+5) rozdíl mezi digital/analog?
+6) proč máme binární soustavu ve výpočetní tech.?
+7) co je útlum?
+8) co je SNR?
+
+---
+
+1) Data jsou základem, na kterém stojí interpretace, která vede k informacím, a ty zase mohou mít význam pro konkrétní situaci nebo účel
+2) informace obsahuje data, data v sobě obsahují jak své hodnoty tak i význam těchto dat
+3) nepřesnost informace
+4) pro zvýšení splehlivosti a rychlejšímu přístupu k informaci
+5) analog si dokážem představit jako sypký cukr, digitální jako kostový (kostový si nedokážem přesně navážit)
+6) binární soustava reprezentuje zda je tranzistor sepnutý (1) nebo vypnutý (0)
+7) vyjadřuje ztráty během přenosu, měří se v dB
+8) 
