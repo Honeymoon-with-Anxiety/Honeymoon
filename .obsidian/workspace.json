@@ -53,8 +53,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TVP/MO4 Signály.md",
+                "file": "TVP/MO2 Informace ve výpočetní technice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TVP/MO4 Signály.md",
+                "file": "TVP/MO2 Informace ve výpočetní technice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TVP/MO4 Signály.md"
+                "file": "TVP/MO2 Informace ve výpočetní technice.md"
               }
             }
           },
@@ -273,7 +272,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           }
         ],
         "direction": "vertical",
@@ -286,15 +285,15 @@
       }
     ]
   },
-  "active": "b0155e954d4975b4",
+  "active": "fb6505c4ad702dea",
   "lastOpenFiles": [
-    "TVP/MO6 Přenos informace.md",
-    "TVP/MO4 Signály.md",
-    "TVP/MO3 Počítačové architektury číslicových strojů.md",
-    "23w45/Nový soubor Text.txt",
-    "TVP/MO2 Informace ve výpočetní technice.md",
     "TVP/MO1 Motivace vzniku počítače.md",
     "TVP/MO5 Zpracování signálů pomocí CPU.md",
+    "TVP/MO4 Signály.md",
+    "TVP/MO3 Počítačové architektury číslicových strojů.md",
+    "TVP/MO2 Informace ve výpočetní technice.md",
+    "TVP/MO6 Přenos informace.md",
+    "23w45/Nový soubor Text.txt",
     "Untitled 1.md",
     "Untitled.md",
     "23w45/TVP_7_11_23",

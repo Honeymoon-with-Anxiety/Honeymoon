@@ -12,14 +12,14 @@
 
 ---
 
-0) elektronická součástka 
-1) 
+0) elektronická součástka; funguje na principu přepínače, kdy je podle řídících signálů přiváděn na výstup jeden ze vstupních signálů
+1) aliasing znamená v češtině falšování; původní frekvence spojité informace je totiž vzorkováním zcela zfalšována
 2) 
-3) 
-4) 
-5) 
-6) 
-7) 
-8) 
-9) 
-10) 
+3) propouští signály s frekvencemi vyššími než určitý práh; potlačuje nižší frekvence
+4) rozdíl mezi nejvyšší a nejnižší frekvencí přenášeného signálu; vyjádřeno v Hz
+5) K dosažení přesné rekonstrukce spojitého signálu s omezeným frekvenčním rozsahem z jeho vzorků je potřeba, aby vzorkovací frekvence přesáhla dvojnásobek frekvence nejvyšší harmonické složky vzorkovaného signálu.
+6) aktivní filtry obsahují aktivní součástky, obvykle operační zesilovače, aby dosáhly filtrace
+7) zprvu pomoc se složitými výpočty, později kancelářské práce jako jsou textové dokumenty a tabulky; zautomatizování neustále opakujících se prací - člověk při neustálé stejné činnosti chybuje
+8) má dva rozměry (magnitudy, vztahy mezi magnitudami); obecně: údaj o dění v reálném světě; v informatice: řetězec znaků, které lze vysílat, přijímat, uchovávat a zpracovávat
+9) technika, používaná k odhadu hodnoty mezi známými hodnotami
+10) proces přesouvání informace z jednoho místa do druhého; může být přenášena různými médii a komunikačními kanály, včetně elektrických signálů, zvukových vln, optických signálů
