@@ -14,7 +14,7 @@
 
 0) elektronická součástka; funguje na principu přepínače, kdy je podle řídících signálů přiváděn na výstup jeden ze vstupních signálů
 1) aliasing znamená v češtině falšování; původní frekvence spojité informace je totiž vzorkováním zcela zfalšována
-2) 
+2) Význam se týká toho, jaká hodnota nebo důležitost je přidělena určité informaci, situaci, události nebo činnosti v určitém kontextu.; příklad: Význam bezpečnosti dat v internetovém bankovnictví
 3) propouští signály s frekvencemi vyššími než určitý práh; potlačuje nižší frekvence
 4) rozdíl mezi nejvyšší a nejnižší frekvencí přenášeného signálu; vyjádřeno v Hz
 5) K dosažení přesné rekonstrukce spojitého signálu s omezeným frekvenčním rozsahem z jeho vzorků je potřeba, aby vzorkovací frekvence přesáhla dvojnásobek frekvence nejvyšší harmonické složky vzorkovaného signálu.
