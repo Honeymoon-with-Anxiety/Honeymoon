@@ -7,7 +7,7 @@
 6) aktivní filtr
 7) motivace vzniku pc
 8) z čeho se skládá informace [definice info, dimenze]
-9) co je intepolace?
+9) co je ~~intepolace~~ interpretace?
 10) přenos informace
 
 ---
@@ -23,3 +23,16 @@
 8) má dva rozměry (magnitudy, vztahy mezi magnitudami); obecně: údaj o dění v reálném světě; v informatice: řetězec znaků, které lze vysílat, přijímat, uchovávat a zpracovávat
 9) technika, používaná k odhadu hodnoty mezi známými hodnotami
 10) proces přesouvání informace z jednoho místa do druhého; může být přenášena různými médii a komunikačními kanály, včetně elektrických signálů, zvukových vln, optických signálů
+
+---
+
+0) 
+1) alliasing - je zkreslení signálu při rekonstrukci z digi. formy zpět na analog; protože jsme při vzorkování nedodrželi teorém
+2) příklad významu - SYMETRIE, ýznam přiděluje interpretaci (citrón je kyselý)
+3) horní propust - pasivné filtr, pustí vyšší frekvence a potlačí nižší
+5) vzorkující frekvence je alespoň 2xvyšší než vzorkovaná
+6) aktivní filtr vezme signál a zesílí určitý pásmo
+7) odstranění chyb člověkem
+8) informace se skládá ze dvou dimenzí magnitudy a vztahy mezi magnitudy
+9) přidělování význam datům
+10) probíhá mezi přijímačem a vysílačem; proces toku dat
