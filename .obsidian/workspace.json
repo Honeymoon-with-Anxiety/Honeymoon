@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "7a9cb9fc6298f188",
+            "id": "550d7f173d776b84",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ČJL/Literatura/Generace buřičů.md",
+                "file": "ČJL/Literatura/Literatura 1. pol 20. st.md",
                 "mode": "source",
                 "source": false
               }
@@ -54,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +100,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -120,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TVP/MO6 Přenos informace.md",
+                "file": "ČJL/Mluvnice/Funkční styly.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TVP/MO6 Přenos informace.md",
+                "file": "ČJL/Mluvnice/Funkční styly.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TVP/MO6 Přenos informace.md"
+                "file": "ČJL/Mluvnice/Funkční styly.md"
               }
             }
           },
@@ -272,8 +273,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical",
@@ -286,30 +286,30 @@
       }
     ]
   },
-  "active": "5ac62605d7d64024",
+  "active": "4b93dccb502877ea",
   "lastOpenFiles": [
+    "ČJL/Literatura/Literatura 1. pol 20. st.md",
+    "TVP/MO6 Přenos informace.md",
+    "23w46/MO6 Přenos informace.pdf",
+    "ČJL/Mluvnice/Funkční styly.md",
+    "23w46/TVP_14_11_23.pdf",
+    "23w46",
+    "TVP/MO1 Motivace vzniku počítače.md",
+    "ČJL/Literatura/Generace buřičů.md",
+    "23w45/Lit_10_11_23",
     "Untitled 2.md",
     "23w45/TVP_8_11_23@3.pdf",
     "TVP/MO2 Informace ve výpočetní technice.md",
-    "TVP/MO1 Motivace vzniku počítače.md",
     "TVP/MO5 Zpracování signálů pomocí CPU.md",
     "TVP/MO4 Signály.md",
     "TVP/MO3 Počítačové architektury číslicových strojů.md",
-    "TVP/MO6 Přenos informace.md",
     "23w45/Nový soubor Text.txt",
     "Untitled 1.md",
-    "Untitled.md",
     "23w45/TVP_7_11_23",
     "23w45",
     "23w44/TVP_1_11_23",
-    "ČJL/Mluvnice/Funkční styly.md",
-    "ČJL/Literatura/Generace buřičů.md",
     "23w44/TVP_31_12_23",
-    "23w44",
-    "23w43/MO5 Zpracování signálů pomocí CPU.pdf",
-    "23w43/TVP_MO5_24_10_23.pdf",
     "ČJL/Literatura/Krysař.md",
-    "23w43/TVP_MO5_23_10_23.pdf",
     "23w37/Lit_13_9_23.md",
     "23w41/ELM_15_10_23.md",
     "ELM_16_10_23@1.md",
