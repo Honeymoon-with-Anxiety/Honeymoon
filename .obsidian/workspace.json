@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TVP/MO1 Motivace vzniku počítače.md",
+                "file": "ČJL/Mluvnice/Funkční styly.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TVP/MO1 Motivace vzniku počítače.md",
+                "file": "ČJL/Mluvnice/Funkční styly.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TVP/MO1 Motivace vzniku počítače.md"
+                "file": "ČJL/Mluvnice/Funkční styly.md"
               }
             }
           },
@@ -273,7 +273,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           }
         ],
         "direction": "vertical",
@@ -286,28 +287,27 @@
       }
     ]
   },
-  "active": "30d549037f3ade16",
+  "active": "4b93dccb502877ea",
   "lastOpenFiles": [
+    "ČJL/Literatura/Literatura 1. pol 20. st.md",
+    "ČJL/Mluvnice/Funkční styly.md",
+    "TVP/MO6 Přenos informace.md",
+    "TVP/MO4 Signály.md",
+    "TVP/MO1 Motivace vzniku počítače.md",
     "23w46/Mluv_14_11_23.odt",
     "Mluv_14_11_23.odt",
-    "ČJL/Mluvnice/Funkční styly.md",
     "23w46/lu12077ikp4.tmp",
     "23w46/lu12077ikmy.tmp",
     "23w46/lu12077ikj6.tmp",
     "23w46/lu12077ikj3.tmp",
-    "ČJL/Literatura/Literatura 1. pol 20. st.md",
-    "TVP/MO6 Přenos informace.md",
     "23w46/MO6 Přenos informace.pdf",
     "23w46/TVP_14_11_23.pdf",
     "23w46",
-    "TVP/MO1 Motivace vzniku počítače.md",
     "ČJL/Literatura/Generace buřičů.md",
     "23w45/Lit_10_11_23",
     "Untitled 2.md",
-    "23w45/TVP_8_11_23@3.pdf",
     "TVP/MO2 Informace ve výpočetní technice.md",
     "TVP/MO5 Zpracování signálů pomocí CPU.md",
-    "TVP/MO4 Signály.md",
     "TVP/MO3 Počítačové architektury číslicových strojů.md",
     "Untitled 1.md",
     "ČJL/Literatura/Krysař.md",

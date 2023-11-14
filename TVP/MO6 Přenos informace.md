@@ -8,10 +8,10 @@ tags:
 * způsoby přenosu: opticky, mechanicky, bezdrátově
 	* různé přenosové trasy, včetně vodičů, optických vláken a bezdrátových spojů, poskytují rozmanité možnosti pro přenos informací
 	* výběr vhodné trasy závisí na specifických požadavcích systému a dostupných technologiích.
-# Vzorkovací teorém
+# [[MO4 Signály#Vzorkovací teorém|Vzorkovací teorém]]
 * "K dosažení přesné rekonstrukce spojitého signálu s omezeným frekvenčním rozsahem z jeho vzorků je potřeba, aby vzorkovací frekvence přesáhla dvojnásobek frekvence nejvyšší harmonické složky vzorkovaného signálu."
 * v praxi se vzorkovací volí dvakrát větší plus rezerva
-# Šířka pásma
+# [[MO4 Signály#Šířka pásma|Šířka pásma]]
 * rozdíl mezi nejvyšší a nejnižší frekvencí přenášeného signálu
 * vyjádřeno v hertzech (Hz)
 * v informatice se používá ve smyslu přenosové rychlosti

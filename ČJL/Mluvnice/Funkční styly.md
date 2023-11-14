@@ -33,7 +33,7 @@ tags:
 * nepůvodní předložky
 * zkratky, zkratková slova, značky; termíny
 * autorský plurál, vykání
-## Formální dopis
+## Formální dopis/Reklamace
 ### Kompozice
 * pevně daná struktura textu (jednotlivé části jsou odděleny vynecháním řádku)
 	* adresy - obvykle vlevo nahoře, nejdříve adresa odesílatele, poté příjemce
@@ -52,17 +52,17 @@ tags:
 * přehledný soupis informací o sobě
 * přikládá se k žádosti o zaměstnání
 * cílem je podat zk. informace o kvalifikaci a dalších schopnostech a dovednostech osoby
-* klasický životopis
-	* psaný ve větách, ucelený text
-	* dnes se již nepoužívá; v některých firmách ale návrat k této formě
-* strukturovaná životopis
-	* heslovitý výčet informací organizovaný do tabulky nebo kolonek
-	* je modernější a žádanější
-	* formát A4, rozsah 1 až 2 strany
-	* psaný jedním typem písma, ne barevně
-	* fotografii (není nutno) umístit do pravého horního rohu (rozměr jako na OP)
-	* životopis v cizím jazyce - nechat si zkontrolovat překlad
-* osobní informace:
+### Klasický životopis
+* psaný ve větách, ucelený text
+* dnes se již nepoužívá; v některých firmách ale návrat k této formě
+### Strukturovaný životopis
+* heslovitý výčet informací organizovaný do tabulky nebo kolonek
+* je modernější a žádanější
+* formát A4, rozsah 1 až 2 strany
+* psaný jedním typem písma, ne barevně
+* fotografii (není nutno) umístit do pravého horního rohu (rozměr jako na OP)
+* životopis v cizím jazyce - nechat si zkontrolovat překlad
+* osobní informace
 	* jméno a příjmení, včetně titulů
 	* (datum a místo narození)
 	* adresa - trvalé nebo kontaktní bydliště
