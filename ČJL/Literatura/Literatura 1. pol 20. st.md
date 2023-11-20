@@ -29,7 +29,7 @@ tags:
 * z lat. fauves = dravé šelmy
 * ve Francii
 * výtvarný směr - prosazuje svobodu malby, užití divokých barevných tónů
-## Kubismus
+## Kubisus
 * obrazy jako mozaika z geometrických tvarů
 * Pablo Picasso, Georges Braque, Josef Čapek, Bohumil Kubišta¨
 ## Expresionismus
@@ -38,4 +38,38 @@ tags:
 ## Dadaismus
 * důraz na náhodu, absurditu, nelogičnost, nesmysl, naivitu a primitivu, snaha šokovat, provokovat, mystifikovat
 * nonsens vyhlášen za princip, který hýbe světem
-## 
+* Christian Morgenstern
+	* německý básník (zemřel 1914)
+	* hra s absurdními jazykovými tvary
+	* Šibeniční písně - slovní hříčky nebo básně ze shluků hlásek, básně vytvořené jen z grafických znaků
+## Futurismus
+* dynamismus
+* osvobozená slova
+## Surrealismus
+* zachycení proudů představ, pocitů, snů, bezprostředních subjektivních dojmů
+* psychický automatismus
+* André Breton
+* Luis Aragon, Paul Eluard
+## Poetismus
+* výlučně český avantgradní směr
+* obraznost, volné asociace představ
+* lidová zábava, okouzlení technikou
+* životní optimismus
+* experimenty se slovy
+* V. Nezval, Karel Teige, J. Seifert, Konstantin Biebl, V. Vančura
+## Existencialismus
+* člověk jako osamocený a odcizený jedinec
+* obraz mezních životních situací
+* absolutní odpovědnost za rozhodování a jednání
+* Jean-Paul Sartre, Albert Camus, Simone de Heauvoir, Francoise Saganová, Franz Kafka, Jiří Orten
+## Imagismus
+* zhuštěnost obrazu
+* anglicky mluvící země
+## Imažinismus
+* v ruském prostředí
+## Socialistický realismus
+* sny o spravidlivější společnosti, politizace
+* Maxim Gorkij, Michail Šolochov
+* v Čechác _proletářská poezie_: S. K. Neumann, J. Wolker, M. Pujmanová
+## Realismus
+* 

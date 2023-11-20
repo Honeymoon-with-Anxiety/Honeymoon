@@ -54,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ČJL/Mluvnice/Funkční styly.md",
+                "file": "TVP/MO6 Přenos informace.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ČJL/Mluvnice/Funkční styly.md",
+                "file": "TVP/MO6 Přenos informace.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ČJL/Mluvnice/Funkční styly.md"
+                "file": "TVP/MO6 Přenos informace.md"
               }
             }
           },
@@ -201,99 +201,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "floating": {
-    "id": "dec212bb2b973e03",
-    "type": "floating",
-    "children": [
-      {
-        "id": "224ea27b9104779d",
-        "type": "window",
-        "children": [
-          {
-            "id": "8bb4befdb0fa737d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "30d549037f3ade16",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "TVP/MO1 Motivace vzniku počítače.md",
-                    "mode": "preview",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "fb6505c4ad702dea",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "TVP/MO2 Informace ve výpočetní technice.md",
-                    "mode": "preview",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "33b281fcada6eb1b",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "TVP/MO3 Počítačové architektury číslicových strojů.md",
-                    "mode": "preview",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "b0155e954d4975b4",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "TVP/MO4 Signály.md",
-                    "mode": "preview",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "87b8145f04fb19ee",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "TVP/MO5 Zpracování signálů pomocí CPU.md",
-                    "mode": "preview",
-                    "source": false
-                  }
-                }
-              }
-            ],
-            "currentTab": 3
-          }
-        ],
-        "direction": "vertical",
-        "x": 171,
-        "y": 27,
-        "width": 1024,
-        "height": 740,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "4b93dccb502877ea",
+  "active": "5ac62605d7d64024",
   "lastOpenFiles": [
+    "23w47/TVP_20_11_23.pdf",
     "ČJL/Literatura/Literatura 1. pol 20. st.md",
+    "TVP/MO1 Motivace vzniku počítače.md",
     "ČJL/Mluvnice/Funkční styly.md",
     "TVP/MO6 Přenos informace.md",
     "TVP/MO4 Signály.md",
-    "TVP/MO1 Motivace vzniku počítače.md",
     "23w46/Mluv_14_11_23.odt",
     "Mluv_14_11_23.odt",
     "23w46/lu12077ikp4.tmp",
