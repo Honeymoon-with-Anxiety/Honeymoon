@@ -98,3 +98,17 @@ $$ B = f_{H}-f_{l}$$
 | 1101001      | 1101001**0**              | 1101001**1**               |
 | 1111111      | 1111111**1**              | 1111111**0**               |
 
+# Opravné kódy
+* používány k detekci a opravě chyb, které mohou vzniknout během přenosu dat
+* kódy s jednobitovou korekcí
+	* Hammingovy kódy - mohou být použity pro posílání dat v situacích, kde je vysoce pravděpodobné vznik chyb, například v paměti počítače
+* kódy s mnohobitovou korekcí
+	* BCH *(Bose-Chaudhuri-Hocquenghem)* kódy - využívány v bezdrátových komunikačních systémech a digitální televizi
+* Reed-Solomon kódy
+	* schopny detekovat a opravit chyby v blokových datech
+	* využívány v kódech pro CD, DVD, QR kódy a další
+* Turbo kódy
+	* založeny na kombinaci dvou nebo více kódů
+	* používány ve 3G a 4G mobilních sítích a v jiných komunikačních systémech s vysokým datovým tokem
+* Low-Density Parity-Check *(LDPC)* kódy - používané v bezdrátových komunikačních systémech a v komunikacích ve vesmíru
+* Konvoluční kódy - používány v komunikačních systémech, kde jsou vyžadovány rychlé a efektivní metody detekce a korekce chyb (např. v bezdrátových sítích)
