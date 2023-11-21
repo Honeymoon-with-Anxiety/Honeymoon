@@ -1,0 +1,93 @@
+01) data
+02) informace
+03) interpretace
+03) vyznam
+04) signal
+05) míra informace ve zpravě
+06) z ceho se skládá informace
+07) co je entropie informace
+08) jak probiha přenos informace mezi vysílačem a přijímačem
+09) redundance informace
+10) digitalni a analogovy signal, rozdil
+11) vyhody/nevyhody digitalniho signalu
+12) SNR
+13) dB, útlum, jak to souvisi se signalem
+14) co je multiplexor
+15) vzorkovaci teorem
+16) aliasing
+17) rekonstrukce signalu, z ceho na co?
+18) co je filtr dolni propust?
+19) entropie informace?
+20) proc je harward architektura stylovejsi nez von neuman?
+21) co je architektura?
+22) co je motivace vzniku pocitace?
+23) co je analogový pocitac?
+24) co je frekvencni multiplex?
+25) co je sirka pasma?
+26) zakladni pasmo?
+27) aktivni filtr?
+28) co je abakus?
+29) jake jsou vlastnosti flash pameti?
+30) jake jsou vlastnosti SRAM pameti?
+31) z ceho se sklada zakladni idea architektury?
+32) nactrnete funkci logaritmu.
+33) kolik bitu je potreba na adresaci 1kB pameti?
+34) mame 8-bitovy MCU, jake je nejvetsi cislo v jednom registru?
+35) co je LSB?
+36) co je MSB?
+37) co je endianita?
+38) proc pouzivame binarni soustavu ve vyp. tech.?
+39) proc pouzivame hexadecimalni soustavu ve vyp. tech.?
+40) vyjadrete cislo 0b00001001 jako polynomial (soucet mocnin) v binarni soustave.
+41) vysvetlete pojem logicka nula.
+42) vysvetlete pojem logicka jednicka.
+43) pasmo neurcitosti?
+44) doba náběhu?
+
+---
+
+01) kolekce faktů, informací nebo hodnot, které mohou být zaznamenány, ukládány a zpracovávány
+02) obecně: údaj o dění v reálném světě; v informatice: řetězec znaků, které lze vysílat, přijímat, uchovávat a zpracovávat
+03) různé významy v závislosti na kontextu, ve kterém se používá
+03) význam se týká toho, jaká hodnota nebo důležitost je přidělena určité informaci, situaci, události nebo činnosti v určitém kontextu
+04) smluvené znamení určená pro přenos informace; různé formy (krátký zvuk, mluvené slovo, rozsvícení kontrolky) i účely (gesta vojenského velitele, televizní signál); napětí v čase
+05) jak mnoho nových a relevantních informací je obsaženo ve srovnání s tím, co bylo již známo nebo očekáváno
+06) skládá se z dat, která jsou zpracována a získávají význam nebo relevanci; informace je tedy vlastně interpretovaná a smysluplná data
+07) nepřesnost/nejistota informace
+08) záleží na přenosovém médiu; rádiová komunikace: probíhá prostřednictvím elektromagnetických vln
+09) nadbytečná informace
+10) analog si dokážem představit jako sypký cukr, digitální jako kostový (kostový si nedokážem přesně navážit)
+11) výhody: odolnost vůči šumu, jednodušší zpracování, možnost komprese; nevyhody: přenosová rychlost, převodní náklady
+12) poměr mezi úrovní užitečného signálu a úrovní šumu v určitém systému nebo prostředí; měřeno v dB
+13) útlum vyjadřuje snížení síly nebo intenzity signálu, měřeno v dB
+14) elektronická součástka; funguje na principu přepínače, kdy je podle řídících signálů přiváděn na výstup jeden ze vstupních signálů
+15) "K dosažení přesné rekonstrukce spojitého signálu s omezeným frekvenčním rozsahem z jeho vzorků je potřeba, aby vzorkovací frekvence přesáhla dvojnásobek frekvence nejvyšší harmonické složky vzorkovaného signálu."
+16) jev, ke kterému může dojít při převodu spojitého signálu na diskrétní; v češtině `falšování`
+17) obnova a generace analog. signálů na základě digi. dat
+18) obecná dolní propust propustí jen nízké frekvence (šum je zpravidla vysokofrekvenční)
+19) nepřesnost/nejistota informace
+20) flash - levná ← program; sram - drahá [transistory) ← pro pevnou paměť
+21) "organizace" funkčních celků do většího celku
+22) zautomatizování neustále opakujících se prací (člověk při neustálé stejné činnosti chybuje)
+23) počítače, který zpracovává a reprezentuje data pomocí fyzikálních jevů
+24) multiplexor, multiplexující frekvence
+25) rozdíl mezi nejvyšší a nejnižší frekvencí přenášeného signálu v Hz; v informatice se používá ve smyslu přenosové rychlosti; $ B = f_{H}-f_{l} $
+26) signály, jejichž frekvenční pásmo začíná blízko frekvence 0 Hz; šířka pásma signálu je rovna nejvyšší frekvenci signálu 
+27) elektronický obvod, který ovlivňuje průchod signálu s určitou frekvencí
+28) jednoduché počítadlo s posuvnými kuličkami
+29) rychlá, má omezený počet cyklů přepisování, přepsatelná po bloku
+30) neomezeně přepisovatelná, přepsatelná po bytu
+31) funkce + styl/estetika
+32) funkce logaritmu je matematická operace, která má tvar `log_⁡b(x)`, kde `b` je základ logaritmu a `x` je argument logaritmu; funkce logaritmu vyjadřuje mocninu, do které by bylo třeba povýšit základ b, aby byl roven argumentu x
+33) pro adresaci 1 kilobytu paměti jsou potřeba 10 bitů
+34) 255
+35) nejméně významný bajt
+36) nejvíce významný bajt
+37) způsob uložení čísel v operační paměti
+38) reprezentuje stav tranzistorů; 0 rozepnutý, 1 sepnutý
+39) je kompaktnější než binární soustava (efektivnější reprezentace velkých binární čísel)
+40) binární číslo 0b00001001 může být vyjádřeno v polynomu jako 2^3 + 2^0, což odpovídá desítkové hodnotě 9
+41) interpretace stavu "vypnuto"
+42) interpretace stavu "zapnuto"
+43) rozsah, ve kterém může nastat nejistota nebo variabilita v různých aspektech systému
+44) parametr popisující rychlost změny signálu z nízké úrovně na vysokou úroveň; čas, který signál potřebuje k přechodu mezi určitými hladinami napětí nebo proudu

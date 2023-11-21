@@ -100,12 +100,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 228.5
+    "width": 228.5,
+    "collapsed": true
   },
   "right": {
     "id": "788a51e2ccfd88b8",
@@ -203,12 +203,16 @@
   },
   "active": "5ac62605d7d64024",
   "lastOpenFiles": [
+    "TVP/MO2 Informace ve výpočetní technice.md",
+    "TVP/MO3 Počítačové architektury číslicových strojů.md",
+    "TVP/MO4 Signály.md",
+    "TVP/MO5 Zpracování signálů pomocí CPU.md",
+    "23w44/TVP_31_10_23",
+    "TVP/MO1 Motivace vzniku počítače.md",
+    "TVP/MO6 Přenos informace.md",
     "23w47/TVP_20_11_23.pdf",
     "ČJL/Literatura/Literatura 1. pol 20. st.md",
-    "TVP/MO1 Motivace vzniku počítače.md",
     "ČJL/Mluvnice/Funkční styly.md",
-    "TVP/MO6 Přenos informace.md",
-    "TVP/MO4 Signály.md",
     "23w46/Mluv_14_11_23.odt",
     "Mluv_14_11_23.odt",
     "23w46/lu12077ikp4.tmp",
@@ -217,13 +221,8 @@
     "23w46/lu12077ikj3.tmp",
     "23w46/MO6 Přenos informace.pdf",
     "23w46/TVP_14_11_23.pdf",
-    "23w46",
     "ČJL/Literatura/Generace buřičů.md",
-    "23w45/Lit_10_11_23",
     "Untitled 2.md",
-    "TVP/MO2 Informace ve výpočetní technice.md",
-    "TVP/MO5 Zpracování signálů pomocí CPU.md",
-    "TVP/MO3 Počítačové architektury číslicových strojů.md",
     "Untitled 1.md",
     "ČJL/Literatura/Krysař.md",
     "23w37/Lit_13_9_23.md",
