@@ -5,9 +5,6 @@ tags:
 * přenos zdigitalizovaného analogového signálu pomocí přenosového média
 * zahrnuje *vysílání* a *příjem*
 * datová komunikace zahrnuje i přípravu k odeslání, řízení přenosu a procesy navazující na příjem
-* způsoby přenosu: opticky, mechanicky, bezdrátově
-	* různé přenosové trasy, včetně vodičů, optických vláken a bezdrátových spojů, poskytují rozmanité možnosti pro přenos informací
-	* výběr vhodné trasy závisí na specifických požadavcích systému a dostupných technologiích
 # [[MO4 Signály#Vzorkovací teorém|Vzorkovací teorém]]
 * "K dosažení přesné rekonstrukce spojitého signálu s omezeným frekvenčním rozsahem z jeho vzorků je potřeba, aby vzorkovací frekvence přesáhla dvojnásobek frekvence nejvyšší harmonické složky vzorkovaného signálu."
 * v praxi se vzorkovací volí dvakrát větší plus rezerva
@@ -112,3 +109,22 @@ $$ B = f_{H}-f_{l}$$
 	* používány ve 3G a 4G mobilních sítích a v jiných komunikačních systémech s vysokým datovým tokem
 * Low-Density Parity-Check *(LDPC)* kódy - používané v bezdrátových komunikačních systémech a v komunikacích ve vesmíru
 * Konvoluční kódy - používány v komunikačních systémech, kde jsou vyžadovány rychlé a efektivní metody detekce a korekce chyb (např. v bezdrátových sítích)
+
+# Přenosová média
+* způsoby přenosu: opticky, mechanicky, bezdrátově
+	* různé přenosové trasy, včetně vodičů, optických vláken a bezdrátových spojů, poskytují rozmanité možnosti pro přenos informací
+	* výběr vhodné trasy závisí na specifických požadavcích systému a dostupných technologiích
+* prostředí, které může přenášet vlnění nebo jinou formu energie
+* nejrozšířenější metalické kabely
+* pomocí elektromagnetického vlnění (nejčastěji pomocí rádiových vln), je možné komunikovat volným prostorem i vzduchoprázdným prostředím
+# Konektor
+* elektrotechnická součástka
+* zajišťuje zasunovací slaboproudé elektrické spojení vodičů a kabelů rozebíratelné (připojitelné a odpojitelné) opakovatelně bez nářadí
+* jako svorka se označuje připojovací místo na elektrickém přístroji, kde je jednotlivý vodič připojován pomocí nástroje
+* tělo konektoru
+	* mech. část sestavená z plastových a kovových výlisků
+	* zajišťuje mechanické spojení a izolační vlastnosti konektoru
+* kontaktní prvky
+	* zajišťují elektrické spojení
+	* nejčastěji použitý tvar kontaktů je kolík kruhového průřezu
+* alespoň jedna část upevněna na kabelu nebo výměnné jednotce; protikus může být také součástí kabelu, nebo je napevno namontovaný

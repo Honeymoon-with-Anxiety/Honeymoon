@@ -35,6 +35,7 @@ tags:
 ## Expresionismus
 * zdůraznění pocitů úzkosti, osamění, obavy, znepokojení, tísně
 * snaha zachytit intenzivní prožitek
+* Franz Werfel - Přítel světa, Jsme, Navzájem
 ## Dadaismus
 * důraz na náhodu, absurditu, nelogičnost, nesmysl, naivitu a primitivu, snaha šokovat, provokovat, mystifikovat
 * nonsens vyhlášen za princip, který hýbe světem
@@ -44,7 +45,8 @@ tags:
 	* Šibeniční písně - slovní hříčky nebo básně ze shluků hlásek, básně vytvořené jen z grafických znaků
 ## Futurismus
 * dynamismus
-* osvobozená slova
+* osvobozená slova - podstatná jm., slovesa
+* Filippo Tommaso Marinetti
 ## Surrealismus
 * zachycení proudů představ, pocitů, snů, bezprostředních subjektivních dojmů
 * psychický automatismus
@@ -70,6 +72,42 @@ tags:
 ## Socialistický realismus
 * sny o spravidlivější společnosti, politizace
 * Maxim Gorkij, Michail Šolochov
-* v Čechác _proletářská poezie_: S. K. Neumann, J. Wolker, M. Pujmanová
+* v Čechách _proletářská poezie_: S. K. Neumann, J. Wolker, M. Pujmanová
+* vznik v 30. letech
 ## Realismus
-* 
+* zobrazuje skutečnost
+* vznik 19. st.
+## Kubofuturismus
+* básně vypadají jako obrazy
+## Vitalismus
+# Poezie
+## Francie
+* Guillaume Apollinaire
+	* básník, prozaik, dramatik, kritik, představitel kubofuturismu
+	* vliv války, obdiv k technice, civilizaci, velkoměstu
+	* díla
+		* Alkoholy - básnická sbírka
+		* Pásmo
+		* Kaligramy - sb. básní → obrazů, ideogramy; vizuální lyrismus
+		* Prsy Tiresiovy
+## Anglie
+* Thomas Stearns Eliot
+	* nositel Nobelovy ceny
+	* představitel modernismu a novoklasicismu
+## Španělsko
+* Federico García Lorca
+	* Písně, Cikánské romance
+	* Krvavá svatba
+## Rusko
+* Vladimir Chlebnikov
+	* představitel kubofuturismu
+	* Křidélkuje zlatopisem
+	* Ladomir
+	* Palindrom = text, který se čte stejně odpředu i odzadu
+	* Paronomázie = nahromadění slov odvozených od jednoho slova
+* Vladimír Majakovskij
+	* vývoj od kubofuturismu k socialisticky orientované poezii
+	* Oblak v kalhotách
+	* 150 000 000, Vladimír Iljič Lenin, Správná věc
+* Sergej Alexandrovič Jesenin
+	* představitel imažinismu

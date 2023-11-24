@@ -114,3 +114,22 @@ tags:
 	* nepoužívat kreativní úpravu CV - barevný papír, jiný rozměr než A4, neobvyklý styl písma apod.
 	* nevkládat neoficiální fotografii (momentku)
 	* pozor na přeposílání životopisu již jednou odeslaného jinam
+## Motivační dopis
+* doplněk k životopisu
+* úkolem upoutat pozornost
+* zdůrazňuje naše konkrétní dovednosti
+* cílem je odlišit se
+### formulace
+* píše se ve větách
+* rozsah půl strany A4; druh písma stejný jako v CV
+* dát v něm najevo, že dnám firmu/společnost
+* do hlavičky uvést přesný název a adresu firmy
+* raději oslovovat konkrétní osobu(Vážená paní Nová)
+* popsat pozici, o kterou se uchází, čím nabídka zaujala
+* uvést konkrétní příklady svých dřívějších úspěchů
+* uvést seznam příloh v logickém pořadí
+	* motivační dopis lze napsat do těla e-mailu
+* v závěru požádat o osobní pohovor
+* nezapomenout poděkovat, mé identifikační údaje
+* **NE**zmiňovat finanční požadavky
+* **NE**posílat zásilku hromadně
