@@ -119,7 +119,7 @@ tags:
 * úkolem upoutat pozornost
 * zdůrazňuje naše konkrétní dovednosti
 * cílem je odlišit se
-### formulace
+### Formulace
 * píše se ve větách
 * rozsah půl strany A4; druh písma stejný jako v CV
 * dát v něm najevo, že dnám firmu/společnost
