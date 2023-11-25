@@ -128,3 +128,37 @@ $$ B = f_{H}-f_{l}$$
 	* zajišťují elektrické spojení
 	* nejčastěji použitý tvar kontaktů je kolík kruhového průřezu
 * alespoň jedna část upevněna na kabelu nebo výměnné jednotce; protikus může být také součástí kabelu, nebo je napevno namontovaný
+* druhy
+	* sériový port
+		* nejrozšířenější u starších počítačů; dnes stále k nalezení
+		* malá rychlost přenosu (115 KB/s)
+		* obyčejný počítač obsahuje dva porty značené jako `COM1` a `COM2`
+	* port PS/2
+		* kulaté provedení
+		* výhradně pro klávesnice a myš
+		* nelze připojit klávesnici do portu na myš a naopak
+	* konektor DIN
+		* kulaté provedení
+		* pro klávesnice jen u starších AT motherboardech
+	* paralelní port
+		* 25pinový
+		* rychlý přenos
+		* komunikace s perifériemi náročná
+		* dnes pro připojení starých tiskáren a skenerů
+	* Universal Serial Bus
+		* rychlost 1,5 MB/s až 12 MB/s (USB 1.1), 480 MB/s (USB 2.0)
+		* lze do něj zapojovat zařízení během chodu počítače
+	* konektory zvukové karty
+		* na standartních zvukových kartách jsou čtyři konektory
+		* první pro reproduktory; druhý pro mikrofon; třetí pro vstup CD přehrávače; čtvrtý herní (gamepad, joystick)
+		* občas se objeví pátý "Line-out" pro připojení zesilovače nebo Hi-Fi věže
+	* BNC a RJ-45
+		* na zadní straně síťových karet
+		* připojení počítačů do sítě
+	* IDE
+		* připojení pevných disků, CD/DVD mechanik, disketových mechanik
+		* směřuje do základní desky
+	* High Definition Multimedia Interface
+		* dokážou přenášet video, audio ale také jiné druhy signálu
+		* schopný přenášet signál v digitálním formátu
+		* nedochází k degradaci signálu

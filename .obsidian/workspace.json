@@ -54,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ČJL/Mluvnice/Funkční styly.md",
+                "file": "TVP/MO6 Přenos informace.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ČJL/Mluvnice/Funkční styly.md",
+                "file": "TVP/MO6 Přenos informace.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ČJL/Mluvnice/Funkční styly.md"
+                "file": "TVP/MO6 Přenos informace.md"
               }
             }
           },
@@ -201,11 +201,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4b93dccb502877ea",
+  "active": "5ac62605d7d64024",
   "lastOpenFiles": [
+    "ČJL/Mluvnice/Funkční styly.md",
+    "ČJL/Literatura/Malý princ.md",
     "ČJL/Literatura/Literatura 1. pol 20. st.md",
     "TVP/MO6 Přenos informace.md",
-    "ČJL/Mluvnice/Funkční styly.md",
     "23w47/MO6 Přenos informace.pdf",
     "TVP/MO2 Informace ve výpočetní technice.md",
     "TVP/MO3 Počítačové architektury číslicových strojů.md",
