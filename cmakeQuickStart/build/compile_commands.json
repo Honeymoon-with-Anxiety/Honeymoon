@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/run/media/pisek/Společné/E3A/cmakeQuickStart/build",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/Test03.dir/main.cpp.o -c /run/media/pisek/Společné/E3A/cmakeQuickStart/main.cpp",
-  "file": "/run/media/pisek/Společné/E3A/cmakeQuickStart/main.cpp",
-  "output": "CMakeFiles/Test03.dir/main.cpp.o"
-}
-]
