@@ -10,6 +10,7 @@ tags:
 * sloužila k propojení jednotlivých částí (procesoru, paměti a vstupně/výstupních zařízení)
 * nahrazuje dvoubodovými spoji (příkladem je „sběrnice“ PCI-Express)
 * "Sběrnice je kanál nebo cesta, která umožňuje přenos dat mezi různými komponenty v systému."
+* mohou být propojeny s mechanismy DMA *(Direct Memory Access)* umožňující přímý přístup periferním zařízením k paměti bez účasti procesoru
 # Univerzální a Specializovaná sběrnice
 * univerzální
 	* navrženy  aby byly obecně použitelné pro různé typy komponent v počítači
@@ -144,7 +145,26 @@ tags:
 * sada musí být kompatibilní se standardy
 # Dekodér adresy
 * převod adresy uložené v binární podobě na aktivační signály
-
-
-
-
+* navržen různými způsoby v závislosti na architektuře systému (kombinační logický obvod nebo sekvenciální obvod s pamětí)
+* může demultiplexovat vstupní adresu na více bitů, což umožňuje přesnější volbu paměťové lokality
+# Northbridge a Southbridge
+* nebo-li systémový řadič
+* jeden ze svou čipů na zk. desce
+* ![Typické schéma počítače](https://upload.wikimedia.org/wikipedia/commons/5/51/Chipset_schematic.svg)
+* existují čipy obsahující oba mosty najednou za cenu vyšší složitosti při výrobě
+## Northbridge
+* komunikace mezi CPU, pamětí RAM a PCIe sběrnicí
+* spojení s jižním mostem
+* některé obsahují integrované grafické karty
+* můstek pouze s jedním nebo se dvěma typy procesorů a zpravidla pouze s jedním typem paměti RAM
+* určuje rychlost, druh procesorů, jejich množství a druh paměti RAM
+* schopen propojení s jedním nebo se dvěma různými jižními můstky
+* urřuje jak dalece mohou být počítače taktovány
+* obvykle vyžaduje samostatné aktivní chlazení
+## Southbridge
+* vstupně-výstupní řadič
+* realizuje pomalejší funkce základní desky
+* není přímo spojen s procesorem
+* průmyslový standard pro komunikaci mezi severním a jižním můstkem neexistuje
+* pro komunikaci mezi severním a jižním můstkem byla využívána sběrnice PCI
+* může zahrnovat podporu pro Ethernet, RAID, USB, SATA, zvukovou kartu a FireWire
