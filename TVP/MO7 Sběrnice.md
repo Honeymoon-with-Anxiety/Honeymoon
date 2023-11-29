@@ -122,5 +122,29 @@ tags:
 	* struktura, organizace a způsob kódování dat
 	* data jsou organizována do datových rámců; rámec obsahuje hlavičku (informace o adrese, délce dat, kontrolních součtech atd.) a tělo dat
 	* mohou být organizována na úrovni bajtů (8 bitů) nebo na úrovni bitů
+	* pokud je ke sběrnici připojeno více zařízení datový formát často zahrnuje cílovou adresu
+	* začátek nebo konec datového rámce je značen speciálními bity nebo značky
+	* definován je datový formát příslušným komunikačním protokolem
+		* UART *(Universal Asynchronous Receiver/Transmitter)* - sériová komunikace s asynchronním přenosem dat
+		* I²C *(Inter-Integrated Circuit)* - sériová komunikace mezi integrovanými obvody
+		* Ethernet Frame - pro přenos dat v síťovém prostředí
 * Podpora Hot-Swapping
+	* schopnost připojovat nebo odpojovat zařízení k systému za chodu
+	* USB
+	* Thunderbolt
+	* SATA
+		* pro připojení interních pevných disků a dalších úložných zařízení v počítačích
+		* hot-swapping zejména u serverů a systémů s podporou této funkce
+	* ExpressCard - pro připojení periferních zařízení k notebookům
+	* PCIe
 * [[MO7 Sběrnice#Organizace sběrnic|Typy sběrnic]]
+# Vliv čipové sady základní desky
+* sady podporují různé generace a rychlosti sběrnic
+* sada určuje, kolik a jaké typy slotů jsou na základní desce k dispozici
+* sada musí být kompatibilní se standardy
+# Dekodér adresy
+* převod adresy uložené v binární podobě na aktivační signály
+
+
+
+

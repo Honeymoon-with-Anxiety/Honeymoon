@@ -111,3 +111,38 @@ tags:
 	* 150 000 000, Vladimír Iljič Lenin, Správná věc
 * Sergej Alexandrovič Jesenin
 	* představitel imažinismu
+## Česko
+* Proletářská 
+	* 1. pol. 20. let 20. st.
+	* Jiří Wolker
+		* reakce na sociální bídu
+		* vliv komunistického hnutí
+		* kritika sociální spravedlnosti
+		* příprava revoluce
+	* požadavky proletářského umění: třídnost, revolučnost, kolektivismus, politická angažovanost, optimismus
+	* S. K. Neumann
+	* Josef Hora
+	* Jindřich Hořejší
+	* I. Olbrecht
+	* M. Majerová
+	* V. Vančura
+* Poetismus
+	* 2. pol. 20. let 20. st.
+	* inspirace: hravost dadaismu, spojitost s Devětsilem, vliv Apollinaira
+	* K. Teige a V. Nezval - sborník Devětsil
+	* K. Biebl
+	* J. Seifert
+	* V. Vančura
+* Surrealismus
+	* 30. léta 20. st.
+	* 1934 Nazval Teige → vznik Surrealistické skupiny
+	* K. Biebl
+	* malíři J. Štýrský, Toyen, skladatel J. Ježek
+* Spirituální proud
+	* 30. - 40. léta
+	* symbolické obraznosti
+	* směruje k transcendentním hodnotám
+	* meditativnost
+	* abstraktnos
+	* vyjádření smutku
+	* úvahovost

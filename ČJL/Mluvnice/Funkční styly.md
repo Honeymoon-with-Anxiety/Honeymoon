@@ -10,7 +10,7 @@ tags:
 * funkce řídící (směrnice, předpisy, nařízení, zákony)
 * funkce odborně sdělná = informační (oznámení, vyhláška, úřední dopis)
 * funkce správní (žádost, protokol aj.)
-## Forma  projevu
+## Forma projevu
 * psaná - stylizované (žádost, plná moc, formální dopis, objednávka, stížnost...) nebo heslovité (dotazník, formulář, strukturovaný životopis...)
 * mluvená (pracovní diskuse, ústní hlášení, pohovor s uchazečem o zaměstnání, formální telefonát...)
 * projev připravený a promyšlený
@@ -122,7 +122,7 @@ tags:
 ### Formulace
 * píše se ve větách
 * rozsah půl strany A4; druh písma stejný jako v CV
-* dát v něm najevo, že dnám firmu/společnost
+* dát v něm najevo, že znám firmu/společnost
 * do hlavičky uvést přesný název a adresu firmy
 * raději oslovovat konkrétní osobu(Vážená paní Nová)
 * popsat pozici, o kterou se uchází, čím nabídka zaujala
