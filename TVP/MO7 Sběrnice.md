@@ -150,7 +150,7 @@ tags:
 # Northbridge a Southbridge
 * nebo-li systémový řadič
 * jeden ze svou čipů na zk. desce
-* ![Typické schéma počítače](https://upload.wikimedia.org/wikipedia/commons/5/51/Chipset_schematic.svg)
+![Typické schéma počítače](https://upload.wikimedia.org/wikipedia/commons/5/51/Chipset_schematic.svg)
 * existují čipy obsahující oba mosty najednou za cenu vyšší složitosti při výrobě
 ## Northbridge
 * komunikace mezi CPU, pamětí RAM a PCIe sběrnicí
