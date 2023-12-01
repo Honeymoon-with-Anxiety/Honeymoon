@@ -146,3 +146,42 @@ tags:
 	* abstraktnos
 	* vyjádření smutku
 	* úvahovost
+	* František Halas
+	* Vladimír Holan
+	* František Hrubín
+	* Vilém Závada
+* Katolický proud
+	* víra v absolutní jistotu božské autority a v bezvýhradnou platnost křesťanských mravních zásad
+	* Jan Zahradníček
+	* Bohuslav Reynek
+	* Zdeňek Rotrekl
+	* Vladimír Vokolek
+* Nová generace za okupace
+	* existenciální filozofie
+	* tragický životní pocit
+	* K. Bednář, J. Orten
+* Skupina 42
+	* hledání smyslu existence, úsilí o pochopení světa
+	* dokumentární zachycení každodenní všednosti
+	* básníci: J. Kolář, J. Kainar, J. Hauková, I. Blatný
+	* výtvarníci: K. Lhoták
+	* lit. kritik: J. Chalupecký
+### Jiří Wolker
+* 1900 - 1924
+* narodil se a zemřel v Prostějově
+* studoval gymnázium
+* o prázdninách pobýval u prarodičů na Svatém Kopečku u Olomouce
+* zemřel na tuberkulózu
+* Host do domu
+	* tzv. poezie prostých věcí - vliv vitalismu
+	* Poštovní schránka, Kamna, Věci, Pokora
+* Svatý Kopeček
+	* původně samostatná skladba
+	* polytematická báseň - pásmo s autobiografickými prvky
+	* básník opouští idylické pojetí světa
+* Těžká hodina
+	* proletářská poezie, sociální tematika
+	* úvodní báseň Těžká hodina - svědectví o změně
+	* sociální balady
+		* Balada o snu - rozdělený svět bohatých a chudých
+		* Balada o nenarozeném dítěti - chudoba milenců
