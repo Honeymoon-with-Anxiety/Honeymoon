@@ -124,7 +124,7 @@ tags:
 * rozsah půl strany A4; druh písma stejný jako v CV
 * dát v něm najevo, že znám firmu/společnost
 * do hlavičky uvést přesný název a adresu firmy
-* raději oslovovat konkrétní osobu(Vážená paní Nová)
+* raději oslovovat konkrétní osobu (Vážená paní Nová)
 * popsat pozici, o kterou se uchází, čím nabídka zaujala
 * uvést konkrétní příklady svých dřívějších úspěchů
 * uvést seznam příloh v logickém pořadí
@@ -133,3 +133,30 @@ tags:
 * nezapomenout poděkovat, mé identifikační údaje
 * **NE**zmiňovat finanční požadavky
 * **NE**posílat zásilku hromadně
+# Publicistický styl
+* styl hromadných sdělovacích prostředků
+* cílem informovat
+* velmi proměnlivý
+* funkce
+	* sdělovací
+	* agitační - získávací, přesvědčovací, ovlivňovací
+* požadavky
+	* aktuálnost, pravdivost, objektivita
+	* působivost, výstižnost, obecná přístupnost, originalita
+	* přesvědčivost a srozumitelnost
+* slohový postup
+	* informační, úvahový a výkladový
+* forma
+	* mluvená
+	* psaná
+## Mluvená publicistika
+* rozhlas a přímí televizní přenos
+* nespočet rádií
+* exilové rádio Svobodná Evropa vysílalo od 1. 5. 1951 z Mnichova; v čele Ferdinand Peroutka a Pavel Tigrid
+## Psaná publicistika
+* noviny
+	* deníky
+	* regionální tisk
+	* bulvární tisk
+* časopisy - týdeníky, čtrnáctideníky, měsíčníky, ročenky...
+* 
