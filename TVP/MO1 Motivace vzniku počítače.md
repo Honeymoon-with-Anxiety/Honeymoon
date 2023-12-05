@@ -1,7 +1,4 @@
----
-tags:
-  - technicke_vybaveni_pocitacu
----
+#technicke_vybaveni_pocitacu
 * algoritmus - přesný návod či postup, kterým lze vyřešit daný typ úlohy.
 # Motivace
 * zprvu pomoc se složitými výpočty, později kancelářské práce jako jsou textové dokumenty a tabulky

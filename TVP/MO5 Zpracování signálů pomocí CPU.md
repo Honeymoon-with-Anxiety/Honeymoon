@@ -1,7 +1,4 @@
----
-tags:
-  - technicke_vybaveni_pocitacu
----
+#technicke_vybaveni_pocitacu
 # Integrované periférie
 * umožňují zpracování a manipulaci s různými druhy signálů
 * klíčové pro komunikace, zpracování obrazu, zvuku aj.

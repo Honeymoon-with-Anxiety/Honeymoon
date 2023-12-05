@@ -1,7 +1,4 @@
----
-tags:
-  - technicke_vybaveni_pocitacu
----
+#technicke_vybaveni_pocitacu
 # Informace
 * obecně: údaj o dění v reálném světě
 * v informatice: řetězec znaků, které lze vysílat, přijímat, uchovávat a zpracovávat

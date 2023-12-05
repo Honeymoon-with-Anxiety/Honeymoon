@@ -1,7 +1,4 @@
----
-tags:
-  - technicke_vybaveni_pocitacu
----
+#technicke_vybaveni_pocitacu
 * skupina signálových vodičů
 * představuje komunikační cestu pro různé komponenty systému k výměně dat a informací
 * účel zajistit přenos dat a řídicích povelů mezi dvěma a více elektronickými zařízeními

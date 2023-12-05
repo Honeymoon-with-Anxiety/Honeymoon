@@ -1,7 +1,4 @@
----
-tags:
-  - technicke_vybaveni_pocitacu
----
+#technicke_vybaveni_pocitacu
 * přenos zdigitalizovaného analogového signálu pomocí přenosového média
 * zahrnuje *vysílání* a *příjem*
 * datová komunikace zahrnuje i přípravu k odeslání, řízení přenosu a procesy navazující na příjem
@@ -161,4 +158,3 @@ $$ B = f_{H}-f_{l}$$
 	* High Definition Multimedia Interface
 		* dokážou přenášet video, audio ale také jiné druhy signálu
 		* schopný přenášet signál v digitálním formátu
-		* nedochází k degradaci signálu

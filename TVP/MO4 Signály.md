@@ -1,7 +1,4 @@
----
-tags:
-  - technicke_vybaveni_pocitacu
----
+#technicke_vybaveni_pocitacu
 # Signál
 * signál je smluvené znamení určená pro přenos [[MO2 Informace ve výpočetní technice|informace]]
 * má různé formy (krátký zvuk, mluvené slovo, rozsvícení kontrolky) i účely (gesta vojenského velitele, televizní signál)
