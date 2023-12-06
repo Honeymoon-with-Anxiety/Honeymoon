@@ -85,3 +85,54 @@
 * Sběrnicové Routery a Rozbočovače
 	* řízení datového toku na sběrnici a umožnění komunikace mezi více zařízeními
 # Sběrnice
+## SPI
+* hlavní zařízením komunikuje s jedním nebo více periferními zařízeními pomocí čtyř nebo více signálů
+* může současně přenášet data z masteru na slave a z slave zpět na master (full-duplex)
+* společný hodinový signál mezi masterem a slavem
+* SCLK *(Serial Clock)* - hodinový signál generovaný masterem řídící přenos dat
+* MOSI *(Master Out Slave In)* - datový signál posílaný z mastera do slave zařízení
+* MISO *(Master In Slave Out)* - datový signál posílaný z slave zařízení do mastera
+* SS/CS *(Slave Select/Chip Select)* - signál oznamující, s kterým slave zařízením master komunikuje
+* délka datového slova může být nastavena podle potřeby
+* master řídí začátek, konec a rychlost přenosu dat
+* délka sběrnice 1 bit
+## I²C
+* využívá dvě sběrnicové linky 
+	* SDA *(Serial Data Line)* - pro datovou komunikaci 
+	* SCL *(Serial Clock Line)* - pro hodinový signál
+* master vybírá s jakým zařízením komunikovat pomocí adresy
+* možnost připojení více master/slave zařízení
+* pracuje na asynchronním principu (hodiny nejsou generovány konstantní frekvencí); data jsou přenášena na hranu hodinového signálu
+* podpora různé rychlosti přenosu dat
+## RS-232
+* asynchronní komunikace
+* dvě linky pro komunikaci
+	* TX *(Transmit)* - slouží k přenosu dat z vysílacího zařízení
+	* RX *(Receive)* - slouží k příjmu dat přijímacího zařízení
+* provozní napětí
+	* log. nula - (+3; 15) V
+	* log. jednička - (-3; -15) V
+* rychlost přenosu v rozmezí od 300 bps *(bitů za sekundu)* do 115200 bps
+* používána pro vzdálený přístup k počítačům a řízení zařízení na dálku
+## USB
+* využívá čtyři vodiče, ale primárně pracuje s dvěma hlavními linkami
+	* D+ *(Data Plus)* - přenáší data
+	* D- *(Data Minus)* - přenáší data
+* možnost připojování a odpojování zařízení bez nutnosti vypínat počítač
+* zařízení jsou rozlišena jako master (host) nebo slave (periferní zařízení)
+* různé typy USB portů; každý má specifické použití a tvar konektoru
+	* USB-A
+	* USB-B
+	* USB-C
+	* mikro-USB
+* různé rychlosti přenosu dat, včetně USB 2.0 (480 Mbps), USB 3.0 (5 Gbps), a USB 3.1/3.2 (až 10 Gbps)
+* může poskytovat napájení periferním zařízením
+## TWI
+* kompatibilní s [[MO8 Jednoduché sériové sběrnice#I²C|I²C]]
+* termín `TWI` byl používán kvůli ochranným známkám spojeným se značkou I²C
+* využívá dvě linky pro komunikaci - datovou linku (SDA) a hodinovou linku (SCL)
+* připojené zařízení má jedinečnou 7 nebo 10bitovou adresu
+* podporuje multi-master komunikaci
+* je asynchronní
+* rychlosti přenosu dat v závislosti na implementaci
+* 
