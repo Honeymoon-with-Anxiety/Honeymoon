@@ -159,4 +159,40 @@ tags:
 	* regionální tisk
 	* bulvární tisk
 * časopisy - týdeníky, čtrnáctideníky, měsíčníky, ročenky...
+* internetové zpravodajství
+* teletext televize
+* zpravodajství formou SMS
+* ČTK - Česká Tisková Kancelář
+### Struktura
+* záhlaví - název novin, ustálená grafická podoba
+* slogan - doprovází záhlaví (věta pod ním)
+* 1. řádek pod záhlavím - datum, den, číslo, ročník, cena atd
+* "uši" - stále se opakující titulky (v rozsahu celých novin)
+* rubriky - ustálené typy článků obsahově i graficky (Ze světa, Z kultury, Rozhovor, Sport atd.)
+* titulky (první, zk. informace o tématu)
+* mezititulky (rozdělují delší politické projevy)
+* podtitulky (stručné vystižení tématu) - od vlastního textu odlišeny písmem (velikost, typ, tučnost, barva)
+* obrazový mat. - fotografie, reprodukce, karikatury, grafy
+* popisky - slovní doprovod k fotografiím, schématům, grafům
+* inzerce a reklamy - řádková inzerce, plošná reklama
+* tiráž - technické a vydavatelské údaje, umístěné na poslední stránce dole
+## Stavba
+* systém tzv. obrácené pyramidy
+	co? kdo?
+		kde? kdy?
+			jak?
+				proč?
+* chronologický postup
+* různé úhly pohledu
+* odstavcový háček
+## Jazykové prostředky
+* jazyk spisovný
+* podstatná jména a slovesa
+* přesnost, neotřelost
+* publicismy, frazeologismy, odborná pojmenování, expresivní obrazové vyjadřování
+* automatizované výrazy - výrazy používané často; tzv. klišé
+* výrazy aktualizované - záměrně užité v nové situaci; časem se stanou automatizované
+* větná stavba - věty jednoduché i souvětí
+* hromadění synonym
+* různé věty podle modality (tázací, oznamovací, zvolací...)
 * 
