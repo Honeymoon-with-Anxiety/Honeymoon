@@ -1,4 +1,9 @@
 #technicke_vybaveni_pocitacu 
+* synchronní sběrnice
+	* přenos dat mezi zařízeními je synchronizován společným hodinovým signálem (generován masterem)
+	* možnost využít jen jednu datovou linku
+ * asynchronní sběrnice
+	 * data jsou doprovázena speciálními signály označující začátek a konec přenosu
 # Základní typy
 * Universální Synchronní/Asynchronní Přijímač/Vysílač
 	* umožňuje sériovou komunikaci a může být použita pro připojení k zařízením pomocí sériové sběrnice, jako je RS-232 nebo RS-485
@@ -95,7 +100,8 @@
 * SS/CS *(Slave Select/Chip Select)* - signál oznamující, s kterým slave zařízením master komunikuje
 * délka datového slova může být nastavena podle potřeby
 * master řídí začátek, konec a rychlost přenosu dat
-* délka sběrnice 1 bit
+* přenosová rychlost aý 8 Mb/s
+* pracovní napětí není pevně dáno; obvykle 0 V až 3.3 V nebo 5 V
 ## I²C
 * využívá dvě sběrnicové linky 
 	* SDA *(Serial Data Line)* - pro datovou komunikaci 
@@ -104,6 +110,8 @@
 * možnost připojení více master/slave zařízení
 * pracuje na asynchronním principu (hodiny nejsou generovány konstantní frekvencí); data jsou přenášena na hranu hodinového signálu
 * podpora různé rychlosti přenosu dat
+* pracovní napětí není pevně dáno; obvykle 0 V až 3.3 V nebo 5 V
+* přenosová rychlost zmíněna [[MO7 Sběrnice#Standardy|zde]]
 ## RS-232
 * asynchronní komunikace
 * dvě linky pro komunikaci
@@ -127,6 +135,9 @@
 	* mikro-USB
 * různé rychlosti přenosu dat, včetně USB 2.0 (480 Mbps), USB 3.0 (5 Gbps), a USB 3.1/3.2 (až 10 Gbps)
 * může poskytovat napájení periferním zařízením
+* pracovní napětí se liší podle verze USB
+	* USB 1.0, 2.0 a 3.0 obvykle 5 V
+	* USB 3.1 a 3.2 až 20 V
 ## TWI
 * kompatibilní s [[MO8 Jednoduché sériové sběrnice#I²C|I²C]]
 * termín `TWI` byl používán kvůli ochranným známkám spojeným se značkou I²C
@@ -135,4 +146,14 @@
 * podporuje multi-master komunikaci
 * je asynchronní
 * rychlosti přenosu dat v závislosti na implementaci
-* 
+* pracovní napětí obvykle 3.3 V nebo 5 V
+# Pakety
+* slouží k organizaci a přenosu informací mezi zařízeními nebo komponentami v síti
+* obsahuje různé pole a hlavičky, které umožňují identifikaci a interpretaci obsahu
+* složení
+	* hlavička *(header)* - obsahuje informace o struktuře a formátu datového rámce, pole adresy odesílatele a příjemce, kontrolní součet, délku dat a další metadata
+	* data - samotná data, která jsou přenášena mezi zařízeními
+	* kontrolní součet/číslo
+	* stop bity - signalizují konec každého bajtu nebo bloku dat
+	* další metadata
+![¯\\_(ツ)_/¯](../23w49/TVP_6_12_23.png)
