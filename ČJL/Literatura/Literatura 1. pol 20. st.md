@@ -184,4 +184,12 @@ tags:
 	* úvodní báseň Těžká hodina - svědectví o změně
 	* sociální balady
 		* Balada o snu - rozdělený svět bohatých a chudých
+		* Balada o očích topičových - dělník v práci obětuje pro lidi svůj zrak
 		* Balada o nenarozeném dítěti - chudoba milenců
+		* Balada o námořníkovi - balada klasického typu; motiv viny a trestu
+	* obrazy básníkovi nemoci - Umírající, Epitaf, Balada z nemocnice
+* pohádky
+	* moderní, se sociálním aspektem
+	* O listonoši
+	* O kominíkovi
+	* O milionářovi, který ukradl slunce
