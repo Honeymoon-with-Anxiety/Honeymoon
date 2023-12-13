@@ -73,4 +73,17 @@
 * používá MIMO technologii *(Multiple Input, Multiple Output)* - více antén pro příjem/přenos signálů současně
 * schopnost přenosu dat z různých zdrojů do různých cílů
 ## Vlnovou délkou
-* 
+* používá se v optické komunikaci
+* datový tok je rozdělen do několika vlnových délek (každá délka představuje jeden komunikační kanál)
+* možnost přenosu více nezávislých dat. toků na jednom optickém vlákně (obousměrně)
+* různé signály používají různé frekvence
+* Wavelength Division Multiplexing *(WDM)*
+	* muliplexer ve vysílači pro spojení signálů dohromady; demutiplexer v přijímači pro následné rozdělení
+	* první WDM umělo kombinovat pouze dva signály; dnes až 160 signálů
+	* umožňují rozšiřovat kapacitu sítě bez nutnosti pokládání dalších opt. vláken
+	* Dense WDM *(DWDM)*
+		* vlnové délky přiřazeny s velmi malými mezerami
+		* umožňuje přenos velkého množství dat
+	* Coarse WDM *(CWDM)*
+		* vlnové délky přiřazeny se širšími mezerami
+		* obvykle pro menší množství kanálů na jednom vláknu
