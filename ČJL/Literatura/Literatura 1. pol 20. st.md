@@ -193,3 +193,15 @@ tags:
 	* O listonoši
 	* O kominíkovi
 	* O milionářovi, který ukradl slunce
+### Josef Hora
+* narozen 1891, zemřel 1945
+* básník, prozaik, překladatel
+* pocházel z blízkosti Roudnice nad Labem
+* vývoj od proletářské poezie (např. *Pracující den*, *Srdce a vřava světa*, *Bouřlivé jaro*) k reflexivní a meditativní lyrice (např. *Strom v květu*)
+* Struny ve větru
+	* přírodní a intimní lyrika
+* Máchovské variace
+	* na oslavu 100 let od vydání Máje
+* *Domov* a *Jan houslista*
+	* poezie národního ohrožení válkou
+	* vyšlo 1938
