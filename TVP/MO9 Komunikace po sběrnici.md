@@ -33,3 +33,44 @@
 * signály řazení
 	* k označení zařízení které může komunikovat na sběrnici
 	* např.: Chip Select *(CS)*
+## Základní techniky
+* centrální řízení
+	* jedno zařízení zvoleno jako master
+	* ostatní zařízení musí čekat, až budou mít právo přistoupit ke sběrnici
+	* neefektivní, pokud je činnost na sběrnici vysoká
+* prioritní arbitrace
+	* každé zařízení má přidělenou prioritu
+	* vyšší priorita má přednost
+* Round Robin
+	* imaginární token putuje mezi zařízeními
+	* zařízení má nastavený časový úsek, jak dlouho může mít "u sebe" token
+	* zařízení s tokenem smí přistoupit ke sběrnici
+	* po uplinutí časového úsek u "předá" token na další zařízení
+* token passing
+	* podobný jako Round Robin ale bez časového úseku
+	* čeká se, až zařízení odešle všechna data
+* sběrnicové řadiče
+* stavový automat
+# Multiplexovaná sběrnice
+* několik zřízení sdílí fyzické médium přenosu dat
+## [[MO4 Signály#časový|Časově]]
+* zařízení je přiřazen časový slot, kdy může posílat/přijímat data
+* časové sloty mohou být
+	1) statické - čas. slot je pevně daný
+	2) dynamické - čas. slot se mění podle potřeby
+* ostatní zařízení musí čekat na svůj čas. slot
+* výhodou je snížení konfliktů o přístup ke sběrnici, jednoduchá implementace a efektivní využití přenos. média
+![Multiplex s časovým dělením](https://upload.wikimedia.org/wikipedia/commons/e/e0/Telephony_multiplexer_system.gif)
+## [[MO4 Signály#frekvenční|Frekvenčně]]
+* signálům jsou přiřazené různé frekvence kmitočtového pásma po kterých jsou vysílané
+* je možné realizovat amplitudovou [[MO6 Přenos informace#Modulace|modulací]]
+* vysílání obsahuje více frekvencí současně
+* datové toky jsou následně kombinovány do komplexního signálu
+![Přenos tří signálů pomocí kmitočtového dělení](https://upload.wikimedia.org/wikipedia/commons/f/f1/Frequenzmultiplex001.svg) *Schutzbänder = ochranné pásmo*
+## Prostorově
+* na základě fyzického oddělení (v prostoru); není potřeba časového nebo frekvenčního multiplexu
+* signály jsou přenášeny nezávisle ve vlastních fyz. cestách → minimální interference mezi jednotlivými kanály
+* používá MIMO technologii *(Multiple Input, Multiple Output)* - více antén pro příjem/přenos signálů současně
+* schopnost přenosu dat z různých zdrojů do různých cílů
+## Vlnovou délkou
+* 
