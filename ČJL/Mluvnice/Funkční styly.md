@@ -195,4 +195,80 @@ tags:
 * větná stavba - věty jednoduché i souvětí
 * hromadění synonym
 * různé věty podle modality (tázací, oznamovací, zvolací...)
-* 
+## Slohové útvary
+* založeny na několika slohových postupech
+* investigativní žurnalistika (pátrání)
+	* získává a odhaluje informace, které se někdo snaží utajit
+* tři základní skupiny žánrů
+	* zpravodajské
+		* ryze informativní
+		* informační nebo popisný
+		* zpráva
+			* informační, popisný
+			* podává informace o události, která se stala - směřuje do minulosti
+			* má být aktuální a objektivní
+			* v závěru můžeme hodnotit
+			* hl. funkce je informovat
+			* kompozice: chronologická
+			* můžeme začlenit přímou řeč
+			* spisovný jazyk
+		* oznámení
+			* vztahuje se k události, která se teprve stane
+		* interview
+			* metodický vedený rozhovor
+			* cíl: získat informace
+			* novinář je v roli tazatele, určuje témata
+			* zachycuje se i atmosféra při rozhovoru
+			* tázaný potvrzuje ptané otázky
+		* referát
+		* komuniké
+			* úřední oznámení, oficiální sdělení
+		* inzerát, reklama
+			* cíl: upoutat, zaměřit zájem, motivovat (nabídka, prodej, koupě atd.)
+			* maximální stručnost
+			* grafické prostředky: typ a velikost písma, barva
+			* spisovný jazyk
+			* pozor na nesrozumitelné zkratky
+	* analytické
+		* žánry hodnotící
+		* slohový postup výkladový, úvahový
+		* úvodník
+			* obsahuje nejdůležitější aktuální informace
+		* komentář
+			* druh novinového článku
+			* autor vyjadřuje názor, zaujímá stanovisko
+			* jazykové prostředky: citově zabarvené výrazy, ironie, řečnické otázky...
+		* polemika
+			* nesouhlasná reakce na názor
+			* slohový postup: úvahový, výkladový
+			* útočí se na názor osoby (pamflet útočí na osobu samotnou)
+		* recenze
+			* slohový postup úvahový
+			* posuzuje NOVÉ umělecké dílo
+			* analýze jednoho díla
+			* uvádí klady i zápory
+			* subjektivní hodnocení
+			* popis problémů i nedostatků
+		* kritika
+			* slohový postup úvahový
+			* zbývá se jakýmkoliv tématem
+		* diskuze, beseda
+			* dialogická forma, výměna názorů - debata
+			* cíl: probrat problém, vysvětlit ho z různých úhlů
+	* beletristické
+		* mezi publisticikým a uměleckým žánrem
+		* výkladový, vyprávěcí
+		* reportáž
+			* popisný
+			* založen na přímém záznamu nějaké události (akce, cesty...)
+			* hl. prvkem je autorova osobní účast
+			* vyvolává názorovou představu
+			* kompozice chronologická
+			* jazykové prostředky: slovesa dynamická, spisovná čeština
+
+---
+
+otázka zjišťovací = ano, ne
+otázka doplňovací/otevřené
+
+---
