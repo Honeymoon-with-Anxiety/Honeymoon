@@ -12,6 +12,16 @@
 * místo hodin komunikace používá dva signály navíc, zejména start a stop bity ke znázornění začátku a konce každého bytu dat
 * zařízení mezi sebou komunikují různou rychlostí; rychlosti jsou nastavovány pomocí baudové rychlosti *(počet bitů přenesených za jednu sekundu; rychlost musí být stejně nastavená na obou stranách)*
 * náchylnější na chyby dat; obsahuje [[MO6 Přenos informace#Parita|paritní bity]] sloužící k opravě chyb
+## Výhody a nevýhody
+* výhody
+	* umožňuje snadné propojení více zařízení do jednoho systému
+	* možnost přidávat nová zařízení nebo aktualizovat stávající bez fyzické změny připojení
+	* poskytují centralizovaný přístup k zk. systémovým zdrojům
+* nevýhody
+	* omezená [[MO7 Sběrnice#Standardy|šířka pásma]] ovlivňující výkon systému
+	* může docházet ke kolizím
+	* omezená [[MO7 Sběrnice#Standardy|délka sběrnice]]
+	* můžou se objevovat chyby při přenosu způsobující nespolehlivou komunikaci
 # Přidělení sběrnice
 ## Obvody
 * MUX
@@ -38,7 +48,7 @@
 	* jedno zařízení zvoleno jako master
 	* ostatní zařízení musí čekat, až budou mít právo přistoupit ke sběrnici
 	* neefektivní, pokud je činnost na sběrnici vysoká
-* prioritní arbitrace
+* priority scheduling
 	* každé zařízení má přidělenou prioritu
 	* vyšší priorita má přednost
 * Round Robin
@@ -87,3 +97,40 @@
 	* Coarse WDM *(CWDM)*
 		* vlnové délky přiřazeny se širšími mezerami
 		* obvykle pro menší množství kanálů na jednom vláknu
+# Arbitrace
+* mechanismus řešící konflikty o přístup ke sdíleným zdrojům
+* v počítačových sítích se využívá k efektivnímu řízení přístupu ke sběrnici
+* vzniká v situaci, kdy více zařízení chce přistoupit k společné sběrnici
+* proces vyžaduje existenci arbitra (speciální software/hardware) který řídí přidělování přístupu podle předem daných pravidel
+* centralizovaná arbitrace - systém má jednotlivý bod (arbitra) který koordinuje a rozhoduje o přístupu
+* decentralizovaná arbitrace - zařízení spolupracují a rozhodují o přístupu bez centrální autority
+* prioritní arbitrace - zařízení má určitou prioritu, na základě které je mu přidělen přístup
+* časová arbitrace - přístup je přidělován v určitých časových intervalech
+* Carrier Sense Multiple Access with Collision Detection *(CSMA/CS)*
+	* před začátkem přenosu dat zařízení monitoruje nosný signál *(carrier sense)* zda není obsazen jiným zařízením
+	* pokud je nosný sig. volný, zařízení začne přenášet data
+	* nosný signál je během přenosu neustále poslouchán, jestli se nepřipojilo další zařízení; pokud ano, oba přenosy jsou pozastaveny a začne se řešit kolize
+	* při kolizi a následném zastavení přenosu zařízení čekají náhodnou dobu před pokusem znova přenášet
+* Carrier Sense Multiple Access with Collision Avoidance *(CSMA/CA)*
+	* často použit u bezdrátových přenosů
+	* před začátkem přenosu dat zařízení monitoruje nosný signál zda není obsazen jiným zařízením a jestli kanál je vůbec dostupný; pokud je obsazen, zařízení čeká na vhodnou chvíli k přenosu
+	* pokud je nosný sig. volný, zařízení začne přenášet data
+	* pokud je nosný sig. obsazen, zařízení čeká náhodnou dobu, před dalším pokusem o připojení
+* výhody
+	* efektivní využití sdílených zdrojů
+	* vyhýbá monopolizaci zdrojů jedním zařízením
+	* flexibilní v řízení přístupu k zdrojům; lze nakonfigurovat dle potřebných požadavků
+* nevýhody
+	* může způsobit zpomalení způsobené čekáním na nosný signál
+	* přístup ke zdrojům nemusí být předvídatelný
+	* může být složitá na implementaci
+## Řešení
+* softwarové
+	* plánování přístupu pomocí algoritmů např.: [[MO9 Komunikace po sběrnici#Základní techniky|Round Robin, Priority Scheduling]] nebo Shortest Job Next
+	* pomocí synchronizačních mechanismů (semafor, mutex, atd.)
+	* pomocí CSMA/CS nebo CSMA/CA
+* hardwarové 
+	* arbitrační jednotky rozhodující, zda zařízení má právo na přístup ke sběrnici v daném okamžiku
+	* sběrnice s implementovanou arbitrační jednotkou
+	* řadič paměti
+	* řadič RAIDu řídící přístup k datům na více discích
