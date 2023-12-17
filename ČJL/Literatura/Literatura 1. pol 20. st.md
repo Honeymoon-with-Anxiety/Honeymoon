@@ -205,3 +205,35 @@ tags:
 * *Domov* a *Jan houslista*
 	* poezie národního ohrožení válkou
 	* vyšlo 1938
+### Vítězslav Nezval
+* básník, prozaik, dramatik, překladatel
+* vůdčí představitel poetismu a surrealismu
+* po válce tvůrce socialistické poezie
+* narodil se Biskoupkách na Moravě
+* životní pocit radosti, obrazotvornost, hravost, spontánnost, hudebnost, experimenty s jazykem
+* poezie
+	* 20. léta
+	* vliv Rimbauda,  Apollinaira, Březinova symbolismu
+	* Most
+		* prvotina
+		* báseň Podzim = kaligram
+	* Podivuhodný kouzelník
+		* pásmo
+		* kouzelník učí člověka chápat krásu světa
+	* Pantomima
+		* 1. významná sbírka poetismu
+		* Papoušek na motocyklu
+		* Abeceda
+	* Akrobat
+		* cirkusové prostředí
+	* Edison
+		* polytématická báseň
+		* pásmo - oslava schopnosti člověka
+		* instpirace vynálzecem žárovky
+		* obraz moderního světa, techniky, civilizace
+		* dvojí pocit → radost i smutek
+		* 1. zpěv - toulky po pražských mostech v noci, přitažlivost světel + motiv sebevražedného stínu
+		* 2. zpěv - výjev ze života mladého Edisona
+		* 3. zpěv - obraz moderního světa techniky a dynamiky života
+		* 4. zpěv - největší štěstí z objevů, vrchol
+		* 5. zpěv - základní pocit radosti "zapomnění na stesk života a smrti"
