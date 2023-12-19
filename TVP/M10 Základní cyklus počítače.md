@@ -15,4 +15,22 @@
 	* vykonává operaci definovanou dekódovanou instrukcí (např.: aritmetické operace, logické operace, přesuny dat, skoky nebo další)
 	* po provedení instrukce se aktualizují stavové registry obsahující informace o procesoru (např. přetečení)
 	* výsledky operací jsou zapsány do registrů nebo do paměti
-* 
+# Výjimečné stavy při běhu CPU
+* stavy které mohou vyžadovat speciální pozornost či manipulaci
+* přerušení *(interrupt)*
+	* přerušují běžný tok programu
+	* vyžadují okamžitou pozornost procesoru
+	* vyvolána externím zařízením, chybou programu nebo samotným programem úmyslně
+	* pro obsluhu přerušení musí procesor přepnout kontext a reagovat na příslušné události
+* výjimky *(exception)*
+	* podobné přerušení
+	* jedná se o chybový stav
+	* vyžadují zvláštní opatření
+	* procesor musí přepnout na obsluhu výjimky a přijmout opatření k řešení problému
+	* např.: dělení nulou, přetečení při aritmetických operacích nebo přístup k neplatné paměti
+* přepínání kontextu *(context switch)*
+	* 
+* stav úspory energie *(halt)*
+	* 
+* bezpečnostní režim *(privileged mode)*
+	* 
