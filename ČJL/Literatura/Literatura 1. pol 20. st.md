@@ -213,27 +213,43 @@ tags:
 * životní pocit radosti, obrazotvornost, hravost, spontánnost, hudebnost, experimenty s jazykem
 * poezie
 	* 20. léta
-	* vliv Rimbauda,  Apollinaira, Březinova symbolismu
-	* Most
-		* prvotina
-		* báseň Podzim = kaligram
-	* Podivuhodný kouzelník
-		* pásmo
-		* kouzelník učí člověka chápat krásu světa
-	* Pantomima
-		* 1. významná sbírka poetismu
-		* Papoušek na motocyklu
-		* Abeceda
-	* Akrobat
-		* cirkusové prostředí
-	* Edison
-		* polytématická báseň
-		* pásmo - oslava schopnosti člověka
-		* instpirace vynálzecem žárovky
-		* obraz moderního světa, techniky, civilizace
-		* dvojí pocit → radost i smutek
-		* 1. zpěv - toulky po pražských mostech v noci, přitažlivost světel + motiv sebevražedného stínu
-		* 2. zpěv - výjev ze života mladého Edisona
-		* 3. zpěv - obraz moderního světa techniky a dynamiky života
-		* 4. zpěv - největší štěstí z objevů, vrchol
-		* 5. zpěv - základní pocit radosti "zapomnění na stesk života a smrti"
+		* vliv Rimbauda,  Apollinaira, Březinova symbolismu
+		* Most
+			* prvotina
+			* báseň Podzim = kaligram
+		* Podivuhodný kouzelník
+			* pásmo
+			* kouzelník učí člověka chápat krásu světa
+		* Pantomima
+			* 1. významná sbírka poetismu
+			* Papoušek na motocyklu
+			* Abeceda
+		* Akrobat
+			* cirkusové prostředí
+		* Edison
+			* polytématická báseň
+			* pásmo - oslava schopnosti člověka
+			* instpirace vynálzecem žárovky
+			* obraz moderního světa, techniky, civilizace
+			* dvojí pocit → radost i smutek
+			* 1. zpěv - toulky po pražských mostech v noci, přitažlivost světel + motiv sebevražedného stínu
+			* 2. zpěv - výjev ze života mladého Edisona
+			* 3. zpěv - obraz moderního světa techniky a dynamiky života
+			* 4. zpěv - největší štěstí z objevů, vrchol
+			* 5. zpěv - základní pocit radosti "zapomnění na stesk života a smrti" 
+	* 30. léta
+		* Poetismus
+			* Skleněný havelok
+			* Zpáteční lístek
+			* Pět prstů
+			* Sbohem a šáteček - okouzlení z cesty po Francii a Itálii
+		* Surrealismus
+			* Žena v množném čísle
+			* Praha s prsty deště
+			* Absolutní hrobař - odpor k fašismu
+		* Sociální linie (anonymně)
+			* 52 hořkých balad věčného studenta Roberta Davida
+	* konec 30. let za okupace
+		* Matka Naděje
+		* Pět minut za městem - báseň Švábi cenzurou vyřazena
+		* Historický obraz
