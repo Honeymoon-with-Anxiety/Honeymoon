@@ -1,0 +1,4 @@
+formát instrukce
+	operační znak (7 bitů), zdrojový registr (5 bitů), cílový registr (5 bitů) => 17 bitů jedna instrukce; 2 byty
+	
+fetch

@@ -31,6 +31,13 @@
 * přepínání kontextu *(context switch)*
 	* 
 * stav úspory energie *(halt)*
-	* 
+	* nastává když CPU přechází do režimu nízké spotřeby nebo je dočasně zastaven
+	* neprovádí žádné instrukce a čeká na další pokyny
 * bezpečnostní režim *(privileged mode)*
 	* 
+* chyby přístupu do daměti *(memory access violations)*
+	* program přistoupí k neplatné paměti nebo s ní provede nepovolenou operaci
+	* např. pokus o čtení nebo zápis do neexistující adresy paměti
+* Instrukční Chyby (Instruction Fault)
+	* když CPU narazí na neplatnou instrukci
+# Formát instrukce
