@@ -1,6 +1,7 @@
 #technicke_vybaveni_pocitacu 
 * obvykle se nazývá "fetch-decode-[execute](https://www.youtube.com/watch?v=ESx_hy1n7HA) cycle"
 * popisuje zk. kroky opakované při každé instrukci
+* architektura RISC má omezený počet instrukcí na základní a jednoduché
 1) čtení *(fetch)*
 	* instrukce se načtou z paměti
 	* adresa instrukce k provedení je uložena v registru Program Counter *(PC)*
@@ -15,6 +16,11 @@
 	* vykonává operaci definovanou dekódovanou instrukcí (např.: aritmetické operace, logické operace, přesuny dat, skoky nebo další)
 	* po provedení instrukce se aktualizují stavové registry obsahující informace o procesoru (např. přetečení)
 	* výsledky operací jsou zapsány do registrů nebo do paměti
+4) zásah do paměti
+	* umožňuje procesoru přistoupit k paměti
+	* adresa je buď předem určena nebo je vypočtena na základě aktuálních hodnot v registrech; adresa je následně odeslána na paměťovou sběrnici
+	* hodnota z interních *([[#Pipeline registr|pipeline]])* registrů je zapsána na adresu
+	* po zápisu se aktualizují stavové bity *(bity ovlivňující následující průběh programu)*
 # Výjimečné stavy při běhu CPU
 * stavy které mohou vyžadovat speciální pozornost či manipulaci
 * přerušení *(interrupt)*
@@ -48,7 +54,42 @@
 		* pracuje s registry
 		* provádí aritmetické nebo logické operace
 		* `opcode | Rd | Rr`
+			* `opcode` → identifikační číslo operace
+			* `Rd` → cílový registr (a zároveň zdrojový)
+			* `Rr` → zdrojový registr
 	* typu I *(-mmediate)*
 		* pracuje s konstantami
 		* konstanty jsou uloženy přímo v instrukci
 		* `opcode | Rd | K`
+			* `K`  → konstanta
+	* typu J *(-ump)*
+		* pro řízení toku programu
+		* `opcode | d`
+			* `d` → adresa destinace skoku
+# Operační
+## jednotka
+* aritmetické a logické operace provádí odděleně od těch ostatních
+* instrukce jsou navrženy aby byly jednoduché; vyžadují minimální počet cyklů pro provedení
+* každá instrukce provádí pouze jednu konkrétní operaci
+* maximalizuje paralelní zpracování; navrženy pro nezávislé vykonávání vedoucí k rychlejšímu výpočtu
+* pracuje pouze s daty v registrech; pokud data nejsou v registru, zapíše je
+* pevně definovaná šířka slova
+## znak
+* základní strojový kód říkající procesoru, jakou operaci má provést
+* "*operátor*"
+	* v kontextu programování se jedná o symbol či zkratku reprezentující operaci (např.: `ADD` - sčítání; `SUB` - odčítání; `AND` - logický AND; `OR` - logický OR; `MOV` - přesun dat; `JMP` - nepodmíněný skok)
+	* operátory jsou následně převedeny do binární podoby
+	* operátory závisí na konkrétním RISC procesoru
+# Pipeline registr
+* speciální druh registrů používaný pro pipelining
+* pipelining - technika umožňující provádění několik fází instrukce současně
+* každá fáze má svůj registr; slouží k uložení mezikroků
+# Řadič
+* dekóduje instrukce z paměti
+* připravuje interní obvody pro provedení instrukcí
+* řídí takt procesoru; určuje prioritu provedení instrukce
+* spravuje přístup čtení a zápisu do paměti
+* řídí tok dat v datových cestách
+* detekuje stav výjimek a přerušení; popřípadě dokáže vyřešit [[#Výjimečné stavy při běhu CPU|neobvyklé stavy]]
+* provádí skoky a podmíněné instrukce
+* zodpovídá za plynulý a synchronní pohyb instrukcí skrz pipeline
