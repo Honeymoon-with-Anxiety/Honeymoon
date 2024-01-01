@@ -29,15 +29,26 @@
 	* procesor musí přepnout na obsluhu výjimky a přijmout opatření k řešení problému
 	* např.: dělení nulou, přetečení při aritmetických operacích nebo přístup k neplatné paměti
 * přepínání kontextu *(context switch)*
-	* 
+	* nastává když běžící proces na CPU je pozastaven a CPU přepíná svůj kontext na jiný proces
+	* informace (registry, program counter, adt.) pozastaveného procesu jsou uloženy do paměti
+	* informace jsou následně aktualizovány aby odpovídaly novému procesu
 * stav úspory energie *(halt)*
 	* nastává když CPU přechází do režimu nízké spotřeby nebo je dočasně zastaven
 	* neprovádí žádné instrukce a čeká na další pokyny
 * bezpečnostní režim *(privileged mode)*
-	* 
+	* CPU má vyšší úroveň oprávnění než v normálním uživatelském režimu
+	* má přístup k systémovým zdrojům (speciální registry, instrukce nebo přímý přístup k hardwaru)
 * chyby přístupu do daměti *(memory access violations)*
 	* program přistoupí k neplatné paměti nebo s ní provede nepovolenou operaci
 	* např. pokus o čtení nebo zápis do neexistující adresy paměti
-* Instrukční Chyby (Instruction Fault)
-	* když CPU narazí na neplatnou instrukci
 # Formát instrukce
+* AVR používá specifický formát založený na RISC formátu
+* instrukce
+	* typu R *(-egistr)*
+		* pracuje s registry
+		* provádí aritmetické nebo logické operace
+		* `opcode | Rd | Rr`
+	* typu I *(-mmediate)*
+		* pracuje s konstantami
+		* konstanty jsou uloženy přímo v instrukci
+		* `opcode | Rd | K`
