@@ -49,6 +49,7 @@
 	* např. pokus o čtení nebo zápis do neexistující adresy paměti
 # Formát instrukce
 * AVR používá specifický formát založený na RISC formátu
+* instrukce v AVR arch. jsou 16bitové
 * instrukce
 	* typu R *(-egistr)*
 		* pracuje s registry
@@ -66,6 +67,8 @@
 		* pro řízení toku programu
 		* `opcode | d`
 			* `d` → adresa destinace skoku
+
+![Instruction Format of RISC](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.IuwuxpM8SHz8ayVylTbtPwHaGO%26pid%3DApi&f=1&ipt=dceadc4fabacf92783c3696efdc116e935698c9284822c63c2f931e661793a29&ipo=images)
 # Operační
 ## jednotka
 * aritmetické a logické operace provádí odděleně od těch ostatních
@@ -93,3 +96,10 @@
 * detekuje stav výjimek a přerušení; popřípadě dokáže vyřešit [[#Výjimečné stavy při běhu CPU|neobvyklé stavy]]
 * provádí skoky a podmíněné instrukce
 * zodpovídá za plynulý a synchronní pohyb instrukcí skrz pipeline
+## Dekodér
+* interpretuje instrukce z programové paměti a připravuje připravuje je k provedení
+* čte instrukce a převádí je do procesorem čitelné formy
+* identifikuje a připravuje operandy (např. načtení hodnot z registrů/paměti)
+* počítá adresy pro skoky
+* identifikuje výjimky
+* dekóduje paralelně s pipeline a zajišťuje aby každá fáze proběhla správně
