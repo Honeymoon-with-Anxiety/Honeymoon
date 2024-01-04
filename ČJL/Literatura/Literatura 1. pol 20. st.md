@@ -251,5 +251,38 @@ tags:
 			* 52 hořkých balad věčného studenta Roberta Davida
 	* konec 30. let za okupace
 		* Matka Naděje
-		* Pět minut za městem - báseň Švábi cenzurou vyřazena
-		* Historický obraz
+		* Pět minut za městem - báseň Šváby cenzurou vyřazena
+		* Óda na návrat Karla Hynka Máchy - převoz ostatků
+		* Historický obraz - verše z doby Mnichova, okupace a osvobození
+		* Manon Lescau
+			* poetická adaptace Prévostova románu
+			* veršovaná div. hra
+			* hl. postavy: mladý rytíř De Grieux a chudý starší Tiberge (mají vstoupit do kněžského semináře), mladá krásná Manon (má se stát jeptiškou)
+	* poválečná tvorba
+		* oficiální režimní socialistická poezie
+		* poema Stalin
+		* skladba Zpěv míru
+		* sbírky Velký orloj, Z domoviny, Křídla, Chrpy a města
+* drama
+	* Milenci z kiosku - komedie s prvky poetismu; kritika doby
+	* Dnes ještě zapadá slunce nad Atlantidou - výzva k ochraně kultury a civilizace
+* teoretická díla
+	* Moderní básnické směry - komentovaná antologie moderní poezie a básnických směrů
+	* Manifesty poetismu - s Karlem Teigem
+### Konstantin Biebl
+* v 5. třídě propad z Čj
+* v lednu 1918 byl na balkánské frontě raněn raněn, zajat a odsouzen k trestu smrti
+* proletářská poezie
+	* Cesta k lidem - poezie prostých věcí; chlapecký pohled na svět
+	* Věrný hlas - památce J. Wolkera
+	* Zlom
+	* Zloděj z Bagdádu
+* poetismus
+	* Zlatými řetězy - hravá obraznost, experimenty se slovy
+	* S lodí, jež dováží čaj a kávu
+		* zážitky z války + zkušenosti z cest
+		* milostná tématika - okouzlení domorodými dívkami
+		* zážitky z mládí, vzpomínky na otce
+		* lyrický cestopis
+	* Nový Ikaros
+	* 
