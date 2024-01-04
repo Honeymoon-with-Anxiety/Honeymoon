@@ -202,7 +202,7 @@ tags:
 * tři základní skupiny žánrů
 	* zpravodajské
 		* ryze informativní
-		* informační nebo popisný
+		* slohový postup informační nebo popisný
 		* zpráva
 			* informační, popisný
 			* podává informace o události, která se stala - směřuje do minulosti
@@ -256,8 +256,8 @@ tags:
 			* dialogická forma, výměna názorů - debata
 			* cíl: probrat problém, vysvětlit ho z různých úhlů
 	* beletristické
-		* mezi publisticikým a uměleckým žánrem
-		* výkladový, vyprávěcí
+		* mezi publicistickým a uměleckým žánrem
+		* slohový postup: výkladový, vyprávěcí
 		* reportáž
 			* popisný
 			* založen na přímém záznamu nějaké události (akce, cesty...)
@@ -265,6 +265,14 @@ tags:
 			* vyvolává názorovou představu
 			* kompozice chronologická
 			* jazykové prostředky: slovesa dynamická, spisovná čeština
+		* črta - ryze popisná, blízká reportáži
+		* fejeton - krátký text, který se zabývá (často zdánlivě banálním) problémem
+		* sloupek - vtipný námět, často ironizuje; psán na okraji novin v jednom sloupci kurzívou
+		* glosa - krátký polemický komentář, subjektivní pohled (názor autora)
+		* soudnička
+			* námět: skutečné události z praktického života
+			* inspirace soudním přelíčením
+			* forma satirické básně nebo písňového textu
 
 ---
 
