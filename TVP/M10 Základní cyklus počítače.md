@@ -5,8 +5,7 @@
 1) čtení *(fetch)*
 	* instrukce se načtou z paměti
 	* adresa instrukce k provedení je uložena v registru Program Counter *(PC)*
-	* instrukce se načte z adresy z PC do Instruction Register *(IR)*
-	* dojde k aktualizaci PC aby ukazovala na další instrukci v paměti
+	* instrukce se načte adresy z PC do Instruction Register *(IR)*
 2) dekódování *(decode)*
 	* načtená informace *(v IR)* obsahuje operační kód *(opcode)* a další informace
 	* během dekódování jsou jednotlivé části instrukce identifikovány pro další zpracování
@@ -21,6 +20,13 @@
 	* adresa je buď předem určena nebo je vypočtena na základě aktuálních hodnot v registrech; adresa je následně odeslána na paměťovou sběrnici
 	* hodnota z interních *([[#Pipeline registr|pipeline]])* registrů je zapsána na adresu
 	* po zápisu se aktualizují stavové bity *(bity ovlivňující následující průběh programu)*
+	* dojde k aktualizaci PC aby ukazovala na další instrukci v paměti
+* aktualizace PC
+	* PC může být automaticky inkrementován po provedení každé instrukce (např. instrukce programu jsou uloženy za sebou v paměti, po provedení instrukce se PC zvedne o jeden → ukazuje na další instrukci v paměti)
+	* při skoku (`jump`) nebo větvení (`branch`) se hodnota PC mění na základě logické podmínce; pokud je podmínka splněna, PC ukazuje na adresu, kde má program pokračovat
+	* při volání (`call`) se adresa následující instrukce (adresa návratu) uloží na zásobník a adresa PC je změněna ukazujíc na první instrukci podprogramu; po provedení podprogramu je (návratová) adresa další instrukce načtena ze zásobníku do PC
+	* při přerušení je PC aktualizován na adresu uloženou při volání podprogramu
+	* v případě výjimky je adresa PC změněna na adresu obslužné rutiny výjimky; po obsluze výjimky může být adresa PC změněna na pokračování běhu programu
 # Výjimečné stavy při běhu CPU
 * stavy které mohou vyžadovat speciální pozornost či manipulaci
 * přerušení *(interrupt)*
@@ -33,7 +39,7 @@
 	* jedná se o chybový stav
 	* vyžadují zvláštní opatření
 	* procesor musí přepnout na obsluhu výjimky a přijmout opatření k řešení problému
-	* např.: dělení nulou, přetečení při aritmetických operacích nebo přístup k neplatné paměti
+	* např.: dělení nulou, přetečení při aritmetických operacích nebo přístup k neplatné paměti, broken pipeline
 * přepínání kontextu *(context switch)*
 	* nastává když běžící proces na CPU je pozastaven a CPU přepíná svůj kontext na jiný proces
 	* informace (registry, program counter, adt.) pozastaveného procesu jsou uloženy do paměti
@@ -87,6 +93,7 @@
 * speciální druh registrů používaný pro pipelining
 * pipelining - technika umožňující provádění několik fází instrukce současně
 * každá fáze má svůj registr; slouží k uložení mezikroků
+* broken pipeline - situace, kdy je normální tok instrukcí v pipeline přerušen nebo narušen; obvykle vyžaduje nějakou formu opravy nebo obnovení pipeline do normálního stavu
 # Řadič
 * dekóduje instrukce z paměti
 * připravuje interní obvody pro provedení instrukcí
