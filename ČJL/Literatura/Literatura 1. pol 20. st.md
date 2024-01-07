@@ -285,4 +285,20 @@ tags:
 		* zážitky z mládí, vzpomínky na otce
 		* lyrický cestopis
 	* Nový Ikaros
-	* 
+* surrealismus
+	* Nebe, peklo, ráj
+	* Zrcadlo moci
+### Jaroslav Seifert
+* žil 1901 až 1986
+* narodil se do dělnické rodiny
+* studoval gymnázium (nedokončil)
+* novinář, redaktor v uměleckých a literárních časopisech; přispíval do Rudého práva
+* v r. 1929 vyloučen z komunistické strany
+* národní umělcem a předsedou Svazu českých spisovatelů
+* 1984 získal Nobelovu cenu za literaturu
+* proletářská poezie
+	* Město v slzách
+	* Samá láska
+* poetismus
+	* Na vlnách T.S.F. -  lyrický deník z cesty do Francie
+	* Slavík zpívá špatně; Poštovní holub -  obraz krásy života a světa, poezie času a ticha
