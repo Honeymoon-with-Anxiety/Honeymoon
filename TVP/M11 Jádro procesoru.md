@@ -25,4 +25,10 @@
 	* podle spotřeby energie
 	* podle [[MO3 Počítačové architektury číslicových strojů|architektury paměti]]
 # Výkon procesoru
-* ovlivněn taktem
+* ovlivněn taktem - kolik operací procesor provede za jednu sekundu; v Hz
+* počet jader - umožňuje paralelní zpracování více úloh současně
+* architektura - jak složité instrukce jsou
+* cache paměť - velikost a efektivní správa cache ovlivňuje rychlost přístupu k datům
+# Programátorský model procesoru
+* práce na úrovni instrukcí a registrů
+* 
