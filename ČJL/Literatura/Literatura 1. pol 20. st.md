@@ -302,3 +302,40 @@ tags:
 * poetismus
 	* Na vlnách T.S.F. -  lyrický deník z cesty do Francie
 	* Slavík zpívá špatně; Poštovní holub -  obraz krásy života a světa, poezie času a ticha
+* 30. léta
+	* Jablko z klína
+	* Ruce Venušiny
+	* Jaro, sbohem
+	* Zhasněte světla - reakce na Mnichov
+* Doba okupace
+	* Vějíř Boženy Němcové - verše ke 120. výročí autorčina narození
+	* Světlem oděná; Kamenný most - verše hlavně o Praze
+* Po válce
+	* čistá melodická lyrika, tradiční rýmovaný verš
+	* Přilba hlíny
+	* Píseň o Viktorce
+	* Maminka
+	* Šel malíř chudě do světa - verše k obrázkům Mikoláše Alše
+	* Chlapec a hvězdy - verše k obrázkům Josefa Lady
+* 60. léta
+	* Koncert na ostrově
+	* Morový sloup - samizdat
+* 70. 80. léta
+	* Všecky krásy světa - vzpomínková próza
+### Meditativní poezie
+#### František Halas
+* básník, překladatel
+* vrstevník Seiferta
+* dílo
+	* Torzo naděje - reakce na mobilizaci, mnichovskou zradu
+	* Naše paní Božena Němcová - k 120. výročí narození B. N.
+	* Já se tam vrátím - básnická lyrizovaná próza
+#### František Hrubín
+* Špalíček veršů a pohádek
+#### Vilém Závada
+#### Vilém Holan
+### Jiří Orten
+* žid
+* existenciální poezie
+* Deníky (Modrá, Žíhaná a Červená kniha)
+	* záznamy, osobní úvahy, dopisy, citáty, básně s datací vzniku
