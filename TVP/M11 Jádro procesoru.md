@@ -43,3 +43,16 @@
 * popisuje jak jsou adresy paměti generovány, jak k nim procesor přistupuje a jak jsou dlouhé
 * může zahrnovat speciální instrukce nebo adresovací schémata pro komunikaci s periférií
 * zahrnuje jak pracovat s více jádry procesoru
+# Kompatibilita na úrovni strojového kódu
+* schopnost spustit stejný zdrojový kód na vícero architekturách
+* pokud dva procesory mají stejný instrukční soubor, může být stejný kód spuštěn na obou procesorech
+* kompatibilita nemusí být plně zachována mezi procesory s odlišnou architekturou → nemusí mít stejný počet jader nebo podporovat zpracování ve vláknech
+# Evoluce instrukční sady
+* první generace se zaměřovala na jednoduché instrukce a zvýšení taktu procesoru
+* s potřebou většího výkonu se začaly vyrábět vícejádrové RISC procesory
+* vyvynuta pokročilejší technologie pipelinů
+* přidány instrukce pro šifrování
+* snaha vytvoření otevřené RISC architektury (RISC-V)
+# Vliv jader procesoru
+## na software
+* 
