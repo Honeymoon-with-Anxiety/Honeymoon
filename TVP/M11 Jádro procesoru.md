@@ -55,4 +55,16 @@
 * snaha vytvoření otevřené RISC architektury (RISC-V)
 # Vliv jader procesoru
 ## na software
+* správně navržený software může zpracovávat instrukce o mnoho rychleji díky paralelnímu zpracování
+* databáze mohou využívat více jader k vyhledávání, třídění a filtrování
+* vícejádrové procesory mají různé energetické profily a mohou dynamicky měnit počet aktivních jader v závislosti na aktuálních potřebách
+## na hardware
+* 
+# Jednočip
+* 
+# Kombinačni logika
+* 
+# Paměťové prvky
+* 
+# Synchronní stroj
 * 
