@@ -30,5 +30,16 @@
 * architektura - jak složité instrukce jsou
 * cache paměť - velikost a efektivní správa cache ovlivňuje rychlost přístupu k datům
 # Programátorský model procesoru
-* práce na úrovni instrukcí a registrů
-* 
+* práce na úrovni nízkého prog. jazyka
+* abstraktní pohled na procesor umožňující psát software bez nutnosti znalosti architektury procesoru
+* instrukční soubor definuje instrukce které procesor dokáže provádět
+* registr je malá, rychlá paměť umístěná přímo na čipu procesoru; kolik registrů má takový procesor, jejich uspořádání a pojmenování
+* nativní datové typy procesoru (8-bitový Byte; 16-bitový Word; atd.)
+* procesor má mnoho režimů
+	* uživatelský - limituje přístup k některým registrům a instrukcím
+	* jádra - přístup ke všemu
+* model popisuje, jak postupovat při [[M10 Základní cyklus počítače#Výjimečné stavy při běhu CPU|výjimečný stavech]]
+* jak pracovat se zásobníkem
+* popisuje jak jsou adresy paměti generovány, jak k nim procesor přistupuje a jak jsou dlouhé
+* může zahrnovat speciální instrukce nebo adresovací schémata pro komunikaci s periférií
+* zahrnuje jak pracovat s více jádry procesoru
