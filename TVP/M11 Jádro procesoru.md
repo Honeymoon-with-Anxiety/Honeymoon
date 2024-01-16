@@ -59,12 +59,40 @@
 * databáze mohou využívat více jader k vyhledávání, třídění a filtrování
 * vícejádrové procesory mají různé energetické profily a mohou dynamicky měnit počet aktivních jader v závislosti na aktuálních potřebách
 ## na hardware
-* 
+* architektura čipu musí umět pracovat s vícero jádry včetně sdílení paměti, atd.
+* je lepší minimalizovat latenci přístupu k paměti
+* procesory mohou generovat více tepla
+* každé jádro má vlastní sadu registrů a frontu instrukcí
 # Jednočip
-* 
+* elektronické zařízení integrující všechny nezbytné funkce a komponenty na jediný čip
+* integrace všech klíčových prvků na jeden čip vede k fyzickému zmenšení a menší komplexitě; užitečné ve spotřební a mobilní elektronice
+* může vést ke snížení nákladu a spotřebě
+* vývoj s jednočipem je jednodušší protože vývojáři pracují již s uceleným kouskem namísto s několika komponentami
 # Kombinačni logika
-* 
+* minimalizace složitosti instrukční sady a optimalizace provádění jednoduchých operací
+* implementuje jednoduché operace, jako jsou aritmetické operace, logické operace a porovnávání
+* každý stupeň pipelingu potřebuje vlastní kombinační logiku
+* řídí tok instrukcí; provádí dekódování instrukcí a rozhoduje, která operace bude provedena v daném okamžiku; řeší otázky jako skoky (branching) a volání procedur
 # Paměťové prvky
-* 
+* ukládání a přístup k datům v procesoru
+* registry
+	* malé a velmi rychlé paměťové prvky přímo vestavěné v jádrech procesoru
+	* slouží k ukládání proměnných nebo mezivýsledků během vykonávání instrukcí
+	* RISC architektura obvykle obsahuje omezený počet registrů
+* cache
+	* slouží k ukládání často používaných dat a instrukcí
+	* snadno dostupné pro procesor
+* RAM
+	* slouží k ukládání programů a dat, která nejsou momentálně využívána procesorem
+	* přístup prostřednictvím adresového a datového busu
+* buffer - slouží k dočasnému ukládání dat (např. při přenosu mezi různými částmi procesoru nebo mezi procesorem a periferními zařízeními)
+* instrukční cache - ukládá často používané instrukce programu
+* datová cache - ukládá často používaná data
+* paměťově mapované registry - speciální registry, jejichž hodnoty mohou ovlivňovat chování periferních zařízení nebo konfiguraci procesoru
+* registry ukazatelů - slouží k uchování adres v paměti, které jsou používány při práci s daty nebo skoky v programu
 # Synchronní stroj
-* 
+* všechny operace v procesoru jsou řízeny hodinovým signálem; každá část obvodu provádí svou činnost v přesně definovaný čas
+* snadnější synchronizace mezi různými částmi procesoru a periferními zařízeními
+* hardware může být relativně jednoduchý a efektivní
+* instrukce jsou prováděny v přesně stanovených taktových cyklech, které odpovídají hranám hodinového signálu
+* chování synchronních strojů je předvídatelné a opakovatelné → snadnější návrh a analýza digitálních obvodů
