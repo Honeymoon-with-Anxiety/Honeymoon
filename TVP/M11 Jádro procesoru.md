@@ -1,7 +1,6 @@
 #technicke_vybaveni_pocitacu 
 * ovlivňuje výkon procesoru
 * umožňuje paralelní zpracování sad instrukcí
-![](https://www.alrj.org/images/riscv/Pipeline_summary.png)
 * klasifikace procesorů
 	* podle architektury
 		* RISC
@@ -96,3 +95,6 @@
 * hardware může být relativně jednoduchý a efektivní
 * instrukce jsou prováděny v přesně stanovených taktových cyklech, které odpovídají hranám hodinového signálu
 * chování synchronních strojů je předvídatelné a opakovatelné → snadnější návrh a analýza digitálních obvodů
+# Popis obrázku
+![](https://www.alrj.org/images/riscv/Pipeline_summary.png)
+Instrukce uložená v `Memory` je načtena podle ukazatele Program Counteru *(`PC`)*. Načtená instrukce je následně do tabulky registru *(`Register File`)* a dekódována pro zjištění typu instrukce *(např. Aritmeticko-logická)*. Po zjištění typu instrukce, pokud je aritmeticko-logická, je instrukce přesunuta do Aritmeticko-logické jednotky *(`ALU`)* kde je vykonána instrukce, výsledek je přesunut do paměti. Výsledek uložený paměti může být odeslán jako konečný výsledek nebo se vrátní zpět na začátek pro další zpracování. Instrukce typu Přístup k paměti a Skoky jsou spouštěny specializovanou jednotkou pipeliny.
