@@ -339,3 +339,27 @@ tags:
 * existenciální poezie
 * Deníky (Modrá, Žíhaná a Červená kniha)
 	* záznamy, osobní úvahy, dopisy, citáty, básně s datací vzniku
+# Světová próza a drama
+* realismus a naturalismus
+	* přesný, objektivní obraz skutečnosti
+	* žánry
+		* společenské kroniky
+		* romány zachycující vývoj hl. postavy
+		* román řeka
+		* kritickorealistické romány se sociální tématikou
+		* naturalistické romány
+		* socialisticko-realistické romány
+		* historické romány
+		* detektivní romány
+		* literatura faktu
+		* science-fiction
+		* antiutopie
+* avantgarda, modernismus
+	* obraz nitra člověka, originality výrazu
+	* obraz 1. sv. války
+	* ubývá dějovosti
+	* prolínání časových a významových rovin
+	* konfrontace vnitřního světa autora s okolím
+	* expresionistické a existencialistické
+	* experimenty s jazykem a formou
+	* nic není tabu
