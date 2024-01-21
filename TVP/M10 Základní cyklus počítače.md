@@ -110,3 +110,18 @@
 * počítá adresy pro skoky
 * identifikuje výjimky
 * dekóduje paralelně s pipeline a zajišťuje aby každá fáze proběhla správně
+# Hazardy
+* nežádoucí situace, které mohou nastat v průběhu vykonávání instrukcí
+* mohou vést k nesprávným výsledkům nebo nekonzistentním stavům obvodu
+* mohou vzniknout v důsledku asynchronních vlastností obvodů nebo specifických vlastností instrukční sady a způsobu, jakým jsou instrukce provedeny
+* datové harazdy
+	* nastávají, když existuje závislost mezi dvěma instrukcemi ohledně datového zápisu nebo čtení
+	* Read-After-Write Hazard *(RAW)* - čtení instrukce následuje po zápisu do stejného umístění v paměti nebo registru
+	* Write-After-Read Hazard *(WAR)* - zápis instrukce následuje po čtení ze stejného umístění
+	* Write-After-Write Hazard *(WAW)* - dva zápisy následují po sobě do stejného umístění
+* řídící hazardy
+	* nastávají, když je rozhodování o tom, která instrukce má být provedena, ovlivněno předchozími výsledky nebo podmínkami
+	* zahrnuje koky, podmíněné větve nebo jiné mechanismy řízení toku instrukcí
+* strukturální hazardy
+	* vznikají, když je fyzická struktura obvodu nebo zařízení nesprávně přizpůsobena prováděným operacím
+	* např. nedostatkem hardwarových zdrojů, jako jsou registry, ALU
