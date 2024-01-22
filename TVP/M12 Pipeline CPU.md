@@ -19,7 +19,14 @@ Popis jednotlivých [[M11 Jádro procesoru#Popis obrázku|komponent]] a [[M10 Z�
 * memory - jen pokud instrukce vyžaduje přístup k paměti (čtení/zápis)
 * write back - výsledek instrukce je zaslán zpět do registru či paměti
 ## vyprazdňování
-* 
+* vztahuje se k situacím, kdy je nutné náhlé přerušení nebo zastavení běhu pipeline (např. změna toku instrukcí) nebo po dokončení instrukcí
+* detekce skoku - pokud je podmínka splněna, instrukce v pipeline (načteny, nedokončeny) jsou "zahozeny"
+* může způsobit zpoždění
+* zahození instrukcí
+	* zajišťuje, že neproběhnou neplatné operace
+	* pipeline je zaplněna nulami
+* aktualizace stavu procesoru - procesor je aktualizován na novou hodnotu PC na základě skoku nebo větvení; nové instrukce jsou načteny z nové pozice v programu
+* zahájení nového provozu (plnění → provoz)
 # Dekompozice systému
 * 
 ## Vliv na výkon
