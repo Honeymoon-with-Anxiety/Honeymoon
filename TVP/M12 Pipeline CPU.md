@@ -11,9 +11,13 @@
 Popis jednotlivých [[M11 Jádro procesoru#Popis obrázku|komponent]] a [[M10 Základní cyklus počítače|fází]]
 # Fáze
 ## plnění
-* týká se způsobu jakým jsou instrukce vloženy do pipeliney
+* týká se způsobu jakým jsou instrukce vloženy do pipeliney a jak jim prochází
+* fetch - instrukce jsou načteny z paměti do pipeliney
+* decode - instrukce je přeložena na sérii mikroinstrukcí
 ## provozu
-* 
+* [execute](https://www.youtube.com/watch?v=ESx_hy1n7HA) - procesor vykonává instrukce
+* memory - jen pokud instrukce vyžaduje přístup k paměti (čtení/zápis)
+* write back - výsledek instrukce je zaslán zpět do registru či paměti
 ## vyprazdňování
 * 
 # Dekompozice systému
