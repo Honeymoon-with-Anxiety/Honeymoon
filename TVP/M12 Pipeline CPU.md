@@ -33,7 +33,7 @@ Popis jednotlivých [[M11 Jádro procesoru#Popis obrázku|komponent]] a [[M10 Z�
 * ve strukturovaném programování *algoritmická dekompozice* rozkládá proces na dobře definované kroky
 * v objektově-orientované dekompozici je rozklad řešen rozkladem velkého systému na progresivně menší třídy nebo objekty způsobilé za nějakou část hlavního problému
 * dekompoziční paradigma je strategie organizující program jako počet částí a určuje jak bude text programu uspořádán; obvykle využíván k optimalizaci programů pro vylepšení modularity nebo jeho udržitelnosti
-![[6_Decomposition_Structure.svg.png]]
+![[TVP_22_1_24.png]]
 ## Vliv na výkon
 * specializované moduly navrženy pro efektivní řešení konkrétních úloh
 * dekompozice usnaďuje správu a údržbu systému → aktualizace a záplaty mohou být snáze implementovány
