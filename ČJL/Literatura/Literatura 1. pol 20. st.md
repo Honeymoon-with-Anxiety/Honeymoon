@@ -363,3 +363,13 @@ tags:
 	* expresionistické a existencialistické
 	* experimenty s jazykem a formou
 	* nic není tabu
+* ztracená generace
+	* skupina amerických románů
+	* spisovatelé a novináři, který se vrátili z války nemohoucí se vrátit zpět do normálního života
+	* Hemingway *Sbohem, armádo*
+* Henri Barbusse
+	* Oheň (Deník bojového mužstva)
+		* román r. 1916
+		* otřesný deníkový záznam vojenské čety
+		* bezprostřední vlastní zážitky z fronty
+		* 24 kapitol; bez ústřední hrdiny
