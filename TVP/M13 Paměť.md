@@ -28,6 +28,10 @@
 * rizikem je nepředvídatelný výpadek napájení
 	* stav datových souborů na disku není vždy aktuální a musí se synchronizovat s obsahem cache
 	* proto OS vyžadují před vypnutím proces `shutdown` který korektně ukončí procesy systému a uloží obsah diskového cache do souborů na disku
+	* před odpojením je důležité odmountovat vyměnitelná média jinak může dojít k poškození souborového systému
+	* moderní systém se snaží problém eliminovat zapomocí žurnálů
+  ## hardwarová
+* 
 # Paměť flash
 * 
 # EEPROM
@@ -39,5 +43,14 @@
 * 
 # Přehled trhu
 * 
-# Výhody
+# Klopné obvody
 * 
+  # Registry
+  * 
+  # Latence
+  * 
+  # Volatilita
+  * 
+  # Přepisovatelnost
+  * 
+  # Synchronní a asynchronní
