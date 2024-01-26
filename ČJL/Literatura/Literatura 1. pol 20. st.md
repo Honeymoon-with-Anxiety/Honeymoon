@@ -373,3 +373,31 @@ tags:
 		* otřesný deníkový záznam vojenské čety
 		* bezprostřední vlastní zážitky z fronty
 		* 24 kapitol; bez ústřední hrdiny
+* Erich Maria Remarque
+	* Na západní frontě klid
+		* generační román s autobiografickými prvky
+		* ztráta iluzí, protest proti nesmyslné válce, tragika nenaplněného života a válečných hrůz
+		* hl. postava student Pavel Bäumer; ztrácí iluze; sám umírá na konci války, v den, o kterém vrchní velitelství podává zprávu *"Na západní frontě klid."*
+		* retrospektivní pasáže
+		* vyprávěno v ich-formě; v záveru er-forma
+		* deziluze = válka zpsobuje naprostou degradaci lidství, mění lidské hodnoty
+## Realismus
+* Anatole France
+	* Nobelova cena (1921)
+	* Historie našich dnů - románová tetralogie (4)
+	* Ostrov tučňáků - alegorický román, parodie francouzských dějin
+* Romain Rolland
+	* prozaik, dramatik
+	* Nobelova cena (1915)
+	* Jan Kryštov
+		* 10dílný "román-řeka"
+		* inspirace životem L. van Beethovena
+		* oslava mravní velikosti a vznešenosti života ve světě všeobecného morálního úpadku
+	* Dobrý člověk ještě žije
+		* děj v 17. st. ve Francii
+		* ústřední postavou je prostý člověk - Colas Breugnon, stárnoucí truhlář a řezbář
+	* Petr a Lucie
+		* obžaloba nesmyslnosti války
+		* Shakespearovský motiv tragické lásky
+		* kompozice budována na kontrastu
+		* tragický závěr - společná smrt pod troskami chrámu při náletu
