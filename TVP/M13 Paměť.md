@@ -8,10 +8,30 @@
 ![[TVP_23_1_24.png]]
 * energetické rozdělení
 	* nezávislé - Flash (vnější i vnitřní), ROM/PROM/EPROM/EEPROM (pro uložení firmware)
-	* závislé - vnitřní paměť DRAM a vyrovnávaví (SRAM)
+	* závislé - vnitřní paměť DRAM a vyrovnávací (SRAM)
 * paměťové médium popisuje vnější paměť jako je např.: magnetopáska, optický disk (CD/DVD)
 # Operační paměť
-* 
+* slouží k ukládání dat po dobu běhu programu
+* přístup k op je rychlejší než přístup k vnější paměti
+* procesor pomocí adresy vybírá požadovanou buňku
+* paměť je spojena s procesorem pomocí rychlé sběrnice; mezi op a procesor se vkládá ještě [[M13 Paměť#Paměť cache|cache]]
+* dnes realizována jako polovodičová paměť typu RAM; ztrácí informace při odpojení napájení; obsah paměti je třeba občerstvovat čtením všech řádků
+* je spravován operačním systémem
+* uchovává kód programů (kód procesů a jejich mezivýsledky), základní datové struktury kernelu, atd.
+* Fyzický adresový prostor *(FAP)* paměti je souvislý prostor paměťových buněk určité velikosti (1, 2, 4 nebo 8 bytů); buňky jsou lineárně adresovány adresami pevné délky; velikost buňky je dána délkou adresy (adresa $n$ bytů; buněk $2^n$); celý FAP nemusí být vyplněn; některé bloky se mohou objevit vícekrát; 
+* správa paměti
+	* přidělení paměť. regionu na požádání procesu
+	* uvolnění regionu na požádání procesu
+	* udržení informace o obsažení adresového prostoru
+	* zabránění přístupu procesu k paměti mimo jeho přidělený region
+	* podpora střídavého běhu více procesů
+* architektury
+	* [[MO3 Počítačové architektury číslicových strojů#Von Neumannova architektura|Von Neumannova]]
+  ![Schéma Von Neumannovy architektury](https://upload.wikimedia.org/wikipedia/commons/4/4a/Von_Neumannova_architektura_PC.svg)
+	* [[MO3 Počítačové architektury číslicových strojů#Harvardská architektura|Harvardská]]
+  ![Schéma Harvardské architektury PC](https://upload.wikimedia.org/wikipedia/commons/1/17/Harvardska_architektura.svg)
+  * metody správy
+	  * 
 # Paměť cache
 * součást, která uchovává často používaná data a tím zrychluje přístup k nim
 * od bufferu se liší tím, že data uchovává (buffer je jen přestupní bod)
@@ -31,7 +51,9 @@
 	* před odpojením je důležité odmountovat vyměnitelná média jinak může dojít k poškození souborového systému
 	* moderní systém se snaží problém eliminovat zapomocí žurnálů
   ## hardwarová
-* 
+* v řídících jednotkách vyrovnává rozdíl mezi nepravidelným předáváním/přebíráním dat sběrnicí a pravidelným tokem dat do/z magnetických hlav
+* obvod je tvořen z tranzistorů a její funkcí je vyrovnávat rozdílnou rychlost mezi procesorem a operační pamětí
+* vyšší rychlostí lze dosáhnout použitím kvalitnějších tranzistorů a položením blíže k procesoru
 # Paměť flash
 * 
 # EEPROM
@@ -45,12 +67,12 @@
 * 
 # Klopné obvody
 * 
-  # Registry
+# Registry
   * 
-  # Latence
+# Latence
   * 
-  # Volatilita
+# Volatilita
   * 
-  # Přepisovatelnost
+# Přepisovatelnost
   * 
-  # Synchronní a asynchronní
+# Synchronní a asynchronní
