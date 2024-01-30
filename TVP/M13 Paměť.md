@@ -27,8 +27,10 @@
 	* podpora střídavého běhu více procesů
 * architektury
 	* [[MO3 Počítačové architektury číslicových strojů#Von Neumannova architektura|Von Neumannova]]
+
   ![Schéma Von Neumannovy architektury](https://upload.wikimedia.org/wikipedia/commons/4/4a/Von_Neumannova_architektura_PC.svg)
 	* [[MO3 Počítačové architektury číslicových strojů#Harvardská architektura|Harvardská]]
+
   ![Schéma Harvardské architektury PC](https://upload.wikimedia.org/wikipedia/commons/1/17/Harvardska_architektura.svg)
   * metody správy
 	  * monolitická
@@ -90,13 +92,42 @@
 * buňka paměti pracuje na principu vkládání elektrického náboje na přechod těchto dvou vrstev
 # Paměťová buňka
 ## statická
-* 
+* uchovává informaci v sobě uloženou po celou dobu, kdy jsou připojeny ke zdroji elektrického napájení
+* má rychlý přístupový čas, což znamená, že data lze číst nebo zapisovat rychle
+* používá bistabilní klopný obvod k uložení informace
 ## dynamická
-* 
-# Přehled trhu
-* 
+* uchovává informaci v sobě uloženou i po odpojení zdroje elektrického napájení
+* vyžaduje periodickou obnovu informace aby se zabránilo ztrátě dat
+* používá malého náboje uloženého v kondenzátoru k uložení informace
+* levnější na výrobu
 # Klopné obvody
-* 
+* elektronický obvod, který přechází mezi několika stavy
+* ke změně mezi stavy dochází skokově
+* skládají z hradel
+* lze je použít jako např.: paměťové prvky, impulzní generátory, časovače nebo oscilátory
+* astabilní
+	* nemají žádný stabilní stav
+	* obvody neustále oscilují mezi jedním a druhým stavem podle nastavené časové konstanty
+
+  ![Realizace astabilního klopného obvodu z diskrétních součástek](https://upload.wikimedia.org/wikipedia/commons/6/6a/Transistor_Multivibrator.svg)
+* monostabilní
+	* jeden stabilní stav
+	* sám se po určité době přepne zpět do stabilního stavu
+
+  ![Realizace monostabilního klopného obvodu z diskrétních součástek](https://upload.wikimedia.org/wikipedia/commons/5/59/Transistor_Monostable.svg)
+* bistabilní
+	* dva stabilní stavy
+	* mezi stavy lze přepínat pomocí signálů přivedených na vstupy
+	* obvody se používají jako paměťové prvky
+
+![Realizace bistabilního klopného obvodu typu RS z diskrétních součástek](https://upload.wikimedia.org/wikipedia/commons/9/98/Transistor_Bistable.svg)
+* Schmittův
+	* slouží k úpravě tvaru impulzů
+	* základní vlastností je hystereze
+	* výstup je závislý nejen na hodnotě vstupu, ale i na jeho původním stavu
+	* hystereze zde zabraňuje vzniku zákmitů výstupního signálu v okolí střední úrovně spínání
+
+![Realizace Schmittova klopného obvodu z diskrétních součástek](https://upload.wikimedia.org/wikipedia/commons/9/94/Schmitt_with_transistors.svg)
 # Registry
   * 
 # Latence
