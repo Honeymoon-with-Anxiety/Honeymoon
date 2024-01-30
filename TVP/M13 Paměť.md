@@ -7,8 +7,8 @@
 
 ![[TVP_23_1_24.png]]
 * energetické rozdělení
-	* nezávislé - Flash (vnější i vnitřní), ROM/PROM/EPROM/EEPROM (pro uložení firmware)
-	* závislé - vnitřní paměť DRAM a vyrovnávací (SRAM)
+	* nezávislé *(nevolatilní)* - Flash (vnější i vnitřní), ROM/PROM/EPROM/EEPROM (pro uložení firmware)
+	* závislé *(volatilní)* - vnitřní paměť DRAM a vyrovnávací (SRAM)
 * paměťové médium popisuje vnější paměť jako je např.: magnetopáska, optický disk (CD/DVD)
 # Operační paměť
 * slouží k ukládání dat po dobu běhu programu
@@ -18,7 +18,7 @@
 * dnes realizována jako polovodičová paměť typu RAM; ztrácí informace při odpojení napájení; obsah paměti je třeba občerstvovat čtením všech řádků
 * je spravován operačním systémem
 * uchovává kód programů (kód procesů a jejich mezivýsledky), základní datové struktury kernelu, atd.
-* Fyzický adresový prostor *(FAP)* paměti je souvislý prostor paměťových buněk určité velikosti (1, 2, 4 nebo 8 bytů); buňky jsou lineárně adresovány adresami pevné délky; velikost buňky je dána délkou adresy (adresa $n$ bytů; buněk $2^n$); celý FAP nemusí být vyplněn; některé bloky se mohou objevit vícekrát; 
+* Fyzický adresový prostor *(FAP)* paměti je souvislý prostor paměťových buněk určité velikosti (1, 2, 4 nebo 8 bytů); buňky jsou lineárně adresovány adresami pevné délky; velikost buňky je dána délkou adresy (adresa $n$ bytů; buněk $2^n$); celý FAP nemusí být vyplněn; některé bloky se mohou objevit vícekrát
 * správa paměti
 	* přidělení paměť. regionu na požádání procesu
 	* uvolnění regionu na požádání procesu
@@ -31,7 +31,21 @@
 	* [[MO3 Počítačové architektury číslicových strojů#Harvardská architektura|Harvardská]]
   ![Schéma Harvardské architektury PC](https://upload.wikimedia.org/wikipedia/commons/1/17/Harvardska_architektura.svg)
   * metody správy
-	  * 
+	  * monolitická
+		  * FAP je rozdělen na dva bloky
+			  * jeden provádí rutiny kernelu a jeho datové struktury - "Kernel memory"
+			  * druhý je přiřazen na požádání aplikacím - "Application memory"
+		  * je-li paměť volná, je přidělena procesu celá bez ohledu na požadovanou velikost (nesmí přesáhnout velikost bloku); v obsazené paměti je požadavek zamítnut
+	  * statické bloky
+		  * paměť je rozdělena do několika bloků o pevné velikosti, které lze samostatně alokovat
+		  * maximální počet procesů je omezen počtem bloků; proces může přesahovat jeden blok
+		  * velikost bloku se liší podle využití
+		  * ochranu zajišťuje limitní registr procesoru - v registru je uložena hodnota aktuálního paměťového regionu; hodnota lok. adresy se porovnává s hodnotou registru; pokud je hodnota větší je vyvolaná výjimka *(`proces se pokouší zapsat mimo region`)*
+	  * dynamická
+		  * paměť je rozdělena na bloky jejichž velikost se dynamicky upravuje dle požadavků procesů; před alokací prvního regionu tvoří paměť aplikačního prostoru jeden blok
+		  * po uvolnění bloků je nutné provádět scelování volných bloků
+		  * obsazení paměti je realizováno na počátku každého bloku jakousi hlavičku
+		  * paměť je chráněna limitním registrem
 # Paměť cache
 * součást, která uchovává často používaná data a tím zrychluje přístup k nim
 * od bufferu se liší tím, že data uchovává (buffer je jen přestupní bod)
@@ -55,9 +69,25 @@
 * obvod je tvořen z tranzistorů a její funkcí je vyrovnávat rozdílnou rychlost mezi procesorem a operační pamětí
 * vyšší rychlostí lze dosáhnout použitím kvalitnějších tranzistorů a položením blíže k procesoru
 # Paměť flash
-* 
+* je energicky nezávislá a elektricky zapisovatelná
+* organizována po blocích (1 blok = [?] bytů); každý blok lze programovat samostatně
+* používá se jako paměť typu ROM např. pro uložení firmware
+* lze ji znovu naprogramovat bez nutnosti vyjmutí čipu
+* využívá se v přenosném datovém médiu (např.: SD karta, USB Flash disk, SSD disky)
+* princip ukládání
+	* data jsou ukládána v unipolárních tranzistorech (1 tranzistor = 1 bit *(SLC)* / 3+ bitů *(MLC)*); SLC nabízí větší rychlost a stabilitu, MLC naopak větší kapacitu a menší cenu
+	* tranzistor obsahuje dvě hradla - ovládací *(CG)* a plovoucí *(FG)* izolované vrstvou oxidu; všechny elektrony na FG přivedené jsou zde „uvězněny“, tím je informace uchována
+	* když jsou na FG elektrony, částečně ruší el. pole přicházející z CG, což modifikuje prahové napětí $U_t$ buňky
+	* buňka je aktivována přivedením určitého elektrického napětí na CG, což ovlivňuje elektrický proud tranzistorem; tento proud proudí, nebo neproudí, což závisí na úrovni $U_t$ buňky, která je závislá na množství elektronů na hradle FG
+	* přítomnost nebo nepřítomnost elektrického proudu je interpretována jako log.  `1` nebo `0`
+  ![Struktura tranzistoru s plovoucím hradlem.](https://upload.wikimedia.org/wikipedia/commons/d/d3/FLASH_RAM-Cell.svg)
 # EEPROM
-* 
+* elektricky mazatelnou energeticky nezávislou paměť typu ROM-RAM
+* typická životnost je 200 000 zápisů (ATmega16) (víc než flash); životnost dat je 20 let
+* nevýhodou je vyšší složitost paměťové buňky → nižší hustota → vyšší cena
+* využívá se jako úložiště dat, která se mění častěji než je životnost paměti flash (např. nastavení hlasitosti u TV)
+* používá tranzistory vyrobené technologií MNOS; na řídící elektrodě je nanesena vrstva nitridu křemíku a pod ní je umístěna tenká vrstva oxidu křemičitého
+* buňka paměti pracuje na principu vkládání elektrického náboje na přechod těchto dvou vrstev
 # Paměťová buňka
 ## statická
 * 
