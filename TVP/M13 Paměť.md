@@ -129,7 +129,33 @@
 
 ![Realizace Schmittova klopného obvodu z diskrétních součástek](https://upload.wikimedia.org/wikipedia/commons/9/94/Schmitt_with_transistors.svg)
 # Registry
-  * 
+  * úložiště pro informace o velikosti 1 slova (ATmega16 je to 8 bitů); může být odvozena od velikosti sběrnice
+  * využívá se pro uložení mezivýpočtů a adres
+  * procesor má několik málo desítek registrů různých typů
+	  * uživatelsky-přístupné registry
+		  * datové registry - pro uložení číselných hodnot, jako jsou [[MO2 Informace ve výpočetní technice#Celé číslo|integer]] a float
+		  * adresové registry
+			  * uchovávají adresy
+			  * používané instrukcemi, které přistupují do paměti nepřímo
+			  * mohou obsahovat jak adresu tak data
+			  * mohou ukládat číselné hodnoty (použity jako indexové registry (jako offset z některých adres))
+			  * stack register - udává relativní adresu poslední přidané položky na vrchol zásobníku
+		  * podmínkové - obsahují pravdivostní hodnotu často využívanou k zjištění, zda některá instrukce měla nebo neměla být vykonána
+		  * konstantní - pouze pro čtení takové hodnoty, jako je $0$, $1$, nebo $\pi$
+  * mohou být paměťově mapované - přístupné stejným způsobem, jako data v operační paměti
+  * výhodou je jejich rychlost
+  * řídící registry mění činnost procesoru
+  * LIFO (last in, first out) nebo FIFO (first in, first out)
+  * dělí se podle počtu bitů (8-bitový, 32-bitový)
+  * dnes implementovány jako soubory registrů
+  * registr příznaků
+	  * není interpretován jako číslo; každý z jeho bitů má zvláštní význam
+	  * provedení některých instrukcí může měnit hodnotu některých příznaků; ovlivňuje chování některých instrukcí (např. podmíněné skoky)
+	  * je možnost přímo číst
+	  * velikost a významy bitů závisí na architektuře
+	  * dělení
+		  * aritmeticko-logické příznaky - `carry`, `null`, `negative` (dvojkový doplněk), `overflow` a `parity` (počet jedničkových bitů v binární reprezentaci výsledku poslední operace je sudý)
+		  * řídící příznaky - `step` a `interrupt`
 # Latence
   * 
 # Volatilita
