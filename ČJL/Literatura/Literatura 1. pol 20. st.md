@@ -382,6 +382,7 @@ tags:
 		* vyprávěno v ich-formě; v záveru er-forma
 		* deziluze = válka zpsobuje naprostou degradaci lidství, mění lidské hodnoty
 ## Realismus
+### Francie
 * Anatole France
 	* Nobelova cena (1921)
 	* Historie našich dnů - románová tetralogie (4)
@@ -401,3 +402,20 @@ tags:
 		* Shakespearovský motiv tragické lásky
 		* kompozice budována na kontrastu
 		* tragický závěr - společná smrt pod troskami chrámu při náletu
+* Henri Barbusse
+	* prozaik a žurnalista
+	* Oheň - otřesný deníkový záznam vojenské čety
+* Antoine de Saint-Exupéry
+	* romanopisec a civilní i válečný pilot
+	* romány z leteckého prostředí
+		* Kurýr na jih
+		* Noční let
+		* Země lidí
+		* Válečný pilot
+	* úvahy o světě a životě
+		* Citadela
+		* [[Malý princ]] - alegorická filozofická pohádka pro dospělé i děti s autorovými ilustracemi
+## Modernismus
+## Francie
+* Marcel Proust
+	* Hledání ztraceného času - psychologický i naturalistický *román prostředí*; netradiční kompozice
