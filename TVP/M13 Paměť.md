@@ -76,6 +76,7 @@
 * používá se jako paměť typu ROM např. pro uložení firmware
 * lze ji znovu naprogramovat bez nutnosti vyjmutí čipu
 * využívá se v přenosném datovém médiu (např.: SD karta, USB Flash disk, SSD disky)
+* má omezenou přepisovatelnost
 * princip ukládání
 	* data jsou ukládána v unipolárních tranzistorech (1 tranzistor = 1 bit *(SLC)* / 3+ bitů *(MLC)*); SLC nabízí větší rychlost a stabilitu, MLC naopak větší kapacitu a menší cenu
 	* tranzistor obsahuje dvě hradla - ovládací *(CG)* a plovoucí *(FG)* izolované vrstvou oxidu; všechny elektrony na FG přivedené jsou zde „uvězněny“, tím je informace uchována
@@ -157,9 +158,21 @@
 		  * aritmeticko-logické příznaky - `carry`, `null`, `negative` (dvojkový doplněk), `overflow` a `parity` (počet jedničkových bitů v binární reprezentaci výsledku poslední operace je sudý)
 		  * řídící příznaky - `step` a `interrupt`
 # Latence
-  * 
-# Volatilita
-  * 
-# Přepisovatelnost
-  * 
+  * doba kterou trvá procesoru získat data z paměti; interval mezi požadavkem a doručením
+  * statická paměť má menší latenci než dynamická
+  * vyšší frekvence a menší přenosová vzdálenost dokážou snížit latenci
+  * typ paměti má také dopad na latenci (cache má menší než RAM)
+  * CAS *(Column Address Strobe)* - doba kterou je potřeba čekat před následujícím čtení z operační paměti (asynchronní paměti DRAM v nanosekundách, synchronní SDRAM pamětí v cyklech taktovacích hodin)
 # Synchronní a asynchronní
+* asynchronní
+	* vyznačují se tím, že na svém čipu většinou obsahují pouze minimum podpůrných obvodů
+	* obvody pracují maximální možnou rychlostí bez přítomnosti jakýchkoli hodinových signálů
+	* o dodržení doby přečtení/zápisu se musí starat paměťový subsystém, v jednodušších případech přímo mikroprocesor
+	* mezi vystavením adresy na adresovou sběrnici a přečtením dat z paměti uběhne doba 50 či 60 ns; aby mikroprocesor tuto dobu dodržel, musí provádět jinou činnost, v nejhorším případě pouze nečinně několik taktů čekat
+	* dnes se prakticky neobjevují
+* synchronní
+	* u synchronních pamětí jsou použity hodinové signály; podpůrné obvody pracují na základě stavového automatu
+	* rozšiřuje se protokol použitý pro přenosy dat do a z paměti
+	* paměťové čipy většinou dokáží automaticky provádět obnovu dat
+	* nejsou automaticky rychlejší než asynchronní
+	* neuvádí se žádné přístupové časy
