@@ -381,8 +381,7 @@ tags:
 		* retrospektivní pasáže
 		* vyprávěno v ich-formě; v záveru er-forma
 		* deziluze = válka zpsobuje naprostou degradaci lidství, mění lidské hodnoty
-## Realismus
-### Francie
+## Francie
 * Anatole France
 	* Nobelova cena (1921)
 	* Historie našich dnů - románová tetralogie (4)
@@ -415,7 +414,28 @@ tags:
 	* úvahy o světě a životě
 		* Citadela
 		* [[Malý princ]] - alegorická filozofická pohádka pro dospělé i děti s autorovými ilustracemi
-## Modernismus
-## Francie
-* Marcel Proust
+* Modernismus -  Marcel Proust
 	* Hledání ztraceného času - psychologický i naturalistický *román prostředí*; netradiční kompozice
+## Anglie
+* John Galsworthy
+	* žil 1867 až 1933
+	* prozaik, dramatik; získal Nobelovu cenu
+	* Sága rodu Forsytů
+		* trilogie - román
+		* důraz na psychologii postav, jejich majetnické pudy
+		* začátek rozvoje psychologického románu
+* George Bernard Shaw
+	* irský dramatik, kritik a esejista; získal Nobelovu cenu
+	* zakladatel moderního anglického dramatu
+	* Pygmalion
+		* satirická komedie
+		* název odkazuje na antický mýtus o sochaři
+		* příběh profesora angličtiny Henry Higginse a prosté londýnské květinářky Lízy Doolitlové
+		* Higgins se vsadí se svým přítelem plukovníkem Pickeringem, že naučí nevzdělanou květinářku z ulice, aby se chovala a mluvila jako vznešená dáma
+	* Svatá Jana
+		* tragédie
+		* podobenství o konfliktu výjimečného jedince (zdravého rozumu) s mocí, autoritářstvím
+	* Živnost paní Warrenové
+		* komedie, jejíž tematikou je kuplířství
+	* Caesar a Kleopatra
+		* parodie na Shakespearovu hru Antonius a Kleopatra
