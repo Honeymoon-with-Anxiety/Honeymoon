@@ -1,4 +1,13 @@
 #technicke_vybaveni_pocitacu 
+* výhoda paralelizcace
+	* částečné zrychlení (obvykle ×2 až ×3)
+	* před paralelizací
+	![](https://cs.stanford.edu/people/eroberts/courses/soco/projects/risc/pipelining/laundry1.gif)
+	* po paralelizaci
+	![](https://cs.stanford.edu/people/eroberts/courses/soco/projects/risc/pipelining/laundry2.gif)
+
+* proč proudově pracující CPU?
+	* 
 * využívá technologii pipeline k urychlení vykonávání instrukcí
 * umožňuje provádění několika instrukcí najednou v různých fázích zpracování
 * efektivnější využití zdrojů procesoru
