@@ -6,8 +6,6 @@
 	* po paralelizaci
 	![](https://cs.stanford.edu/people/eroberts/courses/soco/projects/risc/pipelining/laundry2.gif)
 
-* proč proudově pracující CPU?
-	* 
 * využívá technologii pipeline k urychlení vykonávání instrukcí
 * umožňuje provádění několika instrukcí najednou v různých fázích zpracování
 * efektivnější využití zdrojů procesoru
@@ -15,6 +13,11 @@
 * má 4 fáze *(fetch, decode, [execute](https://www.youtube.com/watch?v=ESx_hy1n7HA), zásah do paměti)* - instrukce procházejí skrz tyto fáze postupně
 * mohou se vyskytnout [[M10 Základní cyklus počítače#Hazardy|problémy]]
 * je důležité zajistit předcházení konfliktům
+* instrukce trvají několik taktů (`nop` - 1 takt, `std`, `st`, ... 3 takty, zbytek 2)
+* propustnost měříme v MIPS *(Million Instructions Per Second)*
+	* hrubý odhad výkonu procesoru
+	* je ovlivněn architekturou procesoru, frekvencí, paralelismu instrukcí...
+* ~1980 vznik RISC architektury
 # Schéma pipeline CPU
 Popis jednotlivých [[M11 Jádro procesoru#Popis obrázku|komponent]] a [[M10 Základní cyklus počítače|fází]]
 
@@ -80,3 +83,8 @@ Popis jednotlivých [[M11 Jádro procesoru#Popis obrázku|komponent]] a [[M10 Z�
 * skoky a závislosti mohou způsobit čekání na dokončení ostatních fází, což sníží rychlost CPU
 * konflikty při zápisu a čtení mohou vyžadovat přerušení řešené člověkem
 * správa pipelinu a optimalizace jej může vyžadovat složité techniky a nástroje, což může zvýšit náklady na návrh a výrobu CPU
+# Sekvenční stroj
+* vykonává instrukce postupně (jeden po druhém) podle toho, jak jsou uspořádané v paměti
+* určen pro specifický účel, neboť nedokáže vykonávat vice úloh současně
+* je synchronizován s hodinovým signálem - nevyskytuje se broken pipeline
+* byl vytvořen 1990
