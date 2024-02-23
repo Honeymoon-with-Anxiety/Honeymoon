@@ -401,6 +401,7 @@ tags:
 		* Shakespearovský motiv tragické lásky
 		* kompozice budována na kontrastu
 		* tragický závěr - společná smrt pod troskami chrámu při náletu
+		* poslední rok 1. sv. války
 * Henri Barbusse
 	* prozaik a žurnalista
 	* Oheň - otřesný deníkový záznam vojenské čety
@@ -429,6 +430,7 @@ tags:
 	* zakladatel moderního anglického dramatu
 	* Pygmalion
 		* satirická komedie
+		* řecký námět
 		* název odkazuje na antický mýtus o sochaři
 		* příběh profesora angličtiny Henry Higginse a prosté londýnské květinářky Lízy Doolitlové
 		* Higgins se vsadí se svým přítelem plukovníkem Pickeringem, že naučí nevzdělanou květinářku z ulice, aby se chovala a mluvila jako vznešená dáma
@@ -437,5 +439,43 @@ tags:
 		* podobenství o konfliktu výjimečného jedince (zdravého rozumu) s mocí, autoritářstvím
 	* Živnost paní Warrenové
 		* komedie, jejíž tematikou je kuplířství
+		* dlouho zakázana
 	* Caesar a Kleopatra
 		* parodie na Shakespearovu hru Antonius a Kleopatra
+### Moderní literatura
+* James Joyce
+	* zakladatel moderního románu
+	* dílo spojeno s rodným Dublinem
+	* myšlení moderního člověka
+	* povídkový soubor Dubliňané
+		* 15 povídek
+		* naturalistické, symbolismus
+	* román Portrét umělce v jinošských letech
+		* autobiografické dílo; hl. postava Štěpán Dedal
+		* psychický svět postavy, proud myšlenek, vnitřní monolog
+	* Odysseus
+		* psychologický experimentální román
+		* děj v Dublinu, v jeden den 16. 6. 1904
+		* použito dvojsmyslů, slovních hříček, parodií a narážek
+		* parafráze antického homérského mýtu - 3 části a 18 kapitol - obyčejnost a ubohost postav kontrastuje s jejich vznešenými antickými vzory
+		* každá kapitola jedna hodina dne
+		* Odyssea = Leopold Bloom, Telemacha = Štěpán Dedalus a Penelopé = Molly Bloom
+		* dílo nelze jednoznačně interpretovat
+		* proud myšlenek
+		* poslední kapitola - vnitřní monolog Molly Bloomové → 40 stran bez jakékoli interpunkce
+		* Joyce se vyjadřuje cynicky, nevyhýbá se erotickým scénám a fantaziím = kniha nemohla dlouho vyjít
+* Virginia Woolfová
+	* prozaička a esejistka, autora experimentální prózy
+	* o mládí trpěla psychickými problémy (zneužívali ji bratři)
+	* Jákobův pokoj - román
+	* Paní Dallowayová - román; proud vědomí
+	* K majáku - román s autobiografickými prvky; hledání smyslu života; sonda do rodinného života
+	* Vlny
+		* proud vědomí
+		* 6 postav + 1 tajemná nevyskytující
+		* vnitřní život protagonistů
+	* Orlando
+		* fiktivní životopis šlechtice
+		* různé časové roviny
+		* impresionistické podání
+		* v závěru se mění v ženu
