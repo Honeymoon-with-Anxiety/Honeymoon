@@ -479,3 +479,12 @@ tags:
 		* různé časové roviny
 		* impresionistické podání
 		* v závěru se mění v ženu
+## Německo, Rakousko
+* Arnold Zweig
+	* prozaik, dramatik (realismus)
+	* Velká válka bílých mužů
+		* téma 1. sv. v.
+		* cyklus románů
+		* nejznámější román Spor o seržanta Gríšu
+			* o tragickém osudu válečného zajatce, příběh justiční vraždy - zpracovává skutečnou událost
+			* ruský voják uprchl z německa, byl prohlášen za vyzvědače, zajat a odsouzen smrti i přes prokázání jeho pravé identity
