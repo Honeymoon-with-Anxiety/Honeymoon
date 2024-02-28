@@ -72,6 +72,7 @@
 * vyšší rychlostí lze dosáhnout použitím kvalitnějších tranzistorů a položením blíže k procesoru
 # Paměť flash
 * je energicky nezávislá a elektricky zapisovatelná
+* asynchronní a nedá se taktovat
 * organizována po blocích (1 blok = [?] bytů); každý blok lze programovat samostatně
 * používá se jako paměť typu ROM např. pro uložení firmware
 * lze ji znovu naprogramovat bez nutnosti vyjmutí čipu
