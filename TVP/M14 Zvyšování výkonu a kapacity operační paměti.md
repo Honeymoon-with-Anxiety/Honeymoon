@@ -53,12 +53,19 @@
 	* sad
 		* určují kolik sad paměti cache bude k dispozici
 		* může ovlivnit pravděpodobnost cache hit a miss
-* 
+* výměna - pokud je cache plná, je určen blok který bude nahrazen novými daty
 # Modularizace paměti do čipu
-* 
+* umožňuje vytvořit paměťové systémy s větší kapacitou bez nutnosti externích modulů
+* menší latence protože je paměť připojena přímo k procesoru (kratší vzdálenost)
+* menší spotřeba energie
+* každý modul může být optimalizován pro svůj vlastní účel a mít vlastní správu odvádění tepla
 # Šířka
 ## slova
-* 
+* jaké největší číslo dokáže procesor zpracovat během jediné operace/hodinového kmitu
+* v počtech bitů
+* určuje kolikabitový daný procesor je (8bitový dokáže zpracovat max číslo 0-255; $<0; 2^{n}- 1>$)
+* větší čísla musí být rozdělena na menší a musí být zpracována po částech
+* vnější - jak velké číslo je procesor schopen vyslat/přijmout na systémovou sběrnici
 ## [[MO7 Sběrnice#Parametry sběrnice|adresové sběrnice]]
 * určuje kolik bitů může být přeneseno najednou mezi různými částmi systému za jednu přenosovou operaci nebo hodinový cyklus
 * např 32bitová sběrnice umožňuje přenos 32 bitů najednou
