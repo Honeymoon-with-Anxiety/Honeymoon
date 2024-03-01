@@ -6,7 +6,7 @@ tags:
 * onomastika = věda, která se zabývá vlastními jmény
 * vlastní jména
 	1) jména osobní (jména rodná/křestní, příjmení, přezdívky, pseudonymy)
-	2) jména zeměpisná
+	2) jména zeměpisná - místní (vybudovaných míst), pomístní (objevených míst)
 	3) jména výsledků lidské činnosti
 # Jméno rodné a příjmení
 * oficiální identifikační prostředek osoby
