@@ -481,10 +481,52 @@ tags:
 		* v závěru se mění v ženu
 ## Německo, Rakousko
 * Arnold Zweig
+	* německý spisovatel
 	* prozaik, dramatik (realismus)
 	* Velká válka bílých mužů
 		* téma 1. sv. v.
 		* cyklus románů
-		* nejznámější román Spor o seržanta Gríšu
+		* nejznámější román cyklu Spor o seržanta Gríšu
 			* o tragickém osudu válečného zajatce, příběh justiční vraždy - zpracovává skutečnou událost
 			* ruský voják uprchl z německa, byl prohlášen za vyzvědače, zajat a odsouzen smrti i přes prokázání jeho pravé identity
+* Erich Maria Remarque
+	* novinář, divadelní dramatik a kritik, sportovní redaktor
+	* dostal se do víru bohémského života
+	* Na západní frontě klid
+	* Cesta zpátky - volné pokračování západní fronty
+	* Tři kamarádí; Miluj bližního svého
+	* Vítězný oblouk; Noc v Lisabonu
+	* Jiskra života; Čas žít, čas umírat
+	* Černý obelisk
+* **Stefan** Zweig
+	* **rakouský** spisovatel
+	* Netrpělivost srdce
+* Heinrich Mann
+	* prozaik a dramatik, esejista
+	* starší bratr Thomase
+	* proti nacismu; za Hitlera se jeho knihy pálily
+	* V zemi hojnosti
+	* Profesor Neřád - o despotickém profesoru Raatovi
+* Thomas Mann
+	* prozaik, esejista
+	* Nobelova cena (1929)
+	* kritický realismus a naturalismus
+	* Buddenbrookovi
+		* příběhy 4 generací významné obchodnické rodiny
+		* psychologické vykreslení postav
+	* Smrt v Benátkách
+		* novela o osamělém německém spisovateli
+		* platonicky se zamiluje do polského chlapce
+		* narůstá vzájemná přitažlivost; se neodváží toho druhého oslovit
+		* Gustav umírá
+	* Kouzelný vrch - novela ze sanatoria
+	* Mario a kouzelník
+		* novela
+		* kouzelník s lidmi manipuluje prostřednictvím hypnózy
+		* totalitní režimy = varování před nebezpečím fašismu
+	* Doktor Faust
+		* román
+		* bilancuje svůj život i osud Německa
+	* Josef a bratří jeho
+		* 4dílná románová epopej na téma Starého zákona
+		* alegorie na téma mezilidských vztahů
