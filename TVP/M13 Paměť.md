@@ -177,3 +177,11 @@
 	* paměťové čipy většinou dokáží automaticky provádět obnovu dat
 	* nejsou automaticky rychlejší než asynchronní
 	* neuvádí se žádné přístupové časy
+# Souborové systémy
+* datová struktura kterou používá operační systém k řízení ukládání a získávání dat
+* určuje kde jednotlivá data končí a kde začínají
+* některé systémy umožňují přístup pomocí síťového protokolu (např. Samba)
+* jak jsou soubory postupně upravovány, mazány a přidávaný vzniká fragmentace → defragmentace je proces spojování fragmentů souborů k sobě
+![Fragmentace](https://upload.wikimedia.org/wikipedia/commons/9/99/File_system_fragmentation.png)
+* některé systémy mohou sloužit jak rozšíření RAM
+* 
