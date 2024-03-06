@@ -1,4 +1,6 @@
 #technicke_vybaveni_pocitacu 
+* schopnost procesoru přerušit právě vykonávaný program a začít vykonávat jiný program
+* začalo se implementovat do procesorů z důvodu obsluhy periferii
 * 
 # Rozdělení podle původu
 * 
