@@ -184,4 +184,19 @@
 * jak jsou soubory postupně upravovány, mazány a přidávaný vzniká fragmentace → defragmentace je proces spojování fragmentů souborů k sobě
 ![Fragmentace](https://upload.wikimedia.org/wikipedia/commons/9/99/File_system_fragmentation.png)
 * některé systémy mohou sloužit jak rozšíření RAM
-* 
+* limitace
+	* některé operační systémy neumí pracovat s některými soub. sys.
+	* některé formáty jdou převést na jiné, ale zpět již ne (FAT32 → NTFS ✅; NTFS → FAT32 ❎)
+		* převody jsou možné z důvodu, že formáty jsou mezi systémy stejné, jen metadata se přesouvají na volné místo
+	* různé velikosti jmen cest
+* metadata
+	* "data podávající informace o jiných datech"
+	* popisná
+		* informace popisující zdroj
+		* používá se pro identifikaci
+		* může obsahovat: nadpis; autor; klíčová slova
+	* strukturální - popisuje, jak jsou komponenty složené do sebe
+	* administrativní
+		* informace pomáhající správu souboru
+		* např.: formát (`mp3`, `m3u`, `templ`, ...); práva; kdy a jak byl soubor vytvořen
+	* právní - obsahuje informace o autorovi, licenci...
