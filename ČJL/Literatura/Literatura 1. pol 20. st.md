@@ -488,7 +488,7 @@ tags:
 		* cyklus románů
 		* nejznámější román cyklu Spor o seržanta Gríšu
 			* o tragickém osudu válečného zajatce, příběh justiční vraždy - zpracovává skutečnou událost
-			* ruský voják uprchl z německa, byl prohlášen za vyzvědače, zajat a odsouzen smrti i přes prokázání jeho pravé identity
+			* ruský voják uprchl z Německa, byl prohlášen za vyzvědače, zajat a odsouzen smrti i přes prokázání jeho pravé identity
 * Erich Maria Remarque
 	* novinář, divadelní dramatik a kritik, sportovní redaktor
 	* dostal se do víru bohémského života
@@ -500,6 +500,7 @@ tags:
 	* Černý obelisk
 * **Stefan** Zweig
 	* **rakouský** spisovatel
+	* vliv psychoanalýzy
 	* Netrpělivost srdce
 * Heinrich Mann
 	* prozaik a dramatik, esejista
@@ -530,3 +531,41 @@ tags:
 	* Josef a bratří jeho
 		* 4dílná románová epopej na téma Starého zákona
 		* alegorie na téma mezilidských vztahů
+* Lion Feuchtwanger
+	* prozaik, dramatik, básník, divadelní kritik
+	* začal vydávat časopis Der Spiegel
+	* proslavil se historickými romány
+	* Ošklivá vévodkyně - týká se českých dějin
+	* Žid Süss - zneužit nacistickou propagandou
+	* Lišky na vinici - popis franc. revoluce a vznik USA
+	* Židovka z Toleda - středověk
+	* Bláznova moudrost
+	* Goya
+	* Čekárna (trilogie)
+### Moderní literatura 
+* Hermann Hesse
+	* prozaik, básník, esejista
+	* Nobelova cena
+	* vliv psychoanalýzy, orientální filozofie a náboženství
+	* Siddhártha
+	* Stepní vlk - rozvojená osobnost
+	* Hra se skleněnými perlami - utopický román
+* Bertold Brecht
+	* narodil se na konci 19. st.
+	* dramatik, režisér, divadelní teoretik, básník, prozaik, publicista; avantgarda
+	* tvůrce epického divadla - scéna přerušována a doplňovaná komentáři, glosami; ruší divadelní iluzi → přímé oslovení diváků, scéna bez opony, písně...
+	* Matka Kuráž a její děti
+		* sociálně zaměřená
+		* děj z 30leté války
+		* symbolem osudu je kára se sbožím
+		* rozporuplný vztah k válce
+	* Život Galileův
+	* Švek za druhé světové války
+## Německy psaná literatura v Čechách
+* Gustav Meyrink
+	* 1868 až 1932
+	* expresionismus
+	* nebyl židovského původu
+	* zájem o mystiku a kabalu
+	* Golem - magický román
+	* 
