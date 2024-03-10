@@ -7,6 +7,23 @@
 				* = věty s podmětem
 				* vztah mezi Př a Po = predikace
 				* věty s nevyjádřenými nebo všeobecným podmětem
+				* vyjádření závislosti
+					* shoda
+						* přívlastek shodný, shodný doplněk (*Udělali to rádi.*)
+						* přísudek se s podmětem shoduje v osobě, čísle a rodě (*Zajíci utíkali.*)
+					* řízenost
+						* předmět je v pádě (*Byl dbalý své cti.*)
+					* přimykání = slabá závislost
+						* příslovečné určení (*Domlouvali jsme se e-mailem/přes e-mail/prostřednictvím e-mailu (jak?)*)
+				* větné členy nejsou
+					* předložky
+					* spojky
+					* částice
+					* odkazovací zájmena a příslovce
+					* oslovení
+					* citoslovce
+				* větnými členy jsou
+					* vztažná zájmena a vztažné přísovce
 			* jednočlenná
 				* má pouze Př
 				* = věty bez podmětu
@@ -18,5 +35,12 @@
 			* přídavné jméno *Nádherné! Velmi zajímavé.*
 			* infinitiv *Sednout! Nenahýbat se z oken!*
 			* příslovce *Výborně.*
-			* citoslovce *Haha*
 			* částice *Ano, ovšem.*
+			* citoslovce *Haha*
+# Základní větné členy
+## Podmět
+* vyjádřený
+	* v 1. pádě
+	* jakýkoliv slovní druh
+* nevyjádřený - pochopíme podle tvaru slovesa nebo souvislosti
+* všeobecný - týká se několika nebo mnoha lidí, které neumíme přesně pojmenovat
