@@ -200,3 +200,12 @@
 		* informace pomáhající správu souboru
 		* např.: formát (`mp3`, `m3u`, `templ`, ...); práva; kdy a jak byl soubor vytvořen
 	* právní - obsahuje informace o autorovi, licenci...
+# Vyrovnání opotřebení
+* technika využívaná k prodloužení života [[M13 Paměť#Paměť flash|flash paměti]]
+* segmenty flash paměti jsou spolehlivá jen několik počtů manipulace (3 000/5 000 cyklů)
+* většina pamětí mají jeden blok s větší přepisovatelností (cca 100 000 cyklů) využívána pro Flash Memory Controller zaznamenávající opotřebení a pohyb dat mezi segmenty
+* technika funguje na bázi přesunu různě čitelných dat na potřebná místa, aby se vyrovnal počet zápisů v segmentu
+* problém
+	* [[M13 Paměť#Souborové systémy|souborové systémy]] jako FAT, UFS, HFS/HFS+, EXT a NTFS byly původně navrženy pro magnetické disky
+	* opakovaně přepisují mnoho svých datových struktur (například své adresáře) na stejné místo
+	* můžou nastat problémy jako přepsání metadat aj.
