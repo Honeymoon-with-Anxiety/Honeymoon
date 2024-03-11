@@ -84,4 +84,4 @@ $$ B = f_{H}-f_{l}$$
 * při nesplnění podmínky dochází k překrytí frekvenčních spekter a ke ztrátě informace
 * slovo `aliasing` znamená v češtině `falšování`; původní frekvence spojité informace je totiž vzorkováním zcela zfalšována
 * známou ukázkou aliasingu jsou kola, která se zdánlivě točí opačně nebo nesprávnou rychlostí (na videu)
-* následky aliasingu se odstraňují těžce, proto se před [[MO4 Signály#Převodník|převodník]] zařazuje antialiasingový filtr
+* následky aliasingu se odstraňují těžce, proto se před [[MO4 Signály#Převodník|převodník]] zařazuje antialiasingový filtr (dolní propust)
