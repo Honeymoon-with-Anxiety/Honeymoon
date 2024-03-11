@@ -51,7 +51,15 @@
 	* podle typu přerušení - SW nebo HW
 	* při přerušení se mohou měnit priority v závoslosti na podmínkách a požadavcích systému
 # Postup při vzniku a obsluha
-
+![Schéma obsluhy hardwarového přerušení](https://upload.wikimedia.org/wikipedia/commons/3/3a/Obsluha_preruseni.gif)
+* vznik
+	1) generování signálu - periferní zařízení (senzory, komunikační rozhraní...) generujíc signál oznamující událost vyžadující pozornost CPU
+	2) zápis do registru přerušení - procesor identifikuje zdroj přerušení a zapíše jeho identifikátor do registru
+	3) zmrazení běžícího kódu - procesor pozastaví běžící kód a uloží jeho kontext do paměti pro pozdější obnovení
+	4) přepnutí do režimu obsluhy
+* obsluha
+	* je asynchronní událost
+	* obvykle součástí ovladačů zařízení, které se instalují do operačního systému, ale také součástí procesoru
 # Konfigurace
 * 
 # Použití přerušení
