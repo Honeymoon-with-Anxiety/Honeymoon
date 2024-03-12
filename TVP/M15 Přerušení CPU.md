@@ -68,14 +68,24 @@
 		5) po uložení stavu procesoru a registrů, které obsluha přerušení bude používat, dojde k vlastní obsluze zařízení → data jsou z vyrovnávací paměti zařízení odebrána
 		6) po provedení obsluhy zařízení je obnoven stav procesoru a procesor pokračuje ve vykonávání programu v místě, kde došlo k přerušení
 # Konfigurace
-* 
+* identifikace - určení události nebo signálu který má být zachycen jako přerušení (dokončení IO operací, přerušení časovačem, signály od periferních zařízení)
+* přiřazení priority - nastaveno podle důležitosti a časových požadavků
+* nastavení obslužných rutin - vytvoření ob. rutin pro každý typ přerušení *(obslužná rutina je kód spuštěný po vyvolání přerušení)*
+* nastavení vektorů přerušení - definování adres nebo indexů obslužných rutin v přerušovací vektorové tabulce
+* testování a ladění - ověření správné konfigurace a funkcionality pro zjištění správné obsluhy a minimalizaci chyby
 # Použití přerušení
 ## pro externí periférie
-* 
+* často využíváno k zachycení příchozích dat z UART portu *(sběrnice pro asynchronní sériový přenos)* nebo k oznámení dokončení přenosu dat
+* reakce na signály vyvolané senzorem
+* vyvolané časovačem každou periodu nebo po uplynutí určitého času; užité např. pro generování periodických signálů
+* při interakci s uživatelem prostřednictvím tlačítek, myši nebo jiném způsobu inputu zachycuje stisknutí tlačítka, podržení, puštění...
 ## pro integrované periférie
-* 
+* ADC - přerušení vyvolané při dokončení převodu, chybě převodu
+* časovače - přerušení s určitou periodou nebo po dosažení určité hodnoty; využívá se k řízení časových událostí, generování periodických signálů nebo měření času mezi událostmi
+* sběrnice - detekce adresy zařízení, dokončení přenosu dat, přetečení bufferu nebo detekce chyby v komunikaci
 # Víceúlohové operační systémy
-* 
+* plánování úloh pomocí priority
+* detekce systémových událostí jako je vypršení časovače, příjem síťového paketu nebo dokončení IO operace
 # Fronta procesů
 * 
 # Vřeteno, čítač, přepínání
