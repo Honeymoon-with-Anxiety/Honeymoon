@@ -58,8 +58,15 @@
 	3) zmrazení běžícího kódu - procesor pozastaví běžící kód a uloží jeho kontext do paměti pro pozdější obnovení
 	4) přepnutí do režimu obsluhy
 * obsluha
-	* je asynchronní událost
+	* je asynchronní událost umožňující IO zařízením získat pozornost procesoru nezávisle na právě prováděné činnosti
 	* obvykle součástí ovladačů zařízení, které se instalují do operačního systému, ale také součástí procesoru
+	* příklad: čtení dat z disku
+		1) když disk dostane za úkol přečíst určitá data, nemusí procesor čekat, až pomalé zařízení příslušná data připraví pro vyzvednutí (do vyrovnávací paměti zařízení)
+		2) V okamžiku, kdy jsou data v zařízení připravena, vyvolá zařízení přerušení
+		3) procesor dokončí právě prováděnou strojovou instrukci a pomocí tabulky přerušení je vyvolána obsluha přerušení pro zařízení, které o přerušení požádalo
+		4) obsluha přerušení nejprve na vhodné místo v operační paměti uložit stav procesoru a jeho registry, aby přerušený proces po návratu nic nepoznal
+		5) po uložení stavu procesoru a registrů, které obsluha přerušení bude používat, dojde k vlastní obsluze zařízení → data jsou z vyrovnávací paměti zařízení odebrána
+		6) po provedení obsluhy zařízení je obnoven stav procesoru a procesor pokračuje ve vykonávání programu v místě, kde došlo k přerušení
 # Konfigurace
 * 
 # Použití přerušení
