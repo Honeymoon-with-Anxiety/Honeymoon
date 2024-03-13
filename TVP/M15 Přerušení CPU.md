@@ -84,9 +84,25 @@
 * časovače - přerušení s určitou periodou nebo po dosažení určité hodnoty; využívá se k řízení časových událostí, generování periodických signálů nebo měření času mezi událostmi
 * sběrnice - detekce adresy zařízení, dokončení přenosu dat, přetečení bufferu nebo detekce chyby v komunikaci
 # Víceúlohové operační systémy
-* plánování úloh pomocí priority
-* detekce systémových událostí jako je vypršení časovače, příjem síťového paketu nebo dokončení IO operace
+* plánování úloh pomocí priority; určuje který proces má právo být spuštěn nebo pokračovat
+* detekce systémových událostí jako je vypršení časovače, příjem síťového paketu, dokončení IO operace nebo pohybu myši a psaní na klávesnici či jiné řízení vstupu
 # Fronta procesů
-* 
-# Vřeteno, čítač, přepínání
-* 
+* řízení a plánování běžících procesů na základě kritérií a algoritmů
+* obvykle ve formě seznamu seřazené podle nějakého kritéria (podle priority, času příchodu či stavu)
+* uchovává informace o stavu (běží, připraven, čeká, ...) každého procesu
+* užit k synchronizaci a koordinaci částí systému; např. nutné čekání na dokončení operace
+# Čítač, přepínání
+* čítač
+	* inkrementuje se nebo dekrementuje se
+	* když čítač dosáhne určité hodnoty nebo přeteče
+	* periodické přerušení - generace přerušení s periodou odpovídající časovému intervalu; využívané pro časová měření a periodické operace
+	* přerušení po dosažení určité hodnoty
+	* obslužní rutina může například vynulovat čítač, nastavit novou max hodnotu
+	* často využito v časovačích
+* přepínání
+	* přepínání mezi různými úrovněmi a typ přerušení v reakci na události v systému; změna kontextu z běžícího procesu na obsluhu přerušení
+	* pokud je proces právě obsluhován a vyžaduje delší dobu zpracování, může být vyvoláno další přerušení s vyšší prioritou nebo kratší dobou zpracování
+	* v rámci obsluhy jednoho přerušení může dojít k vyvolání dalšího přerušení
+	* když dojde k přerušení, tato událost je zaregistrována a současný proces se pozastaví
+	* aktuální stav běžícího procesu je uložen do registru a  je vyvolaná obsluha
+	* po obsloužení operační systém obnoví kontext původního běžícího procesu nebo vybere jiný proces k provedení
