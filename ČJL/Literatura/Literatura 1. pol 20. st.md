@@ -560,7 +560,7 @@ tags:
 		* symbolem osudu je kára se sbožím
 		* rozporuplný vztah k válce
 	* Život Galileův
-	* Švek za druhé světové války
+	* Švejk za druhé světové války
 ## Německy psaná literatura v Čechách
 * Gustav Meyrink
 	* 1868 až 1932
@@ -568,4 +568,48 @@ tags:
 	* nebyl židovského původu
 	* zájem o mystiku a kabalu
 	* Golem - magický román
-	* 
+* Franz Kafka
+	* prozaik židovského původu; autor aforismů (krátké vtipné průpovědi)
+	* vliv expresionismu a existencialismu
+	* snově fantastická atmosféra příběhů
+	* hrdinové jsou anonymně manipulování společností
+	* odcizení člověka společnosti i sobě samému - bezvýchodnost, pesimismus
+	* vystudoval práva s přítelem Maxem Brodem
+	* osudová žena v jeho životě byla Milena Jesenská; představila Kafkovo dílo českým čtenářům (překládala díla)
+	* onemocněl tuberkulózou; v závěti žádal Maxe, aby zničil veškerá jeho nezveřejněná díla
+	* díla
+		* Dopis otci - neodeslané dopisy despotickému otci
+		* Zámek (nedokončený)
+			* marná snaha člověka překonat byrokracii
+			* absurdní svět ovládaný anonymní mocí
+			* hl. postava zeměměřič K.
+		* Proces (nedokončený)
+			* hl. postava Josef K.
+			* nesmyslnost byrokratické mašinérie, neschopnost uspět v boji proti úřadům = pesimismus, bezvýchodnost
+			* bankovní úředník Josef je v den jeho 30. narozenin odveden před soud, neschopný se hájit je odsouzen (neví rozsudek); o rok později pro něj znovu přijdou a popraví ho
+		* Proměna
+			* hl. postava Řehoř Samsa (Gregor Samsa), obchodní cestující
+			* jednoho rána se probudí proměněný v brouka
+			* povídka s prvky humoru a grotesky s pocitem bezvýchodnosti; kontrast
+* Max Brod
+	* novinář, prozaik
+	* přítel, propagátor a vydavatel Kafkova díla
+	* skládal hudební díla
+	* autor životopisů
+* Franz Werfel
+	* básník, prozaik, dramatik
+	* přítel Kafky a Broda
+	* představitel expresionismu
+* Egon Ervín Kisch
+	* (za války vojenský) novinář "zuřivý reportér"
+	* mistr moderní reportáže
+	* dílo na pomezí umělecké literatury a literatury faktu
+	* díla
+		* Zuřiví reportér
+		* Pražský pitaval - kriminalistické případy; historie loupežníků, vrahů, podvodníků a špionů
+		* Tržiště senzací
+		* Pražská dobrodružství
+		* Prašná brána
+* Pavel Eisner
+	* bilingvista (má 2 matřské jazyky), literární kritik, publicista, básník, překladatel
+	* psal studie a eseje o češtině: Chrám i tvrz, Čeština poklepem i poslechem, Bohyně česká
