@@ -11,8 +11,7 @@
 					* shoda
 						* přívlastek shodný, shodný doplněk (*Udělali to rádi.*)
 						* přísudek se s podmětem shoduje v osobě, čísle a rodě (*Zajíci utíkali.*)
-					* řízenost
-						* předmět je v pádě (*Byl dbalý své cti.*)
+					* řízenost - předmět je v pádě (*Byl dbalý své cti.*)
 					* přimykání = slabá závislost
 						* příslovečné určení (*Domlouvali jsme se e-mailem/přes e-mail/prostřednictvím e-mailu (jak?)*)
 				* větné členy nejsou
@@ -44,3 +43,22 @@
 	* jakýkoliv slovní druh
 * nevyjádřený - pochopíme podle tvaru slovesa nebo souvislosti
 * všeobecný - týká se několika nebo mnoha lidí, které neumíme přesně pojmenovat
+### Vedlejší věta podmětná
+* podmět může být vyjádřen také VV podmětnou
+* obsah VV podstatným jménem × infinitivem
+## Přísudek
+1) slovesný
+	  * jednoduchý - tvořen určitým tvarem jednoho slovesa
+	  * složený - tvořen určitým tvarem způsobového (moci, smět, musit, mít, chtít) nebo fázového slovesa (začít, začínat, zůstat, přestat) a infinitivu slovesa významového
+	  * můžeme nahradit citoslovcem
+2) jmenný
+	* se sponou - tvořen podst. nebo příd. jm. a určitým tvarem sponového slovesa (být, bývat, stát, stávat se)
+	* beze spony - chybí sponové sloveso
+	* slovesa *být, bývat, stát, stávat se* mohou mít někdy i plný význam
+  ---
+  * **slovesa** 
+	  * **způsobová:** moci, smět, musit, mít *(povinnost)*, chtít
+	  * **fázová:** začít, začínat, zůstat, zůstávat, přestat, přestávat
+	  * **sponová:** být, bývat, stát, stávat
+---
+3) 
