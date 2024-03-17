@@ -1,3 +1,8 @@
+---
+tags:
+  - cesky_jazyk
+  - literatura
+---
 # Secese
 * znamená "Odštěpení"
 * v umění i životním stylu
