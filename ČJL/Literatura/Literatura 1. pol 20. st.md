@@ -542,3 +542,30 @@ tags:
 * Pavel Eisner
 	* bilingvista (má 2 matřské jazyky), literární kritik, publicista, básník, překladatel
 	* psal studie a eseje o češtině: Chrám i tvrz, Čeština poklepem i poslechem, Bohyně česká
+## USA
+### Realismus
+* Theodor Dreiser
+	* prozaik, žurnalista
+	* sociální realismus a naturalismus
+	* Americká tragédie
+		* sociální a psychologický román
+		* Clyde Griffith se snaží vymanit z chudoby, podlehne "americkému snu" o životním úspěchu
+		* kritika deformované morálky společnosti a honby za kariérou a bohatstvím
+* John Steinbeck
+	* prozaik, dramatik, publicista
+	* Nobelova cesta
+	* novela Pláň Tortilla - humorně líčí život povalečů
+	* román Na Plechárně - podobně jako Pláň
+	* Toulky s Charleym - cesta obytným automobilem
+	* novela Ryzáček - syn farmáře zachrání svého poníka
+	* [[O myších a lidech]]
+	* Hrozny hněvu
+		* sociálněkritický román o rodině Joadových
+		* motiv hroznů = motiv hojnosti, později hněvu
+		* kapitoly
+			* liché = děje ve společnosti (spisovný jazyk)
+			* sudé = příběch Joadovy rodiny
+	* Na východ od ráje
+		* panoramatický román
+		* 2 prolínající se pásma
+		* prolínání prvků reálných a symbolických
