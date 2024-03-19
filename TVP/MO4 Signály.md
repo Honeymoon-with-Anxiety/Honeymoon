@@ -34,6 +34,7 @@
 ![Ukázka spojitého signálu se zvětšeným detailem](https://upload.wikimedia.org/wikipedia/commons/f/f8/Spojit%C3%BD-detail.png)
 * chyba vzorkování může být horší pokud se v původním analog. signálu vyskytuje vyšší frekvence než je polovina vzorkovací frekvence, dojde k nenávratnému zkreslení kvůli jevu zvaný aliasing
 * Aliasingu se dá zabránit jedině filtrem zařazeným před převodníkem. Ten nedovolí vyšším frekvencím vstoupit do převodníku.
+* rozlišení - udáváno v bitech; počet kvant je , kde  je rozlišení
 ### Kvantování
 * zařízení dále zpracovávající digi. signál umí vyjádřit čísla jen s omezenou přesností, je třeba upravit navzorkované hodnoty i na svislé ose.
 * je třeba rozdělit prostor kolem jednotlivých hodnot na toleranční pásy (jeden takový pás je naznačen kolem nuly)
@@ -43,7 +44,8 @@
 ## DA
 * součástka určená k převodu digitálního signálu na signál analogový
 * používá se všude tam, kde je třeba z digitálního signálu udělat zpět analogový (CD přehrávače, MP3 přehrávače, zvukové karty počítače, digitálním telefonu)
-* rekonstrukce signálu - převod digitálních dat na spojitý analogový signál
+* rekonstrukce signálu - převod digitálních dat na spojitý analogový signál; pomocí PWM a filtru prvního řádu (jako je dolní propust)
+* používá se DSP procesor
 # Vzorkovací teorém
 * "K dosažení přesné rekonstrukce spojitého signálu s omezeným frekvenčním rozsahem z jeho vzorků je potřeba, aby vzorkovací frekvence přesáhla dvojnásobek frekvence nejvyšší harmonické složky vzorkovaného signálu."
 * v praxi se vzorkovací volí dvakrát větší plus rezerva
@@ -79,7 +81,8 @@ $$ B = f_{H}-f_{l}$$
 * nejčastěji měřená v bitech
 * jednotka měření závisí na základu logaritmu použitého pro výpočet entropie
 # Aliasing
-* jev, ke kterému může dojít při převodu spojitého signálu na diskrétní.
+* zkreslení signálu při rekonstrukci po nedodržení vzorkovacího teorému (vzorkovaná frekv. je alespoň 2× niží než vzorkující frekvence)
+* jev, ke kterému může dojít při převodu spojitého signálu na diskrétní
 * aby nedošlo k aliasingu, musí být vzorkovací frekvence větší než dvojnásobek nejvyšší frekvence harmonických složek ve vzorkovaném signálu
 * při nesplnění podmínky dochází k překrytí frekvenčních spekter a ke ztrátě informace
 * slovo `aliasing` znamená v češtině `falšování`; původní frekvence spojité informace je totiž vzorkováním zcela zfalšována

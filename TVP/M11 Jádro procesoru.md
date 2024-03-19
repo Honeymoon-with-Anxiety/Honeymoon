@@ -4,12 +4,14 @@
 * klasifikace procesorů
 	* podle architektury
 		* RISC
-			* skromný soubor instrukcí
+			* skromný soubor instrukcí = delší zdroj
 			* jedna instrukce - jedna operace
+			* levnější
 			* např. ARM
 		* CISC
-			* rozsáhlý soubor instrukcí
+			* rozsáhlý soubor instrukcí = kratší zdroj
 			* instrukce jsou složité; dokážou provádět mnoho operací
+			* dražší
 			* např. x86
 	* podle počtu jader
 		* jednojádrové
