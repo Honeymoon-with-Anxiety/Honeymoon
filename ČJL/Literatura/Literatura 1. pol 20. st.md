@@ -553,7 +553,7 @@ tags:
 		* kritika deformované morálky společnosti a honby za kariérou a bohatstvím
 * John Steinbeck
 	* prozaik, dramatik, publicista
-	* Nobelova cesta
+	* Nobelova cena
 	* novela Pláň Tortilla - humorně líčí život povalečů
 	* román Na Plechárně - podobně jako Pláň
 	* Toulky s Charleym - cesta obytným automobilem
@@ -569,3 +569,23 @@ tags:
 		* panoramatický román
 		* 2 prolínající se pásma
 		* prolínání prvků reálných a symbolických
+### Ztracená generace
+* Ernest Hemingway
+	* prozaik, válečný novinář
+	* Nobelova ceny
+	* válečný dopisovatel
+	* smrt zastřelením na Kubě
+	* v dílech vystupuje jako Nick Adams
+	* Sbohem, armádo - protest proti nesmyslnosti války
+	* román Komu zvoní hrana
+		* americký dobrovolník Robert Jordan
+		* význam nemá jeho smrt, ale to, pro co zemřel
+	* novela Stařec a moře
+		* rybář Santiago zápasí s obrovskou rybou, pak chrání rybu před žraloky a nakonec se vrací jen s kostrou ryby
+		* "metoda ledovce" = podstatné významy textu, zbytek si člověk domyslí
+		* prvky se symbolickým významem
+			* rybář = člověk
+			* ryba  = příroda
+			* žralok = zlo
+	* lovecký cestopis Zelené pahorky africké - úvahy o životě
+* 
