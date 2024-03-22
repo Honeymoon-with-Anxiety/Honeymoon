@@ -34,7 +34,7 @@
 ![Ukázka spojitého signálu se zvětšeným detailem](https://upload.wikimedia.org/wikipedia/commons/f/f8/Spojit%C3%BD-detail.png)
 * chyba vzorkování může být horší pokud se v původním analog. signálu vyskytuje vyšší frekvence než je polovina vzorkovací frekvence, dojde k nenávratnému zkreslení kvůli jevu zvaný aliasing
 * Aliasingu se dá zabránit jedině filtrem zařazeným před převodníkem. Ten nedovolí vyšším frekvencím vstoupit do převodníku.
-* rozlišení - udáváno v bitech; počet kvant je , kde  je rozlišení
+* rozlišení - udáváno v bitech; počet kvant je, kde  je rozlišení
 ### Kvantování
 * zařízení dále zpracovávající digi. signál umí vyjádřit čísla jen s omezenou přesností, je třeba upravit navzorkované hodnoty i na svislé ose.
 * je třeba rozdělit prostor kolem jednotlivých hodnot na toleranční pásy (jeden takový pás je naznačen kolem nuly)
