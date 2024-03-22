@@ -572,6 +572,7 @@ tags:
 ### Ztracená generace
 * Ernest Hemingway
 	* prozaik, válečný novinář
+	* zájmy: box, rybaření, lovectví
 	* Nobelova ceny
 	* válečný dopisovatel
 	* smrt zastřelením na Kubě
@@ -588,4 +589,61 @@ tags:
 			* ryba  = příroda
 			* žralok = zlo
 	* lovecký cestopis Zelené pahorky africké - úvahy o životě
-* 
+* Francis Scott Fitzgerald
+	* prozaik, scénárista
+	* éra tzv. jazzového věku
+	* bouřlivý život; povídky do časopisů, filmové scénáře
+	* román Na prahu ráje
+	* román Krásní a prokletí
+	* román Velký Gatsby
+		* třicetiletý Nick se seznámí s Jayem Gatsbym který má záhadnou minulost
+		* Jay pořádá večírky a doufá, že ho navštíví bývalá láska Daisy se kterou se nemohl oženit, když byl chudý
+	* román Něžná je noc - psychiatr Dick Diver se ožení se svou pacientkou Nicole
+* William Faulkner
+	* prozaik, scénárista
+	* Nobelova cena (1949)
+	* zakladatel moderní jižanské literatury
+	* román Divoké palmy - odpovědnost člověka za své činy
+	* román Absolone, Absolone!
+## Rusko
+### Realismus
+* Maxim Gorkij
+	* prozaik, dramatik, esejista
+	* socialistický realismus
+	* Črty a povídky - nové postavy, tzv "bosáci"
+	* alegorie Píseň o sokolu; Píseň o Bouřňáku
+	* divadelní hry Měšťáci; Na dně
+	* román Foma Gordějev
+	* román Matka
+		* sociálně-psychologický politický
+		* 1. dílo socialistického realismu
+* Michail Šolochov
+	* prozaik
+	* Nobelova cena (1965)
+	* románova epoej Tichý Don
+		* tetralogie (4)
+		* hl. hrdina kozák Grigorij Melechov → osobní tragédie čestného člověka
+		* z 1. sv. a občanské války
+	* novela Osud člověka
+		* humanismus
+		* hrdinství obyčejného člověka Andreje Sokolova
+### Moderní literatura
+* Michail Afanasjevič Bulgakova
+	* prozaik, dramatik, publicista, herec, dramaturg; původně lékař
+	* od 30. let zákaz publikování
+	* satiricky zachycoval realitu života, snové fantaskní a nadpřirozené motivy (magický realismus)
+	* skutečný život v sovětském státě - díla zakázána
+	* Dobis vládě SSSR - odsuzuje cenzuru
+	* novela Osudná vejce - první ruské sci-fi
+	* novela Psí srdce
+		* první ruské sci-fi
+		* z psa se stane člověk Barykov
+		* přizpůsobí se režimu; prototyp prolétáře
+	* román Mistr a Markétka - magický realismus
+* Bois Pasternak
+	* básník, prozaik, překladatel
+	* Nobelova cena (1958)
+	* vliv symbolismu a furutismu
+	* román Doktor Živago
+		* hl. postava lékař a spisovatel Jurij Živago
+		* protest proti násilí a ponižování lidskosti
