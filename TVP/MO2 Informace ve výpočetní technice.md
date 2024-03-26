@@ -30,18 +30,34 @@
 * každá číslice odpovídá *n*-té mocnině čísla 2, kde *n* je pozice dané číslice v zapsaném čísle - binární číslo
 * tato soustava se používá ve všech dnešních počítačích z důvodu jednoduchého rozdělení dvou stavů elektrického obvodu (vypnuto; zapnuto) či pravdivost
 
-| binární číslo        | 1   | 1   | 0   | 1   | 0   | 1   | 1   | 0   |
-| -------------------- | --- | --- | --- | --- | --- | --- | --- | --- |
-| pozice číslice       | 7   | 6   | 5   | 4   | 3   | 2   | 1   | 0   |
-| mocniny čísla dvě    | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
-| hodnoty mocnin       | 128 | 64  | 32  | 16  | 8   | 4   | 2   | 1   |
-| krát binární číslice | × 1 | × 1 | × 0 | × 1 | × 0 | × 1 | × 1 | × 0 |
-| výsledky součinu     | 128 | 64  | 0   | 16  | 0   | 4   | 2   | 0   | 
+| binární číslo        | 1   | 1   | 0   | 1   | 0   | 1   | 1   | 0   |     |
+| -------------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| pozice číslice       | 7   | 6   | 5   | 4   | 3   | 2   | 1   | 0   |     |
+| mocniny čísla dvě    | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |     |
+| hodnoty mocnin       | 128 | 64  | 32  | 16  | 8   | 4   | 2   | 1   |     |
+| krát binární číslice | × 1 | × 1 | × 0 | × 1 | × 0 | × 1 | × 1 | × 0 |     |
+| výsledky součinu     | 128 | 64  | 0   | 16  | 0   | 4   | 2   | 0   |     |
  
  * pro převod z dvojkové soustavy do desítkové si jednotlivé číslice umocníme podle pozice číslice. pokud číslice je rovna 1 přičteme do celkového výsledku její poziční mocninu; pokud číslice je rovna 0 číslici přeskočíme. podle této logiky zjistíme, že `11010110` se rovná `214`.
 	 **1  1**  0  **1**  0 **1  1**  0
 	 128  64  x  16  x  4  2 
 	 128 + 64 + 16 + 4 + 2 = 214
+## Ternární
+* používá tři symboly: `0`, `1` a `2` nebo `-1`, `0`, `1`
+* číslice se nazývá `trit`
+
+| 10  | 2    | 3   |
+| --- | ---- | --- |
+| 1   | 1    | 1   |
+| 2   | 10   | 2   |
+| 3   | 11   | 10  |
+| 4   | 100  | 11  |
+| 5   | 101  | 12  |
+| 6   | 110  | 20  |
+| 7   | 111  | 21  |
+| 8   | 1000 | 22  |
+| 9   | 1001 | 100 |
+| 10  | 1010 | 101 |
 ## Decimální
 * tato soustava používá 10 číslic (0-9). tato soustava je nejrozšířenější na světě. umožňuje přesný zápis libovolných celých čísel, záporných čísel (začínají znakem "mínus" `-`). pomocí desetiné čárky/tečky lze zapsat libovolné reálné číslo.
 ## Hexadecimální
@@ -85,6 +101,9 @@ $$
 * nebo-li `integer`
 * jazyky mohou ale nemusí rozlišovat číslo bez znaménka a se znaménkem.
 * u většiny jazyků je číslo omezené intervalem a kódováno v [[MO2 Informace ve výpočetní technice#Záporná čísla|dvojkovém doplňku]].
+## Zlomek
+* nulu v registru posuneme dle potřeby doleva (logické posuny fungují jako násobění/dělení)
+* cokoliv za nulou bude $\frac{1}{2^n}$ kde $n$ je pozice za nulou (indexujeme od `1`)
 ## Znak
 * nebo-li `char`, ohraničuje se apostrofem ( ' )
 * ve skutečnosti vyjádřena celým číslem
