@@ -647,3 +647,40 @@ tags:
 	* román Doktor Živago
 		* hl. postava lékař a spisovatel Jurij Živago
 		* protest proti násilí a ponižování lidskosti
+## Česko
+* život v první republice
+	* parlamentní demokracie
+	* hospodářská krize ve 30. letech
+	* na úřadech čeština
+	* národnostní spory, s nástupem Hitlera se stupňovaly požadavky Němců
+	* mnichovská dohoda (1938) - druá republika; vznik Protektorátu; Slovenský štát
+* umění
+	* umělecké směry: impresionismus, realismus, expresionismus, kubismus
+	* v architektuře funkcionalistické stavby
+	* hudba - Leoš Janáček; Bohuslv Martinů; Jaroslav Ježek (Osvobozené divadlo)
+* literatura
+	* poetismus, socialistický realismus
+	* Osvobozené divadlo
+	* nominování na Nobelovu cenu
+	* 1921 Proletkult
+	* K. Čapek - Proč nejsem komunistou
+	* skupina tzv. pátečníků
+	* K. Čapek - demokratický proud
+	* levá fronta = posílení národního uvědomění
+* drama - vedle Osvobozeného divadla bylo i Divadlo D 34
+### 1. sv. válka
+* Jaroslav Hašek
+	* prozaik, satirik, humorista, publicista
+	* vliv anarchismu; bohémský život
+	* vězněn
+	* založil Stranu mírného pokroku v mezích zákona
+	* pěšky procestoval R-U, došel až do Ruska
+	* voják rakouské armády, pak čsl. legiím
+	* zakladatel žánru hospodské historky
+	* cestopisné povídky, črty, humoresky (Můj obchod se psy)
+	* většinu děl napsal v hospodě, publikováno časopisecky
+	* haškologie
+	* Osudy dobrého vojáka Švejka za světové války
+		* tetralogie; nedokončený humoristický román
+		* nemá jasnou dějovou linii, ústřední je postava Švejka a záznam jeho rozhovorů, vyprávění a popisů situací
+		* hl. postava Josef Švejk - prostomyslný naivní hlupák a dobrák
