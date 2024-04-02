@@ -1,0 +1,10 @@
+E:\Dokumenty Vojta\VS\SegDisplCharMakerFrameworkVer\SegDisplCharMakerFrameworkVer\bin\Debug\SegDisplCharMakerFrameworkVer.exe.config
+E:\Dokumenty Vojta\VS\SegDisplCharMakerFrameworkVer\SegDisplCharMakerFrameworkVer\bin\Debug\SegDisplCharMakerFrameworkVer.exe
+E:\Dokumenty Vojta\VS\SegDisplCharMakerFrameworkVer\SegDisplCharMakerFrameworkVer\bin\Debug\SegDisplCharMakerFrameworkVer.pdb
+E:\Dokumenty Vojta\VS\SegDisplCharMakerFrameworkVer\SegDisplCharMakerFrameworkVer\obj\Debug\SegDisplCharMakerFrameworkVer.csproj.AssemblyReference.cache
+E:\Dokumenty Vojta\VS\SegDisplCharMakerFrameworkVer\SegDisplCharMakerFrameworkVer\obj\Debug\SegDisplCharMakerFrameworkVer.Properties.Resources.resources
+E:\Dokumenty Vojta\VS\SegDisplCharMakerFrameworkVer\SegDisplCharMakerFrameworkVer\obj\Debug\SegDisplCharMakerFrameworkVer.csproj.GenerateResource.cache
+E:\Dokumenty Vojta\VS\SegDisplCharMakerFrameworkVer\SegDisplCharMakerFrameworkVer\obj\Debug\SegDisplCharMakerFrameworkVer.csproj.CoreCompileInputs.cache
+E:\Dokumenty Vojta\VS\SegDisplCharMakerFrameworkVer\SegDisplCharMakerFrameworkVer\obj\Debug\SegDisplCharMakerFrameworkVer.exe
+E:\Dokumenty Vojta\VS\SegDisplCharMakerFrameworkVer\SegDisplCharMakerFrameworkVer\obj\Debug\SegDisplCharMakerFrameworkVer.pdb
+E:\Dokumenty Vojta\VS\SegDisplCharMakerFrameworkVer\SegDisplCharMakerFrameworkVer\obj\Debug\SegDisplCharMakerFrameworkVer.Form1.resources
