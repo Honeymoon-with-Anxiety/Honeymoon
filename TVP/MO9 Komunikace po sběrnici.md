@@ -106,6 +106,7 @@
 * decentralizovaná arbitrace - zařízení spolupracují a rozhodují o přístupu bez centrální autority
 * prioritní arbitrace - zařízení má určitou prioritu, na základě které je mu přidělen přístup
 * časová arbitrace - přístup je přidělován v určitých časových intervalech
+* lze využít dekodér jak HW arbitrátor
 * Carrier Sense Multiple Access with Collision Detection *(CSMA/CS)*
 	* před začátkem přenosu dat zařízení monitoruje nosný signál *(carrier sense)* zda není obsazen jiným zařízením
 	* pokud je nosný sig. volný, zařízení začne přenášet data
