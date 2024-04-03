@@ -672,7 +672,7 @@ tags:
 * Jaroslav Hašek
 	* prozaik, satirik, humorista, publicista
 	* vliv anarchismu; bohémský život
-	* vězněn
+	* vězně -, vystupoval prot R-U
 	* založil Stranu mírného pokroku v mezích zákona
 	* pěšky procestoval R-U, došel až do Ruska
 	* voják rakouské armády, pak čsl. legiím
@@ -684,3 +684,26 @@ tags:
 		* tetralogie; nedokončený humoristický román
 		* nemá jasnou dějovou linii, ústřední je postava Švejka a záznam jeho rozhovorů, vyprávění a popisů situací
 		* hl. postava Josef Švejk - prostomyslný naivní hlupák a dobrák
+* Jaromír John
+	* prozaik, estetik, výtvarný kritik
+	* povídkový soubor Večery na slamníku - vlastní zážitky z války
+* I. Olbrecht
+* S. K. Neumann
+* F. Šrámek
+* J. Weiss
+* V. Vančura
+### Legionářská literatura
+* Rudolf Medek - Anabáze (pentalogie (5))
+* Josef Kopta
+* František Langer
+* Jaroslav Kratochvíl
+### Expresionismus
+* expresionismus
+	* pocity skepse, životní pocit rozkladu hodnot, rezignace a úzkost z absurdity světa
+	* deformovaná skutečnost
+	* do české lit. pronikl již před 1. sv. válkou
+* Richard Weiner (1884 - 1937)
+	* povídkový soubor Lítice
+	* povídkový soubor Škleb
+	* povídkový soubor Lazebník
+	* Hra doopravdy - 2 texty inspirované surrealismem
