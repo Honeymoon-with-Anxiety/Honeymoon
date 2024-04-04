@@ -55,10 +55,19 @@
 	* se sponou - tvořen podst. nebo příd. jm. a určitým tvarem sponového slovesa (být, bývat, stát, stávat se)
 	* beze spony - chybí sponové sloveso
 	* slovesa *být, bývat, stát, stávat se* mohou mít někdy i plný význam
-  ---
+---
   * **slovesa** 
 	  * **způsobová:** moci, smět, musit, mít *(povinnost)*, chtít
 	  * **fázová:** začít, začínat, zůstat, zůstávat, přestat, přestávat
 	  * **sponová:** být, bývat, stát, stávat
 ---
-3) 
+# Shoda podmětu s přísudkem
+* ***děti, oči, uši** - v mn. č. rod ženský (-y)
+* **lidičky, rodiče, koně** - ros mužský životný (-i)
+* **dni i dny** ubíhaly - rod mužský neživotný (-y)
+
+| muž. nž., konec -i      | muž. nž                 |
+| ----------------------- | ----------------------- |
+| Ledoborci vypluli.      | Ledoborce vypluly.      |
+| Mikrobi se rozmnožili.  | Mikroby se rozmnožily.  |
+| Bacili bily přemnoženi. | Bacily byly přemnoženy. |
