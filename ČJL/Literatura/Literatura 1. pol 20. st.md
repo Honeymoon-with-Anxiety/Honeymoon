@@ -703,7 +703,24 @@ tags:
 	* deformovaná skutečnost
 	* do české lit. pronikl již před 1. sv. válkou
 * Richard Weiner (1884 - 1937)
-	* povídkový soubor Lítice
-	* povídkový soubor Škleb
-	* povídkový soubor Lazebník
-	* Hra doopravdy - 2 texty inspirované surrealismem
+	* povídkový soubor *Lítice*
+	* povídkový soubor *Škleb*
+	* povídkový soubor *Lazebník*
+	* *Hra doopravdy* - 2 texty inspirované surrealismem
+* Ladislav Klíma (1878 - 1928)
+	* filozof, prozaik, dramatik
+	* neschopen existenčně zakotvit
+	* *Svět jako vědomí a nic* - událost v dějinách české filozofie
+	* *Velký román I. - III.* - egodeismus (ovládnutím své vůle se člověk stává bohem)
+	* *Utrpení knížete Sternenhocha*
+		* "groteskní romaneto" s prvky hororu a gotického románu
+		* příběh o degenerovaném šlechtici, který se ožení s krásnou a hrdou Helgou, zabije ji a týrán svými vidinami zešílí
+		* Jan Něměc - film *V žáru královské lásky*
+* Josef Váchal (1884-1969)
+	* prozaik, básník, malíř, řezbář, grafik, typograf, autor vzácných bibliografilií
+	* *Krvavý román*
+		* "satirický a groteskní"
+		* pokus o ideální humor
+		* autor si knihu sám vysázel, opatřil dřevoryty, použil vlastnoručně vyřezané litery
+		* vyšla v 17 exemplářích
+		* Jaroslav Brabec - film
