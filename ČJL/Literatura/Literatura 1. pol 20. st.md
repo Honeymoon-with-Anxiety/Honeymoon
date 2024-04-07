@@ -516,7 +516,7 @@ tags:
 			* hl. postava Josef K.
 			* nesmyslnost byrokratické mašinérie, neschopnost uspět v boji proti úřadům = pesimismus, bezvýchodnost
 			* bankovní úředník Josef je v den jeho 30. narozenin odveden před soud, neschopný se hájit je odsouzen (neví rozsudek); o rok později pro něj znovu přijdou a popraví ho
-		* Proměna
+		* [[Proměna]]
 			* hl. postava Řehoř Samsa (Gregor Samsa), obchodní cestující
 			* jednoho rána se probudí proměněný v brouka
 			* povídka s prvky humoru a grotesky s pocitem bezvýchodnosti; kontrast
