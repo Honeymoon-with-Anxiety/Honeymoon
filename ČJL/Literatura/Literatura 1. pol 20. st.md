@@ -724,3 +724,15 @@ tags:
 		* autor si knihu sám vysázel, opatřil dřevoryty, použil vlastnoručně vyřezané litery
 		* vyšla v 17 exemplářích
 		* Jaroslav Brabec - film
+### Demokratický proud
+* Karel Poláček (1892 - asi 1944)
+	* prozaik, humorista, kritik, novinář
+	* židovský původ; za 1. sv. v. na frontě
+	* v dílech satirický obraz českého maloměšťáka
+	* Muži v ofsajdu - humoristický román
+	* Hostinec U Kamenného stolu - humoristický román/usměvavá próza; za okupace vydán pod jménem malíře
+	* **Okresní město**; Hrdinové táhnou do boje; Podzemní město; Vyprodáno - pentalogie (nalezeny jen 4 díly); Rychnov nad Kněžnou
+	* Bylo nás pět
+		* humoristický román
+		* postavy: Petr Bajza (vypravěč), Antonín Bejval, Čeněk Jirsák, Éda Kenlink, Zilvar z chudobince
+		* situační a slovní komika
