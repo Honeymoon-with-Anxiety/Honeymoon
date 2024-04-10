@@ -26,7 +26,7 @@
 * všechny procesory jsou si rovnocenné
 * mají přístup ke stejným zdrojům (paměť, IO zařízení)
 * jsou stejného typu
-* operační systém řídí a spravuje všechny procesory
+* operační systém plánuje úlohy tak, aby byly úlohy rovnoměrně rozděleny mezi všechny dostupné procesory
 * dají se jednoduše implementovat a rozšiřovat; rozšířitelnost je omezená
 * určena pro širokou škálu využití
 ## nesymetrický

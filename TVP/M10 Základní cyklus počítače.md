@@ -94,6 +94,7 @@
 * pipelining - technika umožňující provádění několik fází instrukce současně
 * každá fáze má svůj registr; slouží k uložení mezikroků
 * broken pipeline - situace, kdy je normální tok instrukcí v pipeline přerušen nebo narušen; obvykle vyžaduje nějakou formu opravy nebo obnovení pipeline do normálního stavu
+* má minimálně 17 bitů
 # Řadič
 * dekóduje instrukce z paměti
 * připravuje interní obvody pro provedení instrukcí

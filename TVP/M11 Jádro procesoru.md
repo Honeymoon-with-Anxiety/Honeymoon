@@ -27,7 +27,7 @@
 	* podle [[MO3 Počítačové architektury číslicových strojů|architektury paměti]]
 # Výkon procesoru
 * ovlivněn taktem - kolik operací procesor provede za jednu sekundu; v Hz
-* počet jader - umožňuje paralelní zpracování více úloh současně
+* počet jader - umožňuje paralelní zpracování více úloh současně bez potřeby přetaktování
 * architektura - jak složité instrukce jsou
 * cache paměť - velikost a efektivní správa cache ovlivňuje rychlost přístupu k datům
 # Programátorský model procesoru
