@@ -71,3 +71,19 @@
 | Ledoborci vypluli.      | Ledoborce vypluly.      |
 | Mikrobi se rozmnožili.  | Mikroby se rozmnožily.  |
 | Bacili bily přemnoženi. | Bacily byly přemnoženy. |
+# Rozvíjející větné členy
+## Předmět (Př)
+* rozvijí sloveso nebo př. jm.
+* vyjadřuje osobu, zvíře nebo věc, které slovesný děj zasahuje nebo kterých se nějak týká
+* ptáme se pádovými otázkami (mimo 1. a 5.)
+* nejčastěji vyjádřen podst. jm. nebo zájm.
+* slovesa předmětová = vyžadují doplnění předmětem (zasloužit se o něco, darovat někomu něco, neobejdeme se bez něčeho)
+* slovesa nepředmětová = na nich předmět záviset nemůže (př.: spát, sedět, ležet, jet...)
+* tvar předmětu měnit nemůžeme (pád, číslo, rod zůstává)
+### Vedlejší věta předmětná
+* vyjadřuje předmět věci řídící = hlavní
+* bývá uvozena spojkami
+## Příslovečné určení (PU)
+* rozvijí sloveso, přídv. jm. nebo příslovce
+* přimykání  = slabá závislost → tvar PU není řídícím členem určen, lze jej měnit
+* vyjadřuje okolnosti děje: místo, čas, způsob (kvalita), míra (kvantita), příčina, účel, podmínka, přípustka
