@@ -736,3 +736,12 @@ tags:
 		* humoristický román
 		* postavy: Petr Bajza (vypravěč), Antonín Bejval, Čeněk Jirsák, Éda Kenlink, Zilvar z chudobince
 		* situační a slovní komika
+* Eduard Bass (1888 - asi 1946)
+	* prozaik, humorista, dramatik, novinář, kabaretní umělec
+	* kabaret Červená sedma
+	* v Lidových novinách - rozhlásky (= veršované shrnutí událostí uplynulého týdne)
+	* próza Klapzubova jedenáctka - pro děti
+	* román Cirkus Humberto
+		* hl. postava Vašek Karas
+		* důvěra v českého člověka
+	* Lidé z maringotek - rámcová próza (cirkusový dekameron)
