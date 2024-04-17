@@ -745,3 +745,32 @@ tags:
 		* hl. postava Vašek Karas
 		* důvěra v českého člověka
 	* Lidé z maringotek - rámcová próza (cirkusový dekameron)
+* Karel Čapek
+	* narozen 9.1.1890 MaléSvatoňovice
+	* vystudoval filozofickou fakultu UK - PhDr.
+	* prozaik, dramatik, publicista, překladatel z francouzštiny, kritik, filozof
+	* dramaturg a režisér
+	* spřátelil se s T. G. Masarykem - *Hovory s T. G. M.*
+	* pátečníci
+	* založil Penklub a stal se jeho 1. předsedou
+	* navrhován na Nobelovu cenu za literaturu
+	* čelí nenávistné kampani
+	* umírá 25.12.1938 v Praze na zápal plic
+	* osobitý styl psaní; sklon k hovorovosti (ale furt spisovný)
+	* zakladatel moderní utopické a vědecko-fantastické prózy
+	* dílo
+		* záliba v  cestování: Italské listy, Anglické listy, Výlet do Španěl, Obrázky z Holandska, Cesta na sever
+		* práce na zahradě: Zahradníkův rok
+		* vztah ke zvířatům: Měl jsem psa a kočku
+		* Dášenka čili Život štěněte - vlastní ilustrace
+		* Devatero pohádekaaaaayyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+		* spoluautorství s bratrem Josefem
+			* Zářivé hlubiny
+			* Krakonošova zahrada
+			* Lásky hra osudná
+			* Ze života hmyzu
+		* Povídky
+			* Boží muka; Trapné povídky - filozofické detektivky; např Šlépěj)
+			* Povídky z jedné kapsy; Povídky z druhé kapsy
+				* soubor povídek s detektivní zápletkou
+				* hl. postava komisař Mejzlík
