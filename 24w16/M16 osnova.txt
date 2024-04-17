@@ -1,0 +1,10 @@
+M16
+	více jader v MCU
+	více MCU na jedné desce - paralelní stroj
+	něco něco něco
+	
+	je to možné zparalelizovat?
+	synchronizační problémy
+	synchronizační protokoly: semafor; mutex; monitor; ...
+	oper. sys.- je paralelní? - zdánlivý (round robin) nebo faktický
+	
