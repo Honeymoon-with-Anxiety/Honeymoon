@@ -774,3 +774,29 @@ tags:
 			* Povídky z jedné kapsy; Povídky z druhé kapsy
 				* soubor povídek s detektivní zápletkou
 				* hl. postava komisař Mejzlík
+			* novela První parta - z hornického prostředí
+	* romány
+		* Továrna na absolutno
+			* utopický román
+			* kritika náboženského fanatismu
+		* Krakatit
+			*  utopický román s prvky sci-fi
+			*  myšlenka odpovědnosti vědce
+		*  noetická triolgie
+			*  noetika = nauka o poznání a požnostech poznání
+			*  Hordubal
+				*  trojí pohled
+				*  úsilí dobrat se pravdy
+			* Povětroň - tři možné výklady
+			* Obyčejný život
+			* souvislost románů myšlenková (filozofie relativismu - není jen jedna poznatelná pravda) 
+		* Válka s Mloky
+			* satirická alegorie
+			* varování před nebezpečím fašismu a rasismu
+			* využití novinářské formy reportáže
+		* Život a dílo skladatele Foltýna - nedokončený psychologický román
+	* dramata
+		* Loupežník - konverzační lyrická komedie; oslava mládí; výsměch měšťáků
+		* R.U.R.
+			* fantasticko-utopická hra
+			* robot - neologismus Josefa Čapka
