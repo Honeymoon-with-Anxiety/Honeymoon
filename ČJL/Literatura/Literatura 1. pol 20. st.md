@@ -782,12 +782,13 @@ tags:
 		* Krakatit
 			*  utopický román s prvky sci-fi
 			*  myšlenka odpovědnosti vědce
-		*  noetická triolgie
-			*  noetika = nauka o poznání a požnostech poznání
+			* téma: odpovědnost vědce
+		*  noetická trilogie
+			*  noetika = nauka o poznání a možnostech poznání
 			*  Hordubal
 				*  trojí pohled
 				*  úsilí dobrat se pravdy
-			* Povětroň - tři možné výklady
+			* Povětroň - tři možné výklady; havárie letadla
 			* Obyčejný život
 			* souvislost románů myšlenková (filozofie relativismu - není jen jedna poznatelná pravda) 
 		* Válka s Mloky
@@ -800,3 +801,8 @@ tags:
 		* R.U.R.
 			* fantasticko-utopická hra
 			* robot - neologismus Josefa Čapka
+		* Věc Makropulos - utopická komedie, téma dlouhověkosti
+		* Bílá nemoc - varování před fašismem a nebezpečím davové manipulace
+		* Matka
+			* poslední hra
+			* varování před zločinností války, ale i výzva k boji proti násilí a nelidskosti
