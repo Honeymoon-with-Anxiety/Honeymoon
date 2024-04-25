@@ -87,3 +87,17 @@
 * rozvijí sloveso, přídv. jm. nebo příslovce
 * přimykání  = slabá závislost → tvar PU není řídícím členem určen, lze jej měnit
 * vyjadřuje okolnosti děje: místo, čas, způsob (kvalita), míra (kvantita), příčina, účel, podmínka, přípustka
+## Přívlastek
+* rozvijí podstatné jméno
+## Doplněk
+* rozvijí sloveso a zároveň jméno
+* tvoří dvě skladební dvojce
+* `rád`, `sám` jsou vždy doplňky
+* vyjadřuje vlastnost, kterou má jméno za děje nebo kterou dějem získává
+* bývá vyjádřen př. jm., po. jm. jménem se spojkou `jako`, infinitivem, někdy i číslovkou nebo zájménem
+* shodný - shoduje se se jménem, k němuž se vztahuje
+* neshodný - v jiném pádě než jméno, ke kterému se vztahuje (nejčastěji v 7. pádě)
+* podtrhává se 2×
+### Vedlejší věta doplňková
+* rozvijí sloveso a zároveň jméno v postavení předmětu (zřídka podmětu)
+* uvozena spojkou `jak`
