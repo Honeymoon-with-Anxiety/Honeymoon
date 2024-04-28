@@ -806,3 +806,37 @@ tags:
 		* Matka
 			* poslední hra
 			* varování před zločinností války, ale i výzva k boji proti násilí a nelidskosti
+### Imaginativní proud
+* Vladislav Vančura
+	* žil 1891 až 1942
+	* prozaik, dramatik, scénárista, filmový režisér, výtvarný a divadelní kritik
+	* Devětsil
+	* lékař
+	* za heydrichiády popraven
+	* moderní umělecké směry - avantgardní próza
+	* experimentoval s jazykem a stylem
+	* sklon ke knižnosti (archaismy)
+	* originální větná stavba
+	* díla
+		* Pekař Jan Marhoul
+			* sociální román
+			* obžaloba světa peněz
+			* vliv proletářského umění
+			* baladické ladění
+		* Pole orná a válečná
+			* expresionistické ladění
+			* inspirace poetismem
+			* různé vrstvy jazyka
+		* Rozmarné léto
+			* humoristická novela
+			* hl. postavy kouzelník Arnoštek a provazolezkyně Anna, majitel lázní Antonín Důra, Roch, Hugo, Kateřina
+			* parodie maloměsta
+		* Markéta Lazarová
+			* baladický román z dob loupeživého středověku
+			* tragický příběh vášnivé lásky a nenávisti
+			* 2 páry: Markétka a Mikoláš, Kristian a Alexandra
+			* důležitá role vypravěče: vstupuje do děje, komentuje jednání postav, schvaluje i odsuzuje, oslovuje hrdiny i čtenáře
+		* povídka Luk královny Dorotky
+		* romány Útěk do Budína; Konec starých časů ad.
+		* nedokončené Obrazy z dějin národa českého
+		* dramata: Jezero Ukereve; Josefína
