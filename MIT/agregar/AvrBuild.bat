@@ -1,0 +1,2 @@
+@ECHO OFF
+"C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "C:\Users\admin\Music\Vasek\agregar\labels.tmp" -fI -W+ie -C V2E -o "C:\Users\admin\Music\Vasek\agregar\agregar.hex" -d "C:\Users\admin\Music\Vasek\agregar\agregar.obj" -e "C:\Users\admin\Music\Vasek\agregar\agregar.eep" -m "C:\Users\admin\Music\Vasek\agregar\agregar.map" "C:\Users\admin\Music\Vasek\agregar\agregar.asm"
