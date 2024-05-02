@@ -74,3 +74,13 @@
 * z hlediska návrhu a implementace je jednodušší než preemptivní
 * vhodný pro aplikace s pevně daným chováním v reálném čase
 * využito ve starších verzích OS (např. Win3.x)
+  
+---
+
+* context switch
+	* kde se vyskytuje
+	* jak to souvisí s paralelizací
+	* je to vždy použitelné
+	* jak to probíhá
+* TCP/IP
+	* softwarový zprostředkovatel organizace / arbitrační vrstva pro komunikaci mezi "jádry"
