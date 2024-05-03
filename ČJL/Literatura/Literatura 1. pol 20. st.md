@@ -827,10 +827,12 @@ tags:
 			* expresionistické ladění
 			* inspirace poetismem
 			* různé vrstvy jazyka
+			* reakce na 1. sv. válku
 		* Rozmarné léto
 			* humoristická novela
 			* hl. postavy kouzelník Arnoštek a provazolezkyně Anna, majitel lázní Antonín Důra, Roch, Hugo, Kateřina
 			* parodie maloměsta
+			* kritika maloměsťanství
 		* Markéta Lazarová
 			* baladický román z dob loupeživého středověku
 			* tragický příběh vášnivé lásky a nenávisti
@@ -840,3 +842,55 @@ tags:
 		* romány Útěk do Budína; Konec starých časů ad.
 		* nedokončené Obrazy z dějin národa českého
 		* dramata: Jezero Ukereve; Josefína
+### Katolický proud, Ruralismus
+* díla se často odehrávají na venkově
+* Jakub Deml
+	* básník, prozaik, publicista, překladatel
+	* kněz
+	* vliv spiritualismu, expresionismu i surrealismu
+	* Dílo
+		* Moji přátelé - rozhovory s rostlinami
+		* Zapomenuté světlo - výpověď o vlastním zoufalství
+* Jaroslav Durych
+	* prozaik, básník, dramatik, publicista
+	* historická imaginativní próza, obdiv k baroku
+	* Bloudění - tzv. Větší valdštejnská trilogie (romány)
+	* Rekviem - tzv. Menší valdštejnská trilogie (povídky)
+* Jan Čep
+	* prozaik, překladatel, esejista
+	* povídky z vesnického prostředí
+* ruralisté
+	* dominantní vztah k půdě
+	* venkovský život = záruka mravnosti a čistoty
+	* těžký úděl venkovanů
+	* mýtizace selství
+	* Josef Knap: Réva na zdi; Zaváté šlépěje
+	* František Křelina: Hlas na poušti, Puklý chrám; Bábel; Soud nad Bábelem
+### Sociální próza a socialistický realismus
+* levicově orientovaní spisovatelé
+* vliv marxistické filozofie
+* návaznost na tradici kritického realismu
+* Ivan Olbracht
+	* vl. jm. Kamil Zeman
+	* prozaik, publicista
+	* reportáže *Obrazy ze soudobého Ruska*
+	* román *Zamřížované zrcadlo*
+	* 3 prózy *O zlých samotářích* - samotář → tulák
+	* psychologický román *Žalář nejtemnější*
+	* psychologický román *Podivné přátelství herce Jesenia*
+	* román socialistického realismu *Anna proletářka*
+	* ve 30. letech na Podkarpatské Rusi
+	* reportáže *Země beze jména*; *Hory a staletí*
+	* 3 povídky *Golet v údolí*
+		* Zázrak s Julčou
+		* Událost v mikve
+		* O smutných očích Hany Karadžičové
+	* baladický román *Nikola Šuhaj loupežník*
+		* vesnice Koločava
+		* prolínání epické a lyrické roviny; psychologie postav
+		* básnický jazyk
+	* pro děti
+		* Biblické příběhy
+		* Ze starých letopisů českých
+		* O mudrci Bidpajovi a jeho zvířátkách
+		* Dobyvatel

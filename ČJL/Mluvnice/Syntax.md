@@ -94,10 +94,18 @@
 * tvoří dvě skladební dvojce
 * `rád`, `sám` jsou vždy doplňky
 * vyjadřuje vlastnost, kterou má jméno za děje nebo kterou dějem získává
-* bývá vyjádřen př. jm., po. jm. jménem se spojkou `jako`, infinitivem, někdy i číslovkou nebo zájménem
+* bývá vyjádřen př. jm., po. jm. jménem se spojkou `jako`, infinitivem (se smyslovým vnímáním), někdy i číslovkou nebo zájménem
 * shodný - shoduje se se jménem, k němuž se vztahuje
 * neshodný - v jiném pádě než jméno, ke kterému se vztahuje (nejčastěji v 7. pádě)
 * podtrhává se 2×
 ### Vedlejší věta doplňková
 * rozvijí sloveso a zároveň jméno v postavení předmětu (zřídka podmětu)
 * uvozena spojkou `jak`
+# Několikanásobné větné členy
+* významové poměry
+	* slučovací - `a`, `i`, `ani` (čárka se nepíše)
+	* stupňovací - `ba`, `dokonce`, `dokonce i`, `nejen - ale i`, `nejen - nýbrž i`
+	* odporovací - `ale`, `avšak`, `nýbrž`, `leč`, `zato` apod.
+	* vylučovací - `nebo`, `anebo`, `či`, `buď - nebo`, `buď - anebo`; vztah 
+	* důsledkový
+	* 
