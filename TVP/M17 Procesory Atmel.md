@@ -14,3 +14,7 @@ kolik taktů trvá jedna instrukce → je to v AVR instruction pdf → trvá 2 t
 	* napájení
 	* brown out circuit
 	* ošetření vstupů
+
+* reset obvod
+* připojení externího oscylátoru
+* ISP obvd

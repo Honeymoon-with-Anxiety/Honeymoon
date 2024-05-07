@@ -74,13 +74,21 @@
 * z hlediska návrhu a implementace je jednodušší než preemptivní
 * vhodný pro aplikace s pevně daným chováním v reálném čase
 * využito ve starších verzích OS (např. Win3.x)
-  
----
-
-* context switch
-	* kde se vyskytuje
-	* jak to souvisí s paralelizací
-	* je to vždy použitelné
-	* jak to probíhá
-* TCP/IP
-	* softwarový zprostředkovatel organizace / arbitrační vrstva pro komunikaci mezi "jádry"
+# Context switch
+* proces přepínání mezi běžícími vlákny a procesy tak, aby vypadalo, že běží současně
+* před přepnutím operační systém uloží stav běžícího procesu do paměti
+* výskyt
+	* volání systémových služeb - při volání operace vyžadující privilegie operační systém přepne do režimu jádra pomocí context switche
+	* [[M15 Přerušení CPU#Čítač, přepínání|přerušení]]
+* operační systém využívá context switch k maximálnímu možnému využití sdílených zdrojů
+* zabraňuje konfliktům při přístupu ke sdíleným prostředkům
+* nevhodný při/v
+	* Hard Real-Time systémech - Hard Real-Time systémy vyžadují přesný časový limit pro odezvy; context switch je zde nevhodný neboť může způsobovat zpoždění
+	* systémy s nízkou latencí - switch může zvýšit latenci a snížit výkon
+	* v některých embedded systémech může být context switch příliš nákladný, nebo úplně zbytečný
+* průběh
+	1) uložení stavu - operační systém uloží stav procesu (obsah registrů, ukazatel na zásobník, stav paměti atd.)
+	2) zvolení nového procesu - na základě [[M15 Přerušení CPU#Fronta procesů|plánovacího procesu]]
+	3) načtení a obnovení nového procesu - operační systém načte (uložený) stave nového procesu a obnoví jeho proces
+# TCP/IP
+* softwarový zprostředkovatel organizace / arbitrační vrstva pro komunikaci mezi "jádry"
