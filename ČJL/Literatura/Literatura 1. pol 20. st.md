@@ -746,7 +746,7 @@ tags:
 		* důvěra v českého člověka
 	* Lidé z maringotek - rámcová próza (cirkusový dekameron)
 * Karel Čapek
-	* narozen 9.1.1890 MaléSvatoňovice
+	* narozen 9.1.1890 Malé Svatoňovice
 	* vystudoval filozofickou fakultu UK - PhDr.
 	* prozaik, dramatik, publicista, překladatel z francouzštiny, kritik, filozof
 	* dramaturg a režisér
@@ -876,7 +876,7 @@ tags:
 	* reportáže *Obrazy ze soudobého Ruska*
 	* román *Zamřížované zrcadlo*
 	* 3 prózy *O zlých samotářích* - samotář → tulák
-	* psychologický román *Žalář nejtemnější*
+	* psychologický román *Žalář nejtemnější* - hl. postava ztratial zrak
 	* psychologický román *Podivné přátelství herce Jesenia*
 	* román socialistického realismu *Anna proletářka*
 	* ve 30. letech na Podkarpatské Rusi
@@ -889,8 +889,9 @@ tags:
 		* vesnice Koločava
 		* prolínání epické a lyrické roviny; psychologie postav
 		* básnický jazyk
+		* baladický román
 	* pro děti
 		* Biblické příběhy
 		* Ze starých letopisů českých
-		* O mudrci Bidpajovi a jeho zvířátkách
+		* O mudrci Bidpajovi a jeho zvířátkách - indické bajky
 		* Dobyvatel
