@@ -1,7 +1,4 @@
 opsat datashit a pak rozepsat každou věc z opisu
-
----
-
 * jednočip → jádro + periferie jedoucí současně; "proč?"
 ![[TVP_2_5_24.png]]
 200 ms = 200 000 us = 200 000 000 ns
@@ -18,3 +15,30 @@ kolik taktů trvá jedna instrukce → je to v AVR instruction pdf → trvá 2 t
 * reset obvod
 * připojení externího oscylátoru
 * ISP obvd
+---
+* ATmega16
+	* 8-bitový procesor s vysokým výkonem a nízkou spotřebou energie
+	* RISC architektura
+		* 131 příkazů (většina na jeden hodinový tick)
+		* 32 8bitových registrů pro běžné použití
+		* propustnost až 16 MIPS (million operations per second) při 16 MHz
+		* v čipu 2-cyklový násobič
+	* Paměť
+		* 16 kB Flash paměti s výdrží 10 000 přečtení/zápisů
+		* volitelný oddíl zaváděcího kódu
+		* 512 b EEPROM paměti s výdrží 100 000 přečtení/zápisů
+		* 1 kB interní SRAM
+	* JTAG interface
+		* k programování Flashe, EEPROM a uzamykání bitů
+		* data jsou přenášena sériově
+			* TDI - Test Data In
+			* TDO - Test Data Out
+			* TCK - Test ClocK
+			* TMS - Test Mode Select
+			* TRST - Test ReSeT (volitelný)
+		* rozsáhlá podpora debugování přímo na čipu
+	* funkce periférií
+		* dva 8-bitové časovače/čítače se samostatně nastavitelným škálováním a režimem porovnání
+		* jeden 16-bitový časovač/čítač
+		* reálný časový čítač s odděleným osciloskopem
+		* 
