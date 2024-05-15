@@ -1,4 +1,3 @@
-opsat datashit a pak rozepsat každou věc z opisu
 * jednočip → jádro + periferie jedoucí současně; "proč?"
 ![[TVP_2_5_24.png]]
 200 ms = 200 000 us = 200 000 000 ns
@@ -41,4 +40,24 @@ kolik taktů trvá jedna instrukce → je to v AVR instruction pdf → trvá 2 t
 		* dva 8-bitové časovače/čítače se samostatně nastavitelným škálováním a režimem porovnání
 		* jeden 16-bitový časovač/čítač
 		* reálný časový čítač s odděleným osciloskopem
-		* 
+		* 10-bitový [[MO4 Signály#AD|ADC převodník]]
+		* Master/Slave SPI sériová sběrnice
+		* programovatelný Watchdog (resetuje systém pokud se zacyklí) s odděleným on-chip oscilátorem
+		* on-chip analogový komparátor
+	* speciální funkce
+		* Power-On Reset a Brown-Out detekce (dokáže zjistit problémy s napájením)
+		* interní kalibrovaný RC oscilátor
+		* externí a interní zdroje přerušení (tabulka?)
+		* 6 režimů uspání
+	* pracovní napětí
+		* 2,7 - 5,5 V pro ATmega16L
+		* 4,5 - 5,5 V pro ATmega16
+	* rychlostní stupně
+		* 0 - 8 MHz pro ATmega16L
+		* 0 - 16 MHz pro ATmega16
+	* odběr energie (při 1 MHz, 3 V, 25 °C pro ATmega16L)
+		* Aktivní → 1,1 mA
+		* Nečinný (Idle) → 0,35 mA
+		* Vyplý → <1 µA
+# Jednočip
+* 
