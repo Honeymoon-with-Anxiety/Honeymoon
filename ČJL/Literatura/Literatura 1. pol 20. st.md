@@ -876,7 +876,7 @@ tags:
 	* reportáže *Obrazy ze soudobého Ruska*
 	* román *Zamřížované zrcadlo*
 	* 3 prózy *O zlých samotářích* - samotář → tulák
-	* psychologický román *Žalář nejtemnější* - hl. postava ztratial zrak
+	* psychologický román *Žalář nejtemnější* - hl. postava ztratil zrak
 	* psychologický román *Podivné přátelství herce Jesenia*
 	* román socialistického realismu *Anna proletářka*
 	* ve 30. letech na Podkarpatské Rusi
@@ -891,7 +891,36 @@ tags:
 		* básnický jazyk
 		* baladický román
 	* pro děti
-		* Biblické příběhy
-		* Ze starých letopisů českých
-		* O mudrci Bidpajovi a jeho zvířátkách - indické bajky
-		* Dobyvatel
+		* *Biblické příběhy*
+		* *Ze starých letopisů českých*
+		* *O mudrci Bidpajovi a jeho zvířátkách* - indické bajky
+		* *Dobyvatel* - dobrodružný román o dobývání Mexika
+* Marie Majerová
+	* prozaička, publicistka
+	* román *Panenství*
+	* dívčí román *Robinsonka*
+	* románová kronika *Siréna* - z hornického a hutnického prostředí
+	* novela *Havířská balada*
+* Marie Pujmanová
+	* prozaička, básnířka, literární kritička
+	* psychologická povídka *Předtucha*
+	* 1. díl románové trilogie *Lidé na křižovatce*
+	* 2. díl *Hra s ohněm*
+	* 3. díl *Život proti smrti* - více méně propagace komunismu
+* Karel Nový
+	* prozaik, novinář
+	* *Sarajevský atentát* - historie vzniku 1. sv. války
+### Psychologická próza
+* psychologie - vnitřní prožívání lidí; jeho prožitky zachycené detailně
+* Jaroslav Havlíček
+	* prozaik
+	* postavy rozvrácené, patologicky postižené
+	* román *Petrolejové lampy* - r. 1971 film Juraje Herze
+	* *Helimadoe*
+		* příběh podivínského venkovského lékaře a jeho pěti dcer
+		* postava vypravěče
+		* r. 1994 film
+	* *Neviditlný*
+		* chemik Petr Švajcar = záporný hrdina toužící po majetku a moci; vezme si Soňu Hajnovou
+		* bláznivý strýček Cyril
+		* film z r. 1965
