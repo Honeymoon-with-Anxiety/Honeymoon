@@ -106,6 +106,19 @@
 	* slučovací - `a`, `i`, `ani` (čárka se nepíše)
 	* stupňovací - `ba`, `dokonce`, `dokonce i`, `nejen - ale i`, `nejen - nýbrž i`
 	* odporovací - `ale`, `avšak`, `nýbrž`, `leč`, `zato` apod.
-	* vylučovací - `nebo`, `anebo`, `či`, `buď - nebo`, `buď - anebo`; vztah 
+	* vylučovací - `nebo`, `anebo`, `či`, `buď - nebo`, `buď - anebo` 
 	* důsledkový
-	* 
+# Zvláštnost větné stavby
+* oslovení - obvykle tvar 5. pádu; oddělujeme čárkami (př. *Vítám tě, __Adame__, mezi námi.*)
+* citoslovce
+	* obvykle není VČ - oddělujeme čárkou
+	* zastupuje slovesný přísudek - neoddělujeme
+* osamostatněný větný člen - stojí za větou (př. *Zítra k vám zajdu. __Odpoledne. Asi v pět hodin.__*)
+* vsuvka -  věta nebo slovní výrazy které s danou větou nějak obsahově souvisí (nejčastěji poznámka k obsahu věty); oddělujeme čárkami
+* elipsa - výpustka = nevyjádření části věty, kterou je však možno jednoznačně doplnit (vyplívá z kontextu)
+# Nepravidelnosti a nedostatky ve stavbě věty
+* Anakolut - vybočení z větné konstrukce; uprostřed výpovědi se změní větné schéma
+* Zeugma - spřežení vazeb; na řídících VČ vyžadujících různou vazbu závisí člen v tvaru odpovídajícím jen jedné z těchto vazeb
+* Kontaminace - směšování vazeb; kříží se různé konstrukce stejného, podobného nebo protikladného významu
+* Atrakce - skladebná spodoba; nenáležité přizpůsobení tvarů sousedních členů věty
+* Apoziopeze - nedokonená výpověď; mluvčí neví, jak větu dokončit, nebo byl přerušen
