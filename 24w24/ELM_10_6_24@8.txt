@@ -1,0 +1,1 @@
+Obvod se chová, jak by měl. - RS NAND, RS NOR, RST, D,  Just Kidding, 2b čítač ↑↓ 
