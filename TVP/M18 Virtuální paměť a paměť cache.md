@@ -24,6 +24,7 @@
 		* v moderních procesorech
 		* každá úroveň má různé charakteristiky (rychlost, velikost)
 		* určena k optimalizaci přístupu k datům na různé úrovni hierarchie paměti
+	* uspořádaná do úrovní (L1, L2, L3); L1 - nejmenší a nejrychlejší; L3 - největší a nejpomalejší
 # Logické souvislosti s cache
 * logické souvislosti určují, jaká data by měla být uložena v cache a jak by měla být spravována
 * princip prostorové lokalizace (Spatial Locality)
@@ -71,8 +72,38 @@
 	* snooping-based protocols - každá cache monitoruje (snoops) sběrnici pro zjištění operací, které mohou ovlivnit její vlastní kopie dat
 	* directory-based protocols - používá centrální nebo distribuovaný adresář, který sleduje, která cache má kopii které paměťové adresy a spravuje aktualizace a invalidace dat
 # Vyřazování a aktualizace cache
-* h
+* vyřazování
+	* LRU (Least Recently Used) - nahrazuje nejméně nedávno použitá data
+	* FIFO (First In, First Out) - nahrazuje data v pořadí, v jakém byla do cache uložena
+	* LFU (Least Frequently Used) - nahrazuje data, která byla nejméně často přístupována; kombinace časové a prostorové lokalizace
+	* random replacement - položka k vyřazení je vybrána náhodně; v některých případech efektivní, obvykle neposkytuje nejlepší výkon
+* aktualizace
+	* write-through
+		* data jsou zapisována do cache a zároveň okamžitě do RAM
+		* vysoký úroveň konzistence; pomalejší
+	* write-back
+		* data jsou zapisována pouze do cache a do RAM jsou zapsána až tehdy, když jsou z cache odstraněna
+		* rychlejší; složitější správa pamětí
 # Adresa na sběrnici
-* h
-## Vznik fyzické adresy
-* 
+* každý proces běžící v systému používá virtuální adresy, které jsou nezávislé na fyzické paměti; každý proces má svůj vlastní adresní prostor
+* tato virtuální adresa je předána správci paměti, který ji přeloží na fyzickou adresu pomocí tabulky stránek
+* virtuální adresa je rozdělena na číslo stránky a offset; číslo stránky je využito k určení stránky; offset pak k určení buňky na stránce 
+* pokud má virtuální adresa 32 bitů a velikost stránky je 4 KB (12 bitů pro offset), pak zbývajících 20 bitů tvoří číslo stránky
+* fyzická adresa je vytvořena kombinací čísla fyzického rámce a offsetu z původní virtuální adresy
+* pokud je například číslo fyzického rámce 0x12345 a offset 0x678, výsledná fyzická adresa bude 0x12345678
+* stránkovací mechanismy a optimalizace
+	* TLB (Translation Lookaside Buffer)
+		* malá vyrovnávací paměť v procesoru
+		* uchovává nedávné překlady virtuálních adres na fyzické adresy
+		* při TLB hit je překlad velmi rychlý - není potřeba přistupovat k tabulce stránek v paměti
+		* při TLB miss musí procesor přistoupit k tabulce stránek - pomalejší
+* postup převádění virtuální adresy na fyzickou
+	1) procesor vygeneruje virtuální adresu
+	2) virtuální adresa je rozdělena na číslo stránky a offset
+	3) číslo stránky je použito k vyhledání záznamu v tabulce stránek
+	4) pokud je záznam
+		* nalezen v TLB - fyzická adresa je rychle získána
+		* nenalezen v TLB - tabulka stránek je prohledána v paměti
+	5) záznam z tabulky stránek poskytuje číslo fyzického rámce
+	6) fyzická adresa je vytvořena kombinací fyzického rámce a offsetu
+	7) fyzická adresa je použita k přístupu k datům v paměti
