@@ -1,3 +1,4 @@
+#technicke_vybaveni_pocitacu 
 * ATmega16
 	* 8-bitový procesor s vysokým výkonem a nízkou spotřebou energie
 	* RISC architektura

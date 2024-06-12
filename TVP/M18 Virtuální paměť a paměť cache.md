@@ -1,3 +1,4 @@
+#technicke_vybaveni_pocitacu 
 * virtuální paměť
 	* technika dovolující programům využívat více paměti než je jí fyzické
 	* koncept vytváří iluzi velkého, spojitého adresového prostoru pro každou běžící aplikaci
