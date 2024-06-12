@@ -924,3 +924,48 @@ tags:
 		* chemik Petr Švajcar = záporný hrdina toužící po majetku a moci; vezme si Soňu Hajnovou
 		* bláznivý strýček Cyril
 		* film z r. 1965
+* Egon Hostovský
+	* spisovatel, novinář, diplomat
+	* existencialismus
+	* většina děl vznikla v exilu
+	* *Žhář*
+		* 15letý chlapec, který miluje dívku jednu, a aby na ní zapůsobil, píše ji paličské dopisy, které však někdo zneužije k opravdovému žhářství
+		* končí jako jedna z mála dobře
+	* *Případ profesora Körnera* - gymnaziální profesor prožívá krizi, trpí pocitem méněcennosti; ve chvílích naděje umírá náhodou
+	* *Cizinec hledá byt*
+	* *Nezvěstný*
+* Jarmila Glazarová
+	* prozaička, publicistka
+	* národní umělkyně
+	* *Roky v kruhu*
+	* *Vlčí jáma*
+	* *Advent*
+* Václav Řezáč
+	* vl. jm. Václav Voňavka
+	* prozaik
+	* *Poplach v Kovářské uličce*
+	* *Černé světlo*
+### Drama
+* oficiální divadlo
+	* kamenná divadla s klasickým repertoárem
+	* náladové hry
+	* psychologická dramata
+	* historické drama
+	* jevištní expresionismus
+* neoficiální scény
+	* lidové zábavní divadlo, kabarety, šantány
+	* Červená sedma
+		* kabaret
+		* skladatel písní Jiří Červený; textař, konferenciér Eduard Bass
+	* Revoluční scéna
+		* Emil Arthur Longen - uvedl jako první dramatizaci Haškova Švejka; herec, režisér, scénárista
+		* spolupracoval s E. E. Kischen, Vlasta Burianem
+* Avantgardní divadlo
+	* poetismus a dadaismus
+	* autorský typ - Osvobozené divadlo
+		* vznik oficiálně 1926
+		* ovlivněno futurismem a dadaismem
+		* oslabení děje,pásma komediálních scén nebo scénické básně; forbíny
+		* režiséři Jiří Frejka, Jindřich Honzl
+		* autorská a herecká dvojice Jiří Voskovec a Jan Werich; hudba Jaroslav Ježek
+	* režisérský typ - D 34
