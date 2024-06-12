@@ -1,0 +1,28 @@
+1) globální přerušení
+	pokud je <něco> jakákoliv periférie může být spušzěn
+	- `SEI` povolí se instrukce
+	- `CLI` zakáže se instrukce
+	proč <něco> to <něco> zakázat? pak nikdo nemůže požádat o přerušení → když jsem v obsluze "ISR" TAK NECHI BÝT PŘERUŠEN
+	 SREG
+	| | | | | | | | | → stavový registr je 8bitový
+	|I| | | | | | | |
+	 ↓
+	 Interrupt bit → 0 - globální přerušení je zakázáno
+	 			      → 1 - -//- povoleno
+
+2) povolit lokální periférii žádost o přerušení
+	"konfigurace"
+	configuration register TCCRO
+	| | | | | | | | | → 001 no preschme (str. 83 datshitu)
+	          [děl h]
+	'B' TCNT → akumulační 8bit registr
+		OCR → comparační registr pro vrchní hodnotu, kdy má registr přetéci
+		```
+			ldi r16, 100
+			out OCR, r16
+		```
+	'C' povolení lokálního přerušení
+	    ```
+	    	ldi r16, 'OCIEO'	;pozor
+	    	out TIMSK, r16
+	    ```
