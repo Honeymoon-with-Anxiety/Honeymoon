@@ -122,3 +122,12 @@
 * Kontaminace - směšování vazeb; kříží se různé konstrukce stejného, podobného nebo protikladného významu
 * Atrakce - skladebná spodoba; nenáležité přizpůsobení tvarů sousedních členů věty
 * Apoziopeze - nedokonená výpověď; mluvčí neví, jak větu dokončit, nebo byl přerušen
+# Souvětí
+* podřadné - 1 VH a alespoň 1 VV
+* souřadné - alespoň 2 VH + žádná, nebo libovolný počet VV
+## Významový poměr mezi větami hlavními
+* slučovací
+* odporovací
+* vylučovací
+* příčinný (důvodový) a vysvětlovací - druhá věta uvádí důvod pro to, co se tvrdí v první větě; `neboť`, `vždyť`, `totiž`, `však`, `také`
+* důsledkový - druhá věta vyjadřuje důsledek, který vyplývá z obsahu věty první; `proto`, `tedy`, `tudíž`, `a proto`, `a tedy`, `a tak`, `a tudíž`
