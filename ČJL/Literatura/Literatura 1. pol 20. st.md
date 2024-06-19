@@ -965,7 +965,24 @@ tags:
 	* autorský typ - Osvobozené divadlo
 		* vznik oficiálně 1926
 		* ovlivněno futurismem a dadaismem
-		* oslabení děje,pásma komediálních scén nebo scénické básně; forbíny
+		* oslabení děje, pásma komediálních scén nebo scénické básně; forbíny (předscény mezi jednotlivými dějstvími, improvizované dialogy před oponou = bezprostřední kontakt s publikem, aktuální reakce na politické a společenské události)
 		* režiséři Jiří Frejka, Jindřich Honzl
 		* autorská a herecká dvojice Jiří Voskovec a Jan Werich; hudba Jaroslav Ježek
+		* hry
+			* *Vest pocket revue* - Malá kapesní revue; parodie s dadaistickými a poetistickými prvky; dvojsmysly; neologismy
+			* *Golem*
+			* *Caesar*
+			* Osel a stín- útok na Hitlerovu diktaturu
+			* *Kat a blázen* - původ diktátorství
+			* *Balada z hadrů* - F. Villon jako tribun lidu
+			* *Nebe na zemi* - hrozba války
+			* *Rub a líc*
+			* *Těžká Barbora*
+		* součástí her písně
+		* Jan Werich (1905 - 1980)
+			* dramatik, prozaik, herec
+			* filmy: Byl jednou jeden krách, Pan Tau a Claudie, Pekařův císař
+			* kniha pohádek Fimfárum
+		* Jiří Voskovec - herec, spisovatel, dramatik
+		* Jaroslav Ježek - hudební skladatel, dirigent, dramaturg, klavírista
 	* režisérský typ - D 34
