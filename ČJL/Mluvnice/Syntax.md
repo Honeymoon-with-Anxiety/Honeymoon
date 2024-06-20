@@ -127,7 +127,8 @@
 * souřadné - alespoň 2 VH + žádná, nebo libovolný počet VV
 ## Významový poměr mezi větami hlavními
 * slučovací
-* odporovací
+* stupňovací
 * vylučovací
+* odporovací
 * příčinný (důvodový) a vysvětlovací - druhá věta uvádí důvod pro to, co se tvrdí v první větě; `neboť`, `vždyť`, `totiž`, `však`, `také`
 * důsledkový - druhá věta vyjadřuje důsledek, který vyplývá z obsahu věty první; `proto`, `tedy`, `tudíž`, `a proto`, `a tedy`, `a tak`, `a tudíž`
