@@ -972,7 +972,7 @@ tags:
 			* *Vest pocket revue* - Malá kapesní revue; parodie s dadaistickými a poetistickými prvky; dvojsmysly; neologismy
 			* *Golem*
 			* *Caesar*
-			* Osel a stín- útok na Hitlerovu diktaturu
+			* *Osel a stín* - útok na Hitlerovu diktaturu
 			* *Kat a blázen* - původ diktátorství
 			* *Balada z hadrů* - F. Villon jako tribun lidu
 			* *Nebe na zemi* - hrozba války
@@ -985,4 +985,18 @@ tags:
 			* kniha pohádek Fimfárum
 		* Jiří Voskovec - herec, spisovatel, dramatik
 		* Jaroslav Ježek - hudební skladatel, dirigent, dramaturg, klavírista
+		* Miroslav Horníček
 	* režisérský typ - D 34
+		* experimentální scéna
+		* Emil František Burian - režisér a dramaturg, spisovatel, skladatel, herec, výtvarník, zpěvák
+		* lyrický a expresivní divadelní styl - jevištní syntetismus
+		* voiceband = hlasová kapela
+		* hry
+			* originální adaptace děl klasiků (Moliére, Shakespeare, Goethe, Puškin)
+			* scénické realizace poezie a prózy
+			* montáže z lidové poezie a barokní lidové hry
+			* hry současníků
+		* 1941 divadlo gestapem zavřeno
+		* E. F. Burian odvlečen do koncentračního tábora
+		* po válce divadlo znovu otevřeno
+		* po B. smrti přejmenováno na Divadlo E. F. Buriana
