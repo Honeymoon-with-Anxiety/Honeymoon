@@ -1,0 +1,234 @@
+.def cislo = r16
+.def accu = r17
+
+
+
+.equ tisic_offset = 0
+.equ stovky_offset = 1
+.equ desitky_offset = 2
+.equ jednotky_offset = 3
+
+.dseg
+	disp_RAM: .byte 4
+.cseg
+		
+
+vymazat_disp:
+	std Y+tisic_offset, ZeroReg
+	std Y+stovky_offset, ZeroReg
+	std Y+desitky_offset, ZeroReg
+	std Y+jednotky_offset, ZeroReg
+	
+ret
+
+init_Y_displ_RAM:
+	ldi YL, low(disp_RAM)
+	ldi YH, high(disp_RAM)
+ret
+
+init_Z_na_moje_tabulka:
+	ldi ZL, low(2*display)
+	ldi ZH, high(2*display)
+ret
+
+
+/*number_break_up:;
+		clr accu
+
+	ldi r19, high (1000)
+	ldi r18, low (1000)
+
+	cp  r20, r18
+	cpc  r24, r19
+	brlo sto1
+
+
+	tisic:
+		inc accu
+
+		sub r20, r18
+		sbc r24, r19
+
+		cp  r20, r18
+		cpc  r24, r19
+		brsh tisic
+
+	;uloz pocet stovek
+	std Y+tisic_offset, accu
+	clr accu
+;++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	sto1:
+		ldi r19,High(100)
+		ldi r18,Low(100)
+		
+		cp r20,r18
+		cpc r24,r19
+		brlo deset1
+	sto:
+		inc accu
+		sub r20,r18
+		sbc r24, r19
+	cp r20, r18
+	cpc r24,r19
+	brsh sto
+
+	;uloz pocet stovek
+	std Y+stovky_offset, accu
+	clr accu
+;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	deset1:	
+		ldi r19, high (10)
+		ldi r18, low (10)
+
+		cp  r20, r18
+		cpc  r24, r19
+		brlo jedna1
+
+	deset:
+		inc accu
+
+		sub r20, r18
+		sbc r24, r19
+
+		cp  r20, r18
+		cpc  r24, r19
+		brsh deset
+	
+	std Y+desitky_offset, accu
+	clr accu
+	
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++	
+	jedna1:
+		
+		ldi r19, high (1)
+		ldi r18, low (1)
+
+		cp  r20, r18
+		cpc  r24, r19
+		brlo done
+
+
+	jedno:
+		inc accu
+
+		sub r20, r18
+		sbc r24, r19
+
+		cp  r20, r18
+		cpc  r24, r19
+		brsh jedno
+	
+	done:
+		std Y+jednotky_offset, accu
+ret*/
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+jednotky:
+	ldi r20, 0b00011100
+	out portD, r20
+	clr r18
+	ldd r19, Y+jednotky_offset	
+	add ZL, r19
+	adc ZH, ZeroReg
+	lpm r18, Z		
+	out portC,r18
+
+	ldi PDelReg, 1
+	rcall Delay1m
+ret
+
+desitky:
+	ldi r20, 0b00011000
+	out portD, r20
+	clr r18
+	ldd r19, Y+desitky_offset	
+	add ZL, r19
+	adc ZH, ZeroReg
+	lpm r18, Z		
+	out portC,r18
+
+	ldi PDelReg, 1
+	rcall Delay1m
+ret
+
+stovky:
+	ldi r20, 0b00010100
+	out portD, r20
+	clr r18
+	ldd r19, Y+stovky_offset	
+	add ZL, r19
+	adc ZH, ZeroReg
+	lpm r18, Z		
+	out portC,r18
+
+	ldi PDelReg, 1
+	rcall Delay1m
+ret
+
+tisice:
+	ldi r20, 0b00010000
+	out portD, r20
+	clr r18
+	ldd r19, Y+tisic_offset	
+	add ZL, r19
+	adc ZH, ZeroReg
+	lpm r18, Z		
+	out portC,r18
+
+	ldi PDelReg, 1
+	rcall Delay1m
+ret
+
+segment:	
+	clr cislo
+	ldi r25, 1
+
+	adiw XL, 1
+	adc XH, ZeroReg
+	
+	mov r24, XH
+	mov r20, XL
+	
+	rcall init_Y_displ_RAM
+	rcall vymazat_disp
+	rcall number_break_up
+	
+	rcall init_Z_na_moje_tabulka
+		
+
+	loop:
+		inc cislo
+		rcall jednotky
+		rcall init_Z_na_moje_tabulka
+
+		rcall desitky
+		rcall init_Z_na_moje_tabulka
+
+		rcall stovky
+		rcall init_Z_na_moje_tabulka
+	
+		rcall tisice
+		rcall init_Z_na_moje_tabulka
+		
+		cpi r16, 30
+		brne loop
+	ldi r20,high(999)
+	ldi r24,low(999)
+
+	cp Xl,r24
+	cpc XH,r20
+	brne bagr2
+	ldi XL,low(0)
+	ldi XH,high(0)
+bagr2:
+ret
+display:
+.db	0b11000000, 0b11111001		; '0', '1'
+.db	0b10100100, 0b10110000		; '2', '3'
+.db	0b10011001, 0b10010010		; '4', '5'
+.db	0b10000010, 0b11111000		; '6', '7'
+.db	0b10000000, 0b10010000		; '8', '9'
+.db	0b10001000, 0b10000011		; 'A', 'B'
+.db	0b11000110, 0b10100001		; 'C', 'D'
+.db	0b10000110, 0b10001110		; 'E', 'F'
+konec_display:
+.exit

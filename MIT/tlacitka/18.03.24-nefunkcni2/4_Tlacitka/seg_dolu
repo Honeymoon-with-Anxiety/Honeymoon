@@ -1,0 +1,49 @@
+
+
+segmentdolu:	
+	clr cislo
+	ldi r25,1
+
+	subi XL, 1
+	sbc XH, ZeroReg
+	
+	mov r24, XH
+	mov r20, XL
+	
+
+
+	rcall vymazat_disp
+	rcall number_break_up
+	
+	rcall init_Z_na_moje_tabulka
+
+	loop2:
+		inc cislo
+		rcall jednotky
+		rcall init_Z_na_moje_tabulka
+
+		rcall desitky
+		rcall init_Z_na_moje_tabulka
+
+		rcall stovky
+		rcall init_Z_na_moje_tabulka
+	
+		rcall tisice
+		rcall init_Z_na_moje_tabulka
+		
+		cpi r16, 30
+		brne loop2
+
+	ldi r20,high(0)
+	ldi r24,low(0)
+
+	cp Xl,r24
+	cpc XH,r20
+	brne bagr
+	ldi XL,low(999)
+	ldi XH,high(999)
+
+bagr:
+ret
+
+.exit

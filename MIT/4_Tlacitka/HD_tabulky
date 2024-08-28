@@ -1,0 +1,198 @@
+number_break_up:
+	cpi r23,0
+	breq dexa
+
+number_break_up2:
+		clr accu
+
+	ldi r19, high (4095)
+	ldi r18, low (4095)
+
+	cp  r20, r18
+	cpc  r24, r19
+	brlo sto11
+
+
+	tisic10:
+		inc accu
+
+		sub r20, r18
+		sbc r24, r19
+
+		cp  r20, r18
+		cpc  r24, r19
+		brsh tisic10
+
+	;uloz pocet stovek
+	std Y+tisic_offset, accu
+	clr accu
+;++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	sto11:
+		ldi r19,High(255)
+		ldi r18,Low(255)
+		
+		cp r20,r18
+		cpc r24,r19
+		brlo deset11
+	sto10:
+		inc accu
+		sub r20,r18
+		sbc r24, r19
+	cp r20, r18
+	cpc r24,r19
+	brsh sto10
+
+	;uloz pocet stovek
+	std Y+stovky_offset, accu
+	clr accu
+;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	deset11:	
+		ldi r19, high (16)
+		ldi r18, low (16)
+
+		cp  r20, r18
+		cpc  r24, r19
+		brlo jedna11
+
+	deset10:
+		inc accu
+
+		sub r20, r18
+		sbc r24, r19
+
+		cp  r20, r18
+		cpc  r24, r19
+		brsh deset10
+	
+	std Y+desitky_offset, accu
+	clr accu
+	
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++	
+	jedna11:
+		
+		ldi r19, high (1)
+		ldi r18, low (1)
+
+		cp  r20, r18
+		cpc  r24, r19
+		brlo done2
+
+
+	jedno10:
+		inc accu
+
+		sub r20, r18
+		sbc r24, r19
+
+		cp  r20, r18
+		cpc  r24, r19
+		brsh jedno10
+	
+	done2:
+		std Y+jednotky_offset, accu
+ret	
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+dexa:
+
+	clr accu
+
+	ldi r19, high (1000)
+	ldi r18, low (1000)
+
+	cp  r20, r18
+	cpc  r24, r19
+	brlo sto111
+
+
+	tisic101:
+		inc accu
+
+		sub r20, r18
+		sbc r24, r19
+
+		cp  r20, r18
+		cpc  r24, r19
+		brsh tisic101
+
+	;uloz pocet stovek
+	std Y+tisic_offset, accu
+	clr accu
+;++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	sto111:
+		ldi r19,High(100)
+		ldi r18,Low(100)
+		
+		cp r20,r18
+		cpc r24,r19
+		brlo deset111
+	sto101:
+		inc accu
+		sub r20,r18
+		sbc r24, r19
+	cp r20, r18
+	cpc r24,r19
+	brsh sto101
+
+	;uloz pocet stovek
+	std Y+stovky_offset, accu
+	clr accu
+;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	deset111:	
+		ldi r19, high (10)
+		ldi r18, low (10)
+
+		cp  r20, r18
+		cpc  r24, r19
+		brlo jedna111
+
+	deset101:
+		inc accu
+
+		sub r20, r18
+		sbc r24, r19
+
+		cp  r20, r18
+		cpc  r24, r19
+		brsh deset101
+	
+	std Y+desitky_offset, accu
+	clr accu
+	
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++	
+	jedna111:
+		
+		ldi r19, high (1)
+		ldi r18, low (1)
+
+		cp  r20, r18
+		cpc  r24, r19
+		brlo done21
+
+
+	jedno101:
+		inc accu
+
+		sub r20, r18
+		sbc r24, r19
+
+		cp  r20, r18
+		cpc  r24, r19
+		brsh jedno101
+	
+	done21:
+		std Y+jednotky_offset, accu
+ret	
+
+
+
+
+
+
+
+
+
+
+
+
+
+.exit

@@ -2,6 +2,7 @@
 .def numH = r17
 .def thoL = r18
 .def thoH = r20
+.def opToDo = r19
 
 .equ oprPlus = 0b00000000
 .equ oprMinus = 0b00000001
@@ -218,5 +219,53 @@ rozeberNaCislice16b:
 	pop r18
 	pop r17
 	pop r16
+	pop ZeroReg
+ret
+
+makeChange:
+	push ZeroReg
+	push opToDo
+	push numL
+	push numH
+	push r21 //ammountOfChange
+	push thoL
+	push thoH
+
+	clr ZeroReg
+	getOperation opToDo
+	getNum16SRAM numH, numL
+	getChange r21
+	cpi opToDo, oprPlus
+	breq makeChangePlus
+		sub numL, r21
+		sbc numH, ZeroReg
+		rjmp makeChangeDoneExecution
+	makeChangePlus:
+		add numL, r21
+		adc numH, ZeroReg
+	makeChangeDoneExecution: //world.execute (me);
+		initLowHigh 10000, thoL, thoH
+		cp numL, thoL
+		cpc numH, thoH
+		brsh makeChangeReset
+			clr thoL
+			clr thoH
+			cp numL, thoL
+			cpc numH, thoH
+			brlt makeChangeReset
+			rjmp makeChangeDoneChange
+	makeChangeReset:
+		clr numL
+		clr numH
+
+	makeChangeDoneChange:
+		setNum16SRAM numH, numL
+
+	pop thoH
+	pop thoL
+	pop r21 //ammountOfChange
+	pop numH
+	pop numL
+	pop opToDo
 	pop ZeroReg
 ret

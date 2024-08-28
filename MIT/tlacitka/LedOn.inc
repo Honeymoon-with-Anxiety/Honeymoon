@@ -1,0 +1,8 @@
+LedOn:
+		in 	TmpReg, DispCtrlP
+		andi 	TmpReg, 0b11110011
+		ori 	TmpReg, 0b00010000
+		out 	DispCtrlP, TmpReg
+		ret
+.exit
+

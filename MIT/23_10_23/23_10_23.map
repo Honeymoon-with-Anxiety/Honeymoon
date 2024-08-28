@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.1.42  C:\Users\admin\Music\Vasek\23_10_23\23_10_23.asm Mon Oct 23 10:28:59 2023
+AVRASM ver. 2.1.42  C:\Users\admin\Music\Vasek\23_10_23\23_10_23.asm Mon Oct 30 09:01:43 2023
 
 
 EQU  SIGNATURE_000 0000001e
@@ -605,7 +605,11 @@ EQU  OC0addr      00000026
 EQU  SPMRaddr     00000028
 EQU  INT_VECTORS_SIZE 0000002a
 DEF  ZeroReg      r0
-DEF  TmpReg       r21
+DEF  TmpReg       r19
+DEF  PDelReg      r20
+DEF  PDelReg0     r21
+DEF  PDelReg1     r22
+DEF  PDelReg2     r2
 CSEG RESET        00000030
 CSEG EXT_INT0     0000002a
 CSEG EXT_INT1     0000002a
@@ -627,6 +631,10 @@ CSEG TWI          0000002a
 CSEG EXT_INT2     0000002a
 CSEG TIM0_COM     0000002a
 CSEG SPM_RDY      0000002a
-CSEG Main         0000004b
+CSEG Main         00000057
+CSEG Delay1m      00000042
+CSEG Delay1m0     00000043
+CSEG Delay1m1     00000044
+CSEG Delay1m2     00000045
 DEF  iteratorA    r18
-CSEG ledCnt       00000042
+CSEG ledCnt       0000004c

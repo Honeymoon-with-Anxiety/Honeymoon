@@ -1,0 +1,61 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATtiny261</DEVICE>
+ <WORKING_DIR>C:\Users\admin\Documents\AVR - Pechar\USBasp</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\USBasp.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\tn261def.inc</FILE>
+  <FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\Display_Rozebrani.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\USBasp.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\USBasp.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\USBasp.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\USBasp.asm</FILE><LINE>59</LINE></RESET>
+  <EXT_INT0><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\USBasp.asm</FILE><LINE>37</LINE></EXT_INT0>
+  <PCHNG_INT1><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\USBasp.asm</FILE><LINE>38</LINE></PCHNG_INT1>
+  <TIMER1_COMPA><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\USBasp.asm</FILE><LINE>39</LINE></TIMER1_COMPA>
+  <TIMER1_COMPB><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\USBasp.asm</FILE><LINE>40</LINE></TIMER1_COMPB>
+  <TIMER1_OVF><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\USBasp.asm</FILE><LINE>41</LINE></TIMER1_OVF>
+  <TIMER0_OVF><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\USBasp.asm</FILE><LINE>42</LINE></TIMER0_OVF>
+  <USI_START><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\USBasp.asm</FILE><LINE>43</LINE></USI_START>
+  <USI_OVF><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\USBasp.asm</FILE><LINE>44</LINE></USI_OVF>
+  <EE_RDY><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\USBasp.asm</FILE><LINE>45</LINE></EE_RDY>
+  <ANA_COMP><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\USBasp.asm</FILE><LINE>46</LINE></ANA_COMP>
+  <ADC_DONE><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\USBasp.asm</FILE><LINE>47</LINE></ADC_DONE>
+  <WDOG_TIM><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\USBasp.asm</FILE><LINE>48</LINE></WDOG_TIM>
+  <EXT_INT1><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\USBasp.asm</FILE><LINE>49</LINE></EXT_INT1>
+  <TIMER0_COMPA><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\USBasp.asm</FILE><LINE>50</LINE></TIMER0_COMPA>
+  <TIMER0_COMPB><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\USBasp.asm</FILE><LINE>51</LINE></TIMER0_COMPB>
+  <TIMER0_CAPT><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\USBasp.asm</FILE><LINE>52</LINE></TIMER0_CAPT>
+  <TIMER1_COMPD><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\USBasp.asm</FILE><LINE>53</LINE></TIMER1_COMPD>
+  <FAULT_PROTECTION><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\USBasp.asm</FILE><LINE>54</LINE></FAULT_PROTECTION>
+  <Main><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\USBasp.asm</FILE><LINE>74</LINE></Main>
+  <disp_RAM><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\Display_Rozebrani.inc</FILE><LINE>11</LINE></disp_RAM>
+  <number_break_up><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\Display_Rozebrani.inc</FILE><LINE>17</LINE></number_break_up>
+  <jedna1><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\Display_Rozebrani.inc</FILE><LINE>23</LINE></jedna1>
+  <done><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\Display_Rozebrani.inc</FILE><LINE>43</LINE></done>
+  <jedno><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\Display_Rozebrani.inc</FILE><LINE>33</LINE></jedno>
+  <jednotky><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\Display_Rozebrani.inc</FILE><LINE>47</LINE></jednotky>
+  <Delay1m><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\Display_Rozebrani.inc</FILE><LINE>106</LINE></Delay1m>
+  <vymazat_disp><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\Display_Rozebrani.inc</FILE><LINE>61</LINE></vymazat_disp>
+  <init_Y_displ_RAM><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\Display_Rozebrani.inc</FILE><LINE>66</LINE></init_Y_displ_RAM>
+  <init_Z_na_moje_tabulka><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\Display_Rozebrani.inc</FILE><LINE>71</LINE></init_Z_na_moje_tabulka>
+  <display><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\USBasp.asm</FILE><LINE>86</LINE></display>
+  <segment><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\Display_Rozebrani.inc</FILE><LINE>76</LINE></segment>
+  <loop><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\Display_Rozebrani.inc</FILE><LINE>93</LINE></loop>
+  <Delay1m0><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\Display_Rozebrani.inc</FILE><LINE>107</LINE></Delay1m0>
+  <Delay1m1><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\Display_Rozebrani.inc</FILE><LINE>108</LINE></Delay1m1>
+  <Delay1m2><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\Display_Rozebrani.inc</FILE><LINE>109</LINE></Delay1m2>
+  <konec_display><FILE>C:\Users\admin\Documents\AVR - Pechar\USBasp\USBasp.asm</FILE><LINE>95</LINE></konec_display>
+ </LABELS>
+</ASSEMBLER_INFO>

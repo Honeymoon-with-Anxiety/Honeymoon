@@ -1,0 +1,57 @@
+;***************************
+.include "../include.inc"; *
+.include "../chartab.inc"; *
+;***************************
+Main:
+			clr 	Column
+			clr 	Key
+			ldi		PDelReg, 250
+			clr 	offset
+Main10:		
+		
+		rcall LedOn
+		clr Key
+		rcall mv_dig
+		rcall mod_inc
+		
+		ldi DispPos,3
+
+		mov Scrap,Key
+		out DispDataP, Scrap ; you are printing bits 1,2,3,4
+						
+		rcall col_scan		
+		rcall row_scan
+		
+		mov Scrap, Key
+
+		ldi TmpReg,0b00010001
+		and TmpReg,Scrap
+		breq q17	
+
+		ldi TmpReg,0b00010010
+		and TmpReg,Scrap
+		breq q18
+
+q17:
+		ldi offset, 0b11111001
+		mov TmpReg, offset	;1
+		mov Scrap, TmpReg
+		rjmp disp
+q18:
+	
+		ldi TmpReg,0xFF
+		out DispDataD, TmpReg
+		ldi offset, 0b10100100
+		mov TmpReg, offset	;2
+		mov Scrap, TmpReg
+		rjmp disp
+disp:
+		out DispDataP, Scrap
+		ldi TmpReg, 0xFF
+		out DispDataD,TmpReg
+		
+rcall Delay1m
+
+rjmp	Main10		
+
+

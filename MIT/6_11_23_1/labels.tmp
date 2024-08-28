@@ -1,0 +1,53 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega16</DEVICE>
+ <WORKING_DIR>C:\Users\admin\Music\Vasek\6_11_23</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>75</LINE></RESET>
+  <EXT_INT0><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>50</LINE></EXT_INT0>
+  <EXT_INT1><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>51</LINE></EXT_INT1>
+  <TIM2_COM><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>52</LINE></TIM2_COM>
+  <TIM2_OVF><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>53</LINE></TIM2_OVF>
+  <TIM1_CAP><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>54</LINE></TIM1_CAP>
+  <TIM1_COMA><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>55</LINE></TIM1_COMA>
+  <TIM1_COMB><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>56</LINE></TIM1_COMB>
+  <TIM1_OVF><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>57</LINE></TIM1_OVF>
+  <TIM0_OVF><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>58</LINE></TIM0_OVF>
+  <SPI_STC><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>59</LINE></SPI_STC>
+  <UART_RXC><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>62</LINE></UART_RXC>
+  <UART_DRE><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>60</LINE></UART_DRE>
+  <UART_TXC><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>61</LINE></UART_TXC>
+  <ADC_COMP><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>63</LINE></ADC_COMP>
+  <EE_RDY><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>64</LINE></EE_RDY>
+  <ANA_COMP><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>65</LINE></ANA_COMP>
+  <TWI><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>66</LINE></TWI>
+  <EXT_INT2><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>67</LINE></EXT_INT2>
+  <TIM0_COM><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>68</LINE></TIM0_COM>
+  <SPM_RDY><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>69</LINE></SPM_RDY>
+  <Main><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>134</LINE></Main>
+  <Delay1m><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>104</LINE></Delay1m>
+  <Delay1m0><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>105</LINE></Delay1m0>
+  <Delay1m1><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>106</LINE></Delay1m1>
+  <Delay1m2><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>107</LINE></Delay1m2>
+  <init_snimku><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>117</LINE></init_snimku>
+  <zobrazeni_snimku><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>122</LINE></zobrazeni_snimku>
+  <tvorba_snimku><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>127</LINE></tvorba_snimku>
+  <loopM><FILE>C:\Users\admin\Music\Vasek\6_11_23\6_11_23.asm</FILE><LINE>136</LINE></loopM>
+ </LABELS>
+</ASSEMBLER_INFO>

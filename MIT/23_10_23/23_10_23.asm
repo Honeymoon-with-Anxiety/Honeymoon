@@ -11,7 +11,12 @@
 
 ;====== Register definitions =======
 .DEF ZeroReg = r0
-.DEF TmpReg = r21
+.DEF TmpReg = r19
+
+.DEF	PDelReg		= r20
+.DEF	PDelReg0	= r21
+.DEF	PDelReg1	= r22
+.DEF	PDelReg2	= r2
 
 ;=====+== PROGRAM segment ==========
 .CSEG
@@ -114,9 +119,11 @@ Delay1m2:	dec	PDelReg1
 ledCnt:
 	out PortA, r16
 	out PortB, r17
+	ldi	PDelReg, 255
+	rcall Delay1m
 
-	lsr r16
-	lsl r17
+	ror r16
+	rol r17
 
 	inc iteratorA
 	cpi iteratorA, 7
@@ -125,8 +132,9 @@ ledCnt:
 ret
 
 Main:
-	ldi r16, 0x80
-	ldi r17, 0x01
+	ldi	PDelReg, 255		; delay 100ms
+	ldi r16, 0b11111011
+	ldi r17, 0b11011110 
 
 	out PortA, r16
 	out PortB, r17

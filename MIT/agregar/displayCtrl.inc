@@ -2,7 +2,7 @@
 .EQU DispDataD = DDRC	;display data direction register
 .EQU DispDataI = PinC	;display data coming in to port C
 .EQU DispCtrlP = PortD	;display data control (the three pins) port
-
+.DEF selChar = r19
 
 .MACRO clearDisplaySRAM
 	push ZeroReg
@@ -57,3 +57,48 @@
 	pop TmpReg
 	pop ZeroReg
 .ENDMACRO
+
+.MACRO readDigit //(int offset, reg destination)
+	ldd @1, Y+@0
+.ENDMACRO
+
+displayChar:
+	initLowHigh 2*segmentovka, ZL, ZH
+	add ZL, selChar
+	adc ZH, ZeroReg
+	lpm TmpReg, Z
+	out DispDataP, TmpReg
+ret
+
+zobrazCislo16b:
+; 	initLowHigh number16Digits, YL, YH
+	sbi DispCtrlP, 4
+
+	readDigit 3, selChar //units
+	sbi DispCtrlP, 3
+	sbi DispCtrlP, 2
+	rcall displayChar
+	ldi PDelReg, 5
+	rcall Delay1m
+
+	readDigit 2, selChar //tens
+	sbi DispCtrlP, 3
+	cbi DispCtrlP, 2
+	rcall displayChar
+	ldi PDelReg, 5
+	rcall Delay1m
+
+	readDigit 1, selChar //hundr
+	cbi DispCtrlP, 3
+	sbi DispCtrlP, 2
+	rcall displayChar
+	ldi PDelReg, 5
+	rcall Delay1m
+
+	readDigit 0, selChar //thou
+	cbi DispCtrlP, 3
+	cbi DispCtrlP, 2
+	rcall displayChar
+	ldi PDelReg, 5
+	rcall Delay1m
+ret

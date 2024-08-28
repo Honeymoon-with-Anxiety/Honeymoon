@@ -2,11 +2,6 @@
 .include "numCtrl.inc"
 .include "displayCtrl.inc"
 
-.MACRO initY
-	ldi YL, low(@0)
-	ldi YH, high(@0)
-.ENDMACRO
-
 /*
 *	Operation Plus = 0
 *	Operation Minus = 1
@@ -16,10 +11,17 @@
 
 Main:
 	setNum16SRAM 2002
+	getNum16SRAM r18, r17
 	clearDisplaySRAM
-; 	rcall rozeberNaCislice16b
-	setOperation 3
-	getOperation r16
+	setOperation 0
+	ldi r16, 2
+	setChange 2
+
+	mainL:
+		rcall makeChange
+		rcall rozeberNaCislice16b
+		rcall zobrazCislo16b
+	rjmp mainL
 rjmp Main
 
 .include "C:/Users/admin/Music/Vasek/26_2_24/charTable.inc"

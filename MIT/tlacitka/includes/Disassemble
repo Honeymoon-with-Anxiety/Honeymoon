@@ -1,0 +1,166 @@
+;++++++++++++++++++++++++++++;
+;     DISASSAMBLE NUMBER     ;
+;++++++++++++++++++++++++++++;
+
+disassamble_number:
+	cpi r23,0
+	breq disassamble_number
+
+
+;++++++++++++++++++++++++++++;
+;    DISASSAMBLE NUMBER 2    ;
+;++++++++++++++++++++++++++++;
+
+disassamble_number:
+	clr Accuracy
+	ldi r19, high (4095)
+	ldi r18, low (4095)
+	cp  r20, r18
+	cpc  r24, r19
+	brlo Hundreds
+
+	Thousands:
+		inc Accuracy
+		sub r20, r18
+		sbc r24, r19
+		cp  r20, r18
+		cpc  r24, r19
+		brsh Thousands
+
+	std Y+Thousands, Accuracy
+	clr Accuracy
+
+	Hundreds:
+		ldi r19, high (255)
+		ldi r18, low (255)
+		cp  r20, r18
+		cpc  r24, r19
+		brlo Tens
+
+	Hundreds:
+		inc Accuracy
+		sub r20, r18
+		sbc r24, r19
+		cp  r20, r18
+		cpc  r24, r19
+		brsh Hundreds
+
+	std Y+Hundreds, Accuracy
+	clr Accuracy
+
+	Tens:
+		ldi r19, high (16)
+		ldi r18, low (16)
+		cp  r20, r18
+		cpc  r24, r19
+		brlo Units
+
+	Tens:
+		inc Accuracy
+		sub r20, r18
+		sbc r24, r19
+		cp  r20, r18
+		cpc  r24, r19
+		brsh Tens
+	
+	std Y+Tens, Accuracy
+	clr Accuracy
+	
+	Units:
+		ldi r19, high (1)
+		ldi r18, low (1)
+		cp  r20, r18
+		cpc  r24, r19
+		brlo Done
+
+	Units:
+		inc Accuracy
+		sub r20, r18
+		sbc r24, r19
+		cp  r20, r18
+		cpc  r24, r19
+		brsh Units
+	
+	Done:
+	std Y+Units, Accuracy
+ret
+
+;++++++++++++++++++++++++++++++;
+;     DISASSAMBLE NUMBER 3     ;
+;++++++++++++++++++++++++++++++;
+
+disassamble_number:
+	clr Accuracy
+	ldi r19, high (1000)
+	ldi r18, low (1000)
+	cp  r20, r18
+	cpc  r24, r19
+	brlo Hundreds
+
+	Thousands:
+		inc Accuracy
+		sub r20, r18
+		sbc r24, r19
+		cp  r20, r18
+		cpc  r24, r19
+		brsh Thousands
+
+	std Y+Thousands, Accuracy
+	clr Accuracy
+
+	Hundreds:
+		ldi r19, high (100)
+		ldi r18, low (100)
+		cp  r20, r18
+		cpc  r24, r19
+		brlo Tens
+
+	Hundreds:
+		inc Accuracy
+		sub r20, r18
+		sbc r24, r19
+		cp  r20, r18
+		cpc  r24, r19
+	brsh Hundreds
+
+	std Y+Hundreds, Accuracy
+	clr Accuracy
+
+	Tens:
+		ldi r19, high (10)
+		ldi r18, low (10)
+		cp  r20, r18
+		cpc  r24, r19
+		brlo Units
+
+	Tens:
+		inc Accuracy
+		sub r20, r18
+		sbc r24, r19
+		cp  r20, r18
+		cpc  r24, r19
+		brsh Tens
+	
+	std Y+Tens, Accuracy
+	clr Accuracy
+	
+	Units:
+		ldi r19, high (1)
+		ldi r18, low (1)
+		cp  r20, r18
+		cpc  r24, r19
+		brlo Done
+
+	Units:
+		inc Accuracy
+		sub r20, r18
+		sbc r24, r19
+		cp  r20, r18
+		cpc  r24, r19
+		brsh Units
+	
+	Done:
+	std Y+Units, Accuracy
+ret
+
+.exit
