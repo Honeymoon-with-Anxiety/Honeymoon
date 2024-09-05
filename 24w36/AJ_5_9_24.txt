@@ -1,0 +1,88 @@
+compass
+bus
+airport
+boat
+suitcase
+tickets
+insurance
+driver
+WCorp
+castle
+train
+
+transport
+country
+airplane
+walking
+hiking
+map
+
+means of transport:
+	bus
+	boat
+	airplane
+	train
+	horse
+	wheelerrunner
+	bike
+	underground/tube
+	jet ski
+	cruser
+	camel
+	elytra/glider
+	sailboat
+	kayak
+	ferry
+	taxi/cab
+	bouble decker
+	van
+	jetpack
+	coach
+	
+road travel:
+	car
+	bus
+	coach
+	bike
+	bycicle
+	motorbike
+	wheelrunner
+	highway
+	motorway
+	crossroad
+	crossing
+	roundabout
+	junction
+	pavement/sidewalk
+	petrol station/gas
+	traffic lights
+	road
+	road sign
+	speed limit
+	speeding
+	
+air travel:
+	airlines
+	budget airlines
+	airport
+	arrival hall
+	departure launch
+	luggage replane
+	flight
+	flightattendant
+	gate
+	hand luggage
+	security czech
+	check-in desk
+	cabincrew
+	
+abys věděl kam jdeš:
+	map
+	compass
+	
+places:
+	airport
+	castle
+	country
+	bus
+	
