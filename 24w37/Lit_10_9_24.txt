@@ -1,0 +1,14 @@
+Králíčci // správ. odpovědi // body
+1) N; A; A; A // N; N; N; A // 0b
+2) B // B // 1
+3) C // C // 1
+4) B // B // 1
+5) D // D // 1
+
+báseň
+1) D // D // 1 
+2) kočka // stonožka // 0
+3) B // B // 1
+4) C // C // 1
+5) D // D // 1
+6) ABAB - obkročný // střídavý // 0
