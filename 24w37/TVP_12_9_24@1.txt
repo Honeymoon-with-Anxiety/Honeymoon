@@ -1,0 +1,12 @@
+philosofie:
+	existence vs neexistence: člověk nedokáže určit "existenci" a "neexistenci" čehokoliv
+	viz obr. @2
+	
+	virtualita - lze pouze konceptovat "míru" poměru mezi existující a neexistující "obsah" v realitě
+			   - se nedá vyloučit
+			   - sdílení nedostatkových zdrojů
+	definice existence - podle ceny - málo SRAM		   | min. speed
+									- více Oper. pamet | 100x
+									- nejvíce HDD	   | 1000x
+									- viz obr. @3
+	? co je nahoře paměťové hiearchie a kdy? nepotřebuji velkou SRAM díky virtualizaci (viz obr @4)

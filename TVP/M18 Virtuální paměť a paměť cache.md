@@ -1,26 +1,23 @@
 #technicke_vybaveni_pocitacu 
+```
+pozn.: přepsat první bod, doplnit op a hdd
+```
 * pojem `virtuální`
 	* něco, co je virtuální, v reálném světě fyzicky neexistuje
-	* simulace, kopie nebo reprezentace něčeho jiného, co existuje nebo by mohlo existovat
+	* simulace, kopie nebo misreprezentace něčeho, co existuje nebo by mohlo existovat
 	* např. mezilidské vztahy jsou virtuální
-	* optimální poměr mezi virtuální a fyzickou částí se liší podle konkrétní situace a potřeb uživatele
+	* optimální poměr mezi neexistující a existující částí se liší podle konkrétní situace a potřeb uživatele
 	* s rostoucím propojením virtuálního a fyzického světa se zvyšuje i riziko kybernetických útoků
 	* sběr a využívání osobních údajů v digitálním světě vyžaduje pečlivé zvažování etických otázek
 * virtuální paměť
 	* technika dovolující programům využívat více paměti než je jí fyzické
 	* koncept vytváří iluzi velkého, spojitého adresového prostoru pro každou běžící aplikaci
-	* paging
-		* virt. pam. prostor je rozdělen na malé bloky nazývané stránky (pages)
-		* RAM je rozdělena do bloků stejné velikosti jako v prostoru - rámce
-		* když program potřebuje přístup k určité stránce, OS zjistí, zda je tato stránka již načtena do rámce; pokud není, dojde k výpadku stránky (page fault) a OS načte potřebnou stránku z diskového úložiště do volného rámce ve fyzické paměti
+	* paging - virt. pam. prostor je rozdělen na malé bloky nazývané stránky (pages)
 	* segmentace
 		* virtuální paměť může být také rozdělena do segmentů různé velikosti odpovídající logickým částem programu (kód, data a zásobník)
 		* segmenty mohou být umístěny kdekoli v adresním prostoru
 		* segmenty mohou růst nebo se zmenšovat podle potřeby
-	* page tables
-		* OS používá tabulky stránek k mapování virtuálních adres na fyzické adresy
-		* tabulka stránek obsahuje záznamy určující kde je každá stránka virtuální paměti uložena ve fyzické paměti
-		* když procesor potřebuje přístup k určité virtuální adrese, nejprve zkontroluje tabulku stránek, aby zjistil odpovídající fyzickou adresu
+	* page tables - OS používá tabulky stránek k mapování virtuálních adres na fyzické adresy
 	* swapování - pokud není dostatek fyzické paměti pro všechny aktuálně běžící procesy, operační systém může přenést některé stránky z fyzické paměti na disk do swapovacího prostoru
 	* každý proces má svůj vlastní virtuální adresní prostor - vyšší bezpečnost a stabilita systému
 	* ochrana paměti mezi procesy - jeden proces nemůže narušit paměť jiného procesu
