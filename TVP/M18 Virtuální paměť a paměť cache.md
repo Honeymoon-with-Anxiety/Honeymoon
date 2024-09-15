@@ -1,17 +1,21 @@
 #technicke_vybaveni_pocitacu 
-```
-pozn.: přepsat první bod, doplnit op a hdd
-```
-* pojem `virtuální`
-	* něco, co je virtuální, v reálném světě fyzicky neexistuje
-	* simulace, kopie nebo misreprezentace něčeho, co existuje nebo by mohlo existovat
-	* např. mezilidské vztahy jsou virtuální
-	* optimální poměr mezi neexistující a existující částí se liší podle konkrétní situace a potřeb uživatele
-	* s rostoucím propojením virtuálního a fyzického světa se zvyšuje i riziko kybernetických útoků
-	* sběr a využívání osobních údajů v digitálním světě vyžaduje pečlivé zvažování etických otázek
+* existence a neexistence
+	* člověk ji nedokáže určit ![Vím, že vím](TVP_12_9_24@2.png)
+	* virtualita
+		* označení něčeho, co není skutečné ve fyzickém smyslu
+		* podoba digitální nebo symbolická
+		* nelze určit přesný poměr mezi existujícím a neexistujícím obsahu, pouze jen konceptovat
+		* nelze ji vyloučit
+		* dá se využít ke sdílení nedostatkových zdrojů
+	* existence
+		* dá se definovat podle ceny ![paměť](TVP_12_9_24@3.png)
+			* málo SRAM | min. rychlost
+			* více O. P. | 100×
+			* nejvíce HDD | 1 000×
 * virtuální paměť
-	* technika dovolující programům využívat více paměti než je jí fyzické
-	* koncept vytváří iluzi velkého, spojitého adresového prostoru pro každou běžící aplikaci
+	* využití části pevného disku jako rozšíření fyzické RAM
+	* při plné op. paměti operační systém přesune data neaktivních procesů na HDD
+	* pomalejší než [fyzická paměť](obsidian://open?vault=E3A&file=TVP%2FM13%20Pam%C4%9B%C5%A5)
 	* paging - virt. pam. prostor je rozdělen na malé bloky nazývané stránky (pages)
 	* segmentace
 		* virtuální paměť může být také rozdělena do segmentů různé velikosti odpovídající logickým částem programu (kód, data a zásobník)
@@ -41,6 +45,7 @@ pozn.: přepsat první bod, doplnit op a hdd
 * hierarchie paměti
 	* různé úrovně paměti mají různé rychlosti a velikosti
 	* nejrychlejší a nejmenší paměť je umístěna nejblíže procesoru (L1 cache); pomalejší a větší paměť je dále (RAM, pevný disk)
+	* nepotřebuji velikou SRAM díky virtualizaci ![co je nahoře paměťové hiearchie a kdy?](TVP_12_9_24@4.png)
 * algoritmy pro správu cache
 	* určují, která data budou uložena a která budou odstraněna, když je cache plná
 	* algoritmy využívají logické strategie pro maximalizaci cache hit rate
@@ -51,22 +56,14 @@ pozn.: přepsat první bod, doplnit op a hdd
 # Konzistence dat v cache
 * nesmí dojít k situacím, kdy jsou stará nebo neplatná data používána místo aktuálních dat
 * write strategy
-	* trategie zápisu určují, jakým způsobem jsou data zapisována
-	* write-through
-		* data jsou zapisována do cache a zároveň okamžitě do RAM
-		* vysoký úroveň konzistence; pomalejší
-	* write-back
-		* data jsou zapisována pouze do cache a do RAM jsou zapsána až tehdy, když jsou z cache odstraněna
-		* rychlejší; složitější správa pamětí
+	* strategie zápisu určují, jakým způsobem jsou data zapisována
+	* write-through - data jsou zapisována do cache a zároveň okamžitě do RAM
+	* write-back - data jsou zapisována pouze do cache a do RAM jsou zapsána až tehdy, když jsou z cache odstraněna
 * coherence protocols (Protokoly pro zajištění konzistence)
 	* v systémech s více cache
-	* MESI Protocol (Modified, Exclusive, Shared, Invalid)
-		* každá cache line (řádek) může být ve čtyřech stavech: Modified (M), Exclusive (E), Shared (S), Invalid (I)
-		* pokud je jedna cache line v modifikovaném stavu, žádná jiná cache nemá kopii této cache line ve stavu exclusive nebo shared
+	* MESI Protocol (Modified, Exclusive, Shared, Invalid) - pokud je jedna cache line v modifikovaném stavu, žádná jiná cache nemá kopii této cache line ve stavu exclusive nebo shared
 	* MOESI Protocol (Modified, Owner, Exclusive, Shared, Invalid) - rozšiřuje MESI protokol o stav Owner (O)
-	* dragon protocol\
-		* v multiprocesorových systémech
-		* v situacích, kdy více procesorů sdílí stejné paměťové adresy
+	* dragon protocol - v situacích, kdy více procesorů sdílí stejné paměťové adresy
 * synchronizace a invalidace
 	* invalidate on write - při zápisu do cache jsou ostatní kopie dané cache line invalidovány; žádná jiná cache nemůže používat zastaralá data
 	* update on write - při zápisu do cache jsou aktualizovány i ostatní kopie dané cache line; všechny cache mají aktuální data
@@ -83,19 +80,15 @@ pozn.: přepsat první bod, doplnit op a hdd
 	* LFU (Least Frequently Used) - nahrazuje data, která byla nejméně často přístupována; kombinace časové a prostorové lokalizace
 	* random replacement - položka k vyřazení je vybrána náhodně; v některých případech efektivní, obvykle neposkytuje nejlepší výkon
 * aktualizace
-	* write-through
-		* data jsou zapisována do cache a zároveň okamžitě do RAM
-		* vysoký úroveň konzistence; pomalejší
-	* write-back
-		* data jsou zapisována pouze do cache a do RAM jsou zapsána až tehdy, když jsou z cache odstraněna
-		* rychlejší; složitější správa pamětí
+	* write-through - data jsou zapisována do cache a zároveň okamžitě do RAM
+	* write-back - data jsou zapisována pouze do cache a do RAM jsou zapsána až tehdy, když jsou z cache odstraněna
 # Adresa na sběrnici
 * každý proces běžící v systému používá virtuální adresy, které jsou nezávislé na fyzické paměti; každý proces má svůj vlastní adresní prostor
 * tato virtuální adresa je předána správci paměti, který ji přeloží na fyzickou adresu pomocí tabulky stránek
 * virtuální adresa je rozdělena na číslo stránky a offset; číslo stránky je využito k určení stránky; offset pak k určení buňky na stránce 
 * pokud má virtuální adresa 32 bitů a velikost stránky je 4 KB (12 bitů pro offset), pak zbývajících 20 bitů tvoří číslo stránky
 * fyzická adresa je vytvořena kombinací čísla fyzického rámce a offsetu z původní virtuální adresy
-* pokud je například číslo fyzického rámce 0x12345 a offset 0x678, výsledná fyzická adresa bude 0x12345678
+* pokud je například číslo fyzického rámce `0x12345` a offset `0x678`, výsledná fyzická adresa bude `0x12345678`
 * stránkovací mechanismy a optimalizace
 	* TLB (Translation Lookaside Buffer)
 		* malá vyrovnávací paměť v procesoru
