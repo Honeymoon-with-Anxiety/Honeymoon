@@ -30,6 +30,7 @@
 * umožňuje odborníkům lépe porozumět a analyzovat fungování sítí
 * poskytuje společný základ pro vývoj a implementaci síťových protokolů a technologií
 * dnes bývá nahrazen modelem TCP/IP
+* při odesílání packety na sebe ve vrstvách "nabalují" data; při přijímání zase "odbalují"
 * vrstvy
 	![Model ISO/OSI](https://upload.wikimedia.org/wikipedia/commons/4/4d/Rm-osi_parallel_cs.svg)
 	* fyzická (protokol: 10Base5)
@@ -106,16 +107,59 @@
 * číslo, pod kterým je v jádře operačního systému jednoznačně evidován proces
 # DNS server
 * převádí název domény na IP adresu (nebo opačně)
-* databáze je členěna do několika větví ![Struktura](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.EhPVIkqr7ccO_VnKNRNkdgHaHa%26pid%3DApi&f=1&ipt=ca605c3d2a5e9a8a47a15e47900995753a5a233388b7ba25673e66ec62608bb9&ipo=images) 
+* databáze je členěna do několika větví
+	![Struktura](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.EhPVIkqr7ccO_VnKNRNkdgHaHa%26pid%3DApi&f=1&ipt=ca605c3d2a5e9a8a47a15e47900995753a5a233388b7ba25673e66ec62608bb9&ipo=images) 
 * autoritativní server
-	* trvale ukládá 
+	* trvale ukládá záznamy k dané doméně
+	* obvykle min. 2 servery - primární a sekundární
+	* obvykle provozovány registrátorem domény nebo poskytovatelem webhostingu
+* rekurzivní
+	* obracejí se na něj klienti (počítač, mobil aj.)
+	* server pro ně získá záznam z autoritativních serverů; po stanovenou dobu (TimeToLive) je má uložené v cache
+	* obvykle se používá DHCP protokol
 # LAN, WAN, Intranet
-* 
 ## LAN
-* 
+* lokální síť; uvnitř místností, budov nebo malých areálů; na vlastní náklady majitelů propojených počítačů
+* obvykle vysoké přenosové rychlosti
+* použito ke sdílení prostředků; propojení síťového prostoru, dálkový tisk, sdílení připojení k internetu
+* složení
+	* aktivní prvky → podílejí se aktivně na komunikaci (switch, router, síťová karta)
+	* pasivní prvky → prvky nevyžadující napájení (propojovací kabel, konektory, někdy i hub)
 ## WAN
-* 
+* rozlehlá síť; síť překračuje hranice města, regionu, státu; nejznámější Internet
+* využito pro spojování LAN sítí mezi sebou nebo s Internetem
+* většina WAN budována pro společnosti - jsou soukromé
+* pro přenos a adresaci používají rodinu protokolů TCP/IP
 ## Intranet
-* 
+* používá stejné technologie jako internet; je pouze lokální (LAN)
+* označuje interní webové stránky ale i rozsáhlejší infrastrukturu (interní komunikace aj.)
+* obvykle chráněny před externím přístupem sítí, bránou a firewallem ale i přihlášením uživatele osobním heslem
+* [příklad](file:///home/pisek/Projekty/E4A/intranet/index.php) domovské stránky intranetu
 # Strukturovaná kabeláž
-* 
+* k propojení uživatelů v rámci sítě
+* z metalických nebo optických prvků
+* podporuje přenos digitálních i analogových signálů
+* instaluje se na místa, kde nejsou momentálně potřeba
+* očekává se od nich dlouhá životnost
+* patch panely - k připojení jednotlivých uživatelů do aktivních zařízení
+* zásuvky
+* konektory
+	* pro připojení kabelů k patch panelům a zásuvkám
+	* RJ-45
+		* 8pinový; pro zakončení UTP
+		* UTP - nestíněný pro kroucené páry
+		* FTP - stíněný pro kroucené páry; lepší ochrana proti rušení
+		* STP - stínění kolem každého jednotlivého páru
+		![RJ-45](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSl0Na-UHoQDfuvr-Lo2szVPBdLh90s-rkSCwmWjFRQ8k3LCsLEwPzm_1mlW2U_)
+	* SC, ST, LC - optické konektory pro zakončení optických vláken
+	* BNC - koaxiální konektor; ve starších sítích nebo připojení antén
+* kabely
+	* kroucené páry (UTP) - datové kabely se čtyřmi kroucenými páry
+		![datové kabely se čtyřmi kroucenými páry](https://eshop.mtlcable.cz/strukturovana-kabelaz_ispt84.jpg)
+	* optické - pro přenos dat na velké vzdálenosti; v prostředí s vysokým elektromag. rušením
+	* kategorie
+		* Cat3 - telefonní sítě
+		* Cat5e - standardní kabel
+		* Cat6 - vyšší přenosová rychlost; pro náročnější prostředí
+		* Cat6A/Cat7 - velmi vysoké přenosové rychlosti; pro náročnější prostředí
+* rozvaděče - centrální místo; zde se sbíhají všechny kabely v budově
