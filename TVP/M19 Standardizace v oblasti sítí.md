@@ -105,7 +105,10 @@
 ## Process ID
 * číslo, pod kterým je v jádře operačního systému jednoznačně evidován proces
 # DNS server
-* 
+* převádí název domény na IP adresu (nebo opačně)
+* databáze je členěna do několika větví ![Struktura](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.EhPVIkqr7ccO_VnKNRNkdgHaHa%26pid%3DApi&f=1&ipt=ca605c3d2a5e9a8a47a15e47900995753a5a233388b7ba25673e66ec62608bb9&ipo=images) 
+* autoritativní server
+	* trvale ukládá 
 # LAN, WAN, Intranet
 * 
 ## LAN
