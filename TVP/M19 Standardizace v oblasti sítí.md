@@ -3,6 +3,7 @@
 	* proces sjednocování a zavádění norem
 	* normy určují požadavky na: vlastnosti, rozměry, výkon, bezpečnost aj.
 	* cílem je soulad a kompatibilita mezi prvky
+	* sdílení mezi různými spotřebiteli → individuální návrh zařízení
 	* standardy jsou vytvářeny různými organizacemi
 		* mezinárodní organizace pro standardizaci (ISO) - vytváří mezinárodně uznávané normy pro širokou škálu oblastí
 		* Evropský výbor pro normalizaci (CEN) - zpracovává evropské normy
@@ -43,7 +44,7 @@
 		* oznamuje neopravitelné chyby
 		* opatřuje rámce fyzickou adresou
 		* poskytuje synchronizaci pro fyzickou vrstvu
-	* síťová (protokol: IPv4)
+	* síťová (protokol: IP)
 		* stará se o směrování v síti a síťové adresování
 		* poskytuje spojení mezi systémy, které spolu nesousedí
 		* umožňuje překlenout rozdílné vlastnosti technologií v přenosových sítích
@@ -64,7 +65,7 @@
 ## Protokoly
 * 10Base5 - historicky nejstarší verze Ethernetu; rychlost 10 Mbit/s; segmenty o max. délce 500 m a 100 počítačů 
 * Ethernet - souhrn technologií pro LAN sítě
-* IPv4 - protokol přepravující data bez záruky; poskytuje teoreticky $2^{32}$ možných adres (ve skutečnosti jich je méně)
+* IP - protokol přepravující data bez záruky
 * TCP - obousměrné připojení zařízení schopný rozeznávat data pro jednotlivé aplikace na jednom počítači
 * UDP - protokol nedávající záruky na datagramy (obvykle pakety související se službami, které neposkytují záruky) - je *bez záruky doručení*
 * NetBIOS - zpřístupnění síťových prostředků a služeb pomocí názvů počítačů
@@ -77,12 +78,41 @@
 * SMTP - přenos e-mailů pomocí přímého spojení mezi odesílatelem a adresátem
 * SSH - zabezpečený komunikační protokol vzdálené shelly
 # MAC, IP a ProcessID
+* MAC adresa pracuje na linkové vrstvě, IP na síťové
+* ARP protokol spojuje MAC a IP adresy v rámci jedné sítě; když zařízení chce odeslat paket do jiného zařízení, musí nejprve zjistit jeho MAC adresu
+* IP adresa identifikuje síťové rozhraní; PID identifikuje konkrétní proces, který komunikaci využívá
 ## MAC
+* globálně unikátní adresa síťové karty
+* přiřazena přímo při výrobě
+* nazývána "fyzická adresa"
+* ethernetová MAC adresa se skládá ze 48 bitů; šestice dvojciferných hexadecimálních čísel oddělených pomlčkami nebo dvojtečkou
+* prvních 24 bitů je určeno výrobcem
+* původně zamýšlená jako permanentní; většina moderního HW umožňuje SW změnu adresy
 ## IP
+* protokol používající rodinu protokolů TCP/IP
+* neposkytuje záruku na přenos dat
+* zodpovědný za přenos paketů ze zdrojového zařízení do cílového přes jednu nebo více IP sítí
+* paket se skládá z metadat a z uživatelských dat; posílají se po blocích a putují po síti nezávisle
+* IPv4 adresa
+	* používá 32bitové číslo; definovaná 4 oktety (synonym pro byte)
+	* dělí se na 3 části - *číslo sítě*, *číslo podsítě* a *číslo síťového rozhraní*
+	* existují vyhrazené adresy
+		* `127.x.x.x` - localhost; `127.0.0.1` - loopback (posílání packetů sám sobě)
+		* pouze pro adresování vnitřních sítí; na internetu se nemohou objevit (např.  `10.x.x.x`)
+* IPv6 adresa
+	* používá 128bitové číslo rozděleno do 8 skupin po čtyřech hexadecimálních číslicích
+	* pro několik po sobě jdoucích nulových skupin lze napsat `::` - lze použít **jen jednou**
 ## Process ID
-# DNS
+* číslo, pod kterým je v jádře operačního systému jednoznačně evidován proces
+# DNS server
+* 
 # LAN, WAN, Intranet
+* 
 ## LAN
+* 
 ## WAN
+* 
 ## Intranet
+* 
 # Strukturovaná kabeláž
+* 
