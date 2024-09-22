@@ -86,7 +86,7 @@
 * RAM
 	* slouží k ukládání programů a dat, která nejsou momentálně využívána procesorem
 	* přístup prostřednictvím adresového a datového busu
-* buffer - slouží k dočasnému ukládání dat (např. při přenosu mezi různými částmi procesoru nebo mezi procesorem a periferními zařízeními)
+* buffer - slouží k dočasnému ukládání dat (např. při přenosu mezi různými částmi procesoru nebo mezi procesorem a periferními zařízeními) ^buffer
 * instrukční cache - ukládá často používané instrukce programu
 * datová cache - ukládá často používaná data
 * paměťově mapované registry - speciální registry, jejichž hodnoty mohou ovlivňovat chování periferních zařízení nebo konfiguraci procesoru
