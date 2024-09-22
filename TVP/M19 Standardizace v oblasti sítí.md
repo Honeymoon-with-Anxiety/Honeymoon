@@ -33,36 +33,36 @@
 * při odesílání packety na sebe ve vrstvách "nabalují" data; při přijímání zase "odbalují"
 * vrstvy
 	![Model ISO/OSI](https://upload.wikimedia.org/wikipedia/commons/4/4d/Rm-osi_parallel_cs.svg)
-	* fyzická (protokol: 10Base5)
+	1) fyzická (protokol: 10Base5)
 		* zajišťuje přenos bitů po fyzickém médiu (sériová linka nebo Ethernet)
 		* definuje elektrické a fyzikální vlastnosti zařízení (rozložení pinů, napěťové úrovně...)
 		* efektivně rozkládá všechny zdroje mezi všechny uživatele
-		* [moduluje](obsidian://open?vault=E3A&file=TVP%2FMO4%20Sign%C3%A1ly)
-	* linková (protokol: Ethernet)
+		* [moduluje](obsidian://open?vault=E3A&file=TVP%2FMO6%20P%C5%99enos%20informace%23Modulace)
+	2) linková (protokol: Ethernet)
 		* poskytuje spojení mezi dvěma sousedními systémy
 		* uspořádává data z fyzické vrstvy do rámců (frames)
 		* stará se o nastavení parametrů přenosu linky
 		* oznamuje neopravitelné chyby
 		* opatřuje rámce fyzickou adresou
 		* poskytuje synchronizaci pro fyzickou vrstvu
-	* síťová (protokol: IP)
+	3) síťová (protokol: IP)
 		* stará se o směrování v síti a síťové adresování
 		* poskytuje spojení mezi systémy, které spolu nesousedí
 		* umožňuje překlenout rozdílné vlastnosti technologií v přenosových sítích
 		* poskytuje funkce k zajištění přenosu dat různé délky skrze jednu nebo několik propojených sítí
 		* poskytuje směrovací funkce
 		* reportuje o prolémech při přenosu dat
-	* transportní (protokol: spojově (TCP) a nespojově (UDP) orientované protokoly)
+	4) transportní (protokol: spojově (TCP) a nespojově (UDP) orientované protokoly)
 		* zajišťuje spolehlivý přenos dat mezi koncovými zařízeními
-	* relační (protokol: NetBIOS, RPC)
+	5) relační (protokol: NetBIOS, RPC)
 		* organizuje a synchronizuje dialog mezi spolupracujícími vrstvami obou systémů
 		* řídí výměnu dat mezi nimi
 		* vytváří a ukončuje relační spojení, synchronizuje je a obnovuje jejich spojení
 		* přiřazuje synchronizační značky
-	* prezenční (protokol: MIME)
+	6) prezenční (protokol: MIME)
 		* transformuje data do požadovaného tvaru aplikace (šifrování, konvertování, komprimace)
 		* zabývá se jen strukturou dat, nikoliv významem
-	* aplikační (protokol: HTTP, FTP, DNS, BitTorrent, POP3, SMTP, SSH) - umožňuje aplikacím přístup ke komunikačnímu systému a umožňuje jejich spolupráci
+	7) aplikační (protokol: HTTP, FTP, DNS, BitTorrent, POP3, SMTP, SSH) - umožňuje aplikacím přístup ke komunikačnímu systému a umožňuje jejich spolupráci
 ## Protokoly
 * 10Base5 - historicky nejstarší verze Ethernetu; rychlost 10 Mbit/s; segmenty o max. délce 500 m a 100 počítačů 
 * Ethernet - souhrn technologií pro LAN sítě

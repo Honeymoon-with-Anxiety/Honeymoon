@@ -15,7 +15,7 @@
 * virtuální paměť
 	* využití části pevného disku jako rozšíření fyzické RAM
 	* při plné op. paměti operační systém přesune data neaktivních procesů na HDD
-	* pomalejší než [fyzická paměť](obsidian://open?vault=E3A&file=TVP%2FM13%20Pam%C4%9B%C5%A5)
+	* pomalejší než [fyzická paměť](obsidian://open?vault=E3A&file=TVP%2FM13%20Pam%C4%9B%C5%A5%23Paměť%20flash)
 	* paging - virt. pam. prostor je rozdělen na malé bloky nazývané stránky (pages)
 	* segmentace
 		* virtuální paměť může být také rozdělena do segmentů různé velikosti odpovídající logickým částem programu (kód, data a zásobník)
