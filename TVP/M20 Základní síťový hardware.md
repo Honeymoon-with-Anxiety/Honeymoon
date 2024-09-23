@@ -107,10 +107,53 @@
 	* most směruje packety podle jejich hardwarové MAC adresy; router se rozhoduje podle IP adresy uvnitř přenášeného datagramu
 # Kabely
 ## Měděné
-* m
-## Vlákna
-* v
+* vysoká rychlost a stabilita
+* levnější než optika
+* obtížněji napadnutelné než bezdrátové sítě
+* délka kabelu je omezena (zejména u vyšších rychlostí přenosu)
+* 
+* UTP
+	* ze dvou nebo více párů měděných drátů zkroucených dohromady
+	* kroucení snižuje elektromagnetické rušení
+* STP
+	* podobný jako UTP
+	* každý pár drátů je navíc chráněn kovovým opletením - vyšší úroveň ochrany proti rušení
+	* Coaxial - centrální vodič obklopený izolací a kovovým opletením
+## Optické
+* vysoká rychlost, dlouhý dosah a odolnost vůči rušení než u mědi
+* přenášejí data ve formě světelných impulsů po tenkém skleněném nebo plastovém vlákně
+* signál se v optickém vlákně tlumí mnohem méně než v měděném kabelu
+* nejsou ovlivněny elektromagnetickým rušením
+* vlákna jsou křehká a mohou se snadno poškodit
 # Konektory
-* k
+* fyzické propojení jednotlivých zařízení přenosovým médiem (nejčastěji kabel)
+* každý typ kabelu vyžaduje specifický typ konektoru
+* různé konektory podporují různé rychlosti přenosu dat
+* některé prostředí (např. průmysl) vyžadují odolnější typy konektorů
+* rozdíl v počtu pinů
 ## Typy
-* t
+* RJ-45
+	* konektor UTP a STP kabelů
+	* název vychází z podobnosti s telefonními koncovkami (ty jsou však s moderními počítačovými síťovými kabely nekompatibilní)
+	  ![Zapojení kabelů](TVP_23_9_24.png)
+* SC
+	* konektor pro optická vlákna
+	* čtvercový tvar a jednoduchý západkový mechanismus
+	* **\[Obrázek SC konektoru]**
+* ST
+	* konektor pro optická vlákna
+	* kulatý tvar a používá bajonetový zámek pro zajištění
+	* obecně považovány za robustnější než SC konektory
+* LC
+	* nejmenší typ konektorů pro optická vlákna
+	* západkový mechanismus
+	* liší se úhlem leštění koncovky optického vlákna
+* FC
+	* konektor pro optická vlákna
+	* navrženo pro prostředí s vysokými vibracemi
+	* kabel končí 2,5 mm kováním (Zinek nebo nerez)
+	* špička je naleštěna do koule
+* BNC
+	* konektor pro koaxiální kabely
+	* impedance 50 až 75 Ohmů
+	* pro frekvence do 4 GHz; napětí do 500 voltů
