@@ -27,3 +27,22 @@
 * Alexander Fadějev - *Mladá garda*
 * Michail Šolochov - *Osud člověka* → novela
 * Jurij Bondarev - *Hořící sníh* → románová epopej; bitva u Stalingradu
+## Německo
+* antifašistická tvorba do konce 50. let v sovětské zóně
+* nová generace spisovatelů v západním Německu
+* Anna Seghersová - *Sedmý kříž* → román o útěku 7 vězňů
+* Bruno Apitz - *Nahý mezi vlky* → dokumentárně zachyceny vlastní prožitky z Buchenwaldu; schovávání dítěte v koncentračním táboře
+* Heinrich Böll - *Biliár o půl desáté* → hovoří o 3 generacích; nejstarší něco vybuduje; prostřední zničí; nejmladší se musí rozhodnout zda budova nebo bourat
+* Günter Grass - *Plechový bubínek* → román o předválečném, válečném i poválečném Německu z pohledu tělesně postiženého chovance z ústavu
+* Erich Maria Remarque - *Čas žít, čas umírat*, *Jiskta života* atd.
+## USA
+* Norman Mailer - *Nazí a mrtví* → román o válce v Tichomoří
+* Joseph Heller - *Hlava XXII* → vzpoura hl. hrdiny proti manipulaci; chce se dostat z války
+* Kurt Vonnegut jr. - *Jatka č. 5* → vědeckofantastický román
+* William Styron - *Sophiina volba* → psychologický román; setkání začínajícího spisovatele Stinga s polskou emigrantkou Sophií
+## Francie
+* Robert Merle - *Smrt je mým řemeslem* → portrét velitele nacistického koncentračního tábora
+* Pierre Boulle - *Most přes řeku Kwai* → otřesný obraz japonského zajateckého vězení v Indočíně (Thajsku); vězni stavěli most
+## Anglie 
+* Patrick Ryan - *Jak jsem jsem vyhrál válku* → záznam vyprávění poručíka Goodbodyho
+* James Clavell - *Král krysa* → z prostředí japonského zajateckého tábora
