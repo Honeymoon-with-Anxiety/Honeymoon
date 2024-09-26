@@ -5,7 +5,7 @@
 	* v operačním systému síťová karta, WiFi rozhraní nebo virtuální rozhraní
 	* přijímá a vysílá v síti data (např. ethernetové packety)
 	* síťové rozhraní není: repeater, hub, switche a bridge (nelze přímo jemu poslat nějaká data)
-* síť s hvězdicovou topologií
+* síť s hvězdicovou topologií ^9dcba9
 	* každý prvek je připojen pomocí kabelu k hubu
 	* mezi dvěma stanicemi existuje jen jedna cesta
 	![[TVP_22_9_24.png]]
