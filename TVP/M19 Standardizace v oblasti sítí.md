@@ -38,7 +38,7 @@
 		* definuje elektrické a fyzikální vlastnosti zařízení (rozložení pinů, napěťové úrovně...)
 		* efektivně rozkládá všechny zdroje mezi všechny uživatele
 		* [moduluje](obsidian://open?vault=E3A&file=TVP%2FMO6%20P%C5%99enos%20informace%23Modulace)
-	2) linková (protokol: Ethernet)
+	2) linková (protokol: Ethernet) ^61e86e
 		* poskytuje spojení mezi dvěma sousedními systémy
 		* uspořádává data z fyzické vrstvy do rámců (frames)
 		* stará se o nastavení parametrů přenosu linky

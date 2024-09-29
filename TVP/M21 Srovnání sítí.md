@@ -46,5 +46,33 @@
 * různé verze WiFi používají různé rádiové technologie → různá rádiová pásma a maximální dosahy a rychlosti
 * nejčastěji rádiová pásma 2,4 GHz (120 mm) ultra krátkých vln a 5 GHz (60 mm) superkrátkých vln; pásma jsou rozdělena do několika kanálů
 * v rámci dosahu může na jednom kanálu vysílat vždy pouze jeden vysílač
+* překážky
+	* např.: zdi, sloupy, domácí spotřebiče
+	* mohou výrazně snížit dosah
+	* pomáhají minimalizovat rušení mezi různými sítěmi v přeplněném prostředí
+* dosah přístupového bodu je ~20 metrů v interiéru; až 150 metrů ve venkovním prostředí
+* zajišťuje komunikaci na [[M19 Standardizace v oblasti sítí#^61e86e|linkové vrstvě]] - přenáší zapouzdřené ethernetové packety
+* SSID
+	* řetězec až 32 ASCII znaků
+	* rozlišuje jednotlivé sítě
+	* v pravidelných intervalech vysílán jako broadcast
+	* potenciální klienti si mohou zobrazit dostupné bezdrátové sítě, ke kterým je možné se připojit
+* zabezpečení
+	* kontrola [[M19 Standardizace v oblasti sítí#MAC|MAC adres]] - přípojný bod bezdrátové sítě má k dispozici seznam MAC adres klientů, kterým je dovoleno se připojit
+	* zablokování vysílání SSID
+	* WPA - klíče, které jsou často dynamicky bezpečným způsobem měněny; WPA2 přináší lepší šifrování klíčů
+	* WPS - po stisknutí tlačítka na přístupovém bodě automaticky připojit bezdrátového klienta bez autentizace
 # Bluetooth
+* spadá do kategorie osobních počítačových sítí
+* čtyři volby přenosové rychlosti mezi 2 Mb/s až 125 kbit/s; čím menší přenosová rychlost, tím větší dosah
+* v Bluetooth 4.2 malé velikosti zpráv omezené na 31 bajtů; Bluetooth 5 umožňuje vysílání zpráv až o velikosti 255 bajtů
+* pracuje v pásmu 2,4 GHz (stejném jako Wi-Fi); během jedné sekundy je provedeno 1600 skoků (přeladění) mezi 79 frekvencemi s rozestupem 1 MHz - odolnost spojení vůči rušení na stejné frekvenci
+* komunikace do vzdálenosti 1–100 m (ve volném prostoru)
+* přenosová rychlost se pohybuje okolo 720 kbit/s (90 KiB/s)
+* datové spoje
+	* symetrické
+	* asymetrické - přenosová rychlost při příjmu je vyšší než při odesílání
+* jednotlivá zařízení jsou identifikována pomocí své adresy `BD_ADDR`(podobně, jako je MAC adresa u Ethernetu)
+* jedna radiová stanice jako řídicí (master) může současně obsloužit až 7 podřízených (slave) zařízení; synchronizují se taktem řídicí stanice
+* komunikace na linkové vrstvě i vyšší - každý typ připojitelného zařízení musí mít definován komunikační protokol
 # Porovnání podle technologie IR, RF
