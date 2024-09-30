@@ -34,7 +34,7 @@
 * Bruno Apitz - *Nahý mezi vlky* → dokumentárně zachyceny vlastní prožitky z Buchenwaldu; schovávání dítěte v koncentračním táboře
 * Heinrich Böll - *Biliár o půl desáté* → hovoří o 3 generacích; nejstarší něco vybuduje; prostřední zničí; nejmladší se musí rozhodnout zda budova nebo bourat
 * Günter Grass - *Plechový bubínek* → román o předválečném, válečném i poválečném Německu z pohledu tělesně postiženého chovance z ústavu
-* Erich Maria Remarque - *Čas žít, čas umírat*, *Jiskta života* atd.
+* Erich Maria Remarque - *Čas žít, čas umírat*, *Jiskra života* atd.
 ## USA
 * Norman Mailer - *Nazí a mrtví* → román o válce v Tichomoří
 * Joseph Heller - *Hlava XXII* → vzpoura hl. hrdiny proti manipulaci; chce se dostat z války
@@ -46,3 +46,7 @@
 ## Anglie 
 * Patrick Ryan - *Jak jsem jsem vyhrál válku* → záznam vyprávění poručíka Goodbodyho
 * James Clavell - *Král krysa* → z prostředí japonského zajateckého tábora
+## Itálie
+* Alberto Moravia - *Horalka* → příběh matky s dcerou, kde utekli před válkou z Říma do hor; po válce se vracejí a jsou znásilněny
+## Nizozemí
+* *Deník Anny Frankové* - autentické zápisky židovské dívky, která se s příbuznými skrývala před německými okupanty; forma dopisů fiktivní přítelkyni
