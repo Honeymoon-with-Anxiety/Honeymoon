@@ -2,6 +2,7 @@
 * sběrnicová topologie
 	* spojení zprostředkovává jediné přenosové médium (sběrnice), ke kterému jsou připojeny všechny uzly sítě (koncová zařízení)
 	* jakmile chtějí dva klienti na síti vysílat ve stejný okamžik vzniká kolize
+	![Schéma sběrnicové topologie](https://upload.wikimedia.org/wikipedia/commons/4/4d/NetworkTopology-Bus.png)
 # Porovnání Ethernetu a Token Ringu
 ## Princip funkce
 * řešení kolize
@@ -76,3 +77,20 @@
 * jedna radiová stanice jako řídicí (master) může současně obsloužit až 7 podřízených (slave) zařízení; synchronizují se taktem řídicí stanice
 * komunikace na linkové vrstvě i vyšší - každý typ připojitelného zařízení musí mít definován komunikační protokol
 # Porovnání podle technologie IR, RF
+* IR
+	* člověkem neviditelné infračervené záření pro přenos dat
+	* dosah několik metrů (přímočaře)
+	* nízká přenosová rychlost ve srovnání s RF sítěmi
+	* použití: dálkové ovládání televizorů, dálková komunikace mezi zařízeními v malé místnosti (např. počítač a tiskárna)
+	* nízká cena zařízení
+	* nízká interference od jiných zařízení
+	* citlivost na okolní světlo
+* RF
+	* rádiové vlny pro přenos dat
+	* dosah od několika metrů až po několik desítek metrů
+	* použití: WiFi, Bluetooth, mobilní sítě...
+	* lepší průniky signálů přes překážky
+	* možnost interference od jiných zařízení pracujících na stejné frekvenci
+* porovnání - závisí na konkrétních požadavcích aplikace
+	* krátký dosah a nízká cena → IR technologie
+	* větší dosah, vyšší přenosová rychlost, odolnost vůči překážkám → RF technologie
