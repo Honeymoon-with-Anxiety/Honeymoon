@@ -119,8 +119,8 @@ out	PortA, ZeroReg ;nastaveni prazdne hodnoty vystupu portu A
 	* I2C - sériová sběrnice pro připojení více zařízení
 	* SPI - sériová sběrnice pro vysokorychlostní komunikaci
 	* Ethernet
-	* Wi-Fi
-	* Bluetooth přijímač a vysílač
+	* [[M21 Srovnání sítí#WiFi|Wi-Fi]]
+	* [[M21 Srovnání sítí#Bluetooth|Bluetooth]] přijímač a vysílač
 * paměti
 	* EEPROM
 	* FLASH
