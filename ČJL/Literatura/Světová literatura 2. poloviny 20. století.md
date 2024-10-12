@@ -50,3 +50,43 @@
 * Alberto Moravia - *Horalka* → příběh matky s dcerou, kde utekli před válkou z Říma do hor; po válce se vracejí a jsou znásilněny
 ## Nizozemí
 * *Deník Anny Frankové* - autentické zápisky židovské dívky, která se s příbuznými skrývala před německými okupanty; forma dopisů fiktivní přítelkyni
+# Neorealismus
+* v italské próze a filmu 40. a 50. léta 20. st.
+* směřoval až k realistickému dokumentu
+* zájem o obyčejné lidi a morální problémy společnosti, realitu všedního dne
+* Alberto Moravia
+	* *Římanka* - existenciální román; krásná, chudá 16tiletá prostitutka
+	* *Pohradní* - román
+	* *Konformista* - psychologický román; o muži s nízkým sebevědomím
+	* *Nuda* - psychologický román; jde o pocit, který ovládá hl. postavu
+# Existencialismus
+* filozofický směr
+* vznikl po 1. světové válce v Německu
+* hlavní představitelé: <u>Martin Heldegger, Karl Jasper, Gabriel Marcel</u>
+* literární směr, který vychází z pojetí člověka jako osamoceného a odcizeného jedince
+* obraz mezních životních situací
+* odpovědnost za rozhodování, konání
+* život = směřování k smrti
+* Jean-Paul Sarte
+	* filozof, spisovatel, publicista
+	* *Nevolnost*
+		* známé také jako "*Hnus*"
+		* románová esej ve formě deníku
+		* hl. postava intelektuál a historik Antoine Roquetin
+		* není schopen jednat a sám sobě se hnusí
+	* *Zeď*
+		* soubor povídek, novela
+		* zeď jako symbol oddělenosti lidí
+		* španělský republikán Pablo Ibbieta, chce po svém zatčením přivést fašisty na falešnou stopu a označí hřbitov za místo úkrytu svého přítele, ten je absurdní shodou náhod právě tam nalezen a zastřelen
+* Albert Camus
+	* francouzský spisovatel, filozof, publicista
+	* Nobelova cena
+	* *Cizinec*
+		* kratší román/rozsáhlejší novela
+		* odehrává se v Alžířsku
+		* ich-forma
+		* vypravěč Mersault zastřelí pěti ranami z revolveru bezdůvodně na pláži Araba, za to je uvězněn a odsouzen k smrti; ve vězení přemýšlí o smyslu života a blížící se smrti a přijímá svůj úděl – lhostejnost k světu a životu, osamělý protest proti pokrytectví
+	* *Mor*
+		* román
+		* obraz města postiženého morem
+		* marnost boje, přesto hrdinové nezoufají a neúnavně bojují proti zlu
