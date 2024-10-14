@@ -42,18 +42,111 @@
 * vyžaduje poměrně malé množství elektrické energie
 * obecné schéma LCD![Schéma LCD](TVP_13_10_24.png)
 * [TN LCD](https://youtu.be/J6W1jYoa1HM)
-### Funkce řádkových LCD displejů
-* f
-# Barva
-* b
+* funkce řádkových LCD displejů
+	* k zobrazování textu na několika řádcích
+	* kalkulačky, hodinky, budíky, mikrovlnné trouby, audio přehrávače, měřící přístroje, Arduino a jiné mikrokontrolérové projekty
+	* jsou obecně levnější než jiné typy displejů
+	* mohou zobrazovat pouze text a jednoduché symboly
+	* rozlišení těchto displejů je obvykle nízké
+	* obvykle 16×2 znaků
+# [Barva](https://youtu.be/srRI7yMjGz0)
+* historie
+	* první barevné fotografie byly černobílé s nanesenou barvou
+	* Maxwell přišel s nápadem vyfotit objekt 3× pokaždé s odlišným filtrem; poté posvítit na fotografii barvou filtru a výsledek s míchat se zbytkem; první barevná fotografie touto metodou - Thomas Sutton
+* míchání barev
+	* subtractive
+		* RYB prostor
+		* využito v malířství
+		* absorpce určitých vln z bílého světla a odraz zbylých
+	* additive
+		* RGB prostor
+		* využito v zachycování světla a fotografování
+		* skládání červené, zelené a modré k vytvoření nové barvy; složením všech tří barev vznikne bílá
+* barevné prostory
+	* CIE XYZ 1931
+		* výsledek sledování reakce lidského oka na různé vlnové délky světla
+		* dnes stále porovnáván s ostatními prostory
+		* nepřesný ve světlosti ![Nepřesnosti](TVP_14_10_24@1.png)
+	* CIE LUV (CIE 1976)
+		* L - světlost; U - přechod ze zelené do červené; V - přechod z modré do žluté
+		* používaný v designu osvětlení a v TV
+	* CIE LAB
+		* L - světlost; A - přechod ze zelené do červené; B - přechod z modré do žluté
+		![Porovnání](TVP_14_10_24@2.jpg)
+	* CIE LCH
+		* L - světlost; C - chroma (jak moc barevný); H - hue (červená, žlutá, zelená...)
+* pixel
+	* rozdělen do 3 subpixelů - RGB
+	* data jsou uchována v bitech (bit na subpixel)
+		* 1 bit - $2 × 2 × 2 = 8$ barev (2 stavy subpixelu)
+		* 2 bity - $4×4×4 = 64$ barev (4 stavy subpixelu)
+		* 3 bity - $8×8×8 = 512$ barev (8 stavů subpixelu)
+* reprezentace barevných prostorů na displeji
+	* v 90. letech nejčastější prostor RGB
+	* Rec. 709
+		* podporuje ~70 % CIE XYZ 1931
+		* určeno pro HDTV a HD monitory
+		* jas byl optimalizován spíše pro televize než pro kanceláře
+	* standard RGB (sRGB)
+		* spolupráce mezi HP a Microsoftem
+		* určeno pro kanceláře a web
+		* hodnota gammy = 2.2
+	* Adobe RGBCIE XYZ 1931
+		* Rec. 709 a sRGB vypadali moc vybledle
+		* výrazně rozšiřuje azurovou a zelenou oproti sRGB
+		* pokrývá ~52 % okem viditelných barev
+		* určeno pro tisk
+	* DCI-P3
+		* vytvořeno filmovými studii
+		* má výraznější zelenou
+		* pokrývá ~53 % CIE XYZ 1931 diagramu
+		* oproti ostatním má teplejší bílou (středový bod; ostatní 6500 K, DCI-P3 6300 K)
+	* Display P3 - úprava DCI-P3 Applem pro své displeje
+	* Rec. 2020 - pokrývá ~75 % diagramu
+	* Rec. 2100 (HDR)
+	![Diagram barev](TVP_14_10_24@3.jpg)
 # Řadič
-* ř
-# Konfigurace
-* k
-# Komunikace
-* k
-# Podpůrné obvody
-* p
+* řídí a synchronizuje všechny části displeje
+* řadič dostává od procesoru data, co se má na displeji zobrazit ve formě bitů, které představují jednotlivé pixely
+* řadič ovládá jednotlivé pixely na displeji tak, aby vytvořily požadovaný obraz; určuje jak moc se má subpixel rozsvítit a v který čas
+* další funkce: nastavení jasu, kontrastu, barevné teploty nebo automatické otáčení obrazu
+* typy
+	* TFT - pro řízení tenkovrstvých tranzistorových displejů; běžné v mobilních telefonech, tabletech a monitorech
+	* OLED - řídí organické elektroluminiscenční displeje
+	* STN - pro řízení super twist nematických displejů; levnější, nižší kontrast a pomalejší odezva
+* parametry
+	* rozlišení
+	* frekvence snímání (FPS)
+	* barevná hloubka - počet bitů, které se používají k reprezentaci barvy každého pixelu
+	* rozhraní - přípojný konektor (dnes HDMI, DisplayPort, USB-C)
+	* schopnost použít s dotykovým displejem
+* konfigurace
+	* základní - jas, kontrast, barevná teplota, ostrost
+	* pokročilá - nastavení barev, gama křivky, redukce šumu, režimy obrazu
+	* nastavení vstupu - výběr zdroje signálu, nastavení rozlišení a obnovovací frekvence
+	* nastavení zvuku - pokud je řadič vybaven zvukovým výstupem, lze konfigurovat hlasitost a další zvukové parametry
+	* tip - začít s výchozím nastavením; konfigurovat v tmavém prostředí; použít u toho testovací obraz
+* komunikace
+	* rozhraní
+		* HDMI - přenos videa a zvuku ve vysoké kvalitě
+		* DisplayPort - moderní digitální rozhraní podobné HDMI; vyšší šířka pásma
+		* DVI (Digital Visual Interface) - starší digitální rozhraní široce používáno u počítačových monitorů
+		* VGA (Video Graphics Array) - analogové rozhraní; stále se používá u starších zařízení; kvalita výrazně nižší
+		* SPI - pro komunikaci s menšími displeji
+		* I2C
+	* proces
+		1) zdrojové zařízení vytvoří digitální obraz a pošle jej přes zvolené rozhraní do řadiče obrazu
+		2) řadič přijme data a dekóduje je
+		3) řadič pošle signály na jednotlivé pixely displeje, aby se rozsvítily v požadované barvě a intenzitě
+		4) řadič musí zajistit, aby všechny pixely byly osvětleny synchronně (aby obraz byl plynulý a bez blikání)
+* podpůrné obvody
+	* hlavní funkce - napájení, generování hodinového signálu, paměť, regulace jasu podsvícení, filtrace a potlačení elektromagnetického rušení, 
+	* typické obvody
+		* regulátory napětí
+		* oscilátory - generují hodinový signál
+		* paměť - k uchování nastavení, data obrazu a firmware
+		* řadič podsvícení
+		* ochranné diody - chrání obvody před přepětím a přebíjením
 # Výpočet obrazu
 * v
 # Uložení obrazu
