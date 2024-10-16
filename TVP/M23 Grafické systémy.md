@@ -1,5 +1,17 @@
 #technicke_vybaveni_pocitacu 
 * tvorba umělých grafických objektů; úprava zobrazitelných a prostorových informací, nasnímaných z reálného světa
+* grafická karta
+	* vytváří grafický výstup na monitoru
+	* grafický procesor (GPU) slouží pro rychlé a efektivní změny obsahu grafické paměti
+	* karta se stará o grafický výstup na zobrazovací jednotku
+	* pokud karta obsahuje VIVO (video-in a video-out) umožňuje analogový vstup videosignálu - ukládání videosouborů z videokamery, videopřehrávačů apod
+	* součásti
+		* GPU - obsahuje řadič paměti, unifikované shadery a další; zpracovává 3D geometrii na 2D obraz
+		* Video RAM - počítačová paměť, kde jsou ukládány obrazové informace
+		* firmware
+		* RAMDAC - převodník digitálního signálu, se kterým pracuje grafická karta, na analogový, kterému rozumí zobrazovací zařízení
+		* výstupy - VGA, HDMI, DVI, DisplayPort aj.
+	* výrobci - AMD, NVIDIA, Intel (většinou integrované grafiky)
 # Displej
 * zařízení pro zobrazování informací jako je text nebo obraz v různé podobě
 * v elektronických přístrojích slouží k zobrazování různých údajů
@@ -148,12 +160,10 @@
 		* řadič podsvícení
 		* ochranné diody - chrání obvody před přepětím a přebíjením
 # Výpočet obrazu
-* v
-# Uložení obrazu
-* u
-# Přenos a komprimace obrazu
-* PNG
-* JPEG
-* JPEG-XL
-* WebP
-* AIF
+* výpočet obrazu v grafických systémech zahrnuje matematické a algoritmické postupy pro transformaci digitálních dat do podoby vizuálního obsahu vhodného pro zobrazení na různých typech displejů
+* modelování 3D scény
+* stínování - definování vzhledu objektů pomocí světla, barev a textur
+* texturování - detaily na povrchu 3D objektu
+* transformace - převod 3D objektu na 2D plátno schopné se zobrazit na displeji
+* rasterizace - převod 2D plátna na jednotlivé pixely
+* renderování - výpočty barevných vlastností každého pixelu
