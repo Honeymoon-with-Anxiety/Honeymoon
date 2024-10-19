@@ -14,6 +14,8 @@
 		* jaký programovací jazyk použiji?
 		* jaké metody testování použiji?
 	* design systému
+		* jakou architekturu použiji?
+		* bude systém rozdělen do modulů?
 	* optimalizace
 	* jaké certifikace budou potřeba pro daný systém? - při komerčním použití
 * jak postupovat při míchání analogových a digitálních součástí
