@@ -50,8 +50,38 @@
 	* velikost
 	* spotřeba energie v různých režimech
 # Zpětnovazební systém
+* výstup systému je srovnáván s požadovanou hodnotou; rozdíl mezi nimi (chyba) je použit k úpravě vstupu systému tak, aby se výstup přiblížil k požadované hodnotě
+* důvody
+	* umožňuje dosáhnout vysoké přesnosti a opakovatelnosti výsledků
+	* zvyšuje stabilitu systému a jeho odolnost vůči rušivým vlivům
+	* umožňuje systému adaptovat se na změny v prostředí nebo požadavcích
+* výhody
+	* vysoká přesnost
+	* stabilita - systém je odolnější vůči rušivým vlivům
+	* adaptabilita
+	* optimalizace výkonu systému pro dosažení požadovaných výsledků
+* nevýhody
+	* složitost
+	* při nesprávném návrhu může dojít ke kmitání nebo nestabilitě systému
+* funkční princip
+	* měření
+	* srovnání
+	* řízení
+	* akce
+	* zpětná vazba (zopakování předešlých 4 bodů)
+
+![Kladná zpětná vazba](https://upload.wikimedia.org/wikipedia/commons/3/36/Feedback_positive.png)
+
 ## Části zpětnovazebního systému
-+jejich funkce
+* čidlo - měří fyzikální veličinu relevantní pro řízený proces; převádí měřenou fyzikální veličinu na elektrický signál, který může být zpracován elektrickým obvodem
+* srovnávač
+	* porovnává aktuální hodnotu měřené veličiny (výstup čidla) s požadovanou hodnotou (referencí)
+	* vytváří chybový signál reprezentující rozdíl mezi aktuální hodnotou a referencí
+	* může být realizován pomocí analogového nebo digitálního obvodu
+* řídící člen
+	* na základě chybového signálu vypočítá potřebnou korekci a generuje řídící signál
+	* realizace pomocí mikroprocesoru, mikrokontroléru nebo specializovaného obvodu
+* aktuátor - převádí řídící signál na fyzickou akci
 # PID regulátor
 # Účel
 ## analogové sekce
