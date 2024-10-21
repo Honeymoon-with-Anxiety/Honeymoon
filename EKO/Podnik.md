@@ -99,3 +99,8 @@
 									* **majetek kde cena roste tak se neodepisuje**
 								* oprávky - souhrn odpisů za dobu používanou
 				* oběžný
+					* majetek podniku, který se používá krátkodobě
+					* mění svou formu
+					* během krátkého období se obrací
+					* schéma oběžného majetku - peníze → materiál → polotovar → nedokončená výroba → hotový výrobek → pohledávka → peníze → ... (stále dokola)
+					* majetek je nejdůležitější pro výrobu podniku
