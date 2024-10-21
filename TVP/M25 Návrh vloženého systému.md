@@ -135,4 +135,33 @@
 	* filtry
 	* ADC, DAC
 ## digitální sekce
+* zpracovává informace, rozhoduje a řídí ostatní komponenty systému
+* pracuje s diskrétními hodnotami (obvykle 0 a 1)
+* zpracování dat
+	* provádí aritmetické a logické operace nad daty získanými z analogové části nebo uloženými v paměti
+	* na základě zpracovaných dat vydává příkazy pro ovládání ostatních částí systému
+	* zajišťuje komunikaci s jinými zařízeními nebo s uživatelem
+* uchovává programové kódy, data a konfigurační parametry systému
+* zajišťuje přesné časování a synchronizaci různých procesů v systému
+* komponenty
+	* mikroprocesor nebo mikrokontrolér
+	* paměť ROM/RAM
+	* vstupně-výstupní porty
+	* periférie
 # Napájení
+* zdroje napájení
+	* baterie - primární, sekundární
+	* síťové adaptéry
+	* energetické zdroje - solární články, palivové články
+* návrh napájecího systému
+	* napětí - každý čip a obvod v systému má své specifické požadavky na napájecí napětí
+	* proud - maximální odběr proudu určuje kapacitu zdroje a dimenzování vodičů
+	* stabilita - napájení musí být stabilní, aby se předešlo poruchám a nesprávné funkci systému
+	* rušení - napájecí zdroj by neměl vytvářet rušení, které by mohlo ovlivnit ostatní části systému
+	* bezpečnost - napájecí systém musí být navržen tak, aby byl bezpečný pro uživatele i zařízení
+* ochrana napájecího systému - pojistky, diody
+* požadavky pro napájení vloženého systému
+	* nízká spotřeba
+	* široký rozsah vstupního napětí
+	* ochrana citlivých obvodů před rušením a zemními smyčkami
+	* ochrana proti přepólování
