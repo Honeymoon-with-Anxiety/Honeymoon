@@ -83,7 +83,56 @@
 	* realizace pomocí mikroprocesoru, mikrokontroléru nebo specializovaného obvodu
 * aktuátor - převádí řídící signál na fyzickou akci
 # PID regulátor
+* skládá se z části
+	* proporcionální
+		* reaguje na aktuální odchylku mezi požadovanou hodnotou a skutečnou hodnotou
+		* prostý zesilovač
+	* integrační - zohledňuje kumulativní odchylku v čase; eliminuje statickou chybu
+	* derivační - reaguje na rychlost změny odchylky
+* řadí se před řízenou soustavu
+* nejdříve realizovány pomocí pneumatických; později elektronických obvodů
+* postup procesu regulátoru
+	* čidlo měří aktuální hodnotu řízené veličiny
+	* naměřená hodnota se porovná s požadovanou hodnotou a vypočítá se odchylka
+	* PID regulátor vypočítá řídicí signál na základě proporcionální, integrální a derivační složky
+	* řídicí signál je aplikován na aktuátor, který ovlivňuje řízený proces
+	* změna stavu procesu se projeví na výstupu čidla, což vede k novému výpočtu chybového signálu
+* matematický popis $$u(t) = K_p * e(t) + K_i * ∫e(t)dt + K_d * (de(t)/dt)$$ kde
+	* $u(t)$ - řídicí signál
+	* $K_p$ - proporcionální konstanta
+	* $K_i$ - integrační konstanta
+	* $K_d$ - derivační konstanta
+	* $e(t)$ - odchylka
+* výhody
+	* lze použít pro širokou škálu aplikací
+	* je robustní
+	* mnoho mikroprocesorů a mikrokontrolérů má integrované funkce pro implementaci PID regulátoru
+* nevýhody
+	* nastavení parametrů $K_p$, $K_i$ a $K_d$ může být náročné a vyžaduje určitou zkušenost
+	* pro vysoce nelineární systémy může být potřeba použít složitější metody řízení
+* využití
+	* udržování konstantní teploty v průmyslových procesech, domácích spotřebičích
+	* řízení otáček motorů v elektrických nářadí, průmyslových robotech
+	* regulace tlaku v pneumatických systémech
+![Regulátor PID v regulační smyčce](https://upload.wikimedia.org/wikipedia/commons/4/40/Pid-feedback-nct-int-correct.png)
 # Účel
 ## analogové sekce
+* při návrhu analogové sekce je důležité zvážit požadavky na přesnost, rychlost, spotřebu energie
+* převod fyzikálních veličin na elektrické signály
+	* senzory - měří fyzikální veličiny; výsledkem měření je obvykle analogový signál (napětí nebo proud) úměrný měřené veličině
+	* převodníky - analogové signály ze senzorů jsou často převedeny na digitální hodnotu pomocí ADC, aby je mohl zpracovat mikroprocesor
+* generování analogových signálů
+	* DAC - převádí digitální hodnoty z mikroprocesoru na analogové signály, které mohou být použity k řízení externích zařízení
+	* generátory signálů - produkují analogové signály (např.: sinusové, obdélníkové, trojúhelníkové); pro různé účely
+* zpracování analogových signálů
+	* zesílení
+	* filtrace
+	* srovnání - porovnávání analogových signálů s referenční hodnotou
+* typické komponenty
+	* operační zesilovače - univerzální analogové obvody pro zesilování, sčítání, odčítání, integraci a diferenciaci
+	* komparátory - porovnávají dva analogové signály a generují digitální výstup
+	* analogový multiplexor
+	* filtry
+	* ADC, DAC
 ## digitální sekce
 # Napájení
