@@ -62,7 +62,7 @@
 	* řízení podniku - usměrňování činnosti podniku tak, aby byli zajištěny všechny činnosti podniku a dosaženo stanovených cílů; řízení provádějící vedoucí pracovníci (manažeři)
 	* majetek
 		* každý podnik musí mít pro svojí činnost potřebné výrobní zdroje
-		* složení majetku se vyjadřuje v rozvaze ![Tabulka](EKO_15_10_24@2.png)   z Čeho financováno
+		* složení majetku se vyjadřuje v rozvaze ![Tabulka](EKO_15_10_24@1.png)   z čeho financováno
 		* suma - musí se v tomto případě rovnat aktiva a pasiva
 		* majetková struktura
 			* majetek podniku - majetkové hodnoty, patří podnikateli a slouží k podnikání
@@ -83,12 +83,12 @@
 					* finanční
 						* volné prostředky podnikatele určené pro další investice (pro výnos)
 							* dlouhodobé cenné papíry, státní dluhopisy (ručí za ně stát), umělecká díla a sbírky, drahé kovy
-							* má inventární kartu která obsahuje nebo el systém (kartotéka) název majetku, vstupní pořizovací cenu, datum pořízení
+							* má inventární kartu (nebo el systém (kartotéka)), která obsahuje název majetku, vstupní pořizovací cenu, datum pořízení
 							* opotřebení dlouhodobého majetku je fyzické a morální
 								* opotřebení je úbytek hodnoty majetku
 								* fyzické - soustruh ztrácí přesnost
 								* morální - způsobeno rozvodem
-								* odpis ![tabulka](EKO_15_10_24@3.png)
+								* odpis ![tabulka](EKO_15_10_24@2.png)
 									* úbytek v hodnotách vyjádřený v penězích
 									* účetní odpisy - si volí podnik sám podle svých potřeb
 									* daňové odpisy - jsou stanoveny zákonem; zákon přesně stanový do jaké třídy odpisové přesně zařadit
