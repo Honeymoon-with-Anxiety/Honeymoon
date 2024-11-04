@@ -90,3 +90,22 @@
 		* román
 		* obraz města postiženého morem
 		* marnost boje, přesto hrdinové nezoufají a neúnavně bojují proti zlu
+# Beatníci
+* beat generation = "zbitá" nebo "blažená" (tuláci)
+* američtí básníci a prozaici - nonkonformisté
+* revolta, výsměch typickým hodnotám americké společnosti
+* průvodní jev tzv. studené války
+* snaha nalézt vnitřní svobodu = výstřednosti
+* snaha splynout s přírodou a vesmírem; zen.-buddhismus, jazzová hudba; centrem San Francisco
+* v literatuře snaha šokovat
+* poezie určena k přednesu
+* Lawrence Ferlinghetti
+	* básník, knihkupec, vydavatel
+	* žurnalistika, doktorský titul z poezie
+	* 1998 navštívil Českou republiku
+	* *Skryté významy věcí*
+		* pod vlivem LSD
+		* experimentální technika psaní; šokující jazyk
+	* *Lunapark v hlavě* - nejúspěšnější básně
+	* *Obrazy zmizelého světa*
+* Allen Ginsberg
