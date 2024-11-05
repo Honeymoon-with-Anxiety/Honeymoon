@@ -109,3 +109,38 @@
 	* *Lunapark v hlavě* - nejúspěšnější básně
 	* *Obrazy zmizelého světa*
 * Allen Ginsberg
+	* americký básník rusko-židovského původu
+	* matka trpěla paranoiou
+	* vyloučen ze studií kvůli drogám
+	* 1965 v Československu - Státní bezpečnost ho vyhostila; vrátil se zpět
+	* *Kvílení a jiné básně*
+		* poema, manifest beatníků
+		* sbírka žalována pro obscénnost
+		* postava Molocha
+	* *Kadiš s jiné básně* - nářek nad smrtí matky
+	* *Král majálesu* - odpor ke komunistickému režimu
+* Jack Kerouac
+	* prozaik a básník francouzsko-kanadského původu
+	* *Na cestě*
+		* kultovní román, reportáž ze silnice
+		* napsal za 3 týdny na 30metrovou roli kreslícího papíru (bez odstavců, kapitol, interpunkčních známek)
+		* hl. postavou sám autor (Sal Paradise) a autorův přítel (Dean Moriarty); Bull Lee
+		* spontánní próze = živelné psaní
+* William Seward Burroughs
+	* prozaik, literární experimentátor, malíř, sociální kritik, esejista
+	* nejskandálnější autor
+	* nezávislý život na okraji společnosti
+	* problémy se zákonem
+		* dealer heroinu
+		* zastřelil svoji manželku
+	* *Feťák* - autobiografický román
+	* *Teplouš* - autobiografický román
+	* *Nahý oběd*
+* Ken Elton Kesey
+	* styčná osobnost mezi generací beatníků a hnutí hippies
+	* *Vyhoďme ho z kola ven* - groteskní román z psychiatrické léčebny
+* Charles Bukowski
+	* návanost na beatnickou linii v 80. letech
+	* sebestřednost, vulgarita, otevřenost v intimních věcech
+	* *Všechny řitě světa i ta má* - povídky
+	* *Hollywood* - autobiografická próza
