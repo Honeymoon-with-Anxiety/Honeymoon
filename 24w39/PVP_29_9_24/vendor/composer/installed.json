@@ -1,0 +1,165 @@
+{
+    "packages": [
+        {
+            "name": "bcosca/fatfree",
+            "version": "3.8.2",
+            "version_normalized": "3.8.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bcosca/fatfree.git",
+                "reference": "e55d7bedd2704f6e5c3501678fbea8788c7642b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bcosca/fatfree/zipball/e55d7bedd2704f6e5c3501678fbea8788c7642b4",
+                "reference": "e55d7bedd2704f6e5c3501678fbea8788c7642b4",
+                "shasum": ""
+            },
+            "require": {
+                "bcosca/fatfree-core": "^3.8"
+            },
+            "time": "2023-07-23T22:23:04+00:00",
+            "type": "project",
+            "installation-source": "source",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "A powerful yet easy-to-use PHP micro-framework designed to help you build dynamic and robust Web applications - fast!",
+            "homepage": "http://fatfreeframework.com/",
+            "support": {
+                "issues": "https://github.com/bcosca/fatfree/issues",
+                "source": "https://github.com/bcosca/fatfree/tree/3.8.2"
+            },
+            "install-path": "../bcosca/fatfree"
+        },
+        {
+            "name": "bcosca/fatfree-core",
+            "version": "3.8.2",
+            "version_normalized": "3.8.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/f3-factory/fatfree-core.git",
+                "reference": "774692ce7698904d3cb35bbd4f79376bb17eeddc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/f3-factory/fatfree-core/zipball/774692ce7698904d3cb35bbd4f79376bb17eeddc",
+                "reference": "774692ce7698904d3cb35bbd4f79376bb17eeddc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "time": "2023-07-23T22:11:30+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "classmap": [
+                    "."
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "A powerful yet easy-to-use PHP micro-framework designed to help you build dynamic and robust Web applications - fast!",
+            "homepage": "http://fatfreeframework.com/",
+            "support": {
+                "issues": "https://github.com/f3-factory/fatfree-core/issues",
+                "source": "https://github.com/f3-factory/fatfree-core/tree/3.8.2"
+            },
+            "install-path": "../bcosca/fatfree-core"
+        },
+        {
+            "name": "ikkez/f3-cortex",
+            "version": "v1.7.7",
+            "version_normalized": "1.7.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ikkez/f3-cortex.git",
+                "reference": "6c735c713e0eb0d562614e7dc1be72de097c71b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ikkez/f3-cortex/zipball/6c735c713e0eb0d562614e7dc1be72de097c71b1",
+                "reference": "6c735c713e0eb0d562614e7dc1be72de097c71b1",
+                "shasum": ""
+            },
+            "require": {
+                "ikkez/f3-schema-builder": "2.*"
+            },
+            "time": "2024-03-06T16:05:14+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "A multi-engine ORM / ODM for the PHP Fat-Free Framework",
+            "homepage": "https://github.com/ikkez/f3-cortex",
+            "keywords": [
+                "F3",
+                "fatfree",
+                "mongo",
+                "orm",
+                "sql"
+            ],
+            "support": {
+                "issues": "https://github.com/ikkez/f3-cortex/issues",
+                "source": "https://github.com/ikkez/f3-cortex/tree/v1.7.7"
+            },
+            "install-path": "../ikkez/f3-cortex"
+        },
+        {
+            "name": "ikkez/f3-schema-builder",
+            "version": "v2.2.6",
+            "version_normalized": "2.2.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ikkez/f3-schema-builder.git",
+                "reference": "1fc4cf37e4683037d35a8536232bcacbf7f4dd0b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ikkez/f3-schema-builder/zipball/1fc4cf37e4683037d35a8536232bcacbf7f4dd0b",
+                "reference": "1fc4cf37e4683037d35a8536232bcacbf7f4dd0b",
+                "shasum": ""
+            },
+            "require": {
+                "bcosca/fatfree-core": "^3.6"
+            },
+            "time": "2023-02-13T19:12:50+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "SQL Schema Builder Plugin for PHP Fat-Free Framework",
+            "homepage": "https://github.com/ikkez/f3-schema-builder",
+            "keywords": [
+                "F3",
+                "fatfree",
+                "sql"
+            ],
+            "support": {
+                "issues": "https://github.com/ikkez/f3-schema-builder/issues",
+                "source": "https://github.com/ikkez/f3-schema-builder/tree/v2.2.6"
+            },
+            "install-path": "../ikkez/f3-schema-builder"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

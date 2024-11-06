@@ -1,0 +1,5 @@
+;přejmenovat na db.ini a doplnit jméno databáze a přihlašovací údaje.
+[globals]
+db[dsn] = "mysql:host=localhost;dbname=XXXXXXXXXXXX"
+db[username] = "UUUU"
+db[password] = "PPPP"
