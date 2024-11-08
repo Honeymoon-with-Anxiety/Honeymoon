@@ -75,6 +75,7 @@ Reset:
 ; 	ldi TmpReg, (0<<CS02)|(0<<CS01)|(1<<CS00) ; clock select - jde do ovf
 ; 	ldi TmpReg, (1<<WGM21) ; clock select
 ;	ldi TmpReg, (0<<CS02)|(0<<CS01)|(1<<CS00)|(1<<WGM21) ; clock select
+;	ldi TmpReg,(1<<CS00);|(1<<CS01)    ; clock select
 ;	out TCCR0, TmpReg
 ;	ENABLE LOCAL INTERRUPTION
 	ldi TmpReg, (1<<OCIE0)	; timer 0 overflow flag
