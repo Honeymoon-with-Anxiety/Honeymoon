@@ -99,12 +99,8 @@ SPM_RDY:	reti
 
 ;************** Custom interruptions **************
 TIM0_COM:
-	in TmpReg, SREG
-	push TmpReg
-;	inc Cnt0
+	inc Cnt0
 	rcall Toggle
-	pop TmpReg
-	out SREG, TmpReg
 	out TCNT0, ZeroReg
 reti
 ;**************************************************
