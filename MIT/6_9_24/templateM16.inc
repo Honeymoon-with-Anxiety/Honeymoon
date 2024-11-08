@@ -62,25 +62,15 @@ Reset:
 
 	ldi	TmpReg, 0xFF
 	out	DDRA, TmpReg		; Set direction of port A (all inputs)
-	out	DDRB, TmpReg		; Set direction of port B (all inputs)
-	out	DDRC, TmpReg		; Set direction of port C (all outputs)
-	out	DDRD, TmpReg		; Set direction of port D (all outputs)
-
 	out	PortA, ZeroReg		; Set port A to 00h
-	out	PortB, ZeroReg		; Set port A to 00h
-	out	PortC, ZeroReg		; Set port A to 00h
-	out	PortD, ZeroReg		; Set port A to 00h
 
 ;	NO PRESCALING
-; 	ldi TmpReg, (0<<CS02)|(0<<CS01)|(1<<CS00) ; clock select - jde do ovf
-; 	ldi TmpReg, (1<<WGM21) ; clock select
-;	ldi TmpReg, (0<<CS02)|(0<<CS01)|(1<<CS00)|(1<<WGM21) ; clock select
-;	ldi TmpReg,(1<<CS00);|(1<<CS01)    ; clock select
-;	out TCCR0, TmpReg
+ 	ldi TmpReg, (1<<WGM21) ; clock select
+	out TCCR0, TmpReg
 ;	ENABLE LOCAL INTERRUPTION
 	ldi TmpReg, (1<<OCIE0)	; timer 0 overflow flag
 	out TIMSK,TmpReg		; set the flag
-;	out TCNT0, ZeroReg		; clear the value in the counter
+	out TCNT0, ZeroReg		; clear the value in the counter
 	sei
 
 	rjmp	Nein
@@ -111,7 +101,7 @@ SPM_RDY:	reti
 TIM0_COM:
 	in TmpReg, SREG
 	push TmpReg
-	inc Cnt0
+;	inc Cnt0
 	rcall Toggle
 	pop TmpReg
 	out SREG, TmpReg
