@@ -47,9 +47,33 @@
 		* zrušení ve zkušební době
 		* okamžité zrušení
 		* výpověď
+	* dohoda o rozvázání pracovního poměru
+		* zaměstnanec i zaměstnavatel souhlasí
+		* písemně
+		* pracovní poměr končí dohodnutým dnem
+	* výpověď daná zaměstnancem
+		* písemně
+		* doručená
+		* pracovní poměr končí uplynutím výpovědní doby
+	* výpověď daná zaměstnavatelem
+		* písemně
+		* doručená
+		* pracovní poměr končí uplynutím výpovědní doby
+		* jen důvod uveden v zákoníku práce - zánik organizace, reorganizace, nadbytečnost, ztráta zdravotní způsobilosti, neuspokojivé pracovní výsledky
+		* ochranná doba - zaměstnancům v tzv. ochranné době (při těhotenství, samoživitel (s dítětem do tří let))
+	* okamžité zrušení pracovního poměru ze strany zaměstnavatele - zaměstnanec je pravomocně odsouzen za úmyslný trestný čin
+	* okamžité zrušení pracovního poměru ze strany zaměstnance
+		* zaměstnavatel mu nevyplácí mzdu nebo náhradu mzdy do 15 dnů po uplynutí její splatnosti
+		* podle lékařského posudku nemůže dále konat práci bez vážného ohrožení svého zdraví a zaměstnavatel ho nepřeřadil na jinou, vhodnou pozici
+	* po skončení pracovního poměru
+		* pracovní posudek - vydán na žádost
+		* potvrzení o zaměstnání (zápočtový lístek) - vydán povinně
 * práce konané mimo pracovní poměr
 	* dohoda o provedení práce - do 300 hodin za rok
 	* dohoda o provedení činnosti - do 20 hodin týdně (průměrně)
+	* práce malého rozsahu
+	* nepravidelné
+	* příležitostný charakter
 # Pracovní řád
 * pracovní doba
 	* zaměstnanec povinen pracovat pro zaměstnavatele
