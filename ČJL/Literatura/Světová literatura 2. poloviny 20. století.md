@@ -144,3 +144,18 @@
 	* sebestřednost, vulgarita, otevřenost v intimních věcech
 	* *Všechny řitě světa i ta má* - povídky
 	* *Hollywood* - autobiografická próza
+# Rozhněvaní mladí muži
+* nesouhlas s konvenčním způsobem života
+* vyjadřují jen slovně
+* Anglie; v 50. letech 20. st.
+* kritika anglického konzervatismu
+* typy postav - antihrdinové
+* sociální kritika i humor, hovorový jazyk
+* John Osborne - *Ohlédni se v hněvu* (drama)
+* John Braine - *Místo nahoře, Život dole*
+* Kingsley Amis
+	* básník, kritik, novinář, prozaik
+	* *Šťastný Jim*
+		* univerzitní román
+		* humoristicko-satirická próza
+		* hl. hrdina Jim Dixon
