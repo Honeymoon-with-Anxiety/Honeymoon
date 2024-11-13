@@ -90,3 +90,25 @@
 		* morfologie - tvarosloví
 		* syntax - skladba; stavba vět, souvětí
 		* stylistika - nauka o slohu
+# Zvuková stránka jazyka
+## Zvuková stránka slova
+* spisovná výslovnost náleží artikulací
+* výslovnost souhlásek
+	* spodoba znělosti
+	* ztráta znělosti
+	* skupina *sh*
+	* zdvojené souhlásky
+	* zdvojená výslovnost
+## Zvuková stránka věty a projevu
+* přízvuk
+	* na 1. slabice
+* pauza - hranice větných úseků pauzou - nadechnutí
+* melodie - intonace
+	* věty oznamovací
+	* věty rozkazovací
+	* otázky zjišťovací - ano × ne
+	* otázky doplňovací - chci nějakou informaci doplnit
+	* zvolací věty
+* větný přízvuk
+* větný důraz
+* tempo
