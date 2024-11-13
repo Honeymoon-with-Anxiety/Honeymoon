@@ -159,3 +159,12 @@
 		* univerzitní román
 		* humoristicko-satirická próza
 		* hl. hrdina Jim Dixon
+# Nový román
+* antiromán, objektivní román, mataromán
+* typ francouzského románu 50. let
+* oslabení příběhu, bez příčinných souvislostí a časových následností
+* Alain Robbe-Grillet
+	* prozaik, filmový režisér, scénárista
+	* *Žárlivost*
+		* román
+		* očima klamaného manžela; různé možnosti výkladu situací, atmosféra tajuplnosti
