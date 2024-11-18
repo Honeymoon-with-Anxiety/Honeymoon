@@ -2,7 +2,7 @@
 * umožňují propojení počítačů, tiskáren, serverů a dalších zařízení do společné sítě; vzájemná komunikace a sdílení zdrojů
 * při vybírání je důležité zvážit velikost sítě, potřebná rychlost, technologie zabezpečení a další funkce
 * síťové rozhraní
-	* v operačním systému síťová karta, WiFi rozhraní nebo virtuální rozhraní
+	* v operačním systému; síťová karta, WiFi rozhraní nebo virtuální rozhraní
 	* přijímá a vysílá v síti data (např. ethernetové packety)
 	* síťové rozhraní není: repeater, hub, switche a bridge (nelze přímo jemu poslat nějaká data)
 * síť s hvězdicovou topologií ^9dcba9
@@ -46,7 +46,7 @@
 * kvůli schopnosti detekce kolize
 	* je počet hubů v síti omezen dle rychlosti
 		* 10 Mbit/s - 5 segmentů (4 huby) mezi dvěma koncovými stanicemi
-		* 10 Mbit/s - 3 segmenty (2 huby) mezi dvěma koncovými stanicemi
+		* 100 Mbit/s - 3 segmenty (2 huby) mezi dvěma koncovými stanicemi
 	* některé huby mají speciální port, který umožňuje jejich slučování, takže se navenek chovají jako jeden
 # Switch
 * propojuje zařízení nebo části jedné sítě hvězdicovou topologií; pracuje pouze v místní síti
