@@ -168,3 +168,54 @@
 	* *Žárlivost*
 		* román
 		* očima klamaného manžela; různé možnosti výkladu situací, atmosféra tajuplnosti
+# Absurdní drama
+* v 50. a 60. letech
+* člověk bez schopnosti komunikace s lidmi
+* únavný stereotyp
+* odstranění souvislého děje
+* opomíjení charakteristiky postav
+* deformace a devalvace jazyka, který ztrácí svou dorozumívací funkci
+* skromné rekvizity na jevišti
+* hry laděny tragicky nebo tragikomicky
+* groteskní prvky, černý humor
+* Samuel Beckett
+	* dramatik a prozaik irského původu
+	* nositel Nobelovy ceny za literaturu
+	* psal francouzsky a anglicky
+	* *Čekání na Godota*
+		* hl. postavy Estragon a Vladimír
+		* opakování stejných replik
+		* významová neurčitost, nedopovězenost
+* Eugéne Ionesco
+	* francouzský dramatik, básník, malíř, literární kritik rumunského původu
+	* ovlivněn dadaismem
+	* hravost, vynalézavost - antijazyk
+	* *Plešatá zpěvačka* - nesmyslná konverzace dvou manželských párů (Shmitovi a Martinovi); "tragédie řeči"
+	* *Židle* - pomíjivost života a prázdnota; hl. postavy Stařenka a Stařeček, Řečník
+	* *Nosorožec* - metaforický obraz života v totalitní společnosti
+	* *Král umírá* - apokalyptická groteskní vize rozpadajícího se království
+* Fridrich Dürrenmatt
+	* švýcarský dramatik, prozaik, esejista, scénárista, kreslíř a grafik
+	* autor divadla absurdity a groteskna
+	* svět je krutý, groteskní, nezměnitelný - v katastrofickém stavu
+	* *Návštěva staré dámy* - "tragická komedie" o zhoubné moci peněz
+	* *Fyzikové*
+		* dvouaktová komedie
+		* téma morální zodpovědnosti vědců
+		* v psychiatrické léčebně; Einstein, Newton, Möbius
+# Magický realismus
+* v latinskoamerické próze od 50. let
+* magický a mytologický přístup ke skutečnosti
+* prolínání dvou světů - skutečného a magického, mytologického, snového
+* Gabriel García Márquez
+	* kolumbijský spisovatel, novinář, filmový kritik, scénárista
+	* nositel Nobelovy ceny
+	* *Sto roků samoty*
+		* imaginární děj Kolumbie a Latinské Ameriky, v městečku Macondo
+		* život 6 generací rodiny Buendíů; postavy se dožívají vysokého věku
+		* dojem chaosu; postavy mají nadpřirozené schopnosti
+	* *Kronika ohlášené smrti*
+	* *Láska za časů cholery*
+	* *Generál ve svém labyrintu*
+* Čingiz Torekulovič Ajtmatov
+* Michail Bulgakov - *Mistr a Markétka*
