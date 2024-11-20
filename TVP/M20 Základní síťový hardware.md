@@ -96,7 +96,7 @@
 	* mosty jsou neviditelné pro koncové stanice
 	* zařízení na začátku vůbec neví, jak jsou jednotlivé stanice v síti rozloženy, a musí paket přijatý na jedné síti poslat do všech ostatních připojených sítí, protože ještě neví, kde se cílová stanice nachází; postupně se naučí, jak jsou stanice v síti rozloženy
 * source route bridging
-	* ve spojení s tonen ring sítěmi
+	* ve spojení s token ring sítěmi
 	* každý packet musí kromě adresy odesílatele a příjemce obsahovat také posloupnost adres všech mostů, kterými musí paket projít
 * snižuje velikost kolizní domény
 * transparentní k protokolům z vyšších vrstev
@@ -111,7 +111,6 @@
 * levnější než optika
 * obtížněji napadnutelné než bezdrátové sítě
 * délka kabelu je omezena (zejména u vyšších rychlostí přenosu)
-* 
 * UTP
 	* ze dvou nebo více párů měděných drátů zkroucených dohromady
 	* kroucení snižuje elektromagnetické rušení
