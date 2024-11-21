@@ -39,7 +39,7 @@
 	* rychlost: 4 Mbit/s, 10 Mbit/s, 16 Mbit/s, 100 Mbit/s, 1 Gbit/s, 10 Gbit/s
 # Hub
 * větví síť bez jakéhokoliv řízení do hvězdicové topologie (při zkolabování hubu zkolabuje celá síť)
-* chová se jako opakovač -  data, která přijdou na jeden z portů, jsou obnovena a odeslána na všechny ostatní porty; zpoždění 1 bit
+* chová se jako opakovač - data, která přijdou na jeden z portů, jsou obnovena a odeslána na všechny ostatní porty; zpoždění 1 bit
 * pracuje na 1. vrstvě [[M19 Standardizace v oblasti sítí#ISO, OSI|OSI modelu]]
 * dnes u starších sítích → nahrazeno switchem
 * podle LEDek je možné zjistit vadné spojení
