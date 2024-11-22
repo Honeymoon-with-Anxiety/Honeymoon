@@ -119,6 +119,7 @@ tags:
 * úkolem upoutat pozornost
 * zdůrazňuje naše konkrétní dovednosti
 * cílem je odlišit se
+* půl stánky, sladěno stejně jako životopis
 ### Formulace
 * píše se ve větách
 * rozsah půl strany A4; druh písma stejný jako v CV
