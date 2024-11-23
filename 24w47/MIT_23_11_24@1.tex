@@ -19,11 +19,28 @@
 \newpage
 
 \chp{Zadání a úvaha}
+
 Zjistit přesnost čítače mikrokontroleru ATmega16 pomocí osciloskopu, porovnat vypočítanout hodnotu s reálnou a výsledky zobrazit v grafech.
 Čítač je integrovaná periférie procesoru, která měří čas v podobě periody taktovacího signálu po průchodu el. obvodem dělení hodin. Tato periféri teké umí jednoduché počítání nahoru (přičte o jednu) a odčítání (odečte o jednu).
-Čítač je jednodušeji obvod se schopností jednoduchých počtů složený z kombinační logiky a ragistrů.
+Čítač je jednodušeji obvod se schopností jednoduchých počtů složený z kombinační logiky a akumulačních registrů.
+Jeho úkolem (z mnoha úkolů) je číselným údajem uloženým v registru zaznamenat počet period a informovat jejich počet. Dokáže díky svému návrhu rychle čítač elektrické impulsy ve frekvencích kHz, MHz a GHz.
+
+Osciloskop je elektronický přístroj schopý detekovat vlnění o různých délkách, ať jsou signály analogové (zvuk) či digitální (napětí signálu).
+
+\schp{Průběh přerušení}
+
+\begin{enumerate}
+	\item{Přijde na jádro od periférie žádost o přerušení}
+	\item{Na stack se uloží návratová hodnota, kde byl program přerušen}
+	\item{Skočí do tabulky vektorů přerušení na adresu odpovídající typu žádosti. V našem případě \begin{verbatim} jmp TIM0_COM \end{verbatim}}
+	\item{Skočí do podprogramu obsluhy}
+	\item{\begin{verbatim} reti \end{verbatim} "od-popne" návratovou adresu a nahodí 1. bit v SREG (Global  Flag)}
+	\item{Skočí zpět do místa, kde byl chod programu přerušen}
+\end{enumerate}
 
 \chp{Použité přístroje}
+Digitální osciloskop (signály se nám zobrazovaly na počítači softwarově), programátor, deska s ATmega16.
+
 \schp{Seznam přístrojů}
 \schp{Obrázky zapojení}
 \chp{Postup práce}
