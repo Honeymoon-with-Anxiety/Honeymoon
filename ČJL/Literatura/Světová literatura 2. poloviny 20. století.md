@@ -219,3 +219,30 @@
 	* *Generál ve svém labyrintu*
 * Čingiz Torekulovič Ajtmatov
 * Michail Bulgakov - *Mistr a Markétka*
+# Postmodernismus
+* z konce 20. st; prolínají se všechny předchozí umělecké a filozofické příběhy
+* prolínání vysokého a masového umění
+* snaha promlouvat ke dvěma druhům čtenářům
+* Umberto Eco
+	* italský prozaik, novinář, teoretik umění a literatury, filozof a profesor sémiotiky
+	* *Jméno růže*
+		* mnohovrstevnaté dílo; historický román, detektivka, filozofický i teologický dílo s prvky hororu
+		* odehrává se ve středověku (14. st.) v odlehlém klášteře
+		* hl. postavy františkán Vilém z Baskervillu s Adsem; hlíčová postava slepý mnich Jorge; vypravěč Adso
+		* záhadné vraždy
+		* intertextualita - citáty
+		* mystifikace
+		* během 7 dnů (počet kapitol)
+		* zfilmováno 1986
+	* *Foucaultovo kyvadlo*
+	* *Pražský hřbitov*
+	* *Nulté číslo*
+	* *Dějiny krásy*
+* Vladimir Nabokov
+	* ruský emigrant v Americe
+	* básník, prozaik, dramatik
+	* žil 1899-1977
+	* *Lolita*
+		* milostný příběh, psychologicé studie
+		* hl. postava Humbert Humbert
+		* zfilmováno
