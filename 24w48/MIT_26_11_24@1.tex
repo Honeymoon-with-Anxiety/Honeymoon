@@ -1,0 +1,286 @@
+% Nastavení dokumentu
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{tabularray}
+\usepackage{geometry}
+
+% Vlastní příkazy
+\newcommand{\chp}[1]{\chapter*{#1}\addcontentsline{toc}{chapter}{#1}}
+\newcommand{\schp}[1]{\section*{#1}\addcontentsline{toc}{section}{#1}}
+
+% Nastavení Titulní strana: Nadpis, autor, datum
+\title{Laboratorní cvičení čítače}
+\author{Vojtěch Vašek}
+\date{\today}
+
+\begin{document}
+
+% Tisk titulní strany, obsahu a vložení nové stránky
+\maketitle
+\newgeometry{top=0cm}\tableofcontents\restoregeometry
+\newpage
+
+\newgeometry{top=0cm}
+\chp{Zadání a úvaha}
+
+Zjistit přesnost čítače mikrokontroleru ATmega16 pomocí osciloskopu, porovnat vypočítanout hodnotu s reálnou a výsledky zobrazit v grafech.
+Čítač je integrovaná periférie procesoru, která měří čas v podobě periody taktovacího signálu po průchodu el. obvodem dělení hodin. Tato periféri teké umí jednoduché počítání nahoru (přičte o jednu) a odčítání (odečte o jednu).
+Čítač je jednodušeji obvod se schopností jednoduchých počtů složený z kombinační logiky a akumulačních registrů.
+Jeho úkolem (z mnoha úkolů) je číselným údajem uloženým v registru zaznamenat počet period a informovat jejich počet. Dokáže díky svému návrhu rychle čítač elektrické impulsy ve frekvencích kHz, MHz a GHz.
+
+Osciloskop je elektronický přístroj schopý detekovat vlnění o různých délkách, ať jsou signály analogové (zvuk) či digitální (napětí signálu).
+
+\schp{Průběh přerušení}
+
+\begin{enumerate}
+	\item{Přijde na jádro od periférie žádost o přerušení.}
+	\item{Na stack se uloží návratová hodnota, kde byl program přerušen.}
+	\item{Skočí do tabulky vektorů přerušení na adresu odpovídající typu žádosti. V našem případě \verb|jmp TIM0_COM|.}
+	\item{Skočí do podprogramu obsluhy.}
+	\item{\verb|reti| "od-popne" návratovou adresu a nahodí 1. bit v SREG (Global  Flag).}
+	\item{Skočí zpět do místa, kde byl chod programu přerušen.}
+\end{enumerate}
+
+\chp{Použité přístroje}
+\begin{enumerate}
+	\item[•]{Digitální osciloskop - max input: 30 Vpp, MX output: 10 Vpp, 2× 12 MHz PC-Scope → používaný vstup 1}
+	\item[•]{Programátor - propojení desky s počítačem; AVR-ISP}
+	\item[•]{deska s ATmega16 - typ krystalu: HC49/S QM - 14.7456 MHz, pin A0}
+	\item[•]{Počítač - Windows 10 21H2; Kate; AVR Studio 4; AVR\_ISP\_prog; PCLab2000LT}
+\end{enumerate}
+\schp{Obrázky zapojení}
+\begin{center}
+\includegraphics[width=13cm]{MIT\_26\_11\_24@3.jpg}
+\includegraphics[width=13cm]{MIT\_26\_11\_24@4.jpg}
+\includegraphics[width=13cm]{MIT\_26\_11\_24@5.jpg}
+\includegraphics[width=13cm]{MIT\_26\_11\_24@6.jpg}
+\includegraphics[width=13cm]{MIT\_26\_11\_24@7.jpg}
+\end{center}
+
+\chp{Postup práce}
+
+V Kate jsem si napsla kód programu, který při projetím \verb|Main| smyčky zvýší hodnotu čítače (Timer\_Counter\_0). Při každém zvýšení hodnoty v registru čítače se hodnota porovná hodnota čítače (TCNT0) s maximální TOP (OCR0) hodnotou. Pokud dojde k přetečení (TCNT0 $>$ OCR0), čítač pošle jádru žádost o přerušení (TIM0\_COM).
+
+V obsluze přerušení se mi zvíší hodnota počtu přerušení o jedno, zavolá se \verb|Toggle| podprogram, který mi na Portu A přepne hodnotu nultého bitu a vynuluje TCNT.
+
+Celý tento kód jsem zkompiloval a ozkoušel jsem v AVR Studiu.
+
+Následně při měření jsem v AVR Studiu měnil TOP hodnotu a hodnotu dělení hodin, upravený program jsem sestavil, přes AVR\_ISP\_prog a programátor jsem nahrál na desku a z PCLab2000LT jsem četl frekvenci osciloskopu.
+
+Frekvenci jsem si zapsal do tabulky, která mi automaticky spočítala chybu měření oproti vypočtené frekvenci.
+
+\schp{Zdrojový kód}
+Pro lepší přehlednost tohoto dokumentu jsem se rozhodl nevkládat zdrojový kód přímo zde, ale odkázat na něj pomocí \href{https://github.com/Honeymoon-with-Anxiety/Honeymoon/tree/E4A/MIT/6_9_24}{URL}.
+
+\chp{Výpočty}
+\schp{Výpočet frekvence}
+$$f_{vyp} = \frac{\textrm{hodnota krystalu}}{2 * \textrm{dělení hodin} * \textrm{TOP hodnota} * 10^{3} }$$
+
+kde...
+\begin{enumerate}
+	\item[•]{$f_{vyp}$ - hodnota vypočtené frekvence}
+	\item[•]{hodnota krystalu - hodnota krystalu použita na desce; pro nás konstantně 14.7456 MHz}
+	\item[•]{dělení hodin - hodnota kterou dělíme hodiny; možnosti: 1, 8, 64, 256, 1024}
+	\item[•]{TOP hodnota - hodnota pro přetečení (overflow); interval: $<32; 255>$}
+\end{enumerate}
+
+\schp{Výpočet chyby}
+$$d_x = 100 - (\frac{f_{nam}}{f_{vyp}} * 100)$$
+
+kde...
+\begin{enumerate}
+	\item[•]{$d_x$ - hodnota chyby vypočtené v procentech}
+	\item[•]{$f_{nam}$ - hodnota frekvence naměřené}
+	\item[•]{$f_{vyp}$ - hodnota frekvence vypočtené}
+\end{enumerate}
+
+\schp{Vzorové dosazení}
+Dosazené hodnoty jsou v tabulce označené šedivým pozadím.
+$$f_{vyp} = \frac{14.7456 * 10^6}{2 * 8 * 104 * 10^3} = 8.86 * 10^3 \textrm{\ Hz}$$
+$$d_x = 100 - (\frac{8.62 * 10^3}{8.86 * 10^3} * 100) = 2.73 \textrm{\ \%}$$
+
+\chp{Tabulky}
+\schp{Dělení 1}
+\begin{center}\begin{tblr}{|c|c|c|c|}
+	\hline
+	\textbf{TOP hodnota} & \textbf{$f_{nam}$ - naměřená (kHz)} & \textbf{$f_{vyp}$ - vypočítaná (kHz)} & \textbf{Chyba (\%)} \\
+	\hline \hline
+	 32 & 138 & 230.40 & 40.10 \\\hline
+	 41 & 116 & 179.82 & 35.49 \\\hline
+	 50 & 103 & 147.46 & 30.15 \\\hline
+	 59 &  90 & 124.96 & 27.98 \\\hline
+	 68 &  82 & 108.42 & 24.37 \\\hline
+	 77 &  74 &  95.75 & 22.72 \\\hline
+	 86 &  69 &  85.73 & 19.51 \\\hline
+	 95 &  63 &  77.61 & 18.82 \\\hline
+	104 &  59 &  70.89 & 16.78 \\\hline
+	113 &  54 &  65.25 & 17.24 \\\hline
+	122 &  51 &  60.43 & 15.61 \\\hline
+	131 &  48 &  56.28 & 14.71 \\\hline
+	140 &  46 &  52.66 & 12.65 \\\hline
+	149 &  43 &  49.48 & 13.10 \\\hline
+	158 &  41 &  46.66 & 12.14 \\\hline
+	167 &  39 &  44.15 & 11.66 \\\hline
+	176 &  37 &  41.89 & 11.68 \\\hline
+	185 &  36 &  39.85 &  9.67 \\\hline
+	194 &  34 &  38.00 & 10.54 \\\hline
+	203 &  33 &  36.32 &  9.14 \\\hline
+	212 &  32 &  34.78 &  7.99 \\\hline
+	221 &  30 &  33.36 & 10.07 \\\hline
+	230 &  29 &  32.06 &  9.53 \\\hline
+	239 &  28 &  30.85 &  9.23 \\\hline
+	248 &  27 &  29.73 &  9.18 \\\hline
+\end{tblr}\end{center}\restoregeometry\newpage
+
+\schp{Dělení 8}
+\begin{center}\begin{tblr}{|c|c|c|c|}
+	\hline
+	\textbf{TOP hodnota} & \textbf{$f_{nam}$ - naměřená (kHz)} & \textbf{$f_{vyp}$ - vypočítaná (kHz)} & \textbf{Chyba (\%)} \\
+	\hline \hline
+	                  32 & 26.30 & 28.80 & 8.68 \\\hline
+	                  41 & 20.90 & 22.48 & 7.02 \\\hline
+	                  50 & 17.40 & 18.43 & 5.60 \\\hline
+	                  59 & 14.90 & 15.62 & 4.61 \\\hline
+	                  68 & 13.00 & 13.55 & 4.08 \\\hline
+	                  77 & 11.50 & 11.97 & 3.92 \\\hline
+	                  86 & 10.40 & 10.72 & 2.95 \\\hline
+	                  95 &  9.41 &  9.70 & 3.00 \\\hline
+	\SetRow{gray!30} 104 &  8.62 &  8.86 & 2.73 \\\hline
+	                 113 &  7.95 &  8.16 & 2.52 \\\hline
+	                 122 &  7.37 &  7.55 & 2.44 \\\hline
+	                 131 &  6.88 &  7.04 & 2.20 \\\hline
+	                 140 &  6.45 &  6.58 & 2.02 \\\hline
+	                 149 &  6.06 &  6.19 & 2.02 \\\hline
+	                 158 &  5.73 &  5.83 & 1.76 \\\hline
+	                 167 &  5.42 &  5.52 & 1.79 \\\hline
+	                 176 &  5.15 &  5.24 & 1.65 \\\hline
+	                 185 &  4.90 &  4.98 & 1.64 \\\hline
+	                 194 &  4.68 &  4.75 & 1.48 \\\hline
+	                 203 &  4.48 &  4.54 & 1.32 \\\hline
+	                 212 &  4.29 &  4.35 & 1.32 \\\hline
+	                 221 &  4.12 &  4.17 & 1.20 \\\hline
+	                 230 &  3.96 &  4.01 & 1.17 \\\hline
+	                 239 &  3.81 &  3.86 & 1.19 \\\hline
+	                 248 &  3.67 &  3.72 & 1.24 \\\hline
+\end{tblr}\end{center}\newpage
+
+\schp{Dělení 64}
+\begin{center}\begin{tblr}{|c|c|c|c|}
+	\hline
+	\textbf{TOP hodnota} & \textbf{$f_{nam}$ - naměřená (kHz)} & \textbf{$f_{vyp}$ - vypočítaná (kHz)} & \textbf{Chyba (\%)} \\
+	\hline \hline
+	 32 & 3.49 & 3.60 & 3.06 \\\hline
+	 41 & 2.74 & 2.81 & 2.48 \\\hline
+	 50 & 2.26 & 2.30 & 1.91 \\\hline
+	 59 & 1.92 & 1.95 & 1.67 \\\hline
+	 68 & 1.67 & 1.69 & 1.42 \\\hline
+	 77 & 1.48 & 1.50 & 1.08 \\\hline
+	 86 & 1.32 & 1.34 & 1.46 \\\hline
+	 95 & 1.20 & 1.21 & 1.04 \\\hline
+	104 & 1.10 & 1.11 & 0.69 \\\hline
+	113 & 1.01 & 1.02 & 0.93 \\\hline
+	122 & 0.94 & 0.94 & 0.77 \\\hline
+	131 & 0.87 & 0.88 & 0.73 \\\hline
+	140 & 0.82 & 0.82 & 0.71 \\\hline
+	149 & 0.77 & 0.77 & 0.67 \\\hline
+	158 & 0.73 & 0.73 & 0.56 \\\hline
+	167 & 0.69 & 0.69 & 0.55 \\\hline
+	176 & 0.65 & 0.65 & 0.54 \\\hline
+	185 & 0.62 & 0.62 & 0.59 \\\hline
+	194 & 0.59 & 0.59 & 0.47 \\\hline
+	203 & 0.57 & 0.57 & 0.44 \\\hline
+	212 & 0.54 & 0.54 & 0.44 \\\hline
+	221 & 0.52 & 0.52 & 0.43 \\\hline
+	230 & 0.50 & 0.50 & 0.37 \\\hline
+	239 & 0.48 & 0.48 & 0.42 \\\hline
+	248 & 0.46 & 0.46 & 0.33 \\\hline
+\end{tblr}\end{center}\newpage
+
+\schp{Dělení 256}
+\begin{center}\begin{tblr}{|c|c|c|c|}
+	\hline
+	\textbf{TOP hodnota} & \textbf{$f_{nam}$ - naměřená (Hz)} & \textbf{$f_{vyp}$ - vypočítaná (Hz)} & \textbf{Chyba (\%)} \\
+	\hline \hline
+	 32 & 873.00 & 900.00 & 3.00 \\\hline
+	 41 & 686.00 & 702.44 & 2.34 \\\hline
+	 50 & 565.00 & 576.00 & 1.91 \\\hline
+	 59 & 480.00 & 488.14 & 1.67 \\\hline
+	 68 & 417.00 & 423.53 & 1.54 \\\hline
+	 77 & 369.00 & 374.03 & 1.34 \\\hline
+	 86 & 331.00 & 334.88 & 1.16 \\\hline
+	 95 & 300.00 & 303.16 & 1.04 \\\hline
+	104 & 274.00 & 276.92 & 1.06 \\\hline
+	113 & 253.00 & 254.87 & 0.73 \\\hline
+	122 & 234.00 & 236.07 & 0.87 \\\hline
+	131 & 218.00 & 219.85 & 0.84 \\\hline
+	140 & 204.00 & 205.71 & 0.83 \\\hline
+	149 & 192.00 & 193.29 & 0.67 \\\hline
+	158 & 181.00 & 182.28 & 0.70 \\\hline
+	167 & 171.00 & 172.46 & 0.84 \\\hline
+	176 & 163.00 & 163.64 & 0.39 \\\hline
+	185 & 155.00 & 155.68 & 0.43 \\\hline
+	194 & 148.00 & 148.45 & 0.31 \\\hline
+	203 & 141.00 & 141.87 & 0.61 \\\hline
+	212 & 135.00 & 135.85 & 0.63 \\\hline
+	221 & 130.00 & 130.32 & 0.24 \\\hline
+	230 & 125.00 & 125.22 & 0.17 \\\hline
+	239 & 120.00 & 120.50 & 0.42 \\\hline
+	248 & 116.00 & 116.13 & 0.11 \\\hline
+\end{tblr}\end{center}\newpage
+
+\schp{Dělení 1024}
+\begin{center}\begin{tblr}{|c|c|c|c|}
+	\hline
+	\textbf{TOP hodnota} & \textbf{$f_{nam}$ - naměřená (Hz)} & \textbf{$f_{vyp}$ - vypočítaná (Hz)} & \textbf{Chyba (\%)} \\
+	\hline \hline
+	 32 & 218.00 & 225.00 & 3.11 \\\hline
+	 41 & 171.00 & 175.61 & 2.63 \\\hline
+	 50 & 141.00 & 144.00 & 2.08 \\\hline
+	 59 & 120.00 & 122.03 & 1.67 \\\hline
+	 68 & 104.00 & 105.88 & 1.78 \\\hline
+	 77 &  92.30 &  93.51 & 1.29 \\\hline
+	 86 &  82.80 &  83.72 & 1.10 \\\hline
+	 95 &  75.00 &  75.79 & 1.04 \\\hline
+	104 &  68.60 &  69.23 & 0.91 \\\hline
+	113 &  63.20 &  63.72 & 0.81 \\\hline
+	122 &  58.50 &  59.02 & 0.87 \\\hline
+	131 &  54.60 &  54.96 & 0.66 \\\hline
+	140 &  51.10 &  51.43 & 0.64 \\\hline
+	149 &  48.00 &  48.32 & 0.67 \\\hline
+	158 &  45.30 &  45.57 & 0.59 \\\hline
+	167 &  42.90 &  43.11 & 0.50 \\\hline
+	176 &  40.70 &  40.91 & 0.51 \\\hline
+	185 &  38.70 &  38.92 & 0.56 \\\hline
+	194 &  36.90 &  37.11 & 0.58 \\\hline
+	203 &  35.30 &  35.47 & 0.47 \\\hline
+	212 &  33.80 &  33.96 & 0.48 \\\hline
+	221 &  32.40 &  32.58 & 0.55 \\\hline
+	230 &  31.20 &  31.30 & 0.33 \\\hline
+	239 &  30.00 &  30.13 & 0.42 \\\hline
+	248 &  28.90 &  29.03 & 0.46 \\\hline
+\end{tblr}\end{center}\newpage
+
+\chp{Grafy}
+\begin{center}
+\includegraphics[width=13cm]{MIT\_24\_11\_24@3.png}
+\includegraphics[width=13cm]{MIT\_24\_11\_24@4.png}
+\includegraphics[width=13cm]{MIT\_24\_11\_24@5.png}
+\includegraphics[width=13cm]{MIT\_24\_11\_24@6.png}
+\includegraphics[width=13cm]{MIT\_24\_11\_24@7.png}
+\end{center}
+
+\newgeometry{top=0cm}
+\chp{Závěr}
+Z měření jsem zjistil, že čím vyšší je top hodnota, tím je chyba menší. Chyba je částečně způsobena tím, že při odchodu z obsluhy přerušení a při vstupu do smyčky byla hodnota v akumulačním registru \verb|4| což odpovídá počtu taktů návratového \verb|reti|.
+\schp{Co jsem doufal, že se naučím a naučil}
+Jak nakonfigurovat CNT a jak volat jeho přerušení \verb|CNT0\_COM|
+\schp{Co jsem doufal, že se naučím a nenaučil}
+Jak funguje \verb|(1<<OCIE0)|, \verb|(1<<WGM21)| a podobné.
+\schp{Problémy s měřením}
+Při měření jsem narazil na jediný problém, a to, že na počítači na kterém jsem chtěl započít měření nefungoval software pro osciloskop a byl jsem donucen přesunout se o stanici vedle.
+\restoregeometry
+
+\end{document}
