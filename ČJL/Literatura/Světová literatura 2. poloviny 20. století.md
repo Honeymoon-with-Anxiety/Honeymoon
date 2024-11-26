@@ -246,3 +246,12 @@
 		* milostný příběh, psychologicé studie
 		* hl. postava Humbert Humbert
 		* zfilmováno
+* John Irving
+	* americký prozaik
+	* *Svět podle Garpa*
+		* spisovatel T. S. Garp
+		* postmoderní prvky; prvky vážné, tragické, komické a absurdní, groteskní
+		* zfilmováno
+	* *Pravidla moštárny*
+		* psychologický román
+		* zfilmováno
