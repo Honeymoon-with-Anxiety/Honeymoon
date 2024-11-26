@@ -51,15 +51,15 @@ Osciloskop je elektronický přístroj schopý detekovat vlnění o různých d�
 	\item[•]{deska s ATmega16 - typ krystalu: HC49/S QM - 14.7456 MHz, pin A0}
 	\item[•]{Počítač - Windows 10 21H2; Kate; AVR Studio 4; AVR\_ISP\_prog; PCLab2000LT}
 \end{enumerate}
+\restoregeometry
 \schp{Obrázky zapojení}
 \begin{center}
+\includegraphics[width=13cm]{MIT\_26\_11\_24@2.jpg}
 \includegraphics[width=13cm]{MIT\_26\_11\_24@3.jpg}
 \includegraphics[width=13cm]{MIT\_26\_11\_24@4.jpg}
-\includegraphics[width=13cm]{MIT\_26\_11\_24@5.jpg}
-\includegraphics[width=13cm]{MIT\_26\_11\_24@6.jpg}
-\includegraphics[width=13cm]{MIT\_26\_11\_24@7.jpg}
 \end{center}
 
+\newgeometry{top=0cm}
 \chp{Postup práce}
 
 V Kate jsem si napsla kód programu, který při projetím \verb|Main| smyčky zvýší hodnotu čítače (Timer\_Counter\_0). Při každém zvýšení hodnoty v registru čítače se hodnota porovná hodnota čítače (TCNT0) s maximální TOP (OCR0) hodnotou. Pokud dojde k přetečení (TCNT0 $>$ OCR0), čítač pošle jádru žádost o přerušení (TIM0\_COM).
