@@ -14,3 +14,21 @@
 			* slang - mluva různých zájmových skupin, bývá citově zabarven
 			* argot - mluva společenské spodiny (tajná mluva)
 			* profesní mluva
+# Vrstvy slovní zásoby	
+* slova stylově příznaková
+  * podle dobového hlediska
+    * historismy
+    * archaismy
+    * neologismy
+  * podle expresivity (cit. zabavená)
+    * mazlivá
+      * dětská
+      * domácká
+      * zjemnělá
+    * hanlivá
+      * zhrubělá
+      * zveličelá
+      * vulgární
+      * nadávky
+      * žertovná, posměšná
+  
