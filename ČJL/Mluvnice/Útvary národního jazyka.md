@@ -4,6 +4,8 @@
 		* knižní prostředky - vznešené
 		* neutrální prostředky - hodí se do jakékoli komunikační situace
 		* hovorový - v méně oficiální, běžná mluva
+		* básnická
+		* termíny
 	* nespisovný jazyk
 		* vymezený zeměpisně
 			* nářečí (dialekt)
@@ -12,4 +14,3 @@
 			* slang - mluva různých zájmových skupin, bývá citově zabarven
 			* argot - mluva společenské spodiny (tajná mluva)
 			* profesní mluva
-* 
