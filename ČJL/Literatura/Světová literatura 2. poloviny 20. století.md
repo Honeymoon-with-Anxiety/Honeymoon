@@ -255,3 +255,21 @@
 	* *Pravidla moštárny*
 		* psychologický román
 		* zfilmováno
+# Science-Fiction
+* vědeckofantastická
+* vesmír, budoucnost, alternativní historie
+## Obraz fiktivní budoucnosti lidstva
+* osud člověka v nepříznivém prostředí
+* katastrofy, války, experimenty
+* Ray Douglas Bradbury
+	* americký prozaik, básník, scénárista
+	* humanistické, etické a poetické linie
+	* klade důraz na duchovní a kulturní hodnoty
+	* 600 povídek, řada románů
+	* *Marťanská kronika* - soubor povídek; zfilmováno
+	* *451 stupňů Fahrenheita*
+		* technicky vyspělé, ale nekulturní civilizace
+		* společnost pálící knihy (knihy jsou zakázané)
+		* hl. hrdina hasič Guy Montag začne pochybovat o vládním systému i o své práci
+		* lidé - chodící knihy → každý zná jednu knihu zpaměti
+		* zfilmováno
