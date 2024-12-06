@@ -9,13 +9,15 @@
 
 ;====== Register definitions =======
 .DEF	ZeroReg 	= r0
+.DEF	ADCReg		= r16
+.DEF	MaskReg		= r18
 .DEF	TmpReg		= r19
 .DEF	PDelReg		= r20
 .DEF	PDelReg0	= r21
 .DEF	PDelReg2	= r2
 .DEF	PDelReg1	= r22
 
-;=====+== PROGRAM segment ==========
+;======= PROGRAM segment ==========
 .CSEG
 ;******** Interrupt vectors ********
 		.ORG	0x0000
@@ -72,6 +74,9 @@ SPM_RDY:	reti
 Reset:		
 	
 		clr	ZeroReg
+		clr ADCReg
+		
+		ldi MaskReg, 0xFF
 		ldi	TmpReg, low(RAMEND)	; Stack Ptr
 		out	SPL, TmpReg
 		ldi	TmpReg, high(RAMEND)
@@ -82,8 +87,8 @@ Reset:
 		out	MCUCSR, TmpReg
 
 		ldi	TmpReg, 0xFF
-		out	DDRA, TmpReg		; Set direction of port A (all inputs)
-		out	DDRB, TmpReg		; Set direction of port B (all inputs)
+		out	DDRA, ZeroReg		; Set direction of port A (reading only)
+		out	DDRB, ZeroReg		; Set direction of port B (reading only)
 		out	DDRC, TmpReg		; Set direction of port C (all outputs)
 		out	DDRD, TmpReg		; Set direction of port D (all outputs)
 
@@ -92,6 +97,27 @@ Reset:
 		out	PortC, ZeroReg		; Set port A to 00h
 		out	PortD, ZeroReg		; Set port A to 00h
 
+		;konfigurace ADC
+		;;zapnutí převodníku
+		ldi TmpReg, (1<<ADEN)
+		out ADCSRA, TmpReg
+		
+		;;nastavení sledováného vstupního portu
+		ldi TmpReg, (1<<ADLAR)
+		ori TmpReg, (1<<REFS0)|(1<<REFS1)
+		ori TmpReg, (1<<MUX0)|(1<<MUX1)|(1<<MUX2)
+		out ADMUX, TmpReg
+		
+		;;nastavení free-running modu
+		in TmpReg, ADCSRA
+		ori TmpReg, (1<<ADPS0)|(1<<ADPS0)|(1<<ADPS0)
+		ori TmpReg, (1<<ADATE)
+		ori TmpReg, (1<<ADSC)
+		ori TmpReg, (1<<ADIE)
+		out ADCSRA, TmpReg
+		
+		sei
+		
 		rjmp	Main
 ;**************************************************
 
