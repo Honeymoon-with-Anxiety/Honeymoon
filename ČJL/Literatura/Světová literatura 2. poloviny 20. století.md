@@ -273,3 +273,30 @@
 		* hl. hrdina hasič Guy Montag začne pochybovat o vládním systému i o své práci
 		* lidé - chodící knihy → každý zná jednu knihu zpaměti
 		* zfilmováno
+* Stanislav Lem - polský spisovatel, lékař
+* Arthur C(arles) Clarke - anglický astrofyzik; spisovatel Vesmírné odysey
+* Isaac Asimov - americký spisovatel ruského původu; psal o robotech
+* Arkadij a Boris Strugackých
+* Karel Čapek
+* Ludvík Souček
+* Josef Nesvadba
+* Ondřej Neff
+## Fantasy
+* v imaginárním světě
+* magie, bájné bytosti, bohové
+* John Ronald Reuel Tolkien
+	* anglický jazykovědec a prozaik
+	* vytvořil 15 umělých jazyků
+	* Řád britského impéria za službu literatuře
+	* *Hobit aneb Cesta tam a zase zpátky* (1937)
+		* Bilbo Pytlík
+		* zfilmováno
+	* *Pán prstenů* (1954)
+		* trilogie: *Společenstvo prstenu*, *Dvě věže*, *Návrat  krále*
+		* synovec Pytlíka Frodo; kouzelný prsten
+		* zfilmováno
+* Terry Pratchett - *Úžasná Zeměplocha*
+* Clive Staples Lewis - *Letopisy Narnie* (7 knih)
+* J. K. Rowlingová - *Harry Potter* (7 knih)
+* John Flanagan - *Hraničářův učeň* (pův. 11 dílů)
+* George Raymond Richard Martin - *Píseň ledu a ohně* (7 knih)
