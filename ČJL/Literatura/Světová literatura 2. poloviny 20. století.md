@@ -291,6 +291,9 @@
 	* *Hobit aneb Cesta tam a zase zpátky* (1937)
 		* Bilbo Pytlík
 		* zfilmováno
+		* téma: výprava trpaslíků do hory získat svůj poklad
+		* motivy: prsten, poklad, drak, strach, obavy
+		* hovorové výrazy, knižní
 	* *Pán prstenů* (1954)
 		* trilogie: *Společenstvo prstenu*, *Dvě věže*, *Návrat  krále*
 		* synovec Pytlíka Frodo; kouzelný prsten
@@ -300,3 +303,27 @@
 * J. K. Rowlingová - *Harry Potter* (7 knih)
 * John Flanagan - *Hraničářův učeň* (pův. 11 dílů)
 * George Raymond Richard Martin - *Píseň ledu a ohně* (7 knih)
+## Dystopie
+* antiutopie
+* fiktivní společnost s vyvinula špatným směrem; totalitní omezování osobní svobody
+* George Orwell
+	* britský spisovatel, novinář, esejista
+	* vl. jm. Eric Arthur Blair
+	* *Farma zvířat*
+		* alegorický satirický román/novela
+		* bajka
+		* tyranie
+		* nebezpečí násilí, despotismu, totalitarismu
+	* *1984*
+		* antiutopie
+		* román
+		* "Velký bratr tě sleduje!"
+		* newspeak
+* William Golding - *Pán much*
+* Ray Bradbury - *471 stupňů Fahrenheita*
+* Simon Clark - *Noc trifidů*
+* Karel Čapek - *Válka s mloky*
+* Kurt Vonnegut - *Mechanické piano*
+* Suzanne Collins - *Hunger Games*
+* Veronica Roth - *Divergence*, *Rezistence*, *Aliance*
+* Margaret Atwood - *Příběh služebnice*
