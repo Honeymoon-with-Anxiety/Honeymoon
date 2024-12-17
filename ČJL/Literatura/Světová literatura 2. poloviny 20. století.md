@@ -327,3 +327,11 @@
 * Suzanne Collins - *Hunger Games*
 * Veronica Roth - *Divergence*, *Rezistence*, *Aliance*
 * Margaret Atwood - *Příběh služebnice*
+# Další autoři
+* Jacques Prévert - Francouz; básnická sbírka *Slova*
+* Johannes Mario Simmel - Rakušan; *Láska je jen slovo*, *Všichni lidé bratry jsou*
+* Arthur Hailey - Kanaďan anglického původu; *Hotel*, *Konečná diagnóza*, *Letiště*, *Kola*, *Penězoměnci*, *Reportér*
+* Jerome David Salinger - Američan; psychologický román *Kdo chytá v žitě*
+* John Updika - Američan; románová tetralogie *Králík...*
+* Tennessee Williams - Američan; dramata *Tramvaj do stanice Touha*, *Kočka na rozpálené plechové střeše*
+* Arthur Miller - Američan; psychologická hra *Smrt obchodního cestujícího*
