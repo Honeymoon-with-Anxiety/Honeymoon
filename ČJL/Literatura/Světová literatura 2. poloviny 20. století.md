@@ -331,7 +331,17 @@
 * Jacques Prévert - Francouz; básnická sbírka *Slova*
 * Johannes Mario Simmel - Rakušan; *Láska je jen slovo*, *Všichni lidé bratry jsou*
 * Arthur Hailey - Kanaďan anglického původu; *Hotel*, *Konečná diagnóza*, *Letiště*, *Kola*, *Penězoměnci*, *Reportér*
+### Amerika
 * Jerome David Salinger - Američan; psychologický román *Kdo chytá v žitě*
-* John Updika - Američan; románová tetralogie *Králík...*
+* John Updike - Američan; románová tetralogie *Králík...*
 * Tennessee Williams - Američan; dramata *Tramvaj do stanice Touha*, *Kočka na rozpálené plechové střeše*
 * Arthur Miller - Američan; psychologická hra *Smrt obchodního cestujícího*
+### Rusko
+* Bulat Okudžava - ruský básník, písničkář, prozaik, šansoniér arménského původu
+* Vladimir Vysockij - ruský básník, písničkář, zpěvák svých vlastních textů, které zhudebnil, herecký talent
+* Alexandr Solženicyn - ruský prozaik, publicista, nositel Nobelovy ceny; novela *Jeden den ...*, trilogie *Souostroví Gulag*, román *Rakovina*
+### Detektivky
+* Agatha Christie - angličanka, autorka detektivních příběhů; *Smrt na Nilu*
+* Dick Francis - angličan, žokej, novinář, detektivní romány
+*  Jo Nesbø - norský spisovatel, detektivní próza
+* Stephen King - americký spisovatel, hororový žánr
