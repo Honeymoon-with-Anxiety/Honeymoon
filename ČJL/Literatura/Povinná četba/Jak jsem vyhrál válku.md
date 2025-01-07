@@ -8,7 +8,7 @@ Kniha je druhu epika (má vyprávěný děj, tvoří kapitoly), žánrem satiric
 # Námět
 Námětem se stala autorova vlastní zkušenost z armády.
 # Děj
-Ernest Goodbody, netradiční voják a bývalý účetní, je povolán do armády. Prochází základním výcvikem a je přidělen ke zvláštní jednotce. Jeho podivínské chování a nekonvenční přístupy mu zpočátku přinášejí potíže. Od výcviku v drsných podmínkách až po nebezpečné mise za nepřátelskou linií, Goodbody se ocitá v řadě komických a absurdních situací. Jeho snaha vyrovnat se s vojenskou disciplínou a zároveň si zachovat svou civilní osobnost vytváří absurdní příběhy.
+Kniha začíná vyloděním v severní Africe, kde četa omylem skončí v bordelu, a sleduje Ernesta, který se snaží zapadnout do armádního života, ohromuje nadřízené, řeší absurdní situace během výcviku i misí, čelí zajetí a intrikám, a nakonec ukazuje lidskost při nečekaném přátelství s nepřáteli.
 
 * Kapitloa 01: Vylodění v Alžíšsku (severní Afrika), setkání s Arabem který měl četu dovést k úřadům, ale místo toho je dovedl k bordelu. Při odchodu si Ernest všimne, že jeho četa nesplňuje protiplynové předpisy.
 * Kapitloa 02: Ernest vypráví jak se dostal k armádě. Před odchodem do služby pracoval svobodný účetní 6 let ve firmě s obilím *Cawberry & spol.* Byl odvezen k armádním doktorům na prohlídku, domáhal se pozice ve rozvědce. Poddůstojníci Maloney a Dodds pod vlivem alkoholu debatují o výhodách civilního v vojenského vybavení, začnou házet své zubní protézy jakožto důkaz jejich kavlity. Donutí házet Ernesta jejich zuby a Ernest je omylem rozbije, za což je druhý den potrestán.
