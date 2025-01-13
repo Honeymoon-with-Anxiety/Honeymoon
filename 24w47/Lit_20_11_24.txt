@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 Knižní - chorý, píši, pláči, sličný, pakliže, žalář, jelikož
 Neutrální - nahlédnout, stůl, lítat, lžička, rychle, také, píšu, pláču  
 Hovorový - malér, prohlídnout, motorka, koukat, taky, lítat, míň
@@ -15,21 +14,3 @@ plichta - slang - nespisovný - remíza
 bouchačka - argot - nespisovný - pistole
 (já) něchcu - nářečí - nespisovný - nechci
 pacoš - profesní - nespisovná - pacient
-=======
-Knižní - chorý, píši, pláči, sličný, pakliže, žalář, jelikož
-Neutrální - nahlédnout, stůl, lítat, lžička, rychle, také, píšu, pláču  
-Hovorový - malér, prohlídnout, motorka, koukat, taky, lítat, míň
-
----
-
-Čerpací stanici v Dukovanech přepadli lupiči. Ozbrojeni pistolí požadovali od obsluhy peníze. Žena však po nich hodila myš od počítače, vyhodila útočníky z místnosti a zamkla. Po lupičích, kteří poté ujeli, nyní policie intenzivně pátrá. 
-
----
-
-múka - nářečí - nespisovná - mouka
-chléb - neutrální - spisovná
-plichta - slang - nespisovný - remíza 
-bouchačka - argot - nespisovný - pistole
-(já) něchcu - nářečí - nespisovný - nechci
-pacoš - profesní - nespisovná - pacient
->>>>>>> Stashed changes

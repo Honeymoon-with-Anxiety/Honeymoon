@@ -1,10 +1,3 @@
-<<<<<<< Updated upstream
-.include "templateM16.inc"
-
-Main:
-	
-rjmp Main
-=======
 .include "templateM16.inc"
 
 .DSEG
@@ -25,4 +18,3 @@ display:
 .db 0b11000110,0b10100001 ;C.d
 .db 0b10000110,0b10001110 ;E,F
 konec_display:
->>>>>>> Stashed changes
