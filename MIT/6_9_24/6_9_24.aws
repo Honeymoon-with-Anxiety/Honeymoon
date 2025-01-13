@@ -1,1 +1,5 @@
+<<<<<<< Updated upstream
 <AVRWorkspace><IOSettings><CurrentRegisters/></IOSettings><part name="ATmega16"/><Files/></AVRWorkspace>
+=======
+<AVRWorkspace><IOSettings><CurrentRegisters/></IOSettings><part name="ATmega16"/><Files/></AVRWorkspace>
+>>>>>>> Stashed changes

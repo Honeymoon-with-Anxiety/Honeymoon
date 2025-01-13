@@ -126,4 +126,8 @@ ret
 
 ToggleOff:
 	cbi PortA, 0
+<<<<<<< Updated upstream
 ret
+=======
+ret
+>>>>>>> Stashed changes

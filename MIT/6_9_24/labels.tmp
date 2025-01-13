@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <ASSEMBLER_INFO>
  <VERSION>2.1.42</VERSION>
  <DEVICE>ATmega16</DEVICE>
@@ -52,3 +53,59 @@
   <infinite_loop><FILE>D:\E4A\MIT\6_9_24\6_9_24.asm</FILE><LINE>12</LINE></infinite_loop>
  </LABELS>
 </ASSEMBLER_INFO>
+=======
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega16</DEVICE>
+ <WORKING_DIR>D:\E4A\MIT\6_9_24</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\E4A\MIT\6_9_24\6_9_24.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>D:\E4A\MIT\6_9_24\templateM16.inc</FILE>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+  <FILE>D:\E4A\MIT\6_9_24\macro.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\E4A\MIT\6_9_24\6_9_24.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>D:\E4A\MIT\6_9_24\6_9_24.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>D:\E4A\MIT\6_9_24\6_9_24.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>D:\E4A\MIT\6_9_24\templateM16.inc</FILE><LINE>50</LINE></RESET>
+  <EXT_INT0><FILE>D:\E4A\MIT\6_9_24\templateM16.inc</FILE><LINE>79</LINE></EXT_INT0>
+  <EXT_INT1><FILE>D:\E4A\MIT\6_9_24\templateM16.inc</FILE><LINE>80</LINE></EXT_INT1>
+  <TIM2_COM><FILE>D:\E4A\MIT\6_9_24\templateM16.inc</FILE><LINE>81</LINE></TIM2_COM>
+  <TIM2_OVF><FILE>D:\E4A\MIT\6_9_24\templateM16.inc</FILE><LINE>82</LINE></TIM2_OVF>
+  <TIM1_CAP><FILE>D:\E4A\MIT\6_9_24\templateM16.inc</FILE><LINE>83</LINE></TIM1_CAP>
+  <TIM1_COMA><FILE>D:\E4A\MIT\6_9_24\templateM16.inc</FILE><LINE>84</LINE></TIM1_COMA>
+  <TIM1_COMB><FILE>D:\E4A\MIT\6_9_24\templateM16.inc</FILE><LINE>85</LINE></TIM1_COMB>
+  <TIM1_OVF><FILE>D:\E4A\MIT\6_9_24\templateM16.inc</FILE><LINE>86</LINE></TIM1_OVF>
+  <TIM0_OVF><FILE>D:\E4A\MIT\6_9_24\templateM16.inc</FILE><LINE>87</LINE></TIM0_OVF>
+  <SPI_STC><FILE>D:\E4A\MIT\6_9_24\templateM16.inc</FILE><LINE>89</LINE></SPI_STC>
+  <UART_RXC><FILE>D:\E4A\MIT\6_9_24\templateM16.inc</FILE><LINE>92</LINE></UART_RXC>
+  <UART_DRE><FILE>D:\E4A\MIT\6_9_24\templateM16.inc</FILE><LINE>90</LINE></UART_DRE>
+  <UART_TXC><FILE>D:\E4A\MIT\6_9_24\templateM16.inc</FILE><LINE>91</LINE></UART_TXC>
+  <ADC_COMP><FILE>D:\E4A\MIT\6_9_24\templateM16.inc</FILE><LINE>93</LINE></ADC_COMP>
+  <EE_RDY><FILE>D:\E4A\MIT\6_9_24\templateM16.inc</FILE><LINE>94</LINE></EE_RDY>
+  <ANA_COMP><FILE>D:\E4A\MIT\6_9_24\templateM16.inc</FILE><LINE>95</LINE></ANA_COMP>
+  <TWI><FILE>D:\E4A\MIT\6_9_24\templateM16.inc</FILE><LINE>96</LINE></TWI>
+  <EXT_INT2><FILE>D:\E4A\MIT\6_9_24\templateM16.inc</FILE><LINE>97</LINE></EXT_INT2>
+  <TIM0_COM><FILE>D:\E4A\MIT\6_9_24\templateM16.inc</FILE><LINE>101</LINE></TIM0_COM>
+  <SPM_RDY><FILE>D:\E4A\MIT\6_9_24\templateM16.inc</FILE><LINE>98</LINE></SPM_RDY>
+  <Nein><FILE>D:\E4A\MIT\6_9_24\6_9_24.asm</FILE><LINE>10</LINE></Nein>
+  <Toggle><FILE>D:\E4A\MIT\6_9_24\templateM16.inc</FILE><LINE>121</LINE></Toggle>
+  <Delay1m><FILE>D:\E4A\MIT\6_9_24\templateM16.inc</FILE><LINE>109</LINE></Delay1m>
+  <Delay1m0><FILE>D:\E4A\MIT\6_9_24\templateM16.inc</FILE><LINE>110</LINE></Delay1m0>
+  <Delay1m1><FILE>D:\E4A\MIT\6_9_24\templateM16.inc</FILE><LINE>111</LINE></Delay1m1>
+  <Delay1m2><FILE>D:\E4A\MIT\6_9_24\templateM16.inc</FILE><LINE>112</LINE></Delay1m2>
+  <ToggleOff><FILE>D:\E4A\MIT\6_9_24\templateM16.inc</FILE><LINE>127</LINE></ToggleOff>
+  <infinite_loop><FILE>D:\E4A\MIT\6_9_24\6_9_24.asm</FILE><LINE>12</LINE></infinite_loop>
+ </LABELS>
+</ASSEMBLER_INFO>
+>>>>>>> Stashed changes

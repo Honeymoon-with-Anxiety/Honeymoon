@@ -1,3 +1,9 @@
+<<<<<<< Updated upstream
 18. mat. ot.
 	Co je virtuální část
 	Poměr mezi virtuální a fyzickou částí
+=======
+18. mat. ot.
+	Co je virtuální část
+	Poměr mezi virtuální a fyzickou částí
+>>>>>>> Stashed changes

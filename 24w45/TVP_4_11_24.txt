@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 #technicke_vybaveni_pocitacu
 při vysvětlení - 1) koncept
 				2) příklad
@@ -25,3 +26,32 @@ použití
         podle vzdálenosti
     async
         USB
+=======
+#technicke_vybaveni_pocitacu
+při vysvětlení - 1) koncept
+				2) příklad
+
+---
+
+sync. async. - synchronní obvod - všechny paměťové prvky "sdílí" hodinový signál (kdo poskytuje taktování obvodu)
+																					→ oddělená signálová cesta pro hod. sig.
+			 - asynchronní obovd - paměťové prvky nesdílí hod. signál; "vzorkovat" - detekce začátku a konce zprávy
+																				  - nastavit vzorkovací frekvenci pro detekci '0' a '1'
+příklad:
+    async → RS232
+    sync → SPI - Serial Peripheral Interface
+    
+výhody:
+    sync
+        rychlejší 
+        spolehlivější
+    async
+        jednodušší
+        kratší vzdálenosti
+použití
+    sync
+        SPI → většina čipů na trhu
+        podle vzdálenosti
+    async
+        USB
+>>>>>>> Stashed changes

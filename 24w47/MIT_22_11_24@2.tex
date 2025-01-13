@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 % Nastavení dokumentu
 \documentclass[a4paper,12pt]{report}
 \usepackage[utf8]{inputenc}
@@ -34,3 +35,41 @@ Zjistit přesnost čítače mikrokontroleru ATmega16 pomocí osciloskopu, porovn
 \schp{Problémy s měřením}
 
 \end{document}
+=======
+% Nastavení dokumentu
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc}
+
+% Vlastní příkazy
+\newcommand{\chp}[1]{\chapter*{#1}\addcontentsline{toc}{chapter}{#1}}
+\newcommand{\schp}[1]{\section*{#1}\addcontentsline{toc}{section}{#1}}
+
+% Nastavení Titulní strana: Nadpis, autor, datum
+\title{Laboratorní cvičení čítače}
+\author{Vojtěch Vašek}
+\date{\today}
+
+\begin{document}
+
+% Tisk titulní strany, obsahu a vložení nové stránky
+\maketitle
+\tableofcontents
+\newpage
+
+\chp{Zadání}
+Zjistit přesnost čítače mikrokontroleru ATmega16 pomocí osciloskopu, porovnat vypočítanout hodnotu s reálnou a výsledky zobrazit v grafech.
+
+\chp{Použité přístroje}
+\schp{Seznam přístrojů}
+\schp{Obrázky zapojení}
+\chp{Postup práce}
+\chp{Výpočty}
+\chp{Tabulky}
+\chp{Grafy}
+\chp{Závěr}
+\schp{Co jsem doufal, že se naučím a naučil}
+\schp{Co jsem doufal, že se naučím a nenaučil}
+\schp{Problémy s měřením}
+
+\end{document}
+>>>>>>> Stashed changes

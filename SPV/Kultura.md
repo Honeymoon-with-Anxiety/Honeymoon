@@ -16,4 +16,15 @@
 	* subkultura - menší kultura v rámci větší
 	* společná kultura lidstva - společný základ všech kultur
 	* ideální by bylo, kdyby se lidé zaměřili na tyto společné rysy a jednotlivé kultury by se k sobě nestavěly nepřátelsky
+<<<<<<< Updated upstream
 * kulturní dědictví UNESCO
+=======
+* ochrana kulturní dědictví UNESCO
+# Masová kultura
+* jednoduchý obsach přístupný široké veřejnosti
+* orientovaný na zisk
+* publikum příjemcem než tvůrcem obsahu
+* zaměřeno na zábavu
+* vznik spojen s industrializací
+* genderové stereotypy
+>>>>>>> Stashed changes
