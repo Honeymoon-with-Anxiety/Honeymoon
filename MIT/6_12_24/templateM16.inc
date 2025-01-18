@@ -5,6 +5,8 @@
 ;
 .NOLIST
 .include	"m16def.inc"
+.include	"makra.inc"
+.include	"display.inc"
 .LIST
 
 ;====== Register definitions =======
@@ -13,7 +15,7 @@
 .DEF	MaskReg		= r17
 .DEF	Cislo		= r18
 .DEF	TmpReg		= r19
-.DEF	Accu		= r20
+.DEF	number		= r20
 .DEF	PDelReg		= r21
 .DEF	PDelReg0	= r22
 .DEF	PDelReg2	= r23
