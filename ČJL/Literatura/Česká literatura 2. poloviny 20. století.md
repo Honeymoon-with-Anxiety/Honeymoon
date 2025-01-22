@@ -38,7 +38,8 @@
 * vyřazování z knihoven
 ### Charta 77
 * výzva k respektování Listiny základních práv a svobod
-* další vlna emigrace
+* první podepsali: Václav Havel, Jan Patočka, Jiří Hájek
+* další vlna emigrace; emigrovali Kundera, Škvoercký, Vaculík, Kohout
 * vnitřní exil
 ### Za normalizace 3 proudy v literatuře
 1. oficiálně vydávaná literatura
@@ -61,8 +62,21 @@
 * Listy
 * Obrys
 * Proměny
-## Po listopad 1989
+## Po listopadu 1989
 * pád komunistického režimu
 * vznik pluralitního politického systému
 * vydávání zakázaných a opomíjených autorů
 * nové nakladatelství
+# Poezie
+* vznik mnoha literárních skupin
+* poválečná tvorba předválečné generace: V. Nezval, J. Seifert, F. Hrubín
+* Jiří Kolář - experimentální poezie
+* Josef Kainar - zhudebňování jeho básní
+* Václav Hrabě - jeho verše zhudebněny
+## Experimentální poezie
+* Václav Havel - *Antikódy* → typogramy
+## Český underground
+* program totálního realismu a trapné poezie
+* The Plastic People of the Universe
+	* Ivan Martin "Magor" Jirous
+	* Vlastimil Třešňák
