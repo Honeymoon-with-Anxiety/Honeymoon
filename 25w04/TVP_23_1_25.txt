@@ -1,7 +1,0 @@
-			   ->
-operační paměť    ssd -> má omezenou přepisovatelnost
-			   <-
-
-
-co když máme malo op?
- -> budeme swapovat často

@@ -29,3 +29,9 @@
 		* specifický symbol - po dohodě s bankou
 		* datum splatnosti - kdy mají být peněžní prostředky odepsány z účtu plátce
 * úvěry
+	* RPSN
+		* roční procentní sazba nákladů
+		* zahrnuje všechny platby za úvěr včetně poplatku za sepsání smlouvy (např 10 000 Kč hypotéka)
+		* odhad RP domu 20 %
+		* důležitější, než úroková sazba
+		* historicky nejvišší <?>
