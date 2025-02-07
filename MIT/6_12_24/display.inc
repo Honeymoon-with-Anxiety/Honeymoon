@@ -1,7 +1,22 @@
-.equ tisic_offset = 0
 .equ stovky_offset = 1
 .equ desitky_offset = 2
 .equ jednotky_offset = 3
+
+nactiCislo:
+    rcall initZCharTable
+    add ZL, selectedChar
+    adc ZH, ZeroReg
+ret
+
+zobrazCislo:
+    lpm character, Z
+    out DispDataP, character
+ret
+
+zobrazovaciPodprogram:
+    rcall nactiCislo
+    rcall zobrazCislo
+ret
 
 initYdisplayRAM:
 	ldi YL, low(disp_RAM)
@@ -9,13 +24,13 @@ initYdisplayRAM:
 ret
 
 initZCharTable:
-	ldi ZL, low(display)
-	ldi ZH, high(display)
+	ldi ZL, low(2*display)
+	ldi ZH, high(2*display)
 ret
 
 initXCharEndTable:
-	ldi XL, low(konec_display)
-	ldi XH, high(konec_display)
+	ldi XL, low(2*konec_display)
+	ldi XH, high(2*konec_display)
 ret
 
 clearDisplay:
@@ -26,8 +41,8 @@ clearDisplay:
 ret
 
 initDisplay:
-	initYdisplayRAM
-	clearDisplay
+	rcall initYdisplayRAM
+	rcall clearDisplay
 ret
 
 rozeberNaCislice:
@@ -39,7 +54,7 @@ rozeberNaCislice:
 		inc TmpReg
 		cpi number, 100
 		brsh rncStovky
-		std Y+1, TmpReg
+		std Y+0, TmpReg
 		clr TmpReg
 	rncDesitky:
 		cpi number, 10
@@ -48,8 +63,8 @@ rozeberNaCislice:
 		inc TmpReg
 		cpi number, 10
 		brsh rncDesitky
-		std Y+2, TmpReg
+		std Y+1, TmpReg
 		clr TmpReg
 	rncJednotky:
-		std Y+3, number
+		std Y+2, number
 		clr number

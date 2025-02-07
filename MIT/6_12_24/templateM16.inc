@@ -5,8 +5,6 @@
 ;
 .NOLIST
 .include	"m16def.inc"
-.include	"makra.inc"
-.include	"display.inc"
 .LIST
 
 ;====== Register definitions =======
@@ -20,6 +18,12 @@
 .DEF	PDelReg0	= r22
 .DEF	PDelReg2	= r23
 .DEF	PDelReg1	= r24
+.DEF	character	= r25
+.DEF	selectedChar= r28
+.EQU	DispDataP	= PortC ;display data port
+.EQU	DispDataD	= DDRC	;display data direction register
+.EQU	DispDataI	= PinC	;display data coming in to port C
+.EQU	DispCtrlP	= PortD	;display data control (the three pins) port
 
 ;======= PROGRAM segment ==========
 .CSEG
@@ -109,10 +113,11 @@ Reset:
 		;;nastavení sledováného vstupního portu
 		ldi TmpReg, (1<<ADLAR)
 		ori TmpReg, (1<<REFS0)|(1<<REFS1)
-		ori TmpReg, (1<<MUX0)|(1<<MUX1)|(1<<MUX2) ;PA7
+		ori TmpReg, (1<<MUX0)|(1<<MUX1)|(1<<MUX2) ;kanaly ADC7 - PA7
 		out ADMUX, TmpReg
 		
 		;;nastavení free-running modu
+		clr TmpReg
 		in TmpReg, ADCSRA
 		ori TmpReg, (1<<ADPS0)|(1<<ADPS0)|(1<<ADPS0)
 		ori TmpReg, (1<<ADATE)

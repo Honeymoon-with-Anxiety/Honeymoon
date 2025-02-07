@@ -1,4 +1,5 @@
-AVRASM ver. 2.1.42  D:\E4A\MIT\6_12_24\6_12_24.asm Fri Dec 06 10:32:05 2024
+
+AVRASM ver. 2.1.42  D:\E4A\MIT\6_12_24\6_12_24.asm Fri Feb 07 10:12:42 2025
 
 
 EQU  SIGNATURE_000 0000001e
@@ -605,12 +606,20 @@ EQU  SPMRaddr     00000028
 EQU  INT_VECTORS_SIZE 0000002a
 DEF  ZeroReg      r0
 DEF  ADCReg       r16
-DEF  MaskReg      r18
+DEF  MaskReg      r17
+DEF  Cislo        r18
 DEF  TmpReg       r19
-DEF  PDelReg      r20
-DEF  PDelReg0     r21
-DEF  PDelReg2     r2
-DEF  PDelReg1     r22
+DEF  number       r20
+DEF  PDelReg      r21
+DEF  PDelReg0     r22
+DEF  PDelReg2     r23
+DEF  PDelReg1     r24
+DEF  character    r25
+DEF  selectedChar r28
+EQU  DispDataP    00000015
+EQU  DispDataD    00000014
+EQU  DispDataI    00000013
+EQU  DispCtrlP    00000012
 CSEG RESET        00000030
 CSEG EXT_INT0     0000002a
 CSEG EXT_INT1     0000002a
@@ -632,8 +641,27 @@ CSEG TWI          0000002a
 CSEG EXT_INT2     0000002a
 CSEG TIM0_COM     0000002a
 CSEG SPM_RDY      0000002a
-CSEG Main         0000005b
-CSEG Delay1m      00000051
-CSEG Delay1m0     00000052
-CSEG Delay1m1     00000053
-CSEG Delay1m2     00000054
+CSEG Main         0000008a
+CSEG Delay1m      00000052
+CSEG Delay1m0     00000053
+CSEG Delay1m1     00000054
+CSEG Delay1m2     00000055
+EQU  stovky_offset 00000001
+EQU  desitky_offset 00000002
+EQU  jednotky_offset 00000003
+CSEG nactiCislo   0000005c
+CSEG initZCharTable 00000069
+CSEG zobrazCislo  00000060
+CSEG zobrazovaciPodprogram 00000063
+CSEG initYdisplayRAM 00000066
+DSEG disp_RAM     00000060
+CSEG display      000000a8
+CSEG initXCharEndTable 0000006c
+CSEG konec_display 000000b0
+CSEG clearDisplay 0000006f
+CSEG initDisplay  00000074
+CSEG rozeberNaCislice 00000077
+CSEG rncStovky    00000078
+CSEG rncDesitky   00000080
+CSEG rncJednotky  00000088
+CSEG loop         00000093
