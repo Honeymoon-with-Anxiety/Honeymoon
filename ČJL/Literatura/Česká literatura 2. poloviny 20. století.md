@@ -77,6 +77,14 @@
 * Václav Havel - *Antikódy* → typogramy
 ## Český underground
 * program totálního realismu a trapné poezie
+* Egon Bondy - básník, prozaik
 * The Plastic People of the Universe
-	* Ivan Martin "Magor" Jirous
-	* Vlastimil Třešňák
+	* Ivan Martin "Magor" Jirous - *Magor dětem*
+	* Vlastimil Třešňák - *Klíč je pod rohožkou*
+* Písňové texty
+	* Jiří Suchý
+		* básník, herec, autor pís. textů
+		* divadlo Semafor
+		* soubory - *Klokočí*, *Motýl*
+	* Karel Kryl - *Bratříčku, nevzlykej*, *Kníška Karla Kryla*, *Pasážová revolta*
+	* 
