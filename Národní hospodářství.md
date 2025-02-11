@@ -20,5 +20,8 @@
 		* kvartální - věda a výzkum
 * základní funkce národního hospodářství - uspokojování rostoucích potřeb obyvatelstva; ochranou tvořit příznivé životní prostředí
 * ukazatele národního hospodářství
-	* hrubý domácí produkt - celková peněžní hodnota statků a služeb vytvořených za dané období bez ohledu na to jsou-li vlastněny občany státu nebo cizinci
-	* hrubý národní produkt (HNP)
+	* hrubý domácí produkt - celková peněžní hodnota statků a služeb vytvořených za dané období bez ohledu na to jsou-li vlastněny občany státu nebo cizinci; tempo jeho růstu
+	* hrubý národní produkt (HNP) - výrobní faktory ve vlastnictví občanů dané země
+	* saldo obchodní bilance - rozdíl mezi exportem a importem
+	* saldo platební bilance - platby za dovoz, či vývoz zboží a služeb
+* nástroje hospodářské politiky
