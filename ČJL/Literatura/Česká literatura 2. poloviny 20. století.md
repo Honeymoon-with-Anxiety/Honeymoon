@@ -87,4 +87,9 @@
 		* divadlo Semafor
 		* soubory - *Klokočí*, *Motýl*
 	* Karel Kryl - *Bratříčku, nevzlykej*, *Kníška Karla Kryla*, *Pasážová revolta*
-	* 
+	* Jaroslav Hutka - *Náměšť*, *Havlíčku, Havle*
+	* Jiří Dědeček
+	* Jaromír Nohavica
+	* Vladimír Merta
+	* Jan Vodňanský
+# [[|Jaroslav Seifert]]
