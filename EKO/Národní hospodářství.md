@@ -25,3 +25,19 @@
 	* saldo obchodní bilance - rozdíl mezi exportem a importem
 	* saldo platební bilance - platby za dovoz, či vývoz zboží a služeb
 * nástroje hospodářské politiky
+	* rozpočtová politika - státní rozpočet ČR
+	* monetární politika - prováděná ČNB, kontrola peněz v ekonomice
+	* důchodová politika (příjem obyvatelstva) - stabilizuje cenovou hladinu
+	* vnější měnová a obchodní politika - regulace výrobků a služeb
+	* hospodářský růst - proces, kterým se zvyšuje schopnost národního hospodářství vyrábět statky a služby
+* činitelé ovlivňující úroveň národního hospodářství
+	* obyvatelstvo - počet obyvatel, struktura obyvatelstva a vzdělanost lidí
+	* národní bohatství - vše, co předchozí generace vybudovaly a můžeme to používat
+	* přírodní podmínky - nerostné suroviny, lesy na těžbu
+	* společenský řád
+* okolí národního hospodářství
+	* Světová banka (WB) - státy si zde půjčují peníze, nebo tisknou eura
+	* Mezinárodní měnový fond (IMF)
+	* Evropská banka pro obnovu a rozvoj (EBRD)
+	* Světová obchodní organizace (WTO)
+	* Evropská rada - moc ne
