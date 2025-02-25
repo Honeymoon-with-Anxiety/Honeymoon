@@ -5,8 +5,7 @@
 	* ekonomická síla
 	* ekonomická úroveň
 * zaměření makroekonomie
-	* cenová hladina inflace
-		* optimálně 2 %
+	* cenová hladina inflace - optimálně 2 %
 	* nezaměstnanost
 	* bilance zahraničního obchodu
 	* HDP - hrubý domácí produkt
