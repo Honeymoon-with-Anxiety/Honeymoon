@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.1.42  D:\E4A\MIT\6_12_24\6_12_24.asm Fri Feb 07 10:12:42 2025
+AVRASM ver. 2.1.42  C:\Users\Student\Desktop\6_12_24\6_12_24.asm Fri Feb 14 09:42:03 2025
 
 
 EQU  SIGNATURE_000 0000001e
@@ -615,7 +615,7 @@ DEF  PDelReg0     r22
 DEF  PDelReg2     r23
 DEF  PDelReg1     r24
 DEF  character    r25
-DEF  selectedChar r28
+DEF  selectedChar r15
 EQU  DispDataP    00000015
 EQU  DispDataD    00000014
 EQU  DispDataI    00000013
@@ -641,27 +641,27 @@ CSEG TWI          0000002a
 CSEG EXT_INT2     0000002a
 CSEG TIM0_COM     0000002a
 CSEG SPM_RDY      0000002a
-CSEG Main         0000008a
-CSEG Delay1m      00000052
-CSEG Delay1m0     00000053
-CSEG Delay1m1     00000054
-CSEG Delay1m2     00000055
+CSEG Main         0000008b
+CSEG Delay1m      00000053
+CSEG Delay1m0     00000054
+CSEG Delay1m1     00000055
+CSEG Delay1m2     00000056
 EQU  stovky_offset 00000001
 EQU  desitky_offset 00000002
 EQU  jednotky_offset 00000003
-CSEG nactiCislo   0000005c
-CSEG initZCharTable 00000069
-CSEG zobrazCislo  00000060
-CSEG zobrazovaciPodprogram 00000063
-CSEG initYdisplayRAM 00000066
+CSEG nactiCislo   0000005d
+CSEG initZCharTable 0000006a
+CSEG zobrazCislo  00000061
+CSEG zobrazovaciPodprogram 00000064
+CSEG initYdisplayRAM 00000067
 DSEG disp_RAM     00000060
-CSEG display      000000a8
-CSEG initXCharEndTable 0000006c
-CSEG konec_display 000000b0
-CSEG clearDisplay 0000006f
-CSEG initDisplay  00000074
-CSEG rozeberNaCislice 00000077
-CSEG rncStovky    00000078
-CSEG rncDesitky   00000080
-CSEG rncJednotky  00000088
-CSEG loop         00000093
+CSEG display      000000aa
+CSEG initXCharEndTable 0000006d
+CSEG konec_display 000000b2
+CSEG clearDisplay 00000070
+CSEG initDisplay  00000075
+CSEG rozeberNaCislice 00000078
+CSEG rncStovky    00000079
+CSEG rncDesitky   00000081
+CSEG rncJednotky  00000089
+CSEG loop         00000095

@@ -1,68 +1,68 @@
 <ASSEMBLER_INFO>
  <VERSION>2.1.42</VERSION>
  <DEVICE>ATmega16</DEVICE>
- <WORKING_DIR>D:\E4A\MIT\6_12_24</WORKING_DIR>
+ <WORKING_DIR>C:\Users\Student\Desktop\6_12_24</WORKING_DIR>
  <INCLUDE_PATH>
   <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
  </INCLUDE_PATH>
- <SOURCE_FILE>D:\E4A\MIT\6_12_24\6_12_24.asm</SOURCE_FILE>
+ <SOURCE_FILE>C:\Users\Student\Desktop\6_12_24\6_12_24.asm</SOURCE_FILE>
  <INCLUDED_FILES>
-  <FILE>D:\E4A\MIT\6_12_24\templateM16.inc</FILE>
+  <FILE>C:\Users\Student\Desktop\6_12_24\templateM16.inc</FILE>
   <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
-  <FILE>D:\E4A\MIT\6_12_24\makra.inc</FILE>
-  <FILE>D:\E4A\MIT\6_12_24\display.inc</FILE>
+  <FILE>C:\Users\Student\Desktop\6_12_24\makra.inc</FILE>
+  <FILE>C:\Users\Student\Desktop\6_12_24\display.inc</FILE>
  </INCLUDED_FILES>
  <OBJECT_FILES>
-  <FILE>D:\E4A\MIT\6_12_24\6_12_24.obj</FILE>
+  <FILE>C:\Users\Student\Desktop\6_12_24\6_12_24.obj</FILE>
  </OBJECT_FILES>
  <HEX_FILES>
-  <FILE>D:\E4A\MIT\6_12_24\6_12_24.hex</FILE>
+  <FILE>C:\Users\Student\Desktop\6_12_24\6_12_24.hex</FILE>
  </HEX_FILES>
  <OUTPUT_FILES>
-  <FILE>D:\E4A\MIT\6_12_24\6_12_24.map</FILE>
+  <FILE>C:\Users\Student\Desktop\6_12_24\6_12_24.map</FILE>
  </OUTPUT_FILES>
  <LABELS>
-  <RESET><FILE>D:\E4A\MIT\6_12_24\templateM16.inc</FILE><LINE>82</LINE></RESET>
-  <EXT_INT0><FILE>D:\E4A\MIT\6_12_24\templateM16.inc</FILE><LINE>57</LINE></EXT_INT0>
-  <EXT_INT1><FILE>D:\E4A\MIT\6_12_24\templateM16.inc</FILE><LINE>58</LINE></EXT_INT1>
-  <TIM2_COM><FILE>D:\E4A\MIT\6_12_24\templateM16.inc</FILE><LINE>59</LINE></TIM2_COM>
-  <TIM2_OVF><FILE>D:\E4A\MIT\6_12_24\templateM16.inc</FILE><LINE>60</LINE></TIM2_OVF>
-  <TIM1_CAP><FILE>D:\E4A\MIT\6_12_24\templateM16.inc</FILE><LINE>61</LINE></TIM1_CAP>
-  <TIM1_COMA><FILE>D:\E4A\MIT\6_12_24\templateM16.inc</FILE><LINE>62</LINE></TIM1_COMA>
-  <TIM1_COMB><FILE>D:\E4A\MIT\6_12_24\templateM16.inc</FILE><LINE>63</LINE></TIM1_COMB>
-  <TIM1_OVF><FILE>D:\E4A\MIT\6_12_24\templateM16.inc</FILE><LINE>64</LINE></TIM1_OVF>
-  <TIM0_OVF><FILE>D:\E4A\MIT\6_12_24\templateM16.inc</FILE><LINE>65</LINE></TIM0_OVF>
-  <SPI_STC><FILE>D:\E4A\MIT\6_12_24\templateM16.inc</FILE><LINE>66</LINE></SPI_STC>
-  <UART_RXC><FILE>D:\E4A\MIT\6_12_24\templateM16.inc</FILE><LINE>69</LINE></UART_RXC>
-  <UART_DRE><FILE>D:\E4A\MIT\6_12_24\templateM16.inc</FILE><LINE>67</LINE></UART_DRE>
-  <UART_TXC><FILE>D:\E4A\MIT\6_12_24\templateM16.inc</FILE><LINE>68</LINE></UART_TXC>
-  <ADC_COMP><FILE>D:\E4A\MIT\6_12_24\templateM16.inc</FILE><LINE>70</LINE></ADC_COMP>
-  <EE_RDY><FILE>D:\E4A\MIT\6_12_24\templateM16.inc</FILE><LINE>71</LINE></EE_RDY>
-  <ANA_COMP><FILE>D:\E4A\MIT\6_12_24\templateM16.inc</FILE><LINE>72</LINE></ANA_COMP>
-  <TWI><FILE>D:\E4A\MIT\6_12_24\templateM16.inc</FILE><LINE>73</LINE></TWI>
-  <EXT_INT2><FILE>D:\E4A\MIT\6_12_24\templateM16.inc</FILE><LINE>74</LINE></EXT_INT2>
-  <TIM0_COM><FILE>D:\E4A\MIT\6_12_24\templateM16.inc</FILE><LINE>75</LINE></TIM0_COM>
-  <SPM_RDY><FILE>D:\E4A\MIT\6_12_24\templateM16.inc</FILE><LINE>76</LINE></SPM_RDY>
-  <Main><FILE>D:\E4A\MIT\6_12_24\6_12_24.asm</FILE><LINE>21</LINE></Main>
-  <Delay1m><FILE>D:\E4A\MIT\6_12_24\templateM16.inc</FILE><LINE>135</LINE></Delay1m>
-  <Delay1m0><FILE>D:\E4A\MIT\6_12_24\templateM16.inc</FILE><LINE>136</LINE></Delay1m0>
-  <Delay1m1><FILE>D:\E4A\MIT\6_12_24\templateM16.inc</FILE><LINE>137</LINE></Delay1m1>
-  <Delay1m2><FILE>D:\E4A\MIT\6_12_24\templateM16.inc</FILE><LINE>138</LINE></Delay1m2>
-  <nactiCislo><FILE>D:\E4A\MIT\6_12_24\display.inc</FILE><LINE>5</LINE></nactiCislo>
-  <initZCharTable><FILE>D:\E4A\MIT\6_12_24\display.inc</FILE><LINE>26</LINE></initZCharTable>
-  <zobrazCislo><FILE>D:\E4A\MIT\6_12_24\display.inc</FILE><LINE>11</LINE></zobrazCislo>
-  <zobrazovaciPodprogram><FILE>D:\E4A\MIT\6_12_24\display.inc</FILE><LINE>16</LINE></zobrazovaciPodprogram>
-  <initYdisplayRAM><FILE>D:\E4A\MIT\6_12_24\display.inc</FILE><LINE>21</LINE></initYdisplayRAM>
-  <disp_RAM><FILE>D:\E4A\MIT\6_12_24\6_12_24.asm</FILE><LINE>18</LINE></disp_RAM>
-  <display><FILE>D:\E4A\MIT\6_12_24\6_12_24.asm</FILE><LINE>58</LINE></display>
-  <initXCharEndTable><FILE>D:\E4A\MIT\6_12_24\display.inc</FILE><LINE>31</LINE></initXCharEndTable>
-  <konec_display><FILE>D:\E4A\MIT\6_12_24\6_12_24.asm</FILE><LINE>67</LINE></konec_display>
-  <clearDisplay><FILE>D:\E4A\MIT\6_12_24\display.inc</FILE><LINE>36</LINE></clearDisplay>
-  <initDisplay><FILE>D:\E4A\MIT\6_12_24\display.inc</FILE><LINE>43</LINE></initDisplay>
-  <rozeberNaCislice><FILE>D:\E4A\MIT\6_12_24\display.inc</FILE><LINE>48</LINE></rozeberNaCislice>
-  <rncStovky><FILE>D:\E4A\MIT\6_12_24\display.inc</FILE><LINE>50</LINE></rncStovky>
-  <rncDesitky><FILE>D:\E4A\MIT\6_12_24\display.inc</FILE><LINE>59</LINE></rncDesitky>
-  <rncJednotky><FILE>D:\E4A\MIT\6_12_24\display.inc</FILE><LINE>68</LINE></rncJednotky>
-  <loop><FILE>D:\E4A\MIT\6_12_24\6_12_24.asm</FILE><LINE>35</LINE></loop>
+  <RESET><FILE>C:\Users\Student\Desktop\6_12_24\templateM16.inc</FILE><LINE>82</LINE></RESET>
+  <EXT_INT0><FILE>C:\Users\Student\Desktop\6_12_24\templateM16.inc</FILE><LINE>57</LINE></EXT_INT0>
+  <EXT_INT1><FILE>C:\Users\Student\Desktop\6_12_24\templateM16.inc</FILE><LINE>58</LINE></EXT_INT1>
+  <TIM2_COM><FILE>C:\Users\Student\Desktop\6_12_24\templateM16.inc</FILE><LINE>59</LINE></TIM2_COM>
+  <TIM2_OVF><FILE>C:\Users\Student\Desktop\6_12_24\templateM16.inc</FILE><LINE>60</LINE></TIM2_OVF>
+  <TIM1_CAP><FILE>C:\Users\Student\Desktop\6_12_24\templateM16.inc</FILE><LINE>61</LINE></TIM1_CAP>
+  <TIM1_COMA><FILE>C:\Users\Student\Desktop\6_12_24\templateM16.inc</FILE><LINE>62</LINE></TIM1_COMA>
+  <TIM1_COMB><FILE>C:\Users\Student\Desktop\6_12_24\templateM16.inc</FILE><LINE>63</LINE></TIM1_COMB>
+  <TIM1_OVF><FILE>C:\Users\Student\Desktop\6_12_24\templateM16.inc</FILE><LINE>64</LINE></TIM1_OVF>
+  <TIM0_OVF><FILE>C:\Users\Student\Desktop\6_12_24\templateM16.inc</FILE><LINE>65</LINE></TIM0_OVF>
+  <SPI_STC><FILE>C:\Users\Student\Desktop\6_12_24\templateM16.inc</FILE><LINE>66</LINE></SPI_STC>
+  <UART_RXC><FILE>C:\Users\Student\Desktop\6_12_24\templateM16.inc</FILE><LINE>69</LINE></UART_RXC>
+  <UART_DRE><FILE>C:\Users\Student\Desktop\6_12_24\templateM16.inc</FILE><LINE>67</LINE></UART_DRE>
+  <UART_TXC><FILE>C:\Users\Student\Desktop\6_12_24\templateM16.inc</FILE><LINE>68</LINE></UART_TXC>
+  <ADC_COMP><FILE>C:\Users\Student\Desktop\6_12_24\templateM16.inc</FILE><LINE>70</LINE></ADC_COMP>
+  <EE_RDY><FILE>C:\Users\Student\Desktop\6_12_24\templateM16.inc</FILE><LINE>71</LINE></EE_RDY>
+  <ANA_COMP><FILE>C:\Users\Student\Desktop\6_12_24\templateM16.inc</FILE><LINE>72</LINE></ANA_COMP>
+  <TWI><FILE>C:\Users\Student\Desktop\6_12_24\templateM16.inc</FILE><LINE>73</LINE></TWI>
+  <EXT_INT2><FILE>C:\Users\Student\Desktop\6_12_24\templateM16.inc</FILE><LINE>74</LINE></EXT_INT2>
+  <TIM0_COM><FILE>C:\Users\Student\Desktop\6_12_24\templateM16.inc</FILE><LINE>75</LINE></TIM0_COM>
+  <SPM_RDY><FILE>C:\Users\Student\Desktop\6_12_24\templateM16.inc</FILE><LINE>76</LINE></SPM_RDY>
+  <Main><FILE>C:\Users\Student\Desktop\6_12_24\6_12_24.asm</FILE><LINE>21</LINE></Main>
+  <Delay1m><FILE>C:\Users\Student\Desktop\6_12_24\templateM16.inc</FILE><LINE>136</LINE></Delay1m>
+  <Delay1m0><FILE>C:\Users\Student\Desktop\6_12_24\templateM16.inc</FILE><LINE>137</LINE></Delay1m0>
+  <Delay1m1><FILE>C:\Users\Student\Desktop\6_12_24\templateM16.inc</FILE><LINE>138</LINE></Delay1m1>
+  <Delay1m2><FILE>C:\Users\Student\Desktop\6_12_24\templateM16.inc</FILE><LINE>139</LINE></Delay1m2>
+  <nactiCislo><FILE>C:\Users\Student\Desktop\6_12_24\display.inc</FILE><LINE>5</LINE></nactiCislo>
+  <initZCharTable><FILE>C:\Users\Student\Desktop\6_12_24\display.inc</FILE><LINE>26</LINE></initZCharTable>
+  <zobrazCislo><FILE>C:\Users\Student\Desktop\6_12_24\display.inc</FILE><LINE>11</LINE></zobrazCislo>
+  <zobrazovaciPodprogram><FILE>C:\Users\Student\Desktop\6_12_24\display.inc</FILE><LINE>16</LINE></zobrazovaciPodprogram>
+  <initYdisplayRAM><FILE>C:\Users\Student\Desktop\6_12_24\display.inc</FILE><LINE>21</LINE></initYdisplayRAM>
+  <disp_RAM><FILE>C:\Users\Student\Desktop\6_12_24\6_12_24.asm</FILE><LINE>18</LINE></disp_RAM>
+  <display><FILE>C:\Users\Student\Desktop\6_12_24\6_12_24.asm</FILE><LINE>59</LINE></display>
+  <initXCharEndTable><FILE>C:\Users\Student\Desktop\6_12_24\display.inc</FILE><LINE>31</LINE></initXCharEndTable>
+  <konec_display><FILE>C:\Users\Student\Desktop\6_12_24\6_12_24.asm</FILE><LINE>68</LINE></konec_display>
+  <clearDisplay><FILE>C:\Users\Student\Desktop\6_12_24\display.inc</FILE><LINE>36</LINE></clearDisplay>
+  <initDisplay><FILE>C:\Users\Student\Desktop\6_12_24\display.inc</FILE><LINE>43</LINE></initDisplay>
+  <rozeberNaCislice><FILE>C:\Users\Student\Desktop\6_12_24\display.inc</FILE><LINE>48</LINE></rozeberNaCislice>
+  <rncStovky><FILE>C:\Users\Student\Desktop\6_12_24\display.inc</FILE><LINE>50</LINE></rncStovky>
+  <rncDesitky><FILE>C:\Users\Student\Desktop\6_12_24\display.inc</FILE><LINE>59</LINE></rncDesitky>
+  <rncJednotky><FILE>C:\Users\Student\Desktop\6_12_24\display.inc</FILE><LINE>68</LINE></rncJednotky>
+  <loop><FILE>C:\Users\Student\Desktop\6_12_24\6_12_24.asm</FILE><LINE>36</LINE></loop>
  </LABELS>
 </ASSEMBLER_INFO>
