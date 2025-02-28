@@ -28,7 +28,6 @@ Main:
 	mov r26, XH
 	mov r27, XL
 	
-	seg_led_pwr_on
 	rcall initDisplay
 	rcall rozeberNaCislice
 	rcall initZCharTable

@@ -19,7 +19,7 @@
 .DEF	PDelReg2	= r23
 .DEF	PDelReg1	= r24
 .DEF	character	= r25
-.DEF	selectedChar= r15
+.DEF	selectedChar= r28
 .EQU	DispDataP	= PortC ;display data port
 .EQU	DispDataD	= DDRC	;display data direction register
 .EQU	DispDataI	= PinC	;display data coming in to port C
@@ -79,7 +79,8 @@ SPM_RDY:	reti
 ;************************************************
 		
 		.ORG	0x0030
-Reset:	
+Reset:		
+	
 		clr	ZeroReg
 		clr ADCReg
 		
@@ -106,7 +107,6 @@ Reset:
 
 		;konfigurace ADC
 		;;zapnutí převodníku
-		clr TmpReg
 		ldi TmpReg, (1<<ADEN)
 		out ADCSRA, TmpReg
 		
