@@ -92,4 +92,4 @@
 	* Jaromír Nohavica
 	* Vladimír Merta
 	* Jan Vodňanský
-# [[|Jaroslav Seifert]]
+# [Jaroslav Seifert](obsidian://vault/E3A/Literatura-1. pol-20. st#jaroslav-seifert)
