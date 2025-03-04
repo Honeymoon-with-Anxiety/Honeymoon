@@ -92,4 +92,27 @@
 	* Jaromír Nohavica
 	* Vladimír Merta
 	* Jan Vodňanský
-# [Jaroslav Seifert](obsidian://vault/E3A/Literatura-1. pol-20. st#jaroslav-seifert)
+## [Jaroslav Seifert](obsidian://vault/E3A/Literatura-1. pol-20. st#jaroslav-seifert)
+# Próza
+* témata
+	* obraz 2. sv. války, růst nacismu, utrpení v koncentračních táborech
+	* kronikářské romány
+	* tzv. budovatelské (výrobní) romány
+	* romány z pracovního prostředí
+	* historické a životopisné romány
+	* psychologické romány
+	* experimentální próza
+	* memoárová tvorba
+	* soudobý život
+	* Sci-Fi
+* Jan Drda
+	* prozaik, dramatik, novinář a politik
+	* díla
+		* *Hrátky s čertem* - pohádka
+		* *Dalskabáty, hříšná ves*
+		* *Městečko na dlani* - román; obraz lidí na malém městě před 1. sv. válkou
+		* *Němá barikáda*
+			* soubor povídek
+			* zachyceno období 2. sv. války
+			* hrdinství obyčejných lidí v mezních situacích
+			* nejznámější povídka *Vyšší princip*
