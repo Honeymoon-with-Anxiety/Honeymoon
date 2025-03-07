@@ -19,21 +19,21 @@ disp_RAM: .byte 4
 .CSEG
 
 Main:
-	clr number
-	in ADCReg, ADCH
-	
-	adiw XL, 1
-	adc XH, ZeroReg
-	
-	mov r26, XH
-	mov r27, XL
-	
-	seg_led_pwr_on
-	rcall initDisplay
-	rcall rozeberNaCislice
-	rcall initZCharTable
-	
 	loop:
+		clr number
+		in ADCReg, ADCH
+	
+		adiw XL, 1
+		adc XH, ZeroReg
+	
+		mov r26, XH
+		mov r27, XL
+	
+		seg_led_pwr_on
+		rcall initDisplay
+		rcall rozeberNaCislice
+		rcall initZCharTable
+	
 		in number, ADCH
 		rcall rozeberNaCislice
 		
