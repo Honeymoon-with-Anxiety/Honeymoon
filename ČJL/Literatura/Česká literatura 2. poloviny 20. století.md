@@ -73,6 +73,7 @@
 * Jiří Kolář - experimentální poezie
 * Josef Kainar - zhudebňování jeho básní
 * Václav Hrabě - jeho verše zhudebněny
+* [Jaroslav Seifert](obsidian://vault/E3A/Literatura-1. pol-20. st#jaroslav-seifert)
 ## Experimentální poezie
 * Václav Havel - *Antikódy* → typogramy
 ## Český underground
@@ -92,7 +93,7 @@
 	* Jaromír Nohavica
 	* Vladimír Merta
 	* Jan Vodňanský
-## [Jaroslav Seifert](obsidian://vault/E3A/Literatura-1. pol-20. st#jaroslav-seifert)
+
 # Próza
 * témata
 	* obraz 2. sv. války, růst nacismu, utrpení v koncentračních táborech
@@ -116,3 +117,15 @@
 			* zachyceno období 2. sv. války
 			* hrdinství obyčejných lidí v mezních situacích
 			* nejznámější povídka *Vyšší princip*
+* Arnošt Lustig
+	* autor próz s židovskou tématikou
+	* díla
+		* povídkové soubory
+			* *Démanty noci*
+			* *Noc a naděje*
+			* *Ulice zracených bratří*
+		* novely
+			* *Dita Saxová*
+			* *Nemilovaná* (někdy jako *Z deníku sedmnáctileté Perly Sch.*)
+			* *Modlitba pro Kateřinu Horovitzovou*
+		* 
