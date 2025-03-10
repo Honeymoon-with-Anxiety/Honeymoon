@@ -35,4 +35,25 @@
 	* vláda každého státu má uspořádané vztahy s jinými státy
 	* ovlivňování rozsahu vývozu a dovozu
 * omezení dovozu
-	* clo - peněžní částka, kterou stát vybírá při pohybu zboží a služeb přes hranice; určen podle celního sazebníku
+	* clo
+		* peněžní částka, kterou stát vybírá při pohybu zboží a služeb přes hranice
+		* určen podle celního sazebníku
+		* druhy
+			* dovozní - obrana domácí produkce; zvýšení cen
+			* vývozní - zatěžuje vývoz
+			* tranzitní - clo za tranzit zboží státem
+			* z hlediska účelu - příjem státního rozpočtu
+			* antidumpingové - ochrana před špatnou cenotvorbou
+			* odvetné - celní orgán (MF, celní ředitelství a úřady)
+		* celní orgán = policejní orgán - pravomoc zahájit trestní řízení pro trestní čin daňového charakteru
+		* celní unie - EU, všechny státy mají mezi s sebou bezcelnost
+	* dovozní kvóta - kvantitativní omezení dovozu
+	* vývoz - vývozní prémie, úvěry, státní záruky na úvěr; v rozvojových zemích
+* druhy cel
+	* dovozní - obrana domácí produkce; zvýšení cen
+	* vývozní - zatěžuje vývoz
+	* tranzitní - clo za tranzit zboží státem
+	* z hlediska účelu - příjem státního rozpočtu
+	* antidumpingové - ochrana před špatnou cenotvorbou
+	* odvetné - celní orgán (MF, celní ředitelství a úřady)
+* celní orgán = policejní orgán - pravomoc zahájit trestní řízení pro trestní čin daňového charakteru
