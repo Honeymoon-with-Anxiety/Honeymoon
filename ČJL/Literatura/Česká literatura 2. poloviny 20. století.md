@@ -118,14 +118,37 @@
 			* hrdinství obyčejných lidí v mezních situacích
 			* nejznámější povídka *Vyšší princip*
 * Arnošt Lustig
-	* autor próz s židovskou tématikou
+	* autor próz s židovskou tématikou - sám židem byl a zažil 3 koncentrační tábory
+	* 60. léta - 2. vlna poválečné literatury
+	* vydával v exilu
 	* díla
 		* povídkové soubory
 			* *Démanty noci*
 			* *Noc a naděje*
-			* *Ulice zracených bratří*
+			* *Ulice ztracených bratří*
 		* novely
 			* *Dita Saxová*
 			* *Nemilovaná* (někdy jako *Z deníku sedmnáctileté Perly Sch.*)
-			* *Modlitba pro Kateřinu Horovitzovou*
-		* 
+			* *Modlitba pro Kateřinu Horovitzovou* - tanečnie Kateřina, SSák Brenske
+* Ladislav Fuks
+	* prozaik, autor válečných a psychologických próz
+	* nebyl židovského původu
+	* prožil nepříliš šťastné dětství, během dospívání si uvědomil svou homosexualitu
+	* trpěl pocitem ohrožení - v táborech mizí nejen Židé a Romové, ale i homosexuálové
+	* vystudoval filozofii, psychologii a dějiny umění
+	* pracoval jako úředník v papírnách, na zámku Kynžvart
+	* díla
+		* *Pan Theodor Mundstock*
+			* psychologický román
+			* osud pražského Žida; sužován možností, že bude transportován do tábora
+			* po třech letech apatie a melancholie se rozhodne připravit se na odchod
+			* trpí schizofrenií - povídá si se stínem Monem
+		* *Mí černovlasí bratři*
+			* soubor 6 povídek pěti gymnazistů
+			* spojuje je rasistický učitel
+			* chlapec Michael, alter ego autora
+			* "Smutek je žlutý a šesticípý jako Davidova hvězda"
+		* *Spalovač mrtvol* - novela
+			* moderní hororová próza s prvky grotesky
+			* zaměstnanec krematoria Karel Kopfrkingl, ovlivněn nacistickou propagandou a knihou o Tibetu
+			* zavraždí manželku, kterou nazývá Lakmé a syna Miliho
