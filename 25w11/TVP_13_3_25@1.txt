@@ -1,0 +1,25 @@
+přerušení MCU - jak probíhá na AVR RISC architektuře
+
+[obr1]
+
+1) periférie pracují současně s jádrem "paralelizace"
+2) co když periférie má info/data?
+	-> asynchroní žádost o obsluhu
+
+1) periférie zažádá o obsluhu
+2) jádro "přeruší" dosavadní činnost
+3) jádro "push" návratovou adresu (místo ve zdroji jádra, kde obdrželo žádost o obsluhu) na HW zásobník
+4) jádro skočí do tabulky vektorů přerušení, do adresy odpovídající periférii, která požádala o obsluhu (největší prioritu má RESET (adr 0))
+5) v tabulce vektorů přerušení najde na této adrese instrukci "jmp name_of_isr"
+6) skočí do obsluhy
+7) vykoná obsluhu
+8) odpopne návratovou adresu ze zásobníku a skočí do ní -> jádro pokračuje tam, kde bylo přerušeno -> I-bit = 1
+
+co se děje s SREG?
+[obr 2]
+co se děje s I-bitem v SREG během přerušení?
+když je I-bit "1", je povoleno globální přerušeno
+když je I-bit "0", je zakázáno globální přerušeno a další přerušení se řešit nebudou
+
+signál - napětí v čase
+interpretace - děj probíhající mezi příjmačem a vysílačem
