@@ -152,3 +152,22 @@
 			* moderní hororová próza s prvky grotesky
 			* zaměstnanec krematoria Karel Kopfrkingl, ovlivněn nacistickou propagandou a knihou o Tibetu
 			* zavraždí manželku, kterou nazývá Lakmé a syna Miliho
+* Jan Otčenášek (1924 - 1979)
+	* prozaik, scénárista, dramaturg
+	* totálně nasazen v továrně (práce pro Říši)
+	* koncem války vstoupil do komunistické odbojové skupiny Předvoj
+	* po 2. sv. v. vstoupil do KSČ
+	* díla
+		* *Občan Brych*
+			* politický román z únorového převratu
+			* osobní rozhodování váhajícího intelektuála
+		* *Romeo, Julie a tma*
+			* milostná novela z období heydrichiády
+			* shakespearovský příběh tragické lásky Pavla a židovky Ester
+			* prolínání přímé a polopřímé řeči ve vnitřním monologu
+		* *Kulhavý Orfeus*
+			* snaha mládeže aktivně se podílet na odbojové činnosti
+			* pokračuje osudy Pavla
+			* autor vycházel z vlastních zážitků
+		* *Když v ráji pršelo*
+			* román mladé intelektuálské dvojice na šumavské samotě
