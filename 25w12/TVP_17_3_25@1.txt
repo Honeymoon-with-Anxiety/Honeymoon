@@ -1,0 +1,31 @@
+1) vložené systémy
+2) signály
+3) informace ve výp. t
+4) sériové sběrnice
+5) jádro 10, 11, 12
+6) ISO/OSI model
+
+1)  * jakékoliv zařízení ovládané počítačem
+	* změna funkce zařízení se provede změnou programu (HEX) → ISP (in system programming)
+	* proč je vložený systém výhodné řešení? - rychlejší návrh a levnější realizace
+	* nevýhoda je omezená rychlost procesoru
+	* jednoúčelový počítač kde je řídicí systém zcela zabudován do ovládaného zařízení
+	* na rozdíl od univerzálních počítačů jsou vložené systémy určené pro předem definované činnosti
+
+2)  * může nést informace o události, povelu, zahájení činnosti, výstraze
+	* obsahuje malé množství informací - zachycuje okamžitý stav/událost
+	* důležité je doručení včas, proto se signál přenáší v zvláštním kanálu
+	* je napětí v čase
+
+3)  * v informatice: řetězec znaků, které lze vysílat, přijímat, uchovávat a zpracovávat
+	* je předmětem interpretace
+		* pokud nedokážu interpretovat - náhodný signál
+		* interpretace je filtrace něčeho, co již znám
+	* má alespoň 2 rozměry - skalár a kontext
+	* je potřeba být zapsatelná do počítače
+
+4)  * přenos dat mezi zařízeními je synchronizován společným hodinovým signálem (generován masterem)
+	* možnost využít jen jednu datovou linku 
+
+6)  vrstva 1 - fyzická - přenosové médium
+	vrstva 1 - spojová - zabaluje 

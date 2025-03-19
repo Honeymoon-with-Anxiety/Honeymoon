@@ -1,0 +1,9 @@
+jak je uložená "informace" pomocí vzorků (v digitální formě)
+info - má alespoň 2 rozměry - číslo, vztah (posloupnost)
+digitální vzorek je číslo (scalar)
+
+info: (číslo 1, číslo 2, číslo 3...) toto je info, struktura je dána posloupností -> nelte posoudit pořadí čísel
+
+sinus: 2x vyšší Č1, Č1, Č2, Č2
+opcode
+doba náběhu, úpadku (po vypnutí)
