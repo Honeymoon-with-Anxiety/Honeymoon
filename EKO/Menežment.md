@@ -39,3 +39,33 @@
 	* obezit plýtvání časem (time manager) - manažer musí umět správně využít pracovní čas
 	* respektovat hlas zákazníka - spokojenost zákazníka - sledovat poptávku zákazníka po zboží
 * styly řídící práce
+	* byrokratický - vedoucí pracovník opírá svou činnost o směrnice
+	* autokratický - armáda: rozkaz a splnění rozkazu
+	* demokratický - spolupráce s podřízenými
+	* liberální - rozhodování se nechá na podřízených
+# Komunikace
+* předání informací na pracovišti písemně, ústně nebo elektronicky
+* psané i nepsané zásady mezilidské komunikace
+	* psané - z právnických norem
+	* nepsané - z pravidel lidského chování
+* vnitřní - pravidla  pro formální část interní komunikace musí být jasně formulovány v interních předpisech organizace
+* vnější - lze rozdělit do dvou rovin: povinnost se svým okolím komunikovat a jako práci s veřejností
+# Kontrola
+* fáze
+	* získávání informací
+		* primární - informace získané za účelem kontroly
+		* sekundární - informace získané za jiným účelem
+	* ověření správnosti
+		* věcná a formální správnost
+		* věrohodnost informací, validita
+		* včasnost informací
+	* zpracování informací
+		* provádí se fyzická kontrola
+		* provádí se porovnání se standardem
+		* inventura
+	* závěry a opatření
+		* nech být - vše v pořádku
+		* proveď korigující opatření - drobné odchylky
+		* přijmi nové rozhodnutí - závažné chyby je třeba napravit
+* druhy chyb
+	* vědomé chyby - chyby úmyslné, z nedbalosti, záměrně utajované
