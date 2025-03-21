@@ -25,6 +25,7 @@
 	* Davidova hvězda
 	* Menora - sedmiramenný svícen
 	* Tefilin a mezuza - pomůcky při modlitbách
+* Zeď Nářků
 * synanogy
 	* centrem náboženského života
 	* místo modliteb
@@ -50,10 +51,66 @@
 	* láska a odpuštění
 * proudy
 	* Katolicismus - v čele papež ve Vatikánu
-	* Pravoslaví - východní; důraz na liturgii a tradice
+	* Pravoslaví - východní; důraz na liturgii a tradice; vznik 5. století
 	* Protestantismus - vznik během reformace (16. st.) jako reakce na tehdejší praxi katolické církve
 * svátky
 	* Vánoce - oslava narození Ježíše Krista
 	* Velikonoce - připomíná smrt a vzkříšení Ježíše
 	* Křest - přijímání do křesťanského společenství
 	* Eucharistie - památka na poslední večeři Ježíše Krista
+* znaky
+	* kalich - katolíci
+	* kříž - různé typy
+	* ryba
+	* holubice
+	* beránek
+# Islám
+* monoteistické náboženství 
+* bůh Alláh; prorok Mohamed
+* svatá kniha Korán
+* rozdíly mezi Sunnity a Šíity
+	* nástupnictví
+		* S: Chalífa zvolený komunitou (islámský papež)
+		* Š: Alí a jeho potomci
+	* autorita
+		* S: náboženští učenci a kolektivní rozhodování
+		* Š: Iámové jako duchovní a politické autority
+	* země
+		* S: Saúdská Arábie, Egypt, Indonésie
+		* Š: Írán, Irák, Libanon
+	* svatyně
+		* S: Mekka, Medina (města)
+		* Š: navíc hrobky imámů
+* historie
+	* počátky
+		* zakladatel Mohamed v 7. st.
+		* r. 610 n. l. zjevení boha Alláha
+		* zjevení základem Koránu
+	* vývoj
+		* raná expanze
+			* rozmach díky vojenským tažením a obchodu
+			* r. 711 - dobytí Persie
+		* středověký rozkvět - zlatý věk - pokroky ve vědě, medicíně a filozofii
+		* pozdější období
+			* Mongolské nájezdy a pád Bagdádu
+			* vznik říší
+		* koloniální období - ve 20. st. boj o svobodu
+	* současnost
+		* hlavní regiony - blízký východ, severní Afrika, jižní a jihovýchodní Asie, Turecko, Bosna
+		* výzvy - různorodé tradice, vztah k moderně, konflikty, boj proti extremismu
+* pilíře
+	1) Šaháda - vyznání víry
+	2) Salát - modlitba 5× denně
+	3) Zakat - charitativní příspěvek
+	4) Sawm - půst v Ramadánu
+	5) Hadždž - pouť do Mekky
+* symboly
+	* půlměsíc a hvězda
+	* Šaháda
+	* kaligrafie
+	* barvy
+		* zelená
+		* černá
+		* bílá
+# Hinduismus
+* 
