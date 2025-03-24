@@ -157,6 +157,7 @@
 	* totálně nasazen v továrně (práce pro Říši)
 	* koncem války vstoupil do komunistické odbojové skupiny Předvoj
 	* po 2. sv. v. vstoupil do KSČ
+	* vydával oficiálně
 	* díla
 		* *Občan Brych*
 			* politický román z únorového převratu
@@ -169,5 +170,40 @@
 			* snaha mládeže aktivně se podílet na odbojové činnosti
 			* pokračuje osudy Pavla
 			* autor vycházel z vlastních zážitků
-		* *Když v ráji pršelo*
-			* román mladé intelektuálské dvojice na šumavské samotě
+			* *Orfeus* - název neúspěšné odbojové skupiny
+		* *Když v ráji pršelo* - román mladé intelektuálské dvojice na šumavské samotě
+* Oto Pavel (1930 - 1973)
+	* vlastní jméno Otto Popper
+	* prozaik, novinář, sportovní reportér
+	* třetí vlna válečné prózy
+	* dětství strávil v Buštěhradu (u Kladna)
+	* povolání
+		* učeň v kladenských dolech
+		* po válce místo v rozhlase
+		* sportovní redaktor v časopisech
+	* roku 1964 se projevila vážná duševní choroba
+	* díla
+		* próza se sportovní tématikou
+			* pomezí beletrie a sportovní reportáže
+			* *Dukla mezi mrakodrapy*
+			* *Bedna plná šampaňského*
+			* *Pohár od pánaboha*
+		* vzpomínkové prózy
+			* *Smrt krásných srnců*
+				* soubor 7 povídek
+					* *Nejdražší ve střední Evropě*
+					* *Ve službách Švédska*
+					* *Smrt krásných srnců*
+					* *Kapři pro wehrmacht*
+					* *Jak jsme se střetli s Vlky* (lov štik)
+					* *Otázka hmyzu vyřešena* (prodej mucholapek)
+					* *Králíci s moudrýma očima* (neúspěch na výstavbě; "Přijdu hned")
+				* vzpomínky na idylicky strávené dětství
+				* otec Leo
+				* objevuje se řeka Berounka (rybaření), Křivoklátsko, příroda
+				* idealizace
+				* zfilmováno roku 1986
+			* *Jak jsem potkal ryby* - povídkový soubor; rybaření
+			* *Zlatí úhoři* - zfilmováno
+		* ool,
+		* 
