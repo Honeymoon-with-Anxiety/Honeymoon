@@ -206,4 +206,36 @@
 			* *Jak jsem potkal ryby* - povídkový soubor; rybaření
 			* *Zlatí úhoři* - zfilmováno
 		* ool,
-		* 
+* Bohumil Hrabal (1914 - 1997)
+	* prozaik
+	* publikoval oficiálně, samizdat i exil
+	* třetí nejpřekládanější český autor
+	* původní jméno Bohumil František Kilián
+	* vystudoval právnickou fakultu; přednášky z filozofie, umění, literatury
+	* za 2. sv. války - železniční dělník a výpravčí
+	* zaměstnání: pojišťovací agent, obchodní cestující, v ocelárně, balič papíru
+	* r. 1970 - samizdat, exil
+	* r. 1975 - pod dohledem cenzury
+	* hospoda U Zlatého tygra; tzv. hospodská Sorbonna
+	* přáselství s Kolářem, Hiršalem, Bondym, Boudníkem
+	* navázal na vypravščství J. Haška
+	* atmosféra života lidí na okraji společnosti
+	* autobiografičnost, kombinacce tragických a komických prvků, kontrast; kombinace všech jazykových vrstev
+	* vliv surrealismu - princip asociace
+	* díla
+		* *Perlička na dně*; *Pábitelé*
+			* prvotina
+			* povídkové soubory; hrdinové - prostí lidé
+			* hrdinové vyprávějí příběhy
+			* jazyk hovorový, neologismy, slang, vulgarismy
+			* pábení - způsob vyprávění s prvky poetismu, surrealismu i naturalismu; autentické promluvy lidí
+			* zfilmováno
+		* *Taneční hodiny pro starší a pokročilé* - povidka; monolog v jedné větě (celá kniha)
+		* *Ostře sledované vlaky* (1965)
+			* novela
+			* tragikomický příběh z protektorátu
+			* hl. hrdina Miloš Hrma
+			* charakter balady
+			* ich-forma, retrospektivní pasáže
+			* absurdita války
+			* zfilmováno (Oscar)
