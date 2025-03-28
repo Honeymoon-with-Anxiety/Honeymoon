@@ -42,7 +42,7 @@
 * pilíř víry je Bible
 * vznik v 1. st. n. l.
 * zakladatel Ježíš Kristus (žid jak poleno)
-* r. 1313 - legalizace křesťanství
+* r. 311 - legalizace křesťanství
 * základní principy
 	* víra v boha - ve třech osobách (Otec, Syn, Duch svatý)
 	* Ježíš Kristus - považován Boží syn, zemřel na kříži
