@@ -15,8 +15,7 @@
 * nemá jednoho zakladatele; klíč. postavou Abraham (takový židovský praotec Čech)
 * Abraham - první, kdo uzavřel smlouvu s Bohem
 * Mojžíš - předal Desatero přikázání a vedl lidi z egyptského zajetí
-* bůh Jahve
-	* zákaz jeho zobrazení
+* bůh Jahve - zákaz jeho zobrazení
 * Základní teze
 	* monoteismus
 	* dodržování zákonů Tóry (první Bible)
@@ -26,7 +25,7 @@
 	* Menora - sedmiramenný svícen
 	* Tefilin a mezuza - pomůcky při modlitbách
 * Zeď Nářků
-* synanogy
+* synagogy
 	* centrem náboženského života
 	* místo modliteb
 * posvátné knihy
@@ -42,11 +41,11 @@
 * víra v jednoho boha
 * pilíř víry je Bible
 * vznik v 1. st. n. l.
-* zakladatel Ježíš Kristus
+* zakladatel Ježíš Kristus (žid jak poleno)
 * r. 1313 - legalizace křesťanství
-* zkákladní principy
+* základní principy
 	* víra v boha - ve třech osobách (Otec, Syn, Duch svatý)
-	* Ježís Kristus - považován Boží syn, zemřel na kříži
+	* Ježíš Kristus - považován Boží syn, zemřel na kříži
 	* Bible - Starý zákon (společný s Judaismem), Nový zákon; Kniha knih - byla tvořena několik století
 	* láska a odpuštění
 * proudy
