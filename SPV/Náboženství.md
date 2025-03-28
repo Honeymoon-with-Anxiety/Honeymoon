@@ -112,4 +112,83 @@
 		* černá
 		* bílá
 # Hinduismus
-* 
+* vznik ~1500 př. n. l. v Indii
+* vychází z Véd (nejstarší posvátné texty)
+* nemá jednoho zakladatele - výsledkem tisíciletého vývoje tradic
+* období
+	* Védské období
+	* klasické období
+* bohové
+	* polyteistický s monoteistickými prvky
+	* Tromúrti - hl. troice
+		* Brahmá - stvořitel světa
+		* Višnu - ochránce a udržovatrl
+		* Šiva - ničitel a přetvořitel
+* základní teze
+	* Samsára - nekonečný cyklus života (reinkarnace)
+	* Karma
+	* Dhrama - povinnosti a morální zákony
+	* Mókša - osvobození z cyklu Samsáry
+* symboly
+	* Óm - představuje univerzální zvuk a kosmickou energii; užívá se v Józe; neposvátnější
+	* Svastika - symbol štěstí a prosperity
+	* Lotusový květ - symbol čistoty a duchovního růstu
+* místa uctívání
+	* mandir - chrám modlideb
+	* svatyně mohou být také doma
+* posvátné knihy
+	* psáno v jazyce Sanskrt
+	* Védy
+	* Upanišady - filozofické texty; rozvijejí védské myšlenky
+	* Mahábhárata a Rámájana - epické příběhy
+* tradice a zvyky
+	* Púdža - rituál uctívání bohů; zahrnuje oběti (květiny, jídlo, světlo)
+	* Jóga a meditace
+	* svátky
+		* Diwali - svátek světel
+		* Holi - svátek barev
+		* Navrátrí - oslava bohyně Durgy
+* uspořádání společnosti
+	* **kastovní systém** *(jednotlivé kasty netřeba znát)*
+		* brahmáni - kněží a učenci
+		* kšatrijové - válečníci a vládci
+		* vaišjové - obchodníci a zemědělci
+		* šúdrové - dělníci a služebníci
+		* dalitové (nedotknutelní) - mimo kastovní systém
+* převážně v Indii a Nepálu
+* třetí nejrozšířenější
+
+# Buddhismus
+* historije
+	* vznik v 6. st. př. n. l. v Indii
+	* zakladatel Siddhárta Gutama (Buddha)
+		* princ ze severní Indie
+		* ve věku 29 let odešel od své bohaté rodiny
+* bohové
+	* není teistický = bohové nejsou stvořitelé světa
+* základní téze
+	* čtyři vznešené pravdy
+	* život je plný utrpení
+	* osvobození z utrpení je možné - ukončení vede přes meditaci
+	* zákony karmy a reinkarnace
+* symboly
+	* Dharmačakra - symbol osmidílné stezky
+	* Lotusový květ - čistota a duchovní růst
+	* socha Buddhy - osvícení a vnitřní klid; různé podoby
+* svatyně
+	* žádné obřadní místo pro bohy
+	* Stúpy, kláštery, meditační centra
+* posvátné knihy
+	* Tripitaka - nejstarší soubor textu
+	* Sútry
+* tradice a zvyky
+	* meditace - všímat si věcí okolo sebe; zk. praxe pro dosažení osvícenství
+	* svátky
+		* Vesak - narození Buddhy
+		* Kathina - darování mnichům
+	* Mnišství
+* nejrozsáhlejší v Asii
+* tři hl. směry
+	* Theraváda - nejstarší; jihovýchod Asie
+	* Mahájína - "velká cesta"; východ Asie
+	* Vadýrajána - Tibet
