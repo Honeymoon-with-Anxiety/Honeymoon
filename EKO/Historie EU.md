@@ -17,3 +17,6 @@
  * v současné době 27 členských států
  * r. 2007 - Lisabonská smlouva stanovuje pravomoci EU
  * státy ztrácí národní identitu
+ * současnost - 27 členských států; cca 450 mil. obyvatel
+ * kandidátské státy: Albánie, Makedonie, Černá Hora, Srbsko, Kosovo
+ * 
