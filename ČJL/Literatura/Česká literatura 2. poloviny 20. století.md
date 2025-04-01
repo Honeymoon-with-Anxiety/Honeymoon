@@ -238,4 +238,30 @@
 			* charakter balady
 			* ich-forma, retrospektivní pasáže
 			* absurdita války
-			* zfilmováno (Oscar)
+			* zfilmováno - Jiří Menzl (Oscar)
+		* *Postřižiny*
+			* vzpomínková próza
+			* otec Francin, maminka Maryška, strýc Pepin
+			* groteskní hyperboly, jemné kritiky
+			* symbolický titul
+			* zfilmováno
+		* *Slavnosti sněženek*
+			* povídkový soubor
+			* chatová osada Kersko
+			* film
+		* *Obsluhoval jsem anglického krále* (oficiálně 1989)
+			* fiktivní bilanční vývojový román
+			* soužití Čechů a Němců
+			* satira o typické české přizpůsobivosti
+			* číšník Jan Dítě bez ohledu na morální principy
+			* 5 kapitol
+			* ich-forma
+			* metoda proudu vědomí
+			* dlouhá souvětí
+			* spisovný jazyk, slang, germanismy, profesní výrazy
+			* zfilmováno
+		* *Inzerát na dům, kde už nechci bydlet*
+		* *Městečko, kde se zastavil čas*
+		* *Městečko u vody*
+		* trilogie *Vita nuova*; *Proluky*; *Svatby v domě*
+		* *Příliš hlučná samota*
