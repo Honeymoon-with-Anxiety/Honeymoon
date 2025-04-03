@@ -19,4 +19,34 @@
  * státy ztrácí národní identitu
  * současnost - 27 členských států; cca 450 mil. obyvatel
  * kandidátské státy: Albánie, Makedonie, Černá Hora, Srbsko, Kosovo
- * 
+# Orgány íů
+ * zákonodárná moč
+	 * evropská rada
+		 * celkové směrování Íů
+		 * sídlo v Bruselu
+		 * členové hlavy států
+	 * evropský parlament
+		 * sídlo Štrasburk, Brusel, Lucemburk
+		 * členové 751 členů ep
+		 * funkce
+			 * přijímání právních předpisů
+			 * mezinárodní dohody
+			 * roční rozpočet íů
+	 * rada íů
+		 * sídlo v Bruselu
+		 * členové ministři vlád
+		 * předsednictví se mění každých 6 měsíců
+		* funkce
+			* schvalování návrhů právních předpisů
+			* dohody
+			* roční rozpočet
+* výkonný moč
+	* evropská komice
+		* sídlo v Bruselu
+		* členové
+			* na každou zemi 1 nezávislý komisař
+		* funkce
+			* návrh právních předpisů
+			* exekutivní fce
+			* návrh ročního rozpočtu
+	* 
