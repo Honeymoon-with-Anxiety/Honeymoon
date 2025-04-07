@@ -239,3 +239,44 @@
 			* ich-forma, retrospektivní pasáže
 			* absurdita války
 			* zfilmováno (Oscar)
+		* *Obsluhoval jsem anglického krále*
+			* 5 kapitol; kapitoly začínají stejnou větou
+			* ich-forma
+			* metoda proudu vědomí
+			* dlouhá souvětí
+			* spisovný, slang, germanismy, profesní výrazy
+			* zfilmováno
+* Milan Kundera
+	* česko-francouzský básník, dramatik, prozaik, esejista
+	* ve Francii
+	* r. 1979 zbaven československého občanství; francouzské občanství; r. 2019 občanství vráceno
+	* nejčastěji překládaná díla na světě
+	* svá díla k překladům do češtiny dlouho nesvěřoval
+	* literární věda a estetika; režie a scenáristika
+	* vyučoval jako docent světovou literaturu
+	* proreformní komunitsa
+	* v 50. letech básník; socialistický realismus
+	* po r. 1968 nesměl publikovat
+	* díla
+		* *Směšné lásky*
+			* soubor povídek
+			* tragikomické situace milostných příběhů, motiv nevydařených her, jež se člověku vymykají z rukou ap.
+			* *Druhý sešit směšných lásek* - 1965
+			* *Třetí sešit směšných lásek* - 1968
+		* *Žert*
+			* společenský a historizující román
+			* esej o folklóru; postmoderna
+			* hl. postava Ludvík Jahn; Ludvíka vyhodí ze školy i ze strany, následuje vojna u PTP; po letech se chce pomstít Zemánkovi
+			* film 1968
+* Josef Škvorecký
+	* prozaik, esejista, překladatel, nakladatel, univerzitní profesor v Torontu
+	* angličtina a filozofie
+	* milovník jazzu a saxofon
+	* r. 1969 emigroval
+	* v Torontu s Zdenou Salivarovou - Sixty-Eight Publishers
+	* vydal 227 knih
+	* oba zbaveni českého občanství
+	* díla
+		* *Zbabělost* - generační román a autobiografickými rysy
+		* *Tankový prapor*
+		* *Prima sezóna*
