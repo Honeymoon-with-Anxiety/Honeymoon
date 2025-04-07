@@ -8,12 +8,9 @@
 .LIST
 
 ;====== Register definitions =======
-.DEF	ZeroReg 	= r0
-.DEF	TmpReg		= r19
-.DEF	PDelReg		= r20
-.DEF	PDelReg0	= r21
-.DEF	PDelReg2	= r2
-.DEF	PDelReg1	= r22
+.DEF   	TmpReg      		= r16   ; temp register
+.DEF   	ZeroReg				= r0
+.DEF	new_sample_index 	= r18	; new look up table position 
 
 ;=====+== PROGRAM segment ==========
 .CSEG
