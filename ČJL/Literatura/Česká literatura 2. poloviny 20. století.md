@@ -280,3 +280,22 @@
 		* *Zbabělost* - generační román a autobiografickými rysy
 		* *Tankový prapor*
 		* *Prima sezóna*
+* Pavel Kohout
+	* básník, prozaik, dramatik, publicista, překladatel, scénárista
+	* prorežimní básník; odvážným kritikem poměrů
+	* u zrodu Charty 77
+	* r. 1979 zbaven státního občanství
+	* manželka Jelena Mašínová; dcera Tereza Boučková
+	* díla
+		* *Z deníku kontrarevolucionáře*
+		* *Katyně*
+			* černý román; hl. hrdinka Lízinka Tachecí; škola pro katy
+			* satyra na mocenské praktiky StB
+			* parodie na lidskou krutost a hloupost
+			* rysy postmodernismu - dílo na hranici pokleslých žánrů/brak
+		* *Nápady svaté Kláry* - bizarně alegorický román; hl. postava Klára Klímová
+		* *Kde je zakopán pes*
+			* memoárový román; praktiky StB v době normalizace; okolnosti kolem vzniku Charty 77
+			* léta 1968, 1979
+			* skutečný příběh skupiny zakázaných spisovatelů
+		* *Hodina tance a lásky* - román; z terezínské Malé pevnosti; dívka Kristina; zfilmováno
