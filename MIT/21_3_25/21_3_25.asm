@@ -4,6 +4,7 @@ Main:
 
 rjmp Main
 
+; TODO: predelat tabulku do 127 max a zopakovat nulu a max 3x
 sine_tbl:
 .db 3, 6
 .db 9, 12

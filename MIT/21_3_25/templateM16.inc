@@ -2,7 +2,7 @@
 ;	lab example number one
 ;***********************************
 ;=========Includes =================
-;
+
 .NOLIST
 .include	"m16def.inc"
 .LIST
@@ -38,7 +38,6 @@
 		jmp	TIM0_COM		; Timer0 Compare Match Handler
 		jmp	SPM_RDY			; Store Program Memory Ready
 
-
 ;******* Reset ********
 ;********************************** Unused interrupt vectors ***************************************************
 EXT_INT0:
@@ -59,7 +58,7 @@ EE_RDY:
 ANA_COMP:
 TWI:
 EXT_INT2:
-TIM0_COM:
+; TIM0_COM:
 SPM_RDY:	reti
 
 
@@ -92,15 +91,34 @@ Reset:
 		rjmp	Main
 ;**************************************************
 
-;************** Delay (PDelReg[ms]) ***************
-; this is a delay subroutine
- Delay1m:	mov	PDelReg2, PDelReg
- Delay1m0:	ldi	PDelReg0, 20
- Delay1m1:	ldi	PDelReg1, 245
- Delay1m2:	dec	PDelReg1
- 		brne	Delay1m2
- 		dec	PDelReg0
- 		brne	Delay1m1
- 		dec	PDelReg2
- 		brne	Delay1m0
-		ret
+
+load_SINE_sample:
+   ldi    ZL, low(sine_tbl * 2)
+   ldi    ZH, high(sine_tbl * 2) ; inicializace ukazatele Z
+   inc    new_sample_index	 ; zvyseni indexu vzorku
+   andi   new_sample_index, 0x7F ; mod 128 (128 samples number sine table) 
+   add    ZL, new_sample_index	 ; calculate the sample's address
+   adc    ZH, ZeroReg            ; Z now has the correct address of the sample
+   lpm	  r0, Z			 ; the sample is in the r0 register
+   lsl	  r0	                 ; samples in sine_tbl are in the range 0 to 127, so multiply by 2
+   				 ; in order to get the range 0 to 256, with 7-bit resolution 								
+   out OCR0, r0
+ret
+
+TIM0_COM:
+	push   TmpReg      ; Uloz docasny registr
+   	in     TmpReg,SREG ; Nacti status registr
+   	push   TmpReg      ; Uloz status registr
+   	push   ZL
+   	push   ZH          ; Uloz ukazatele Z
+   	push   r0          ; Uloz zeroreg
+
+	rcall load_SINE_sample
+
+   	pop   r0          ; Obnov zeroreg
+	pop   ZH
+	pop   ZL          ; Obnov ukazatele Z
+   	pop   Tmpreg
+   	out   SREG,TmpReg ; Obnov status registr
+   	pop   TmpReg      ; Obnov docasny registr
+reti
