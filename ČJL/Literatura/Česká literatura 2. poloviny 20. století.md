@@ -93,7 +93,6 @@
 	* Jaromír Nohavica
 	* Vladimír Merta
 	* Jan Vodňanský
-
 # Próza
 * témata
 	* obraz 2. sv. války, růst nacismu, utrpení v koncentračních táborech
@@ -280,22 +279,31 @@
 		* *Zbabělost* - generační román a autobiografickými rysy
 		* *Tankový prapor*
 		* *Prima sezóna*
-* Pavel Kohout
-	* básník, prozaik, dramatik, publicista, překladatel, scénárista
-	* prorežimní básník; odvážným kritikem poměrů
-	* u zrodu Charty 77
-	* r. 1979 zbaven státního občanství
-	* manželka Jelena Mašínová; dcera Tereza Boučková
-	* díla
-		* *Z deníku kontrarevolucionáře*
-		* *Katyně*
-			* černý román; hl. hrdinka Lízinka Tachecí; škola pro katy
-			* satyra na mocenské praktiky StB
-			* parodie na lidskou krutost a hloupost
-			* rysy postmodernismu - dílo na hranici pokleslých žánrů/brak
-		* *Nápady svaté Kláry* - bizarně alegorický román; hl. postava Klára Klímová
-		* *Kde je zakopán pes*
-			* memoárový román; praktiky StB v době normalizace; okolnosti kolem vzniku Charty 77
-			* léta 1968, 1979
-			* skutečný příběh skupiny zakázaných spisovatelů
-		* *Hodina tance a lásky* - román; z terezínské Malé pevnosti; dívka Kristina; zfilmováno
+* Ludvík Vaculík
+	* prozaik, feetonista, publicista
+	* Dva tisíce slov
+	* edice Petlice
+	* moravský patriot
+	* člen KSČ
+	* VŠ politické a sociální
+	* Rudé Právo; Literární noviny
+		* díla
+			* *2000 slov, které patří dělníkům, zemědělcům, úředníkům, umělcům a všem*
+				* manifest; kritizoval vývoj v Československu za posledních 20 let
+				* Lidové noviny, Práce, Mladá fronta, Zemědělské noviny, Literární listy
+				* podepsali známé osobnosti, dělníci ČKD a dalších 100 000 občanů
+				* Vaculík na seznamu zakázaných autorů
+			* *Sekyra*
+				* generační román s autobiografickými prvky
+				* příběh otce, který se z přesvědčeného komunisty stal velkým kritikem režimu
+				* vyrovnat se svým i otcovými iluzemi a najít životní jistotu
+			* *Morčata*
+				* inspirace G. Orwellem
+				* hororový román; zobrazuje absurditu doby a odcizení lidí
+				* otázka degradace člověka pod tlakem okolí
+				* sadistické experimenty na svých morčatech
+			* *Český snář*
+				* románový deník, intelektuální próza s prvky literatury faktu
+				* autentické záznamy události od ledna 1979 do února 1980
+				* skutečné postavy
+				* úvahy, aforismy, rozhovory s přáteli, dopisy, přepisy výslechů na policii
