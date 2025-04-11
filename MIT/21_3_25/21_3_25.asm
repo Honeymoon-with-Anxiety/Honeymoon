@@ -1,9 +1,10 @@
-.include "templateM16.inc"
+.include "templateM16.inc" ; RESET obsluha a konfigurace
 
 Main:
-
+; hehe
 rjmp Main
 
+; tabulka vzorku
 sine_tbl:
 .db 0, 0
 .db 0, 0

@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.1.42  D:\E4A\MIT\21_3_25\21_3_25.asm Fri Mar 21 10:20:14 2025
+AVRASM ver. 2.1.42  D:\E4A\MIT\21_3_25\21_3_25.asm Fri Apr 11 09:14:57 2025
 
 
 EQU  SIGNATURE_000 0000001e
@@ -604,12 +604,10 @@ EQU  INT2addr     00000024
 EQU  OC0addr      00000026
 EQU  SPMRaddr     00000028
 EQU  INT_VECTORS_SIZE 0000002a
+DEF  TmpReg       r16
 DEF  ZeroReg      r0
-DEF  TmpReg       r19
-DEF  PDelReg      r20
-DEF  PDelReg0     r21
-DEF  PDelReg2     r2
-DEF  PDelReg1     r22
+DEF  new_sample_index r18
+EQU  OC0          00000003
 CSEG RESET        00000030
 CSEG EXT_INT0     0000002a
 CSEG EXT_INT1     0000002a
@@ -629,10 +627,11 @@ CSEG EE_RDY       0000002a
 CSEG ANA_COMP     0000002a
 CSEG TWI          0000002a
 CSEG EXT_INT2     0000002a
-CSEG TIM0_COM     0000002a
+CSEG TIM0_COM     00000057
 CSEG SPM_RDY      0000002a
-CSEG Main         0000004c
-CSEG Delay1m      00000042
-CSEG Delay1m0     00000043
-CSEG Delay1m1     00000044
-CSEG Delay1m2     00000045
+CSEG nastaveniTim0CompareMatch 00000044
+CSEG povolPreruseniNaTim0COM 0000004a
+CSEG Main         00000065
+CSEG nastaveniPWM_Pinu 00000041
+CSEG nactiVzorekSinusovky 0000004d
+CSEG sine_tbl     00000066
