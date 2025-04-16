@@ -307,3 +307,24 @@
 				* autentické záznamy události od ledna 1979 do února 1980
 				* skutečné postavy
 				* úvahy, aforismy, rozhovory s přáteli, dopisy, přepisy výslechů na policii
+# Drama
+* Divadlo Semafor
+	* SEdm MAlých FORem
+		* hudební divadlo, kabaret pro děti, poezie, oživlé rekvizity, výtvarné umění, pantomima, film
+	* založen 1959
+	* návrat k tradici
+	* montáž volně spojených čísel, výstupů, písniček
+	* text-appealy - kombinace čtených textů, rozhovorů a hudba
+	* hudební divadlo
+	* osobnosti
+		* Jiří Suchý & Jiří Šlitr
+		* Miloslav Šimek & Jiří Grossmann
+		* Miloslav Šimek & Luděk Svoboda, pak Jiří Krampol
+		* Jitka Molavcová
+	* hry
+		* *Člověk z půdy*
+		* *Zuzana je sama doma*
+		* *Jonáš a tingltangl*
+		* *Kdyby tisíc klarinetů*
+		* *Kytice*
+		* *Návštěvní den I. - III.*
