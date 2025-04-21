@@ -1,0 +1,67 @@
+% Nastavení dokumentu
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{tabularray}
+\usepackage{geometry}
+
+% Vlastní příkazy
+\newcommand{\chp}[1]{\chapter*{#1}\addcontentsline{toc}{chapter}{#1}}
+\newcommand{\schp}[1]{\section*{#1}\addcontentsline{toc}{section}{#1}}
+
+% Nastavení Titulní strana: Nadpis, autor, datum
+\title{Laboratorní cvičení PWM}
+\author{Vojtěch Vašek}
+\date{\today}
+
+\begin{document}
+
+% Tisk titulní strany, obsahu a vložení nové stránky
+\maketitle
+\newgeometry{top=0cm}\tableofcontents\restoregeometry
+\newpage
+
+\newgeometry{top=0cm}
+\chp{Zadání a úvaha}
+Průměrná hodnota napětí na výstupním pinu, ze kterého budeme odebírat sinusový signál, se bude měnit v závislosti na délce trvání logické 1 a logické 0 během jedné časové periody.
+
+\chp{Použité přístroje}
+\begin{enumerate}
+	\item[•]{Digitální osciloskop - max input: 30 Vpp, MX output: 10 Vpp, 2× 12 MHz PC-Scope → používaný vstup 1}
+	\item[•]{Programátor - propojení desky s počítačem; AVR-ISP}
+	\item[•]{deska s ATmega16 - typ krystalu: HC49/S QM - 14.7456 MHz, pin A7, potenciometr}
+	\item[•]{Počítač - Windows 10 21H2; Kate; AVR Studio 4; AVR\_ISP\_prog; PCLab2000LT}
+\end{enumerate}
+\restoregeometry
+\schp{Obrázek zapojení filtru}
+\begin{center}
+\includegraphics[width=11cm]{MIT\_21\_4\_25@2.png}
+\end{center}
+
+\newgeometry{top=0cm}
+\chp{Postup práce}
+
+Po vytvoření nového projektu v AVR Stuidu jsem si zkopíroval halvičkový soubor základního templatu. V hlavním souboru jsem následně includnul zmíněný hlavičkový soubor a napsal jsem návěší \verb|Main| podprogramu.
+Následně v Helixu jsem pomocí datasheetu nakonfiguroval v \verb|Reset| osbluze časovač a napsal jsem další části kódu.
+
+V JavaScriptu jsem si napsal kód generující tabulku s hodnoty vzorků přímo naformátovanou pro použití v ASM kódu.
+
+Následně jsem testoval kód a dolaďoval chyby v kódu.
+
+\schp{Zdrojový kód}
+Pro lepší přehlednost tohoto dokumentu jsem se rozhodl nevkládat zdrojový kód přímo zde, ale odkázat na něj pomocí \href{https://github.com/Honeymoon-with-Anxiety/Honeymoon/tree/E4A/MIT/21_3_25}{URL}.
+
+Kód jsem si rozdělil na \verb|templateM16|, kde mám \verb|RESET| obsluhu a konfigurace a \verb|21_3_25|, kde mám \verb|Main| smyčku a tabulku vzorků.
+
+\restoregeometry
+\newgeometry{top=0cm}
+\chp{Obrázek z osciloskopu}
+\includegraphics[width=10cm]{MIT\_19\_4\_25@2.png}
+
+\restoregeometry
+\includegraphics[width=11cm]{MIT\_19\_4\_25@3.png}
+\restoregeometry
+
+\end{document}
