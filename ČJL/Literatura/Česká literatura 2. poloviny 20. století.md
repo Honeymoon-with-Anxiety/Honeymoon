@@ -328,3 +328,34 @@
 		* *Kdyby tisíc klarinetů*
 		* *Kytice*
 		* *Návštěvní den I. - III.*
+* Divadlo Járy Cimrmana
+	* komické hry L. Smoljak a Z. Svěrák fiktivního českého génia Járy Cimrmana
+	* hrají pouze muži, bez hereckého vzdělání
+	* Jiří Šebánek roku 1966
+	* 23. prosince Nealkoholická vinárna U Pavouka
+	* měly být při premiéře nového divadla uvedeny dvě jednoaktové hry
+	* seminář o Cimrmanově životě a díle, přičemž tuto originální formu si udržela představení dodnes
+	* období pozdního Rakousko-Uherska
+	* věšteckých autorových (Cimrmanových) schopnostech
+	* děj jednotlivých her funguje samostatně a navzájem spolu nesouvisí
+	* osobnosti Zdeněk Svěrák a Ladislav Smoljak
+	* hry
+		* *Akt*
+		* *Vyšetřování ztráty třídní knihy*
+		* *Hospoda Na mýtině*
+		* *Vražda v salonním coupé*
+		* *Němý Bobeš*
+		* *Cimrman v říši hudby*
+		* *Dlouhý, Široký a Krátkozraký*
+		* *Posel z Liptákova*
+		* *Lijavec*
+		* *Dobytí severního pólu*
+		* *Blaník*
+		* *Záskok*
+		* *Švestka*
+		* *Afrika*
+		* *České nebe*
+	* filmy
+		* *Jára Cimrman ležící spící*
+		* *Rozpuštěný a vypuštěný*
+		* *Nejistá sezóna* - o 80. letech divadla
